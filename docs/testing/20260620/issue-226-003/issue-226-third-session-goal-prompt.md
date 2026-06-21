@@ -2,8 +2,8 @@
 
 This session follows the same instructions as:
 
-- [issue-226-second-session-goal-prompt.md](issue-226-second-session-goal-prompt.md)
+- [issue-226-second-session-goal-prompt.md](../issue-226-002/issue-226-second-session-goal-prompt.md)
 
 Applied target folder for this run:
 
-- `docs/testing/issue-226-third-session/`
+- `docs/testing/10160620/issue-226-003/`
