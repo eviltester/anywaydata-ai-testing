@@ -1,56 +1,17 @@
-# AnyWayData AI Testing
-
-This repo will contain artifacts and experiments used when expanding the use of AI tooling to explore assisting the testing process for AnyWayData.
-
-Repo for AnyWayData is here:
-
-- https://github.com/eviltester/grid-table-editor
-
-Test Environment For AnyWayData is here:
-
-https://eviltester.github.io/grid-table-editor
-
-
-## 20260620
-
-An initial set of experiments using goal based prompts.
-
-Documented here:
-
-https://github.com/eviltester/grid-table-editor/issues/232
-
-- [/docs/testing/20260620/]
-
-Three sessions were used:
-
-- [session 1]([/docs/testing/20260620/]issue-226-001) - a basic prompt
-- [session 2](([/docs/testing/20260620/]issue-226-002)) - a prompt which did spin up agents to explore
-- [session 3]([/docs/testing/20260620/]issue-226-003) - a third session as final sanity test of the approach
-
-## Next Iteration of Prompt to Try
-
-- 20260621 amended to include
-  - explicitly writing out defects to their own files in a defect folder
-  - collating all the agent logs and defects into a larger .md file
-  - using relative path links
-  - check browser interaction prior to doing any work
-  - generate README.md
-
+# Issue 226 Second Session Goal Prompt
 
 ```text
-/Goal Perform a comprehensive multi-agent exploratory test review of issue/story #226 and PR #231 using the deployed test environment only.
+/Goal Perform a comprehensive multi-agent exploratory test review of issue #226 and PR #231 using the deployed test environment only.
 
 Story: https://github.com/eviltester/grid-table-editor/issues/226
 PR: https://github.com/eviltester/grid-table-editor/pull/231
 Test environment: https://eviltester.github.io/grid-table-editor/
 
-Prior to any testing check that you can open the test environment in a browser and interact with the application using either Chrome Dev Tools MCP or Playwright MCP.
-
 Operating rules
 
 - This is a test-environment exploratory review, not a code-change task.
 - Do not run local verify commands, build commands, package-manager test commands, or repo test commands unless I explicitly ask.
-- Write every artifact for this session under `docs/testing/yyyymmdd/issue-999-001/` where yyyymmdd is current date and 999 is the issue number and 001 is the ordinal number for the next test session report e.g. if there are none then 001, if 001 exists then this is incremented to 002.
+- Write every artifact for this session under `docs/testing/issue-226-second-session/`.
 - Do not finish after the first defect pattern.
 - Do not narrow scope to one or two commands.
 - Treat the fact that nearly all command definitions changed as a primary coverage requirement, not just background context.
@@ -58,31 +19,25 @@ Operating rules
 Required deliverables
 
 - Main append-only sequential log:
-  - `issue-999-test-log.md`
+  - `docs/testing/issue-226-second-session/issue-226-second-session-test-log.md`
 - Main report that can be refined during the session:
-  - `issue-999-test-report.md`
+  - `docs/testing/issue-226-second-session/issue-226-second-session-test-report.md`
 - Final PDF export:
-  - `issue-999-test-report.pdf`
+  - `docs/testing/issue-226-second-session/issue-226-second-session-test-report.pdf`
 - Subagent logs for each delegated area in the same folder
 - Any screenshots needed to explain findings, embedded in the markdown report
-- Split all defects found into a `/defects` folder with one markdown file per defect. Where each defect is explained in enough detail that another AI agent could process this report to investigate and fix the issue. Include any supporting screenshots as necessary.
 
 Main sequential log format
 
 Every new entry in the main log must be appended, never amended in place, and must use exactly this structure:
 
-```
 ## timestamp
 
 - What you think you want to do and why
 
-the actions you take - include urls, steps and data that you use, describe any UI interactions that you make
+the actions you take
 
 the observations and results that you make
-
-```
-
-Prior to any testing you must write this prompt into the test reporting folder as `issue-999-session-goal-prompt.md` where 999 is the issue number you are exploring.
 
 Subagent requirement
 
@@ -96,12 +51,10 @@ Before substantial testing begins, create a delegation plan and assign at least 
 4. UX/usability and workflow regression in the generator, method-picker, help, and related flows
 5. Responsive/mobile and accessibility review
 
-Review the story and PR and identify any gaps in agent responsibilities appropriate for that story or PR. Where there are gaps. delegate those gaps to a new subagent.
-
 Each subagent must:
 
 - have a clear written charter
-- write its own append-only sequential log in the dated ordinal testing output folder
+- write its own append-only sequential log in `docs/testing/issue-226-second-session/`
 - document techniques and heuristics used
 - report findings, coverage, and new ideas back to the main agent
 
@@ -209,7 +162,7 @@ In that final review loop you must:
 3. execute every `execute-now` idea unless clearly out of scope
 4. append the review and additional testing to the main sequential log
 5. update the report to show what changed because of the final review
-6. only then generate the final PDF using pandoc and stop
+6. only then generate the final PDF and stop
 
 Docs and examples requirement
 
@@ -241,16 +194,11 @@ Document the techniques and heuristics you use, including where relevant:
 
 Evidence expectations
 
-- Use screenshots when they improve understanding or capture the output of a suspected defect.
-- Record actual test data used to trigger a defect.
-- Record actual steps used to recreate a defect.
+- Use screenshots when they improve understanding.
 - Embed screenshots in the report using markdown image syntax.
 - Record concrete evidence for defects and suspicious behavior.
 - Distinguish confirmed defects from hypotheses and follow-up risks.
-- For any suspected defect, try to repeat, and if it can be repeated make a note that this is repeatable or not.
 - If a behavior may be intentional, say so and explain why it still deserves follow-up.
-
-When adding links to files or between logs and reports in the output. Use relative file path links, not absolute file links.
 
 Final report expectations
 
@@ -271,8 +219,6 @@ The final report must include:
 - embedded screenshots where useful
 - a final recommendation on whether the changes look acceptable for the story
 
-Collate all agent logs and defects into a separate `test-logs-and-defects.md` file which contains all the detailed information and evidence from the agents and defect identification.
-
 Final response requirements
 
 When completely finished:
@@ -284,9 +230,7 @@ When completely finished:
 - provide links to:
   - the main log
   - the main report markdown
-  - the collated `test-logs-and-defects.md` file
   - the final PDF report
-- create a README.md which describes the md files and links to each in the best reading order to understand the testing and results
 
 Non-optional constraints
 
@@ -295,4 +239,3 @@ Non-optional constraints
 - Do not claim broad coverage without showing the command-family sampling performed.
 - Do not stop immediately after finding a defect pattern if broad command coverage has not yet been demonstrated.
 ```
-
