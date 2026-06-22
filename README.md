@@ -35,6 +35,8 @@ Three sessions were used:
   - using relative path links
   - check browser interaction prior to doing any work
   - generate README.md
+- 20260622 amended to
+  - collate the logs and defects into a single file to use through pandoc, not create an index of links  
 
 
 ```text
@@ -271,7 +273,7 @@ The final report must include:
 - embedded screenshots where useful
 - a final recommendation on whether the changes look acceptable for the story
 
-Collate all agent logs and defects into a separate `test-logs-and-defects.md` file which contains all the detailed information and evidence from the agents and defect identification.
+Collate all agent logs and defects into a separate `test-logs-and-defects.md` file which contains all the detailed information and evidence from the agents and defect identification, this is all the content in those log and defect files it is not an index referencing the files, full content such that it can be fed into `pandoc` and used to generate a pdf.
 
 Final response requirements
 
@@ -284,7 +286,7 @@ When completely finished:
 - provide links to:
   - the main log
   - the main report markdown
-  - the collated `test-logs-and-defects.md` file
+  - the pandoc pdf of the collated `test-logs-and-defects.md` file
   - the final PDF report
 - create a README.md which describes the md files and links to each in the best reading order to understand the testing and results
 
