@@ -71,7 +71,7 @@ Main sequential log format
 
 Every new entry in the main log must be appended, never amended in place, and must use exactly this structure:
 
-```
+---
 ## timestamp
 
 - What you think you want to do and why
@@ -80,7 +80,7 @@ the actions you take - include urls, steps and data that you use, describe any U
 
 the observations and results that you make
 
-```
+---
 
 Prior to any testing you must write this prompt into the test reporting folder as `issue-999-session-goal-prompt.md` where 999 is the issue number you are exploring.
 
