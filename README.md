@@ -36,11 +36,13 @@ Three sessions were used:
   - check browser interaction prior to doing any work
   - generate README.md
 - 20260622 amended to
-  - collate the logs and defects into a single file to use through pandoc, not create an index of links  
+  - collate the logs and defects into a single file to use through pandoc, not create an index of links
+- 20260624 amended to
+  - only mention PR and Issue once to avoid mismatched ids in para and lnk 
 
 
 ```text
-/Goal Perform a comprehensive multi-agent exploratory test review of issue/story #226 and PR #231 using the deployed test environment only.
+/Goal Perform a comprehensive multi-agent exploratory test review of issue/story and PR in the github links below with all testing conducted using only the deployed test environment linked to below.
 
 Story: https://github.com/eviltester/grid-table-editor/issues/226
 PR: https://github.com/eviltester/grid-table-editor/pull/231
