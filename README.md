@@ -12,24 +12,6 @@ https://eviltester.github.io/grid-table-editor
 
 All interactive sessions are documented in [/docs/testing](/docs/testing/) in the dated folders with each session having its own index.
 
-## e.g. 20260620
-
-An initial set of experiments using goal based prompts.
-
-Documented here:
-
-https://github.com/eviltester/grid-table-editor/issues/232
-
-- [/docs/testing/20260620/](/docs/testing/20260620/)
-
-Three sessions were used:
-
-- [session 1](/docs/testing/20260620/]issue-226-001) - a basic prompt
-- [session 2](/docs/testing/20260620/]issue-226-002) - a prompt which did spin up agents to explore
-- [session 3](/docs/testing/20260620/]issue-226-003) - a third session as final sanity test of the approach
-
-Other sessions can be found by visiting the [/docs/testing](/docs/testing/)  folder
-
 ## Next Iteration of Prompt to Try
 
 - 20260621 amended to include
