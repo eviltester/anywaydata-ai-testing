@@ -12,6 +12,18 @@ https://eviltester.github.io/grid-table-editor
 
 All interactive sessions are documented in [/docs/testing](/docs/testing/) in the dated folders with each session having its own index.
 
+## Monitor Session
+
+I tried a monitor session.
+
+A prompt to monitor the test environment every 10 minutes and when a new version is released, retest the application for the issue and PR.
+
+- The inital monitor log - https://github.com/eviltester/anywaydata-ai-testing/tree/main/docs/testing/20260624/issue-228-monitor
+- The triggered session - https://github.com/eviltester/anywaydata-ai-testing/tree/main/docs/testing/20260625
+- The end monitor log - https://github.com/eviltester/anywaydata-ai-testing/tree/main/docs/testing/20260625/issue-228-monitor
+
+This worked, but it polled the environment every minute. But when the env was updated, the interactive exploration did trigger.
+
 ## Next Iteration of Prompt to Try
 
 - 20260621 amended to include
