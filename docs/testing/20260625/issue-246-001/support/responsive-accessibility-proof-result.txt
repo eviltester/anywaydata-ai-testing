@@ -1,0 +1,20 @@
+### Result
+{"url":"https://eviltester.github.io/grid-table-editor/site/app.html","title":"Test Data Generator and Table Editor for Markdown, CSV, JSON, Gherkin and HTML - AnyWayData","screenshot":"D:/github/anywaydata-ai-testing/docs/testing/20260625/issue-246-001/screenshots/responsive-accessibility-proof-app-mobile.png","bodyTextStart":"AnyWayData\n App \nGenerator\nDocs\nBlog\n🌙\nInstructions \nAdd Row Add Rows Above Add Rows Below Delete Selected Rows Filter:  Clear Filters Clear Sort Reset Table  Unique Column Names\n~rename-me\n\n\nTotal rows: 0\nTest Data \n→\n→\nImport / Export\n Auto Sync\nPreview\nRows \nCopy\nMarkdown\nCSV\nDelimited\nJSON\nJSONL\nXML\nSQL\nCode\nCode (Unit Test)\nGherkin\nHTML\nASCII\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply"}
+### Ran Playwright code
+```js
+await (async (page) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('https://eviltester.github.io/grid-table-editor/site/', { waitUntil: 'domcontentloaded' });
+  await page.getByRole('link', { name: /Use The Application/i }).click();
+  await page.waitForLoadState('domcontentloaded');
+  await page.waitForTimeout(1200);
+  await page.screenshot({ path: 'D:/github/anywaydata-ai-testing/docs/testing/20260625/issue-246-001/screenshots/responsive-accessibility-proof-app-mobile.png', fullPage: false });
+  return { url: page.url(), title: await page.title(), screenshot: 'D:/github/anywaydata-ai-testing/docs/testing/20260625/issue-246-001/screenshots/responsive-accessibility-proof-app-mobile.png', bodyTextStart: (await page.locator('body').innerText()).slice(0,500) };
+}
+)(page);
+```
+### Page
+- Page URL: https://eviltester.github.io/grid-table-editor/site/app.html
+- Page Title: Test Data Generator and Table Editor for Markdown, CSV, JSON, Gherkin and HTML - AnyWayData
+### Events
+- New console entries: .playwright-cli\console-2026-06-25T14-16-02-728Z.log#L1-L8

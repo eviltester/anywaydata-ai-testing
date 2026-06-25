@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-06-25T15:17:40+01:00",
+  "target": "https://eviltester.github.io/grid-table-editor/site/",
+  "checks": [
+    {
+      "name": "site load and docs navigation proof",
+      "status": "success",
+      "startUrl": "https://eviltester.github.io/grid-table-editor/site/",
+      "title": "AnyWayData - Data Table Editor & Generator",
+      "interaction": "Clicked the Docs navigation link.",
+      "resultUrl": "https://eviltester.github.io/grid-table-editor/site/docs/intro",
+      "screenshots": [
+        "screenshots/main-proof-site-home.png",
+        "screenshots/main-proof-docs-after-click.png"
+      ],
+      "notes": "The home page loaded and the Docs link navigated to the About docs page. The page snapshot showed a YouTube iframe console error on the landing page, treated as unrelated setup/noise unless corroborated by another lane."
+    },
+    {
+      "name": "app interaction proof",
+      "status": "success",
+      "url": "https://eviltester.github.io/grid-table-editor/site/app.html",
+      "title": "Test Data Generator and Table Editor for Markdown, CSV, JSON, Gherkin and HTML - AnyWayData",
+      "interaction": "Clicked Add Row.",
+      "observed": "Status changed to Total rows: 1.",
+      "screenshots": [
+        "screenshots/main-app-add-row-proof.png"
+      ]
+    },
+    {
+      "name": "generator enum preview smoke",
+      "status": "success",
+      "url": "https://eviltester.github.io/grid-table-editor/generator.html",
+      "schema": {
+        "column": "Status",
+        "type": "enum",
+        "value": "Open,In Progress,Closed"
+      },
+      "interaction": "Filled the row-based schema editor and clicked Preview.",
+      "observedPreview": "\"Status\"\n\"Open\"\n\"In Progress\"\n\"In Progress\"\n\"Open\"\n\"Closed\"\n\"Open\"\n\"Closed\"\n\"Closed\"\n\"In Progress\"\n\"Closed\"",
+      "screenshots": [
+        "screenshots/main-generator-enum-preview-valid.png"
+      ],
+      "invalidSetupNotes": [
+        "An earlier attempt filled only the Column Name then clicked Preview after refs went stale, producing the expected validation message: Row 1: regex value is required.",
+        "A second partial attempt changed the field type to enum without filling the refreshed value input, producing the expected validation message: Row 1: enum value is required."
+      ]
+    }
+  ]
+}
