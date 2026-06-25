@@ -1,0 +1,2 @@
+Status
+enum(Open,Closed)
