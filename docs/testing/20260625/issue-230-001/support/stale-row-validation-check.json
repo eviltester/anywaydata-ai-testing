@@ -1,0 +1,40 @@
+{
+  "before": {
+    "rowText": "enum\nliteral\nregex\ndomain\nfaker\nRow 1: enum value is required.",
+    "errors": [
+      {
+        "text": "",
+        "display": "none",
+        "visibility": "visible",
+        "cls": "shared-schema-error",
+        "role": "schema-error"
+      }
+    ]
+  },
+  "afterFill": {
+    "rowText": "enum\nliteral\nregex\ndomain\nfaker\nRow 1: enum value is required.",
+    "errors": [
+      {
+        "text": "",
+        "display": "none",
+        "visibility": "visible",
+        "cls": "shared-schema-error",
+        "role": "schema-error"
+      }
+    ]
+  },
+  "afterPreview": {
+    "schemaError": "",
+    "rowText": "enum\nliteral\nregex\ndomain\nfaker",
+    "errors": [
+      {
+        "text": "",
+        "display": "none",
+        "visibility": "visible",
+        "cls": "shared-schema-error",
+        "role": "schema-error"
+      }
+    ],
+    "output": ""
+  }
+}

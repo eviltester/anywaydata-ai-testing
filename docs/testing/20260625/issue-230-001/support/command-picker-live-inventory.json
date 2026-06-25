@@ -1,0 +1,1265 @@
+{
+  "url": "https://eviltester.github.io/grid-table-editor/app.html",
+  "tabs": [
+    {
+      "label": "All",
+      "id": "all",
+      "active": true
+    },
+    {
+      "label": "Core",
+      "id": "core",
+      "active": false
+    },
+    {
+      "label": "airline",
+      "id": "domain:airline",
+      "active": false
+    },
+    {
+      "label": "airplane",
+      "id": "domain:airplane",
+      "active": false
+    },
+    {
+      "label": "airport",
+      "id": "domain:airport",
+      "active": false
+    },
+    {
+      "label": "animal",
+      "id": "domain:animal",
+      "active": false
+    },
+    {
+      "label": "autoIncrement",
+      "id": "domain:autoIncrement",
+      "active": false
+    },
+    {
+      "label": "book",
+      "id": "domain:book",
+      "active": false
+    },
+    {
+      "label": "chemicalElement",
+      "id": "domain:chemicalElement",
+      "active": false
+    },
+    {
+      "label": "color",
+      "id": "domain:color",
+      "active": false
+    },
+    {
+      "label": "commerce",
+      "id": "domain:commerce",
+      "active": false
+    },
+    {
+      "label": "company",
+      "id": "domain:company",
+      "active": false
+    },
+    {
+      "label": "database",
+      "id": "domain:database",
+      "active": false
+    },
+    {
+      "label": "datatype",
+      "id": "domain:datatype",
+      "active": false
+    },
+    {
+      "label": "date",
+      "id": "domain:date",
+      "active": false
+    },
+    {
+      "label": "finance",
+      "id": "domain:finance",
+      "active": false
+    },
+    {
+      "label": "food",
+      "id": "domain:food",
+      "active": false
+    },
+    {
+      "label": "git",
+      "id": "domain:git",
+      "active": false
+    },
+    {
+      "label": "hacker",
+      "id": "domain:hacker",
+      "active": false
+    },
+    {
+      "label": "image",
+      "id": "domain:image",
+      "active": false
+    },
+    {
+      "label": "internet",
+      "id": "domain:internet",
+      "active": false
+    },
+    {
+      "label": "language",
+      "id": "domain:language",
+      "active": false
+    },
+    {
+      "label": "literal",
+      "id": "domain:literal",
+      "active": false
+    },
+    {
+      "label": "location",
+      "id": "domain:location",
+      "active": false
+    },
+    {
+      "label": "lorem",
+      "id": "domain:lorem",
+      "active": false
+    },
+    {
+      "label": "music",
+      "id": "domain:music",
+      "active": false
+    },
+    {
+      "label": "number",
+      "id": "domain:number",
+      "active": false
+    },
+    {
+      "label": "person",
+      "id": "domain:person",
+      "active": false
+    },
+    {
+      "label": "phone",
+      "id": "domain:phone",
+      "active": false
+    },
+    {
+      "label": "string",
+      "id": "domain:string",
+      "active": false
+    },
+    {
+      "label": "system",
+      "id": "domain:system",
+      "active": false
+    },
+    {
+      "label": "unit",
+      "id": "domain:unit",
+      "active": false
+    },
+    {
+      "label": "vehicle",
+      "id": "domain:vehicle",
+      "active": false
+    },
+    {
+      "label": "word",
+      "id": "domain:word",
+      "active": false
+    },
+    {
+      "label": "Faker",
+      "id": "faker",
+      "active": false
+    },
+    {
+      "label": "Recently used",
+      "id": "recent",
+      "active": false
+    }
+  ],
+  "commandCount": 269,
+  "commands": [
+    {
+      "command": "enum",
+      "text": "enum Enum values allow you to specify a list of discrete options. Use comma-separated values with no quotes, for example \"active,inactive,pending\" or \"enum active,inactive,pending\". enum"
+    },
+    {
+      "command": "literal",
+      "text": "literal Literal data repeats the exact text you enter for every generated row. literal"
+    },
+    {
+      "command": "regex",
+      "text": "regex Regex patterns generate random values that match the specified expression. regex"
+    },
+    {
+      "command": "airline.aircraftType",
+      "text": "airline.aircraftType Returns a random aircraft type. domain"
+    },
+    {
+      "command": "airline.flightNumber",
+      "text": "airline.flightNumber Returns a random flight number. Flight numbers are always 1 to 4 digits long and may include leading zeros. domain"
+    },
+    {
+      "command": "airline.iataCode",
+      "text": "airline.iataCode Generate an airline IATA code. domain"
+    },
+    {
+      "command": "airline.name",
+      "text": "airline.name Generate an airline name. domain"
+    },
+    {
+      "command": "airline.recordLocator",
+      "text": "airline.recordLocator Generates a random record locator. Record locators are 6-character alphanumeric booking references. domain"
+    },
+    {
+      "command": "airline.seat",
+      "text": "airline.seat Generates a random seat. domain"
+    },
+    {
+      "command": "airplane.iataTypeCode",
+      "text": "airplane.iataTypeCode Generate an airplane IATA type code. domain"
+    },
+    {
+      "command": "airplane.name",
+      "text": "airplane.name Generate an airplane model name. domain"
+    },
+    {
+      "command": "airport.iataCode",
+      "text": "airport.iataCode Generate an airport IATA code. domain"
+    },
+    {
+      "command": "airport.name",
+      "text": "airport.name Generate an airport name. domain"
+    },
+    {
+      "command": "animal.bear",
+      "text": "animal.bear Returns a random bear species. domain"
+    },
+    {
+      "command": "animal.bird",
+      "text": "animal.bird Returns a random bird species. domain"
+    },
+    {
+      "command": "animal.cat",
+      "text": "animal.cat Returns a random cat breed. domain"
+    },
+    {
+      "command": "animal.cetacean",
+      "text": "animal.cetacean Returns a random cetacean species. domain"
+    },
+    {
+      "command": "animal.cow",
+      "text": "animal.cow Returns a random cow species. domain"
+    },
+    {
+      "command": "animal.crocodilia",
+      "text": "animal.crocodilia Returns a random crocodilian species. domain"
+    },
+    {
+      "command": "animal.dog",
+      "text": "animal.dog Returns a random dog breed. domain"
+    },
+    {
+      "command": "animal.fish",
+      "text": "animal.fish Returns a random fish species. domain"
+    },
+    {
+      "command": "animal.horse",
+      "text": "animal.horse Returns a random horse breed. domain"
+    },
+    {
+      "command": "animal.insect",
+      "text": "animal.insect Returns a random insect species. domain"
+    },
+    {
+      "command": "animal.lion",
+      "text": "animal.lion Returns a random lion species. domain"
+    },
+    {
+      "command": "animal.petName",
+      "text": "animal.petName Returns a random pet name. domain"
+    },
+    {
+      "command": "animal.rabbit",
+      "text": "animal.rabbit Returns a random rabbit species. domain"
+    },
+    {
+      "command": "animal.rodent",
+      "text": "animal.rodent Returns a random rodent breed. domain"
+    },
+    {
+      "command": "animal.snake",
+      "text": "animal.snake Returns a random snake species. domain"
+    },
+    {
+      "command": "animal.type",
+      "text": "animal.type Returns a random animal type. domain"
+    },
+    {
+      "command": "autoIncrement.sequence",
+      "text": "autoIncrement.sequence Generates an incrementing sequence. Values only advance when a generated row is accepted, so constraint-filtered rows do not consume sequence numbers. domain"
+    },
+    {
+      "command": "autoIncrement.timestamp",
+      "text": "autoIncrement.timestamp Generates a timestamp that starts from a fixed point and increments by the configured amount for each generated row. domain"
+    },
+    {
+      "command": "book.author",
+      "text": "book.author Returns a random author name. domain"
+    },
+    {
+      "command": "book.format",
+      "text": "book.format Returns a random book format. domain"
+    },
+    {
+      "command": "book.genre",
+      "text": "book.genre Returns a random genre. domain"
+    },
+    {
+      "command": "book.publisher",
+      "text": "book.publisher Returns a random publisher. domain"
+    },
+    {
+      "command": "book.series",
+      "text": "book.series Returns a random series. domain"
+    },
+    {
+      "command": "book.title",
+      "text": "book.title Returns a random title. domain"
+    },
+    {
+      "command": "chemicalElement.atomicNumber",
+      "text": "chemicalElement.atomicNumber Generate a chemical element atomic number. domain"
+    },
+    {
+      "command": "chemicalElement.name",
+      "text": "chemicalElement.name Generate a chemical element name. domain"
+    },
+    {
+      "command": "chemicalElement.symbol",
+      "text": "chemicalElement.symbol Generate a chemical element symbol. domain"
+    },
+    {
+      "command": "color.cmyk",
+      "text": "color.cmyk Returns a CMYK color. domain"
+    },
+    {
+      "command": "color.colorByCSSColorSpace",
+      "text": "color.colorByCSSColorSpace Returns a random color based on CSS color space specified. domain"
+    },
+    {
+      "command": "color.cssSupportedFunction",
+      "text": "color.cssSupportedFunction Returns a random css supported color function name. domain"
+    },
+    {
+      "command": "color.cssSupportedSpace",
+      "text": "color.cssSupportedSpace Returns a random css supported color space name. domain"
+    },
+    {
+      "command": "color.hsl",
+      "text": "color.hsl Returns an HSL color. domain"
+    },
+    {
+      "command": "color.human",
+      "text": "color.human Returns a random human-readable color name. domain"
+    },
+    {
+      "command": "color.hwb",
+      "text": "color.hwb Returns an HWB color. domain"
+    },
+    {
+      "command": "color.lab",
+      "text": "color.lab Returns a LAB (CIELAB) color. domain"
+    },
+    {
+      "command": "color.lch",
+      "text": "color.lch Returns an LCH color. domain"
+    },
+    {
+      "command": "color.rgb",
+      "text": "color.rgb Returns an RGB color. domain"
+    },
+    {
+      "command": "color.space",
+      "text": "color.space Returns a random color space name from the worldwide accepted color spaces. domain"
+    },
+    {
+      "command": "commerce.department",
+      "text": "commerce.department Returns a department inside a shop. domain"
+    },
+    {
+      "command": "commerce.isbn",
+      "text": "commerce.isbn Returns a random ISBN identifier. domain"
+    },
+    {
+      "command": "commerce.price",
+      "text": "commerce.price Generates a price between min and max (inclusive). domain"
+    },
+    {
+      "command": "commerce.product",
+      "text": "commerce.product Returns a short product name. domain"
+    },
+    {
+      "command": "commerce.productAdjective",
+      "text": "commerce.productAdjective Returns an adjective describing a product. domain"
+    },
+    {
+      "command": "commerce.productDescription",
+      "text": "commerce.productDescription Returns a product description. domain"
+    },
+    {
+      "command": "commerce.productMaterial",
+      "text": "commerce.productMaterial Returns a material of a product. domain"
+    },
+    {
+      "command": "commerce.productName",
+      "text": "commerce.productName Generates a random descriptive product name. domain"
+    },
+    {
+      "command": "commerce.upc",
+      "text": "commerce.upc Returns a valid UPC-A (12 digits). domain"
+    },
+    {
+      "command": "company.buzzAdjective",
+      "text": "company.buzzAdjective Returns a random buzz adjective that can be used to demonstrate data being viewed by a manager. domain"
+    },
+    {
+      "command": "company.buzzNoun",
+      "text": "company.buzzNoun Returns a random buzz noun that can be used to demonstrate data being viewed by a manager. domain"
+    },
+    {
+      "command": "company.buzzPhrase",
+      "text": "company.buzzPhrase Generates a random buzz phrase that can be used to demonstrate data being viewed by a manager. domain"
+    },
+    {
+      "command": "company.buzzVerb",
+      "text": "company.buzzVerb Returns a random buzz verb that can be used to demonstrate data being viewed by a manager. domain"
+    },
+    {
+      "command": "company.catchPhrase",
+      "text": "company.catchPhrase Generates a random catch phrase that can be displayed to an end user. domain"
+    },
+    {
+      "command": "company.catchPhraseAdjective",
+      "text": "company.catchPhraseAdjective Returns a random catch phrase adjective that can be displayed to an end user. domain"
+    },
+    {
+      "command": "company.catchPhraseDescriptor",
+      "text": "company.catchPhraseDescriptor Returns a random catch phrase descriptor that can be displayed to an end user. domain"
+    },
+    {
+      "command": "company.catchPhraseNoun",
+      "text": "company.catchPhraseNoun Returns a random catch phrase noun that can be displayed to an end user. domain"
+    },
+    {
+      "command": "company.name",
+      "text": "company.name Generates a random company name. domain"
+    },
+    {
+      "command": "database.collation",
+      "text": "database.collation Returns a random database collation. domain"
+    },
+    {
+      "command": "database.column",
+      "text": "database.column Returns a random database column name. domain"
+    },
+    {
+      "command": "database.engine",
+      "text": "database.engine Returns a random database engine. domain"
+    },
+    {
+      "command": "database.mongodbObjectId",
+      "text": "database.mongodbObjectId Returns a MongoDB ObjectId string. domain"
+    },
+    {
+      "command": "database.type",
+      "text": "database.type Returns a random database column type. domain"
+    },
+    {
+      "command": "datatype.boolean",
+      "text": "datatype.boolean Returns the boolean value true or false. domain"
+    },
+    {
+      "command": "datatype.enum",
+      "text": "datatype.enum Enum helper accepts CSV values or a string array and returns one value at random. Bare CSV is supported as schema shorthand; function calls use quoted strings, arrays, or named arguments. domain"
+    },
+    {
+      "command": "date.anytime",
+      "text": "date.anytime Generates a random date that can be either in the past or in the future. domain"
+    },
+    {
+      "command": "date.between",
+      "text": "date.between Generates a random date between the given boundaries. domain"
+    },
+    {
+      "command": "date.birthdate",
+      "text": "date.birthdate Returns a random birthdate. By default, the birthdate is generated for an adult between 18 and 80 years old. domain"
+    },
+    {
+      "command": "date.future",
+      "text": "date.future Generates a random date in the future. domain"
+    },
+    {
+      "command": "date.month",
+      "text": "date.month Returns a random name of a month. domain"
+    },
+    {
+      "command": "date.past",
+      "text": "date.past Generates a random date in the past. domain"
+    },
+    {
+      "command": "date.recent",
+      "text": "date.recent Generates a random date in the recent past. domain"
+    },
+    {
+      "command": "date.soon",
+      "text": "date.soon Generates a random date in the near future. domain"
+    },
+    {
+      "command": "date.timeZone",
+      "text": "date.timeZone Returns a random IANA time zone relevant to this locale. domain"
+    },
+    {
+      "command": "date.weekday",
+      "text": "date.weekday Returns a random day of the week. domain"
+    },
+    {
+      "command": "finance.accountName",
+      "text": "finance.accountName Generates a random account name. domain"
+    },
+    {
+      "command": "finance.accountNumber",
+      "text": "finance.accountNumber Generates a random account number. domain"
+    },
+    {
+      "command": "finance.amount",
+      "text": "finance.amount Generates a random amount between the given bounds (inclusive). domain"
+    },
+    {
+      "command": "finance.bic",
+      "text": "finance.bic Generates a random SWIFT/BIC code based on the ISO-9362 format. domain"
+    },
+    {
+      "command": "finance.bitcoinAddress",
+      "text": "finance.bitcoinAddress Generates a random Bitcoin address. domain"
+    },
+    {
+      "command": "finance.creditCardCVV",
+      "text": "finance.creditCardCVV Generates a random credit card CVV. domain"
+    },
+    {
+      "command": "finance.creditCardIssuer",
+      "text": "finance.creditCardIssuer Returns a random credit card issuer. domain"
+    },
+    {
+      "command": "finance.creditCardNumber",
+      "text": "finance.creditCardNumber Generates a random credit card number. domain"
+    },
+    {
+      "command": "finance.currencyCode",
+      "text": "finance.currencyCode Returns a random currency code. domain"
+    },
+    {
+      "command": "finance.currencyName",
+      "text": "finance.currencyName Returns a random currency name. domain"
+    },
+    {
+      "command": "finance.currencyNumericCode",
+      "text": "finance.currencyNumericCode Returns a random currency numeric code. domain"
+    },
+    {
+      "command": "finance.currencySymbol",
+      "text": "finance.currencySymbol Returns a random currency symbol. domain"
+    },
+    {
+      "command": "finance.ethereumAddress",
+      "text": "finance.ethereumAddress Creates a random, non-checksum Ethereum address. domain"
+    },
+    {
+      "command": "finance.iban",
+      "text": "finance.iban Generates a random IBAN. domain"
+    },
+    {
+      "command": "finance.litecoinAddress",
+      "text": "finance.litecoinAddress Generates a random Litecoin address. domain"
+    },
+    {
+      "command": "finance.pin",
+      "text": "finance.pin Generates a random PIN number. domain"
+    },
+    {
+      "command": "finance.routingNumber",
+      "text": "finance.routingNumber Generates a random routing number. domain"
+    },
+    {
+      "command": "finance.transactionDescription",
+      "text": "finance.transactionDescription Generates a random transaction description. domain"
+    },
+    {
+      "command": "finance.transactionType",
+      "text": "finance.transactionType Returns a random transaction type. domain"
+    },
+    {
+      "command": "food.adjective",
+      "text": "food.adjective Generates a random dish adjective. domain"
+    },
+    {
+      "command": "food.description",
+      "text": "food.description Generates a random dish description. domain"
+    },
+    {
+      "command": "food.dish",
+      "text": "food.dish Generates a random dish name. domain"
+    },
+    {
+      "command": "food.ethnicCategory",
+      "text": "food.ethnicCategory Generates a random food's ethnic category. domain"
+    },
+    {
+      "command": "food.fruit",
+      "text": "food.fruit Generates a random fruit name. domain"
+    },
+    {
+      "command": "food.ingredient",
+      "text": "food.ingredient Generates a random ingredient name. domain"
+    },
+    {
+      "command": "food.meat",
+      "text": "food.meat Generates a random meat domain"
+    },
+    {
+      "command": "food.spice",
+      "text": "food.spice Generates a random spice name. domain"
+    },
+    {
+      "command": "food.vegetable",
+      "text": "food.vegetable Generates a random vegetable name. domain"
+    },
+    {
+      "command": "git.branch",
+      "text": "git.branch Generates a random branch name. domain"
+    },
+    {
+      "command": "git.commitDate",
+      "text": "git.commitDate Generates a date string for a git commit using the same format as `git log`. domain"
+    },
+    {
+      "command": "git.commitEntry",
+      "text": "git.commitEntry Generates a random commit entry as printed by `git log`. domain"
+    },
+    {
+      "command": "git.commitMessage",
+      "text": "git.commitMessage Generates a random commit message. domain"
+    },
+    {
+      "command": "git.commitSha",
+      "text": "git.commitSha Generates a random commit sha. domain"
+    },
+    {
+      "command": "hacker.abbreviation",
+      "text": "hacker.abbreviation Returns a random hacker/IT abbreviation. domain"
+    },
+    {
+      "command": "hacker.adjective",
+      "text": "hacker.adjective Returns a random hacker/IT adjective. domain"
+    },
+    {
+      "command": "hacker.ingverb",
+      "text": "hacker.ingverb Returns a random hacker/IT verb for continuous actions (en: ing suffix; e.g. hacking). domain"
+    },
+    {
+      "command": "hacker.noun",
+      "text": "hacker.noun Returns a random hacker/IT noun. domain"
+    },
+    {
+      "command": "hacker.phrase",
+      "text": "hacker.phrase Generates a random hacker/IT phrase. domain"
+    },
+    {
+      "command": "hacker.verb",
+      "text": "hacker.verb Returns a random hacker/IT verb. domain"
+    },
+    {
+      "command": "image.avatar",
+      "text": "image.avatar Generates a random avatar image url. domain"
+    },
+    {
+      "command": "image.avatarGitHub",
+      "text": "image.avatarGitHub Generates a random avatar from GitHub. domain"
+    },
+    {
+      "command": "image.dataUri",
+      "text": "image.dataUri Generates a random data uri containing an URL-encoded SVG image or a Base64-encoded SVG image. domain"
+    },
+    {
+      "command": "image.personPortrait",
+      "text": "image.personPortrait Generates a random square portrait (avatar) of a person. domain"
+    },
+    {
+      "command": "image.url",
+      "text": "image.url Generates a random image url. domain"
+    },
+    {
+      "command": "image.urlPicsumPhotos",
+      "text": "image.urlPicsumPhotos Generates a random image url provided via https://picsum.photos. domain"
+    },
+    {
+      "command": "internet.displayName",
+      "text": "internet.displayName Generates a display name using the given person's name as base. domain"
+    },
+    {
+      "command": "internet.domainName",
+      "text": "internet.domainName Generates a random domain name. domain"
+    },
+    {
+      "command": "internet.domainSuffix",
+      "text": "internet.domainSuffix Returns a random domain suffix. domain"
+    },
+    {
+      "command": "internet.domainWord",
+      "text": "internet.domainWord Generates a random domain word. domain"
+    },
+    {
+      "command": "internet.email",
+      "text": "internet.email Generates data using faker internet email. domain"
+    },
+    {
+      "command": "internet.emoji",
+      "text": "internet.emoji Generates a random emoji. domain"
+    },
+    {
+      "command": "internet.exampleEmail",
+      "text": "internet.exampleEmail Generates data using faker internet example email. domain"
+    },
+    {
+      "command": "internet.httpMethod",
+      "text": "internet.httpMethod Returns a random HTTP request method from an AnywayData-defined pool of GET, HEAD, POST, PUT, DELETE, PATCH, OPTIONS, TRACE, and CONNECT, with optional filtering for common methods and exclusions. domain"
+    },
+    {
+      "command": "internet.httpStatusCode",
+      "text": "internet.httpStatusCode Generates a random HTTP status code. domain"
+    },
+    {
+      "command": "internet.ip",
+      "text": "internet.ip Generates a random IPv4 or IPv6 address. domain"
+    },
+    {
+      "command": "internet.ipv4",
+      "text": "internet.ipv4 Generates a random IPv4 address. domain"
+    },
+    {
+      "command": "internet.ipv6",
+      "text": "internet.ipv6 Generates a random IPv6 address. domain"
+    },
+    {
+      "command": "internet.jwt",
+      "text": "internet.jwt Generates a random JWT (JSON Web Token). domain"
+    },
+    {
+      "command": "internet.jwtAlgorithm",
+      "text": "internet.jwtAlgorithm Generates a random JWT (JSON Web Token) Algorithm. domain"
+    },
+    {
+      "command": "internet.mac",
+      "text": "internet.mac Generates a random mac address. domain"
+    },
+    {
+      "command": "internet.password",
+      "text": "internet.password Generates a random password-like string. Do not use this method for generating actual passwords for users. domain"
+    },
+    {
+      "command": "internet.port",
+      "text": "internet.port Generates a random port number. domain"
+    },
+    {
+      "command": "internet.protocol",
+      "text": "internet.protocol Returns a random web protocol. Either `http` or `https`. domain"
+    },
+    {
+      "command": "internet.url",
+      "text": "internet.url Generates a random http(s) url. domain"
+    },
+    {
+      "command": "internet.userAgent",
+      "text": "internet.userAgent Generates a random user agent string. domain"
+    },
+    {
+      "command": "internet.username",
+      "text": "internet.username Generates a username using the given person's name as base. domain"
+    },
+    {
+      "command": "language.alpha2",
+      "text": "language.alpha2 Returns a random ISO 639-1 language code. domain"
+    },
+    {
+      "command": "language.alpha3",
+      "text": "language.alpha3 Returns a random ISO 639-2 or ISO 639-3 language code. domain"
+    },
+    {
+      "command": "language.name",
+      "text": "language.name Returns a random spoken language name. domain"
+    },
+    {
+      "command": "literal.value",
+      "text": "literal.value Return the literal value provided by the caller. domain"
+    },
+    {
+      "command": "location.buildingNumber",
+      "text": "location.buildingNumber Generates a random building number. domain"
+    },
+    {
+      "command": "location.cardinalDirection",
+      "text": "location.cardinalDirection Returns a random cardinal direction (north, east, south, west). domain"
+    },
+    {
+      "command": "location.city",
+      "text": "location.city Generates a random localized city name. domain"
+    },
+    {
+      "command": "location.continent",
+      "text": "location.continent Returns a random continent name. domain"
+    },
+    {
+      "command": "location.country",
+      "text": "location.country Returns a random country name. domain"
+    },
+    {
+      "command": "location.countryCode",
+      "text": "location.countryCode Returns a random ISO_3166-1 country code. domain"
+    },
+    {
+      "command": "location.county",
+      "text": "location.county Returns a random localized county, or other equivalent second-level administrative entity for the locale's country such as a district or department. domain"
+    },
+    {
+      "command": "location.direction",
+      "text": "location.direction Returns a random direction (cardinal and ordinal; northwest, east, etc). domain"
+    },
+    {
+      "command": "location.latitude",
+      "text": "location.latitude Generates a random latitude. domain"
+    },
+    {
+      "command": "location.longitude",
+      "text": "location.longitude Generates a random longitude. domain"
+    },
+    {
+      "command": "location.ordinalDirection",
+      "text": "location.ordinalDirection Returns a random ordinal direction (northwest, southeast, etc). domain"
+    },
+    {
+      "command": "location.secondaryAddress",
+      "text": "location.secondaryAddress Generates a random localized secondary address. This refers to a specific location at a given address domain"
+    },
+    {
+      "command": "location.state",
+      "text": "location.state Returns a random localized state, or other equivalent first-level administrative entity for the locale's country such as a province or region. domain"
+    },
+    {
+      "command": "location.street",
+      "text": "location.street Generates a random localized street name. domain"
+    },
+    {
+      "command": "location.streetAddress",
+      "text": "location.streetAddress Generates a random localized street address. domain"
+    },
+    {
+      "command": "location.timeZone",
+      "text": "location.timeZone Returns a random IANA time zone name. domain"
+    },
+    {
+      "command": "location.zipCode",
+      "text": "location.zipCode Generates data using faker location zip code. domain"
+    },
+    {
+      "command": "lorem.lines",
+      "text": "lorem.lines Generates the given number lines of lorem separated by `'\\n'`. domain"
+    },
+    {
+      "command": "lorem.paragraph",
+      "text": "lorem.paragraph Generates a paragraph with the given number of sentences. domain"
+    },
+    {
+      "command": "lorem.paragraphs",
+      "text": "lorem.paragraphs Generates the given number of paragraphs. domain"
+    },
+    {
+      "command": "lorem.sentence",
+      "text": "lorem.sentence Generates a space separated list of words beginning with a capital letter and ending with a period. domain"
+    },
+    {
+      "command": "lorem.sentences",
+      "text": "lorem.sentences Generates the given number of sentences. domain"
+    },
+    {
+      "command": "lorem.slug",
+      "text": "lorem.slug Generates a slugified text consisting of the given number of hyphen separated words. domain"
+    },
+    {
+      "command": "lorem.text",
+      "text": "lorem.text Generates a random text based on a random lorem method. domain"
+    },
+    {
+      "command": "lorem.word",
+      "text": "lorem.word Generates a word of a specified length. domain"
+    },
+    {
+      "command": "lorem.words",
+      "text": "lorem.words Generates a space separated list of words. domain"
+    },
+    {
+      "command": "music.album",
+      "text": "music.album Returns a random album name. domain"
+    },
+    {
+      "command": "music.artist",
+      "text": "music.artist Returns a random artist name. domain"
+    },
+    {
+      "command": "music.genre",
+      "text": "music.genre Returns a random music genre. domain"
+    },
+    {
+      "command": "music.songName",
+      "text": "music.songName Returns a random song name. domain"
+    },
+    {
+      "command": "number.bigInt",
+      "text": "number.bigInt Returns a BigInt number. domain"
+    },
+    {
+      "command": "number.binary",
+      "text": "number.binary Returns a binary string. domain"
+    },
+    {
+      "command": "number.float",
+      "text": "number.float Returns a single random floating-point number, by default between `0.0` and `1.0`. To change the range, pass a `min` and `max` value. To limit the number of decimal places, pass a `multipleOf` or `fractionDigits` parameter. domain"
+    },
+    {
+      "command": "number.hex",
+      "text": "number.hex Returns a lowercase hexadecimal number. domain"
+    },
+    {
+      "command": "number.int",
+      "text": "number.int Returns a single random integer between zero and the given max value or the given range. domain"
+    },
+    {
+      "command": "number.octal",
+      "text": "number.octal Returns an octal string. domain"
+    },
+    {
+      "command": "number.romanNumeral",
+      "text": "number.romanNumeral Returns a roman numeral in String format. domain"
+    },
+    {
+      "command": "person.bio",
+      "text": "person.bio Returns a random short biography domain"
+    },
+    {
+      "command": "person.firstName",
+      "text": "person.firstName Returns a random first name. domain"
+    },
+    {
+      "command": "person.fullName",
+      "text": "person.fullName Generates a random full name. domain"
+    },
+    {
+      "command": "person.gender",
+      "text": "person.gender Returns a random gender. domain"
+    },
+    {
+      "command": "person.jobArea",
+      "text": "person.jobArea Generates a random job area. domain"
+    },
+    {
+      "command": "person.jobDescriptor",
+      "text": "person.jobDescriptor Generates a random job descriptor. domain"
+    },
+    {
+      "command": "person.jobTitle",
+      "text": "person.jobTitle Generates a random job title. domain"
+    },
+    {
+      "command": "person.jobType",
+      "text": "person.jobType Generates a random job type. domain"
+    },
+    {
+      "command": "person.lastName",
+      "text": "person.lastName Returns a random last name. domain"
+    },
+    {
+      "command": "person.middleName",
+      "text": "person.middleName Returns a random middle name. domain"
+    },
+    {
+      "command": "person.prefix",
+      "text": "person.prefix Returns a random person prefix. domain"
+    },
+    {
+      "command": "person.sex",
+      "text": "person.sex Returns a random sex. domain"
+    },
+    {
+      "command": "person.sexType",
+      "text": "person.sexType Returns a random sex type. The `SexType` is intended to be used in parameters and conditions. domain"
+    },
+    {
+      "command": "person.suffix",
+      "text": "person.suffix Returns a random person suffix. domain"
+    },
+    {
+      "command": "person.zodiacSign",
+      "text": "person.zodiacSign Returns a random zodiac sign. domain"
+    },
+    {
+      "command": "phone.imei",
+      "text": "phone.imei Generates IMEI number. domain"
+    },
+    {
+      "command": "phone.number",
+      "text": "phone.number Generates a random phone number. domain"
+    },
+    {
+      "command": "string.alpha",
+      "text": "string.alpha Generating a string consisting of letters in the English alphabet. domain"
+    },
+    {
+      "command": "string.alphanumeric",
+      "text": "string.alphanumeric Generating a string consisting of alpha characters and digits. domain"
+    },
+    {
+      "command": "string.binary",
+      "text": "string.binary Returns a binary string. domain"
+    },
+    {
+      "command": "string.counterString",
+      "text": "string.counterString Generates a counterstring for a random length between min and max (or fixed length when only one value is provided). Defaults to min=1 and max=25 when omitted. domain"
+    },
+    {
+      "command": "string.fromCharacters",
+      "text": "string.fromCharacters Generates a string from the given characters. domain"
+    },
+    {
+      "command": "string.hexadecimal",
+      "text": "string.hexadecimal Returns a hexadecimal string. domain"
+    },
+    {
+      "command": "string.nanoid",
+      "text": "string.nanoid Generates a Nano ID. domain"
+    },
+    {
+      "command": "string.numeric",
+      "text": "string.numeric Generates a given length string of digits. domain"
+    },
+    {
+      "command": "string.octal",
+      "text": "string.octal Returns an octal string. domain"
+    },
+    {
+      "command": "string.sample",
+      "text": "string.sample Returns a string containing UTF-16 chars between 33 and 125 (`!` to `}`). domain"
+    },
+    {
+      "command": "string.symbol",
+      "text": "string.symbol Returns a string containing only ASCII symbol characters such as !, \", #, $, %, &, (, ), *, +, -, /, :, ;, <, =, >, ?, @, [, \\, ], ^, _, `, {, |, }, and ~. domain"
+    },
+    {
+      "command": "string.ulid",
+      "text": "string.ulid Returns a ULID (Universally Unique Lexicographically Sortable Identifier). domain"
+    },
+    {
+      "command": "string.uuid",
+      "text": "string.uuid Returns a UUID (Universally Unique Identifier). domain"
+    },
+    {
+      "command": "system.commonFileExt",
+      "text": "system.commonFileExt Returns a commonly used file extension. domain"
+    },
+    {
+      "command": "system.commonFileName",
+      "text": "system.commonFileName Returns a random file name with a given extension or a commonly used extension. domain"
+    },
+    {
+      "command": "system.commonFileType",
+      "text": "system.commonFileType Returns a commonly used file type. domain"
+    },
+    {
+      "command": "system.cron",
+      "text": "system.cron Returns a random cron expression. domain"
+    },
+    {
+      "command": "system.directoryPath",
+      "text": "system.directoryPath Returns a directory path. domain"
+    },
+    {
+      "command": "system.fileExt",
+      "text": "system.fileExt Returns a file extension. domain"
+    },
+    {
+      "command": "system.fileName",
+      "text": "system.fileName Returns a random file name with extension. domain"
+    },
+    {
+      "command": "system.filePath",
+      "text": "system.filePath Returns a file path. domain"
+    },
+    {
+      "command": "system.fileType",
+      "text": "system.fileType Returns a file type. domain"
+    },
+    {
+      "command": "system.mimeType",
+      "text": "system.mimeType Returns a mime-type. domain"
+    },
+    {
+      "command": "system.networkInterface",
+      "text": "system.networkInterface Returns a random network interface. domain"
+    },
+    {
+      "command": "system.semver",
+      "text": "system.semver Returns a semantic version. domain"
+    },
+    {
+      "command": "unit.name",
+      "text": "unit.name Generate a scientific unit name. domain"
+    },
+    {
+      "command": "unit.symbol",
+      "text": "unit.symbol Generate a scientific unit symbol. domain"
+    },
+    {
+      "command": "vehicle.bicycle",
+      "text": "vehicle.bicycle Returns a type of bicycle. domain"
+    },
+    {
+      "command": "vehicle.color",
+      "text": "vehicle.color Returns a vehicle color. domain"
+    },
+    {
+      "command": "vehicle.fuel",
+      "text": "vehicle.fuel Returns a fuel type. domain"
+    },
+    {
+      "command": "vehicle.manufacturer",
+      "text": "vehicle.manufacturer Returns a manufacturer name. domain"
+    },
+    {
+      "command": "vehicle.model",
+      "text": "vehicle.model Returns a vehicle model. domain"
+    },
+    {
+      "command": "vehicle.type",
+      "text": "vehicle.type Returns a vehicle type. domain"
+    },
+    {
+      "command": "vehicle.vehicle",
+      "text": "vehicle.vehicle Returns a random vehicle. domain"
+    },
+    {
+      "command": "vehicle.vin",
+      "text": "vehicle.vin Returns a vehicle identification number (VIN). domain"
+    },
+    {
+      "command": "vehicle.vrm",
+      "text": "vehicle.vrm Returns a vehicle registration number (Vehicle Registration Mark - VRM) domain"
+    },
+    {
+      "command": "word.adjective",
+      "text": "word.adjective Returns a random adjective. domain"
+    },
+    {
+      "command": "word.adverb",
+      "text": "word.adverb Returns a random adverb. domain"
+    },
+    {
+      "command": "word.conjunction",
+      "text": "word.conjunction Returns a random conjunction. domain"
+    },
+    {
+      "command": "word.interjection",
+      "text": "word.interjection Returns a random interjection. domain"
+    },
+    {
+      "command": "word.noun",
+      "text": "word.noun Returns a random noun. domain"
+    },
+    {
+      "command": "word.preposition",
+      "text": "word.preposition Returns a random preposition. domain"
+    },
+    {
+      "command": "word.sample",
+      "text": "word.sample Returns a random word, that can be an adjective, adverb, conjunction, interjection, noun, preposition, or verb. domain"
+    },
+    {
+      "command": "word.verb",
+      "text": "word.verb Returns a random verb. domain"
+    },
+    {
+      "command": "word.words",
+      "text": "word.words Returns a random string containing some words separated by spaces. domain"
+    },
+    {
+      "command": "helpers.arrayElement",
+      "text": "helpers.arrayElement Returns one random element from the supplied array. faker"
+    },
+    {
+      "command": "helpers.arrayElements",
+      "text": "helpers.arrayElements Returns multiple random elements from the supplied array. faker"
+    },
+    {
+      "command": "helpers.fake",
+      "text": "helpers.fake Interpolates faker template placeholders inside a string and returns the rendered result. faker"
+    },
+    {
+      "command": "helpers.fromRegExp",
+      "text": "helpers.fromRegExp Generates a string that matches the supplied regular-expression-style pattern. faker"
+    },
+    {
+      "command": "helpers.maybe",
+      "text": "helpers.maybe Calls a callback and returns its value only when faker decides the optional value should be present. faker"
+    },
+    {
+      "command": "helpers.multiple",
+      "text": "helpers.multiple Calls a generator callback multiple times and returns the collected results as an array. faker"
+    },
+    {
+      "command": "helpers.mustache",
+      "text": "helpers.mustache Replaces {{placeholder}} tokens in a string using values from the supplied data object. faker"
+    },
+    {
+      "command": "helpers.rangeToNumber",
+      "text": "helpers.rangeToNumber Converts a number or { min, max } range into a concrete number. faker"
+    },
+    {
+      "command": "helpers.replaceCreditCardSymbols",
+      "text": "helpers.replaceCreditCardSymbols Replaces credit-card placeholders and computes a valid Luhn checksum for the result. faker"
+    },
+    {
+      "command": "helpers.replaceSymbols",
+      "text": "helpers.replaceSymbols Replaces placeholder symbols such as # and ? in a string with random digits or letters. faker"
+    },
+    {
+      "command": "helpers.shuffle",
+      "text": "helpers.shuffle Returns a shuffled copy of the supplied array. faker"
+    },
+    {
+      "command": "helpers.slugify",
+      "text": "helpers.slugify Converts a string into a URL-friendly slug. faker"
+    },
+    {
+      "command": "helpers.uniqueArray",
+      "text": "helpers.uniqueArray Builds an array of unique values by repeatedly sampling a source until the requested length is reached. faker"
+    },
+    {
+      "command": "helpers.weightedArrayElement",
+      "text": "helpers.weightedArrayElement Returns one value from a weighted array, favoring entries with higher weights. faker"
+    }
+  ],
+  "visibleTextSample": "Select schema method × All Core airline airplane airport animal autoIncrement book chemicalElement color commerce company database datatype date finance food git hacker image internet language literal location lorem music number person phone string system unit vehicle word Faker Recently used enum Enum values allow you to specify a list of discrete options. Use comma-separated values with no quotes, for example \"active,inactive,pending\" or \"enum active,inactive,pending\". enum literal Literal data repeats the exact text you enter for every generated row. literal regex Regex patterns generate random values that match the specified expression. regex airline.aircraftType Returns a random aircraft type. domain airline.flightNumber Returns a random flight number. Flight numbers are always 1 to 4 digits long and may include leading zeros. domain airline.iataCode Generate an airline IATA code. domain airline.name Generate an airline name. domain airline.recordLocator Generates a random record locator. Record locators are 6-character alphanumeric booking references. domain airline.seat Generates a random seat. domain airplane.iataTypeCode Generate an airplane IATA type code. domain airplane.name Generate an airplane model name. domain airport.iataCode Generate an airport IATA code. domain airport.name Generate an airport name. domain animal.bear Returns a random bear species. domain animal.bird Returns a random bird species. domain animal.cat Returns a random cat breed. domain animal.cetacean Returns a random cetacean species. domain animal.cow Returns a random cow species. domain animal.crocodilia Returns a random crocodilian species. domain animal.dog Returns a random dog breed. domain animal.fish Returns a random fish species. domain animal.horse Returns a random horse breed. domain animal.insect Returns a random insect species. domain animal.lion Returns a random lion species. domain animal.petName Returns a random pet name. domain animal.rabbit Returns a random rabbit species. domain animal.rodent Returns a random rodent breed. domain animal.snake Returns a random snake species. domain animal.type Returns a random animal type. domain autoIncrement.sequence Generates an incrementing sequence. Values only advance when a generated row is accepted, so constraint-filtered rows do not consume sequence numbers. domain autoIncrement.timestamp Generates a timestamp that starts from a fixed point and increments by the configured amount for each generated row. domain book.author Returns a random author name. domain book.format Returns a random book format. domain book.genre Returns a random genre. domain book.publisher Returns a random publisher. domain book.series Returns a random series. domain book.title Returns a random title. domain chemicalElement.atomicNumber Generate a chemical element atomic number. domain chemicalElement.name Generate a chemical element name. domain chemicalElement.symbol Generate a chemical element symbol. domain color.cmyk Returns a CMYK color. domain color.colorByCSSColorSpace Returns a random color based on CSS color space specified. domain color.cssSupportedFunction Returns a random css supported color function name. domain color.cssSupportedSpace Returns a random css supported color space name. domain color.hsl Returns an HSL color. domain color.human Returns a random human-readable color name. domain color.hwb Returns an HWB color. domain color.lab Returns a LAB (CIELAB) color. domain color.lch Returns an LCH color. domain color.rgb Returns an RGB color. domain color.space Returns a random color space name from the worldwide accepted color spaces. domain commerce.department Returns a department inside a shop. domain commerce.isbn Returns a random ISBN identifier. domain commerce.price Generates a price between min and max (inclusive). domain commerce.product Returns a short product name. domain commerce.productAdjective Returns an adjective describing a product. domain commerce.productDescription Returns a product description. domain commerce.productMaterial Returns a material of a product. domain commerce.productName Generates a random descriptive product name. domain commerce.upc Returns a valid UPC-A (12 digits). domain company.buzzAdjective Returns a random buzz adjective that can be used to demonstrate data being viewed by a manager. domain company.buzzNoun Returns a random buzz noun that can be used to demonstrate data being viewed by a manager. domain company.buzzPhrase Generates a random buzz phrase that can be used to demonstrate data being viewed by a manager. domain company.buzzVerb Returns a random buzz verb that can be used to demonstrate data being viewed by a manager. domain company.catchPhrase Generates a random catch phrase that can be displayed to an end user. domain company.catchPhraseAdjective Returns a random catch phrase adjective that can be displayed to an end user. domain company.catchPhraseDescriptor Returns a random catch phrase descriptor that can be displayed "
+}

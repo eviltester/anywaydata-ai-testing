@@ -1,0 +1,232 @@
+{
+  "ideas": [
+    {
+      "idea": "Retest commerce.price exact help syntax over more rows",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Use params dialog for commerce.price instead of direct params typing",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Use params dialog for helpers.arrayElement with documented examples",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Retest enum via picker against direct enum row",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Retest literal via picker value entry",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Retest regex via picker value entry",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Retest datatype.enum search from All and datatype tab",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Check no-match search disables Apply and recovers after clearing search",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Check recent method duplicate ordering after repeated selection",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Check Method Help Display docs links for representative commands",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Pairwise/n-wise constraints with generated commands",
+      "classification": "defer"
+    },
+    {
+      "idea": "Screen-reader manual pass in NVDA/VoiceOver",
+      "classification": "defer"
+    }
+  ],
+  "results": {
+    "commercePick": {
+      "count": 1,
+      "tiles": [
+        "commerce.price Generates a price between min and max (inclusive). domain"
+      ],
+      "detail": "commerce.price\n\nGenerates a price between min and max (inclusive).\n\nSchema: awd.domain.commerce.price()\n\nParameter Details\nName\tDetails\ndec\tThe number of decimal places. Example: 2\nmax\tThe maximum price. Example: 100\nmin\tThe minimum price. Example: 1\nsymbol\tThe currency value to use. Example: $\nParameter Types\nName\tType\tReq\ndec\tinteger\toptional\nmax\tnumber\toptional\nmin\tnumber\toptional\nsymbol\tstring\toptional\nUsage Examples\n\nShows commerce.price in use.\n\nCommand: commerce.price\n\nParams field: (dec=2, max=10, min=1, symbol=\"$\")\n\nFull call: commerce.price(dec=2, max=10, min=1, symbol=\"$\")\n\nReturns: $4.79\n\nShows commerce.price when optional params are omitted.\n\nCommand: commerce.price\n\nParams field: Leave blank\n\nFull call: commerce.price()\n\nReturns: 417.69\n\nShows commerce.price using dec.\n\nCommand: commerce.price\n\nParams field: (dec=2)\n\nFull call: commerce.price(dec=2)\n\nReturns: 417.69\n\nShows commerce.price using max.\n\nCommand: commerce.price\n\nParams field: (max=100)\n\nFull call: commerce.pri",
+      "docsHref": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/commerce",
+      "applyDisabled": false,
+      "clicked": true
+    },
+    "commerceParamDialogBefore": {
+      "text": "Edit Params\n\nawd.domain.commerce.price\n\n×\n\nGenerates a price between min and max (inclusive).\n\nName\tType\tReq\tValue\n\ndec\n\tinteger\t\n\t\n\n\nmax\n\tnumber\t\n\t\n\n\nmin\n\tnumber\t\n\t\n\n\nsymbol\n\tstring\t\n\t\nGenerated params\n()\nCancel\nApply",
+      "fields": [
+        {
+          "i": 0,
+          "label": "dec value",
+          "value": "",
+          "placeholder": ""
+        },
+        {
+          "i": 1,
+          "label": "max value",
+          "value": "",
+          "placeholder": ""
+        },
+        {
+          "i": 2,
+          "label": "min value",
+          "value": "",
+          "placeholder": ""
+        },
+        {
+          "i": 3,
+          "label": "symbol value",
+          "value": "",
+          "placeholder": ""
+        }
+      ]
+    },
+    "commerceParamDialogAfter": {
+      "error": "",
+      "applyDisabled": false
+    },
+    "commercePreview": {
+      "schemaError": "",
+      "status": "",
+      "output": "\"Price\"\n\"$16.55\"\n\"$18.09\"\n\"$19.05\"\n\"$17.75\"\n\"$16.45\"\n\"$12.60\"\n\"$11.35\"\n\"$17.89\"\n\"$16.55\"\n\"$16.29\"\n\"$10.45\"\n\"$14.45\"\n\"$10.59\"\n\"$11.50\"\n\"$19.65\"\n\"$13.79\"\n\"$18.30\"\n\"$10.79\"\n\"$15.40\"\n\"$13.45\"",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\ncommerce.price\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjective\ncompany.buzzNoun\ncompany.buzzPhrase\ncompany.buzzVerb\ncompany.catchPhrase\ncompany.catchPhraseAdjective\ncompany.catchPhraseDescriptor\ncompany.catchPhraseNoun\ncompany.name\ndatabase.collation\ndatabase.column\ndatabase.engine\ndatabase.mongodbObjectId\ndatabase.type\ndatatype.boolean\ndatatype.enum\ndate.anytime\ndate.between\ndate.birthdate\ndate.future\ndate.month\ndate.past\ndate.recent\ndate.soon\ndate.timeZone\ndate.weekday\nfinance.accountName\nfinance.accountNumber\nfinance.amount\nfinance.bic\nfinance.bitcoinAddress\nfinance.creditCardCVV\nfinance.creditCardIssuer\nfinance.creditCardNumber\nfinance.currencyCode\nfinance.currencyName\nfinance.currencyNumericCode\nfinance.currencySymbol\nfinance.ethereumAddress\nfinance.iban\nfinance.litecoinAddress\nfinance.pin\nfinance.routingNumber\nfinance.transactionDescription\nfinance.transactionType\nfood.adjective\nfood.description\nfood.dish\nfood.ethnicCategory\nfood.fruit\nfood.ingredient\nfood.meat\nfood.spice\nfood.vegetable\ngit.branch\ngit.commitDate\ngit.commitEntry\ngit.commitMessage\ngit.commitSha\nhacker.abbreviation\nhacker.adjective\nhacker.ingverb\nhacker.noun\nhacker.phrase\nhacker.verb\nimage.avatar\nimage.avatarGitHub\nimage.dataUri\nimage.personPortrait\nimage.url\nimage.urlPicsumPhotos\ninternet.displayName\ninternet.domainName\ninternet.domainSuffix\ninternet.domainWord\ninternet.email\ninternet.emoji\ninternet.exampleEmail\ninternet.httpMethod\ninternet.httpStatusCode\ninternet.ip\ninternet.ipv4\ninternet.ipv6\ninternet.jwt\ninternet.jwtAlgorithm\ninternet.mac\ninternet.password\ninternet.port\ninternet.protocol\ninternet.url\ninternet.userAgent\ninternet.username\nlanguage.alpha2\nlanguage.alpha3\nlanguage.name\nliteral.value\nlocation.buildingNumber\nlocation.cardinalDirection\nlocation.city\nlocation.continent\nlocation.country\nlocation.countryCode\nlocation.county\nlocation.direction\nlocation.latitude\nlocation.longitude\nlocation.ordinalDirection\nlocation.secondaryAddress\nlocation.state\nlocation.street\nlocation.streetAddress\nlocation.timeZone\nlocation.zipCode\nlorem.lines\nlorem.paragraph\nlorem.paragraphs\nlorem.sentence\nlorem.sentences\nlorem.slug\nlorem.text\nlorem.word\nlorem.words\nmusic.album\nmusic.artist\nmusic.genre\nmusic.songName\nnumber.bigInt\nnumber.binary\nnumber.float\nnumber.hex\nnumber.int\nnumber.octal\nnumber.romanNumeral\nperson.bio\nperson.firstName\nperson.fullName\nperson.gender\nperson.jobArea\nperson.jobDescriptor\nperson.jobTitle\nperson.jobType\nperson.lastName\nperson.middleName\nperson.prefix\nperson.sex\nperson.sexType\nperson.suffix\nperson.zodiacSign\nphone.imei\nphone.number\nstring.alpha\nstring.alphanumeric\nstring.binary\nstring.counterString\nstring.fromCharacters\nstring.hexadecimal\nstring.nanoid\nstring.numeric\nstring.octal\nstring.sample\nstring.symbol\nstring.ulid\nstring.uuid\nsystem.commonFileExt\nsystem.commonFileName\nsystem.commonFileType\nsystem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words"
+    },
+    "helperPick": {
+      "count": 2,
+      "tiles": [
+        "helpers.arrayElement Returns one random element from the supplied array. faker",
+        "helpers.arrayElements Returns multiple random elements from the supplied array. faker"
+      ],
+      "detail": "helpers.arrayElement\n\nReturns one random element from the supplied array.\n\nSchema: faker.helpers.arrayElement()\n\nParameter Details\nName\tDetails\narray\tArray of candidate values to choose from.\nParameter Types\nName\tType\tReq\narray\tarray\trequired\nUsage Examples\n\nShows helpers.arrayElement in use.\n\nCommand: helpers.arrayElement\n\nParams field: ([\"A\", \"B\", \"C\"])\n\nFull call: helpers.arrayElement([\"A\", \"B\", \"C\"])\n\nReturns: B\n\nOpen documentation",
+      "docsHref": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/faker/helpers",
+      "applyDisabled": false,
+      "clicked": true
+    },
+    "helperParamDialog": {
+      "error": "Row 1: invalid faker params - Invalid Faker API Call Unsafe faker rule syntax detected: requires complex argument parsing",
+      "applyDisabled": true,
+      "text": "Edit Params\n\nfaker.helpers.arrayElement\n\n×\n\nReturns one random element from the supplied array.\n\nName\tType\tReq\tValue\n\narray\n\tarray\t\n\t\nGenerated params\n(array=([\"free\", \"pro\", \"enterprise\"]))\n\nRow 1: invalid faker params - Invalid Faker API Call Unsafe faker rule syntax detected: requires complex argument parsing\n\nCancel\nApply"
+    },
+    "coreViaPicker": [
+      {
+        "tc": {
+          "cmd": "enum",
+          "value": "alpha,beta,gamma"
+        },
+        "pick": {
+          "count": 2,
+          "tiles": [
+            "enum Enum values allow you to specify a list of discrete options. Use comma-separated values with no quotes, for example \"active,inactive,pending\" or \"enum acti",
+            "datatype.enum Enum helper accepts CSV values or a string array and returns one value at random. Bare CSV is supported as schema shorthand; function calls use qu"
+          ],
+          "detail": "enum\n\nEnum values allow you to specify a list of discrete options. Use comma-separated values with no quotes, for example \"active,inactive,pending\" or \"enum active,inactive,pending\".\n\nSchema: Enum()\n\nParameter Details\nName\tDetails\nvalues\tList of allowed values randomly selected during generation. Example: active,inactive,pending\nParameter Types\nName\tType\tReq\nvalues\tcomma-separated list\trequired\nUsage Examples\n\nEnum example usage.\n\nCommand: enum\n\nParams field: Leave blank\n\nFull call: enum active,inactive,pending\n\nOpen documentation",
+          "docsHref": "https://eviltester.github.io/grid-table-editor/site/docs/category/generating-data",
+          "applyDisabled": false,
+          "clicked": true
+        },
+        "valueCount": 1,
+        "afterFill": {
+          "sourceType": "enum",
+          "value": "alpha,beta,gamma",
+          "rowText": "enum\nliteral\nregex\ndomain\nfaker\nRow 1: enum value is required."
+        },
+        "preview": {
+          "schemaError": "",
+          "status": "",
+          "output": "",
+          "rowText": "enum\nliteral\nregex\ndomain\nfaker"
+        }
+      },
+      {
+        "tc": {
+          "cmd": "literal",
+          "value": "hello loop2"
+        },
+        "pick": {
+          "count": 2,
+          "tiles": [
+            "literal Literal data repeats the exact text you enter for every generated row. literal",
+            "literal.value Return the literal value provided by the caller. domain"
+          ],
+          "detail": "literal\n\nLiteral data repeats the exact text you enter for every generated row.\n\nSchema: Literal()\n\nParameter Details\nName\tDetails\nvalue\tThe exact value emitted for every generated row. Example: Pending Review\nParameter Types\nName\tType\tReq\nvalue\tstring\trequired\nUsage Examples\n\nLiteral example usage.\n\nCommand: literal\n\nParams field: (Pending Review)\n\nFull call: literal(Pending Review)\n\nOpen documentation",
+          "docsHref": "https://eviltester.github.io/grid-table-editor/site/docs/category/generating-data",
+          "applyDisabled": false,
+          "clicked": true
+        },
+        "valueCount": 1,
+        "afterFill": {
+          "sourceType": "literal",
+          "value": "hello loop2",
+          "rowText": "enum\nliteral\nregex\ndomain\nfaker"
+        },
+        "preview": {
+          "schemaError": "",
+          "status": "",
+          "output": "\"Value\"\n\"hello loop2\"\n\"hello loop2\"\n\"hello loop2\"\n\"hello loop2\"\n\"hello loop2\"\n\"hello loop2\"\n\"hello loop2\"\n\"hello loop2\"\n\"hello loop2\"\n\"hello loop2\"",
+          "rowText": "enum\nliteral\nregex\ndomain\nfaker"
+        }
+      },
+      {
+        "tc": {
+          "cmd": "regex",
+          "value": "[A-Z]{2}[0-9]{2}"
+        },
+        "pick": {
+          "count": 2,
+          "tiles": [
+            "regex Regex patterns generate random values that match the specified expression. regex",
+            "helpers.fromRegExp Generates a string that matches the supplied regular-expression-style pattern. faker"
+          ],
+          "detail": "regex\n\nRegex patterns generate random values that match the specified expression.\n\nSchema: Regex()\n\nParameter Details\nName\tDetails\npattern\tThe regular expression used to generate each value. Example: [A-Z]{3}\nParameter Types\nName\tType\tReq\npattern\tregex string\trequired\nUsage Examples\n\nRegex example usage.\n\nCommand: regex\n\nParams field: ([A-Z]{3})\n\nFull call: regex([A-Z]{3})\n\nOpen documentation",
+          "docsHref": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/regex-test-data",
+          "applyDisabled": false,
+          "clicked": true
+        },
+        "valueCount": 1,
+        "afterFill": {
+          "sourceType": "regex",
+          "value": "[A-Z]{2}[0-9]{2}",
+          "rowText": "enum\nliteral\nregex\ndomain\nfaker\nRow 1: regex value is required."
+        },
+        "preview": {
+          "schemaError": "",
+          "status": "",
+          "output": "",
+          "rowText": "enum\nliteral\nregex\ndomain\nfaker"
+        }
+      }
+    ],
+    "datatypeEnumAll": {
+      "count": 1,
+      "tiles": [
+        "datatype.enum Enum helper accepts CSV values or a string array and returns one value at random. Bare CSV is supported as schema shorthand; function calls use qu"
+      ],
+      "selected": "datatype.enum"
+    },
+    "datatypeTabAfterSearch": {
+      "count": 1,
+      "tiles": [
+        "datatype.enum Enum helper accepts CSV values or a string array and returns one value at random. Bare CSV is supported as schema shorthand; function calls use qu"
+      ]
+    },
+    "noMatch": {
+      "count": 0,
+      "text": "No methods match the current filter.",
+      "applyDisabled": true
+    },
+    "recovery": {
+      "count": 1,
+      "first": "internet.email Generates data using faker internet email. domain",
+      "applyDisabled": false,
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/internet"
+    }
+  }
+}

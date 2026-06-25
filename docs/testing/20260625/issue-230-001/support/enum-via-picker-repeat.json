@@ -1,0 +1,102 @@
+{
+  "search": [
+    "enum Enum values allow you to specify a list of discrete options. Use comma-separated values with no quotes, for example \"active,inactive,pe",
+    "datatype.enum Enum helper accepts CSV values or a string array and returns one value at random. Bare CSV is supported as schema shorthand; f"
+  ],
+  "inputsAfterApply": [
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "dataField": null,
+      "value": "",
+      "text": "",
+      "disabled": false,
+      "visible": true,
+      "html": "<button class=\"icon-button shared-schema-drag-handle\" type=\"button\" data-action=\"drag\" data-row-id=\"schema-row-2\" title=\"Drag field to reorder\" draggable=\"true\" aria-label=\"Drag field to reorder\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"c"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "dataField": null,
+      "value": "",
+      "text": "",
+      "disabled": false,
+      "visible": true,
+      "html": "<button class=\"icon-button\" type=\"button\" data-action=\"add\" data-row-id=\"schema-row-2\" title=\"Add field\" aria-label=\"Insert field after this row\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"roun"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "dataField": null,
+      "value": "",
+      "text": "",
+      "disabled": false,
+      "visible": true,
+      "html": "<button class=\"icon-button\" type=\"button\" data-action=\"remove\" data-row-id=\"schema-row-2\" title=\"Remove field\" aria-label=\"Remove field\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "dataField": null,
+      "value": "",
+      "text": "",
+      "disabled": true,
+      "visible": true,
+      "html": "<button class=\"icon-button\" type=\"button\" data-action=\"up\" data-row-id=\"schema-row-2\" title=\"Move up\" aria-label=\"Move up\" disabled=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-l"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "dataField": null,
+      "value": "",
+      "text": "",
+      "disabled": true,
+      "visible": true,
+      "html": "<button class=\"icon-button\" type=\"button\" data-action=\"down\" data-row-id=\"schema-row-2\" title=\"Move down\" aria-label=\"Move down\" disabled=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" st"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "dataField": "name",
+      "value": "Status",
+      "placeholder": "Column Name",
+      "text": "",
+      "disabled": false,
+      "visible": true,
+      "html": "<input type=\"text\" data-field=\"name\" class=\"shared-schema-field-invalid\" placeholder=\"Column Name\" aria-label=\"Column Name\" value=\"\">"
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "dataField": "sourceType",
+      "value": "enum",
+      "text": "enum\nliteral\nregex\ndomain\nfaker",
+      "disabled": false,
+      "visible": true,
+      "html": "<select data-field=\"sourceType\" class=\"\" aria-label=\"Field type\">\n                    <option value=\"enum\" selected=\"\">enum</option>\n                    <option value=\"literal\">literal</option>\n                    <option value=\"regex\">regex</option>\n                    <option value=\"domain\">domain"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "dataField": "value",
+      "value": "",
+      "placeholder": "Value / Regex",
+      "text": "",
+      "disabled": false,
+      "visible": true,
+      "html": "<input type=\"text\" data-field=\"value\" placeholder=\"Value / Regex\" aria-label=\"Value / Regex\" value=\"\">"
+    }
+  ],
+  "valueInputCount": 1,
+  "afterFill": {
+    "rowText": "enum\nliteral\nregex\ndomain\nfaker\nRow 1: enum value is required.",
+    "value": "",
+    "sourceType": "enum"
+  },
+  "preview": {
+    "status": "",
+    "schemaError": "Row 1: enum value is required.",
+    "output": "",
+    "rowText": "enum\nliteral\nregex\ndomain\nfaker\nRow 1: enum value is required."
+  }
+}

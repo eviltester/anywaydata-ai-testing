@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/internet",
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/internet/",
+    "length": 78878,
+    "title": "",
+    "snippet": "internet Domain | AnyWayData - Data Table Editor &amp; Generator {\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Generating Data\",\"item\":\"https://anywaydata.com/docs/category/generating-data\"},{\"@type\":\"ListItem\",\"position\":2,\"nam"
+  },
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/commerce",
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/commerce/",
+    "length": 49672,
+    "title": "",
+    "snippet": "commerce Domain | AnyWayData - Data Table Editor &amp; Generator {\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Generating Data\",\"item\":\"https://anywaydata.com/docs/category/generating-data\"},{\"@type\":\"ListItem\",\"position\":2,\"nam"
+  },
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/faker/helpers",
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/faker/helpers/",
+    "length": 39705,
+    "title": "",
+    "snippet": "Faker Helpers | AnyWayData - Data Table Editor &amp; Generator {\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Generating Data\",\"item\":\"https://anywaydata.com/docs/category/generating-data\"},{\"@type\":\"ListItem\",\"position\":2,\"name\""
+  },
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/datatype",
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/datatype/",
+    "length": 37223,
+    "title": "",
+    "snippet": "datatype Domain | AnyWayData - Data Table Editor &amp; Generator {\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Generating Data\",\"item\":\"https://anywaydata.com/docs/category/generating-data\"},{\"@type\":\"ListItem\",\"position\":2,\"nam"
+  },
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/category/generating-data",
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://eviltester.github.io/grid-table-editor/site/docs/category/generating-data/",
+    "length": 31776,
+    "title": "",
+    "snippet": "Generating Data | AnyWayData - Data Table Editor &amp; Generator {\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Generating Data\",\"item\":\"https://anywaydata.com/docs/category/generating-data\"}]} body::before { content: \"Test Envir"
+  },
+  {
+    "url": "https://anywaydata.com/docs/test-data/domain/internet",
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://anywaydata.com/docs/test-data/domain/internet/",
+    "length": 66153,
+    "title": "",
+    "snippet": "internet Domain | AnyWayData - Data Table Editor &amp; Generator {\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Generating Data\",\"item\":\"https://anywaydata.com/docs/category/generating-data\"},{\"@type\":\"ListItem\",\"position\":2,\"nam"
+  },
+  {
+    "url": "https://anywaydata.com/docs/test-data/faker/helpers",
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://anywaydata.com/docs/test-data/faker/helpers/",
+    "length": 37937,
+    "title": "",
+    "snippet": "Faker Helpers | AnyWayData - Data Table Editor &amp; Generator {\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Generating Data\",\"item\":\"https://anywaydata.com/docs/category/generating-data\"},{\"@type\":\"ListItem\",\"position\":2,\"name\""
+  }
+]

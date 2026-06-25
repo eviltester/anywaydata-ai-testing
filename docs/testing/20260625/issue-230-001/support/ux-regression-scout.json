@@ -1,0 +1,3095 @@
+{
+  "landing": {
+    "url": "https://eviltester.github.io/grid-table-editor/",
+    "title": "Grid Table Editor Test Environment",
+    "text": "Test Environment\n\nStatic build for GitHub Pages-style review, including the main app, generator, experimental AI/test surfaces, Storybook, and a full merged AnyWayData site.\n\nAccess the nested docs and blog at site/.\n\nBRANCH\n\ncodex/230-method-picker-mvc\n\nCOMMIT\n\n04570e0e428d\n\nBUILT\n\n2026-06-25T21:29:58.356Z\n\nApp\n\nThe main grid editor application entry point.\n\nOpen app.html\nGenerator\n\nThe standalone schema-driven test data generator.\n\nOpen generator.html\nCombinatorial\n\nThe experimental n-wise strategy comparison environment.\n\nOpen combinatorial.html\nWebMCP\n\nThe experimental in-browser MCP surface for browser-integrated AI tooling.\n\nOpen webmcp.html\nWriter Schema\n\nThe experimental Writer API prototype for turning prompts into AnyWayData schemas.\n\nOpen writer-schema.html\nStorybook\n\nUI review environment with schema editor and export format stories.\n\nOpen Storybook\nFull Site\n\nThe merged AnyWayData docs, blog, and app build published under a nested site path.\n\nOpen site/",
+    "links": [
+      {
+        "text": "site/",
+        "href": "https://eviltester.github.io/grid-table-editor/site/"
+      },
+      {
+        "text": "Open app.html",
+        "href": "https://eviltester.github.io/grid-table-editor/app.html"
+      },
+      {
+        "text": "Open generator.html",
+        "href": "https://eviltester.github.io/grid-table-editor/generator.html"
+      },
+      {
+        "text": "Open combinatorial.html",
+        "href": "https://eviltester.github.io/grid-table-editor/combinatorial.html"
+      },
+      {
+        "text": "Open webmcp.html",
+        "href": "https://eviltester.github.io/grid-table-editor/webmcp.html"
+      },
+      {
+        "text": "Open writer-schema.html",
+        "href": "https://eviltester.github.io/grid-table-editor/writer-schema.html"
+      },
+      {
+        "text": "Open Storybook",
+        "href": "https://eviltester.github.io/grid-table-editor/storybook/index.html"
+      },
+      {
+        "text": "Open site/",
+        "href": "https://eviltester.github.io/grid-table-editor/site/"
+      }
+    ]
+  },
+  "appProof": {
+    "url": "https://eviltester.github.io/grid-table-editor/app.html",
+    "title": "Test Data Generator and Table Editor for Markdown, CSV, JSON, Gherkin and HTML - AnyWayData",
+    "text": "Instructions \nAdd Row Add Rows Above Add Rows Below Delete Selected Rows Filter:  Clear Filters Clear Sort Reset Table  Unique Column Names\n~rename-me\n\n\nTotal rows: 0\nTest Data \n→\n→\nImport / Export\n Auto Sync\nPreview\nRows \nCopy\nMarkdown\nCSV\nDelimited\nJSON\nJSONL\nXML\nSQL\nCode\nCode (Unit Test)\nGherkin\nHTML\nASCII\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply",
+    "buttons": [
+      {
+        "i": 0,
+        "tag": "A",
+        "text": "AnyWayData",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 1,
+        "tag": "A",
+        "text": "Generator",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 2,
+        "tag": "A",
+        "text": "Docs",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 3,
+        "tag": "A",
+        "text": "Blog",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 4,
+        "tag": "BUTTON",
+        "text": "🌙",
+        "id": "",
+        "classes": "theme-toggle-button"
+      },
+      {
+        "i": 5,
+        "tag": "SUMMARY",
+        "text": "Instructions",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 6,
+        "tag": "BUTTON",
+        "text": "Show help",
+        "id": "",
+        "classes": "helpicon"
+      },
+      {
+        "i": 7,
+        "tag": "BUTTON",
+        "text": "Copy Instructions To Grid",
+        "id": "",
+        "classes": "instructions-copy-to-grid-button"
+      },
+      {
+        "i": 16,
+        "tag": "A",
+        "text": "import the text box content",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 17,
+        "tag": "A",
+        "text": "import a text file",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 18,
+        "tag": "A",
+        "text": "export the Data Grid",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 19,
+        "tag": "A",
+        "text": "import the file",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 20,
+        "tag": "A",
+        "text": "imports the text box content",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 21,
+        "tag": "A",
+        "text": "import a text file",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 22,
+        "tag": "A",
+        "text": "export the Data Grid",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 23,
+        "tag": "A",
+        "text": "Data Formats docs",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 24,
+        "tag": "A",
+        "text": "Markdown",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 25,
+        "tag": "A",
+        "text": "formatting options",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 26,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 27,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 28,
+        "tag": "A",
+        "text": "CSV (Comma Separated Values)",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 29,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 30,
+        "tag": "A",
+        "text": "Delimited",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 31,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 32,
+        "tag": "A",
+        "text": "JSON",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 33,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 34,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 35,
+        "tag": "A",
+        "text": "JSONL options",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 36,
+        "tag": "A",
+        "text": "Javascript",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 37,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 38,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 39,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 40,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 41,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 42,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 43,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 44,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 45,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 46,
+        "tag": "A",
+        "text": "XML",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 47,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 48,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 49,
+        "tag": "A",
+        "text": "SQL options",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 50,
+        "tag": "A",
+        "text": "Gherkin",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 51,
+        "tag": "A",
+        "text": "formatting options",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 52,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 53,
+        "tag": "A",
+        "text": "HTML Table",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 54,
+        "tag": "A",
+        "text": "Learn more",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 55,
+        "tag": "A",
+        "text": "See full unit-test option mapping",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 56,
+        "tag": "A",
+        "text": "Generate To File docs",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 57,
+        "tag": "A",
+        "text": "Generate To File docs",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 58,
+        "tag": "A",
+        "text": "Generate To File docs",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 59,
+        "tag": "A",
+        "text": "Pairwise testing docs",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 60,
+        "tag": "A",
+        "text": "Generate To File docs",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 61,
+        "tag": "A",
+        "text": "Pairwise testing docs",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 62,
+        "tag": "BUTTON",
+        "text": "Add Row",
+        "id": "addRowButton",
+        "classes": ""
+      },
+      {
+        "i": 63,
+        "tag": "BUTTON",
+        "text": "Add Rows Above",
+        "id": "addRowsAboveButton",
+        "classes": ""
+      },
+      {
+        "i": 64,
+        "tag": "BUTTON",
+        "text": "Add Rows Below",
+        "id": "addRowsBelowButton",
+        "classes": ""
+      },
+      {
+        "i": 65,
+        "tag": "BUTTON",
+        "text": "Delete Selected Rows",
+        "id": "deleteSelectedRowsButton",
+        "classes": ""
+      },
+      {
+        "i": 66,
+        "tag": "BUTTON",
+        "text": "Clear Filters",
+        "id": "clearFiltersButton",
+        "classes": ""
+      },
+      {
+        "i": 67,
+        "tag": "BUTTON",
+        "text": "Clear Sort",
+        "id": "clearSortButton",
+        "classes": ""
+      },
+      {
+        "i": 68,
+        "tag": "BUTTON",
+        "text": "Reset Table",
+        "id": "clearTableButton",
+        "classes": ""
+      },
+      {
+        "i": 69,
+        "tag": "BUTTON",
+        "text": "Filter column",
+        "id": "",
+        "classes": "customFilterMenuButton header-icon-button"
+      },
+      {
+        "i": 70,
+        "tag": "BUTTON",
+        "text": "Sort descending",
+        "id": "",
+        "classes": "customSortDownLabel header-icon-button"
+      },
+      {
+        "i": 71,
+        "tag": "BUTTON",
+        "text": "Sort ascending",
+        "id": "",
+        "classes": "customSortUpLabel header-icon-button"
+      },
+      {
+        "i": 72,
+        "tag": "BUTTON",
+        "text": "Clear sort",
+        "id": "",
+        "classes": "customSortRemoveLabel header-icon-button"
+      },
+      {
+        "i": 73,
+        "tag": "BUTTON",
+        "text": "Add column left",
+        "id": "",
+        "classes": "customHeaderAddLeftButton header-icon-button"
+      },
+      {
+        "i": 74,
+        "tag": "BUTTON",
+        "text": "Rename column",
+        "id": "",
+        "classes": "customHeaderRenameButton header-icon-button"
+      },
+      {
+        "i": 75,
+        "tag": "BUTTON",
+        "text": "Delete column",
+        "id": "",
+        "classes": "customHeaderDeleteButton header-icon-button"
+      },
+      {
+        "i": 76,
+        "tag": "BUTTON",
+        "text": "Duplicate column",
+        "id": "",
+        "classes": "customHeaderDuplicateButton header-icon-button"
+      },
+      {
+        "i": 77,
+        "tag": "BUTTON",
+        "text": "Add column right",
+        "id": "",
+        "classes": "customHeaderAddRightButton header-icon-button"
+      },
+      {
+        "i": 78,
+        "tag": "SUMMARY",
+        "text": "Test Data",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 79,
+        "tag": "BUTTON",
+        "text": "Show generate help",
+        "id": "",
+        "classes": "helpicon"
+      },
+      {
+        "i": 80,
+        "tag": "BUTTON",
+        "text": "Generate",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 81,
+        "tag": "BUTTON",
+        "text": "Show combination generation help",
+        "id": "",
+        "classes": "helpicon"
+      },
+      {
+        "i": 82,
+        "tag": "BUTTON",
+        "text": "Generate Combinations",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 83,
+        "tag": "BUTTON",
+        "text": "Show grid to enum schema help",
+        "id": "",
+        "classes": "helpicon"
+      },
+      {
+        "i": 84,
+        "tag": "BUTTON",
+        "text": "Grid to Enum Schema",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 131,
+        "tag": "BUTTON",
+        "text": "Dismiss message",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 132,
+        "tag": "BUTTON",
+        "text": "Show help",
+        "id": "",
+        "classes": "helpicon"
+      },
+      {
+        "i": 133,
+        "tag": "BUTTON",
+        "text": "Toggle schema text mode",
+        "id": "",
+        "classes": "icon-button"
+      },
+      {
+        "i": 136,
+        "tag": "BUTTON",
+        "text": "Drag field to reorder",
+        "id": "",
+        "classes": "icon-button shared-schema-drag-handle"
+      },
+      {
+        "i": 137,
+        "tag": "BUTTON",
+        "text": "Insert field after this row",
+        "id": "",
+        "classes": "icon-button"
+      },
+      {
+        "i": 138,
+        "tag": "BUTTON",
+        "text": "Remove field",
+        "id": "",
+        "classes": "icon-button"
+      },
+      {
+        "i": 139,
+        "tag": "BUTTON",
+        "text": "Move up",
+        "id": "",
+        "classes": "icon-button"
+      },
+      {
+        "i": 140,
+        "tag": "BUTTON",
+        "text": "Move down",
+        "id": "",
+        "classes": "icon-button"
+      },
+      {
+        "i": 141,
+        "tag": "A",
+        "text": "Regex data help",
+        "id": "",
+        "classes": "helpicon shared-schema-help-link"
+      },
+      {
+        "i": 191,
+        "tag": "BUTTON",
+        "text": "Save Schema As",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 192,
+        "tag": "BUTTON",
+        "text": "Recover Draft",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 193,
+        "tag": "BUTTON",
+        "text": "Load last used schema",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 194,
+        "tag": "BUTTON",
+        "text": "Clear last used schema",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 196,
+        "tag": "BUTTON",
+        "text": "→",
+        "id": "settextfromgridbutton",
+        "classes": ""
+      },
+      {
+        "i": 197,
+        "tag": "BUTTON",
+        "text": "→",
+        "id": "setgridfromtextbutton",
+        "classes": ""
+      },
+      {
+        "i": 198,
+        "tag": "SUMMARY",
+        "text": "Import / Export",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 199,
+        "tag": "SUMMARY",
+        "text": "Import settings",
+        "id": "",
+        "classes": "import-export-import-control__settings-summary"
+      },
+      {
+        "i": 200,
+        "tag": "BUTTON",
+        "text": "Import From Clipboard",
+        "id": "",
+        "classes": "import-export-import-control__clipboard-button"
+      },
+      {
+        "i": 201,
+        "tag": "BUTTON",
+        "text": "Download file",
+        "id": "filedownload",
+        "classes": ""
+      },
+      {
+        "i": 202,
+        "tag": "SUMMARY",
+        "text": "Export settings",
+        "id": "",
+        "classes": "export-encoding-settings__summary"
+      },
+      {
+        "i": 249,
+        "tag": "BUTTON",
+        "text": "Preview",
+        "id": "",
+        "classes": ""
+      },
+      {
+        "i": 250,
+        "tag": "BUTTON",
+        "text": "Copy",
+        "id": "",
+        "classes": "text-preview-toolbar__copy-button"
+      },
+      {
+        "i": 251,
+        "tag": "A",
+        "text": "Markdown",
+        "id": "",
+        "classes": "type-select-action"
+      },
+      {
+        "i": 252,
+        "tag": "A",
+        "text": "CSV",
+        "id": "",
+        "classes": "type-select-action"
+      },
+      {
+        "i": 253,
+        "tag": "A",
+        "text": "Delimited",
+        "id": "",
+        "classes": "type-select-action"
+      },
+      {
+        "i": 254,
+        "tag": "A",
+        "text": "JSON",
+        "id": "",
+        "classes": "type-select-action"
+      },
+      {
+        "i": 255,
+        "tag": "A",
+        "text": "JSONL",
+        "id": "",
+        "classes": "type-select-action"
+      },
+      {
+        "i": 256,
+        "tag": "A",
+        "text": "XML",
+        "id": "",
+        "classes": "type-select-action"
+      },
+      {
+        "i": 257,
+        "tag": "A",
+        "text": "SQL",
+        "id": "",
+        "classes": "type-select-action"
+      },
+      {
+        "i": 258,
+        "tag": "A",
+        "text": "Code",
+        "id": "",
+        "classes": "type-select-action"
+      },
+      {
+        "i": 259,
+        "tag": "A",
+        "text": "Code (Unit Test)",
+        "id": "",
+        "classes": "type-select-action"
+      },
+      {
+        "i": 260,
+        "tag": "A",
+        "text": "Gherkin",
+        "id": "",
+        "classes": "type-select-action"
+      },
+      {
+        "i": 261,
+        "tag": "A",
+        "text": "HTML",
+        "id": "",
+        "classes": "type-select-action"
+      },
+      {
+        "i": 262,
+        "tag": "A",
+        "text": "ASCII",
+        "id": "",
+        "classes": "type-select-action"
+      },
+      {
+        "i": 263,
+        "tag": "A",
+        "text": "import the text box content",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 264,
+        "tag": "A",
+        "text": "import a text file",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 265,
+        "tag": "A",
+        "text": "export the Data Grid",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 266,
+        "tag": "A",
+        "text": "import the file",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 267,
+        "tag": "A",
+        "text": "imports the text box content",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 268,
+        "tag": "A",
+        "text": "import a text file",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 269,
+        "tag": "A",
+        "text": "export the Data Grid",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 270,
+        "tag": "A",
+        "text": "Data Formats docs",
+        "id": "",
+        "classes": "helplink"
+      },
+      {
+        "i": 271,
+        "tag": "A",
+        "text": "Markdown",
+        "id": "",
+        "classes": "helplink"
+      }
+    ]
+  },
+  "generator": {
+    "url": "https://eviltester.github.io/grid-table-editor/generator.html",
+    "title": "Data Generator - AnyWayData",
+    "text": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n",
+    "controls": [
+      {
+        "i": 0,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "AnyWayData",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 1,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "App",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 2,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Docs",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 3,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Blog",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 4,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "🌙",
+        "id": "",
+        "name": null,
+        "classes": "theme-toggle-button",
+        "disabled": null
+      },
+      {
+        "i": 5,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Skip to main content",
+        "id": "",
+        "name": null,
+        "classes": "skip-link",
+        "disabled": null
+      },
+      {
+        "i": 6,
+        "tag": "SUMMARY",
+        "type": null,
+        "role": null,
+        "text": "Data Generator Instructions",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 7,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Show help",
+        "id": "",
+        "name": null,
+        "classes": "helpicon",
+        "disabled": null
+      },
+      {
+        "i": 8,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import the text box content",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 9,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import a text file",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 10,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "export the Data Grid",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 11,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import the file",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 12,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "imports the text box content",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 13,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import a text file",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 14,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "export the Data Grid",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 15,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Data Formats docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 16,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Markdown",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 17,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "formatting options",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 18,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 19,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 20,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "CSV (Comma Separated Values)",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 21,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 22,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Delimited",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 23,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 24,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "JSON",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 25,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 26,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 27,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "JSONL options",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 28,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Javascript",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 29,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 30,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 31,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 32,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 33,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 34,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 35,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 36,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 37,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 38,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "XML",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 39,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 40,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 41,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "SQL options",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 42,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Gherkin",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 43,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "formatting options",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 44,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 45,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "HTML Table",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 46,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 47,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "See full unit-test option mapping",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 48,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Generate To File docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 49,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Generate To File docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 50,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Generate To File docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 51,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Pairwise testing docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 52,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Generate To File docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 53,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Pairwise testing docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 54,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Dismiss message",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 55,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Show help",
+        "id": "",
+        "name": null,
+        "classes": "helpicon",
+        "disabled": null
+      },
+      {
+        "i": 56,
+        "tag": "BUTTON",
+        "type": null,
+        "role": null,
+        "text": "Edit as Text",
+        "id": "",
+        "name": null,
+        "classes": "icon-button",
+        "disabled": null
+      },
+      {
+        "i": 57,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Load Schema File",
+        "id": "",
+        "name": null,
+        "classes": "icon-button",
+        "disabled": null
+      },
+      {
+        "i": 58,
+        "tag": "INPUT",
+        "type": "file",
+        "role": null,
+        "text": "Load Schema File",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 59,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Save Schema File",
+        "id": "",
+        "name": null,
+        "classes": "icon-button",
+        "disabled": null
+      },
+      {
+        "i": 60,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Drag field to reorder",
+        "id": "",
+        "name": null,
+        "classes": "icon-button shared-schema-drag-handle",
+        "disabled": null
+      },
+      {
+        "i": 61,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Insert field after this row",
+        "id": "",
+        "name": null,
+        "classes": "icon-button",
+        "disabled": null
+      },
+      {
+        "i": 62,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Remove field",
+        "id": "",
+        "name": null,
+        "classes": "icon-button",
+        "disabled": null
+      },
+      {
+        "i": 63,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Move up",
+        "id": "",
+        "name": null,
+        "classes": "icon-button",
+        "disabled": true
+      },
+      {
+        "i": 64,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Move down",
+        "id": "",
+        "name": null,
+        "classes": "icon-button",
+        "disabled": true
+      },
+      {
+        "i": 65,
+        "tag": "INPUT",
+        "type": "text",
+        "role": null,
+        "text": "Column Name",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 66,
+        "tag": "SELECT",
+        "type": null,
+        "role": null,
+        "text": "enum\nliteral\nregex\ndomain\nfaker",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 67,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Regex data help",
+        "id": "",
+        "name": null,
+        "classes": "helpicon shared-schema-help-link",
+        "disabled": null
+      },
+      {
+        "i": 68,
+        "tag": "INPUT",
+        "type": "text",
+        "role": null,
+        "text": "Value / Regex",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 69,
+        "tag": "TEXTAREA",
+        "type": null,
+        "role": null,
+        "text": "Schema text",
+        "id": "",
+        "name": null,
+        "classes": "testDataSchemaTextArea",
+        "disabled": null
+      },
+      {
+        "i": 70,
+        "tag": "SUMMARY",
+        "type": null,
+        "role": null,
+        "text": "Schema Constraints (0)",
+        "id": "",
+        "name": null,
+        "classes": "shared-schema-constraints-summary",
+        "disabled": null
+      },
+      {
+        "i": 71,
+        "tag": "TEXTAREA",
+        "type": null,
+        "role": null,
+        "text": "Schema constraints",
+        "id": "",
+        "name": null,
+        "classes": "testDataSchemaTextArea shared-schema-constraints-textarea",
+        "disabled": null
+      },
+      {
+        "i": 72,
+        "tag": "BUTTON",
+        "type": null,
+        "role": null,
+        "text": "+ Add Field",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 73,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import the text box content",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 74,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import a text file",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 75,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "export the Data Grid",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 76,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import the file",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 77,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "imports the text box content",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 78,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import a text file",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 79,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "export the Data Grid",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 80,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Data Formats docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 81,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Markdown",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 82,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "formatting options",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 83,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 84,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 85,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "CSV (Comma Separated Values)",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 86,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 87,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Delimited",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 88,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 89,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "JSON",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 90,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 91,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 92,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "JSONL options",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 93,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Javascript",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 94,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 95,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 96,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 97,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 98,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 99,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 100,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 101,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 102,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 103,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "XML",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 104,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 105,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 106,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "SQL options",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 107,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Gherkin",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 108,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "formatting options",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 109,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 110,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "HTML Table",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 111,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 112,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "See full unit-test option mapping",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 113,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Generate To File docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 114,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Generate To File docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 115,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Generate To File docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 116,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Pairwise testing docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 117,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Generate To File docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 118,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Pairwise testing docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 119,
+        "tag": "SUMMARY",
+        "type": null,
+        "role": null,
+        "text": "Managed Stored Schemas (0)",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 120,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Save Schema As",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": true
+      },
+      {
+        "i": 121,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Recover Draft",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": true
+      },
+      {
+        "i": 122,
+        "tag": "SELECT",
+        "type": null,
+        "role": null,
+        "text": "Last Used",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 123,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Load last used schema",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": true
+      },
+      {
+        "i": 124,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Clear last used schema",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": true
+      },
+      {
+        "i": 126,
+        "tag": "INPUT",
+        "type": "number",
+        "role": null,
+        "text": "1000",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 127,
+        "tag": "SELECT",
+        "type": null,
+        "role": null,
+        "text": "CSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 128,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Show file generation help",
+        "id": "",
+        "name": null,
+        "classes": "helpicon",
+        "disabled": null
+      },
+      {
+        "i": 129,
+        "tag": "BUTTON",
+        "type": null,
+        "role": null,
+        "text": "Generate Data",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": "false"
+      },
+      {
+        "i": 130,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Show combination generation help",
+        "id": "",
+        "name": null,
+        "classes": "helpicon",
+        "disabled": null
+      },
+      {
+        "i": 131,
+        "tag": "BUTTON",
+        "type": null,
+        "role": null,
+        "text": "Generate Combinations",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": "false"
+      },
+      {
+        "i": 132,
+        "tag": "SUMMARY",
+        "type": null,
+        "role": null,
+        "text": "Settings",
+        "id": "",
+        "name": null,
+        "classes": "export-encoding-settings__summary",
+        "disabled": null
+      },
+      {
+        "i": 133,
+        "tag": "SELECT",
+        "type": null,
+        "role": null,
+        "text": "crlf",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 134,
+        "tag": "INPUT",
+        "type": "checkbox",
+        "role": null,
+        "text": "on",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 135,
+        "tag": "INPUT",
+        "type": "checkbox",
+        "role": null,
+        "text": "on",
+        "id": "",
+        "name": "quotes",
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 136,
+        "tag": "INPUT",
+        "type": "checkbox",
+        "role": null,
+        "text": "on",
+        "id": "",
+        "name": "header",
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 137,
+        "tag": "INPUT",
+        "type": "text",
+        "role": null,
+        "text": "\"",
+        "id": "",
+        "name": "quoteChar",
+        "classes": "format-option-control",
+        "disabled": null
+      },
+      {
+        "i": 138,
+        "tag": "INPUT",
+        "type": "text",
+        "role": null,
+        "text": "\"",
+        "id": "",
+        "name": "escapeChar",
+        "classes": "format-option-control",
+        "disabled": null
+      },
+      {
+        "i": 139,
+        "tag": "BUTTON",
+        "type": null,
+        "role": null,
+        "text": "Apply",
+        "id": "",
+        "name": null,
+        "classes": "apply-options",
+        "disabled": true
+      },
+      {
+        "i": 140,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import the text box content",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 141,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import a text file",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 142,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "export the Data Grid",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 143,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import the file",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 144,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "imports the text box content",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 145,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import a text file",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 146,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "export the Data Grid",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 147,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Data Formats docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 148,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Markdown",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 149,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "formatting options",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 150,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 151,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 152,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "CSV (Comma Separated Values)",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 153,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 154,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Delimited",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 155,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 156,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "JSON",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 157,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 158,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 159,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "JSONL options",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 160,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Javascript",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 161,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 162,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 163,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 164,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 165,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 166,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 167,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 168,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 169,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 170,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "XML",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 171,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 172,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 173,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "SQL options",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 174,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Gherkin",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 175,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "formatting options",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 176,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 177,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "HTML Table",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 178,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 179,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "See full unit-test option mapping",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 180,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Generate To File docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 181,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Generate To File docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 182,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Generate To File docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 183,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Pairwise testing docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 184,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Generate To File docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 185,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Pairwise testing docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 186,
+        "tag": "BUTTON",
+        "type": "button",
+        "role": null,
+        "text": "Dismiss message",
+        "id": "",
+        "name": null,
+        "classes": "",
+        "disabled": null
+      },
+      {
+        "i": 187,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import the text box content",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 188,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import a text file",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 189,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "export the Data Grid",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 190,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import the file",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 191,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "imports the text box content",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 192,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "import a text file",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 193,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "export the Data Grid",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 194,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Data Formats docs",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 195,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Markdown",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 196,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "formatting options",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 197,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 198,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 199,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "CSV (Comma Separated Values)",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      },
+      {
+        "i": 200,
+        "tag": "A",
+        "type": null,
+        "role": null,
+        "text": "Learn more",
+        "id": "",
+        "name": null,
+        "classes": "helplink",
+        "disabled": null
+      }
+    ]
+  }
+}

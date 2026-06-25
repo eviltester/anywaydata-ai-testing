@@ -1,0 +1,91 @@
+{
+  "arrayElementDialog": {
+    "dialogs": [
+      {
+        "dataRole": "stored-schemas-open-saved-dialog",
+        "role": null,
+        "text": "",
+        "html": "<button type=\"button\" data-role=\"stored-schemas-open-saved-dialog\" disabled=\"\">Load Saved Schema</button>"
+      },
+      {
+        "dataRole": "confirm-dialog",
+        "role": "dialog",
+        "text": "\n      \n      \n      \n        OK\n        Cancel\n      \n    ",
+        "html": "<div class=\"text-input-modal\" data-role=\"confirm-dialog\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"confirm-modal-title\">\n      <h3 id=\"confirm-modal-title\" data-role=\"confirm-dialog-title\" class=\"text-input-modal-title\"></h3>\n      <p id=\"confirm-modal-message\" data-role=\"confirm-dialog-message\" class=\"text-input-modal-message\"></p>\n      <div class=\"text-input-modal-actions\">\n        <button id=\"confirm-modal-ok\" data-role=\"confirm-dialog-ok\" type=\"button\">OK</button>\n        <button id=\"confirm-modal-cancel\" data-role=\"confirm-dialog-cancel\" type=\"button\">Cancel</button>\n      </div>\n    </div>"
+      },
+      {
+        "dataRole": "confirm-dialog-title",
+        "role": null,
+        "text": "",
+        "html": "<h3 id=\"confirm-modal-title\" data-role=\"confirm-dialog-title\" class=\"text-input-modal-title\"></h3>"
+      },
+      {
+        "dataRole": "confirm-dialog-message",
+        "role": null,
+        "text": "",
+        "html": "<p id=\"confirm-modal-message\" data-role=\"confirm-dialog-message\" class=\"text-input-modal-message\"></p>"
+      },
+      {
+        "dataRole": "confirm-dialog-ok",
+        "role": null,
+        "text": "OK",
+        "html": "<button id=\"confirm-modal-ok\" data-role=\"confirm-dialog-ok\" type=\"button\">OK</button>"
+      },
+      {
+        "dataRole": "confirm-dialog-cancel",
+        "role": null,
+        "text": "Cancel",
+        "html": "<button id=\"confirm-modal-cancel\" data-role=\"confirm-dialog-cancel\" type=\"button\">Cancel</button>"
+      },
+      {
+        "dataRole": "text-input-dialog",
+        "role": "dialog",
+        "text": "\n      \n      \n      \n      \n      \n        OK\n        Cancel\n      \n    ",
+        "html": "<div class=\"text-input-modal\" data-role=\"text-input-dialog\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"text-input-modal-title\">\n      <h3 id=\"text-input-modal-title\" data-role=\"text-input-dialog-title\" class=\"text-input-modal-title\"></h3>\n      <p data-role=\"text-input-dialog-message\" class=\"text-input-modal-message\"></p>\n      <label for=\"text-input-modal-field\" data-role=\"text-input-dialog-label\" class=\"text-input-modal-label\"></label>\n      <input id=\"text-input-modal-field\" data-role=\"text-input-dialog-field\" type=\"text\" class=\"text-input-modal-field\">\n      <div class=\"text-input-modal-actions\">\n        <button id=\"text-input-modal-ok\" data-role=\"text-input-dialog-ok\" type=\"button\">OK</button>\n        <button id=\"text-input-modal-cancel\" data-role=\"text-input-dialog-cancel\" type=\"button\">Cancel</button>\n      </div>\n    </div>"
+      },
+      {
+        "dataRole": "text-input-dialog-title",
+        "role": null,
+        "text": "",
+        "html": "<h3 id=\"text-input-modal-title\" data-role=\"text-input-dialog-title\" class=\"text-input-modal-title\"></h3>"
+      },
+      {
+        "dataRole": "text-input-dialog-message",
+        "role": null,
+        "text": "",
+        "html": "<p data-role=\"text-input-dialog-message\" class=\"text-input-modal-message\"></p>"
+      },
+      {
+        "dataRole": "text-input-dialog-label",
+        "role": null,
+        "text": "",
+        "html": "<label for=\"text-input-modal-field\" data-role=\"text-input-dialog-label\" class=\"text-input-modal-label\"></label>"
+      },
+      {
+        "dataRole": "text-input-dialog-field",
+        "role": null,
+        "text": "",
+        "html": "<input id=\"text-input-modal-field\" data-role=\"text-input-dialog-field\" type=\"text\" class=\"text-input-modal-field\">"
+      },
+      {
+        "dataRole": "text-input-dialog-ok",
+        "role": null,
+        "text": "OK",
+        "html": "<button id=\"text-input-modal-ok\" data-role=\"text-input-dialog-ok\" type=\"button\">OK</button>"
+      },
+      {
+        "dataRole": "text-input-dialog-cancel",
+        "role": null,
+        "text": "Cancel",
+        "html": "<button id=\"text-input-modal-cancel\" data-role=\"text-input-dialog-cancel\" type=\"button\">Cancel</button>"
+      },
+      {
+        "dataRole": "params-editor-dialog",
+        "role": "dialog",
+        "text": "Edit Params\n\nfaker.helpers.arrayElement\n\n×\n\nReturns one random element from the supplied array.\n\nName\tType\tReq\tValue\n\narray \n\tarray\t\t\nGenerated params ()\n\nAdd a value for each required param before applying.\n\nCancel Apply",
+        "html": "<div class=\"params-editor-modal\" data-role=\"params-editor-dialog\" role=\"dialog\" aria-modal=\"true\" tabindex=\"-1\" aria-label=\"Edit params for faker.helpers.arrayElement\">\n      <header class=\"params-editor-header\">\n        <div>\n          <h3>Edit Params</h3>\n          <div class=\"params-editor-subtitle-row\">\n            <p class=\"params-editor-subtitle\">faker.helpers.arrayElement</p>\n            <span class=\"helpicon params-editor-help-icon\" data-role=\"params-editor-command-help\" data-help-role=\"help-icon\" data-help=\"params-editor-command-help\" data-help-text=\"&lt;p&gt;&lt;strong&gt;faker.helpers.arrayElement&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Returns one random element from the supplied array.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;helplink&quot; href=&quot;https://eviltester.github.io/grid-table-editor/site/docs/test-data/faker/helpers&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Learn more&lt;/a&gt;&lt;/p&gt;\" tabindex=\"0\" role=\"button\" aria-label=\"Show help\" aria-expanded=\"false\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon helpicon-svg\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"></path><path d=\"M12 17h.01\"></path></svg></span>\n          </div>\n        </div>\n        <button type=\"button\" class=\"params-editor-close\" data-role=\"params-editor-close-button\" aria-label=\"Close\">×</button>\n      </header>\n      <div class=\"params-editor-body\">\n        <p class=\"params-editor-summary\">Returns one random element from the supplied array.</p>\n        <div class=\"params-editor-table-wrap\">\n                <table class=\"params-editor-table\">\n                  <thead>\n                    <tr>\n                      <th>Name</th>\n                      <th>Type</th>\n                      <th>Req</th>\n                      <th>Val"
+      }
+    ],
+    "active": "<input id=\"params-editor-value-0\" data-role=\"params-editor-value\" data-index=\"0\" type=\"text\" value=\"\" placeholder=\"\" aria-label=\"array value\">"
+  }
+}

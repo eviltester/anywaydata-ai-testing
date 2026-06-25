@@ -1,0 +1,62 @@
+[
+  {
+    "label": "slash-before",
+    "overlayOpen": true,
+    "activeTag": "INPUT",
+    "activeRole": "method-picker-search",
+    "activeText": "Filter domain or method...",
+    "searchValue": "",
+    "selectedTile": "enum",
+    "rowButtonText": "Select domain command",
+    "rowCommandValue": "",
+    "focusOnPickerButton": false
+  },
+  {
+    "label": "slash-with-tile-focused-before-key",
+    "overlayOpen": true,
+    "activeTag": "BUTTON",
+    "activeRole": "method-picker-tile",
+    "activeText": "enum\nEnum values allow you to specify a list of discrete options. Use comma-separated values with no quotes, for example \"active,inactive,pending\" or \"enum active,inactive,pending\".\nenum",
+    "searchValue": "",
+    "selectedTile": "enum",
+    "rowButtonText": "Select domain command",
+    "rowCommandValue": "",
+    "focusOnPickerButton": false
+  },
+  {
+    "label": "slash-after",
+    "overlayOpen": true,
+    "activeTag": "INPUT",
+    "activeRole": "method-picker-search",
+    "activeText": "Filter domain or method...",
+    "searchValue": "",
+    "selectedTile": "enum",
+    "rowButtonText": "Select domain command",
+    "rowCommandValue": "",
+    "focusOnPickerButton": false
+  },
+  {
+    "label": "enter-with-tile-focused-before-key",
+    "overlayOpen": true,
+    "activeTag": "BUTTON",
+    "activeRole": "method-picker-tile",
+    "activeText": "internet.httpMethod\nReturns a random HTTP request method from an AnywayData-defined pool of GET, HEAD, POST, PUT, DELETE, PATCH, OPTIONS, TRACE, and CONNECT, with optional filtering for common methods and exclusions.\ndomain",
+    "searchValue": "internet.httpMethod",
+    "selectedTile": "internet.httpMethod",
+    "rowButtonText": "Select domain command",
+    "rowCommandValue": "",
+    "focusOnPickerButton": false
+  },
+  {
+    "label": "enter-with-tile-focused-after-key",
+    "overlayOpen": true,
+    "activeTag": "BUTTON",
+    "activeRole": "method-picker-tile",
+    "activeText": "internet.httpMethod\nReturns a random HTTP request method from an AnywayData-defined pool of GET, HEAD, POST, PUT, DELETE, PATCH, OPTIONS, TRACE, and CONNECT, with optional filtering for common methods and exclusions.\ndomain",
+    "searchValue": "internet.httpMethod",
+    "selectedTile": "internet.httpMethod",
+    "rowButtonText": "Select domain command",
+    "rowCommandValue": "",
+    "focusOnPickerButton": false
+  }
+]

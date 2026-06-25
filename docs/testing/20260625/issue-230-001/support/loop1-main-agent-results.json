@@ -1,0 +1,227 @@
+{
+  "url": "https://eviltester.github.io/grid-table-editor/generator.html",
+  "startedAt": "2026-06-25T21:37:31.689Z",
+  "actions": [
+    {
+      "command": "commerce.price",
+      "searchTerm": "commerce.price",
+      "search": {
+        "searchValue": "commerce.price",
+        "filteredCount": 1,
+        "filtered": [
+          {
+            "command": "commerce.price",
+            "source": "domain",
+            "selected": true,
+            "text": "commerce.price Generates a price between min and max (inclusive). domain"
+          }
+        ],
+        "detail": "commerce.price\n\nGenerates a price between min and max (inclusive).\n\nSchema: awd.domain.commerce.price()\n\nParameter Details\nName\tDetails\ndec\tThe number of decimal places. Example: 2\nmax\tThe maximum price. Example: 100\nmin\tThe minimum price. Example: 1\nsymbol\tThe currency value to use. Example: $\nParameter Types\nName\tType\tReq\ndec\tinteger\toptional\nmax\tnumber\toptional\nmin\tnumber\toptional\nsymbol\tstring\toptional\nUsage Examples\n\nShows commerce.price in use.\n\nCommand: commerce.price\n\nParams field: (dec=2, max=10, min=1, symbol=\"$\")\n\nFull call: commerce.price(dec=2, max=10, min=1, symbol=\"$\")\n\nReturns: $4.79\n\nShows commerce.price when optional params are omitted.\n\nCommand: commerce.price\n\nParams field: Leave blank\n\nFull call: commerce.price()\n\nReturns: 417.69\n\nShows commerce.price using dec.\n\nCommand: commerce.price\n\nParams field: (dec=2)\n\nFull call: commerce.price(dec=2)\n\nReturns: 417.69\n\nShows commerce.price using max.\n\nCommand: commerce.price\n\nParams field: (max=100)\n\nFull call: commerce.price(max=100)\n\nReturns: 42.29\n\nShows commerce.price using min.\n\nCommand: commerce.price\n\nParams field: (max=10, min=1)\n\nFull call: commerce.price(max=10, min=1)\n\nReturns: 4.79\n\nShows commerce.price using symbol.\n\nCommand: commerce.price\n\nParams field: (symbol=\"$\")\n\nFull call: commerce.price(symbol=\"$\")\n\nReturns: $417.69\n\nOpen documentation",
+        "applyDisabled": false
+      },
+      "detail": "commerce.price\n\nGenerates a price between min and max (inclusive).\n\nSchema: awd.domain.commerce.price()\n\nParameter Details\nName\tDetails\ndec\tThe number of decimal places. Example: 2\nmax\tThe maximum price. Example: 100\nmin\tThe minimum price. Example: 1\nsymbol\tThe currency value to use. Example: $\nParameter Types\nName\tType\tReq\ndec\tinteger\toptional\nmax\tnumber\toptional\nmin\tnumber\toptional\nsymbol\tstring\toptional\nUsage Examples\n\nShows commerce.price in use.\n\nCommand: commerce.price\n\nParams field: (dec=2, max=10, min=1, symbol=\"$\")\n\nFull call: commerce.price(dec=2, max=10, min=1, symbol=\"$\")\n\nReturns: $4.79\n\nShows commerce.price when optional params are omitted.\n\nCommand: commerce.price\n\nParams field: Leave blank\n\nFull call: commerce.price()\n\nReturns: 417.69\n\nShows commerce.price using dec.\n\nCommand: commerce.price\n\nParams field: (dec=2)\n\nFull call: commerce.price(dec=2)\n\nReturns: 417.69\n\nShows commerce.price using max.\n\nCommand: commerce.price\n\nParams field: (max=100)\n\nFull call: commerce.price(max=100)\n\nReturns: 42.29\n\nShows commerce.price using min.\n\nCommand: commerce.price\n\nParams field: (max=10, min=1)\n\nFull call: commerce.price(max=10, min=1)\n\nReturns: 4.79\n\nShows commerce.price using symbol.\n\nCommand: commerce.price\n\nParams field: (symbol=\"$\")\n\nFull call: commerce.price(symbol=\"$\")\n\nReturns: $417.69\n\nOpen documentation",
+      "row": {
+        "sourceType": "domain",
+        "commandValue": "commerce.price",
+        "buttonText": "commerce.price",
+        "paramsDisabled": false,
+        "paramsTitle": "Edit params in dialog",
+        "rowText": "enum\nliteral\nregex\ndomain\nfaker\ncommerce.price\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjective\ncompany.buzzNoun\ncompany.buzzPhrase\ncompany.buzzVerb\ncompany.catchPhrase\ncompany.catchPhraseAdjective\ncompany.catchPhraseDescriptor\ncompany.catchPhraseNoun\ncompany.name\ndatabase.collation\ndatabase.column\ndatabase.engine\ndatabase.mongodbObjectId\ndatabase.type\ndatatype.boolean\ndatatype.enum\ndate.anytime\ndate.between\ndate.birthdate\ndate.future\ndate.month\ndate.past\ndate.recent\ndate.soon\ndate.timeZone\ndate.weekday\nfinance.accountName\nfinance.accountNumber\nfinance.amount\nfinance.bic\nfinance.bitcoinAddress\nfinance.creditCardCVV\nfinance.creditCardIssuer\nfinance.creditCardNumber\nfinance.currencyCode\nfinance.currencyName\nfinance.currencyNumericCode\nfinance.currencySymbol\nfinance.ethereumAddress\nfinance.iban\nfinance.litecoinAddress\nfinance.pin\nfinance.routingNumber\nfinance.transactionDescription\nfinance.transactionType\nfood.adjective\nfood.description\nfood.dish\nfood.ethnicCategory\nfood.fruit\nfood.ingredient\nfood.meat\nfood.spice\nfood.vegetable\ngit.branch\ngit.commitDate\ngit.commitEntry\ngit.commitMessage\ngit.commitSha\nhacker.abbreviation\nhacker.adjective\nhacker.ingverb\nhacker.noun\nhacker.phrase\nhacker.verb\nimage.avatar\nimage.avatarGitHub\nimage.dataUri\nimage.personPortrait\nimage.url\nimage.urlPicsumPhotos\ninternet.displayName\ninternet.domainName\ninternet.domainSuffix\ninternet.domainWord\ninternet.email\ninternet.emoji\ninternet.exampleEmail\ninternet.httpMethod\ninternet.httpStatusCode\ninternet.ip\ninternet.ipv4\ninternet.ipv6\ninternet.jwt\ninternet.jwtAlgorithm\ninternet.mac\ninternet.password\ninternet.port\ninternet.protocol\ninternet.url\ninternet.userAgent\ninternet.username\nlanguage.alpha2\nlanguage.alpha3\nlanguage.name\nliteral.value\nlocation.buildingNumber\nlocation.cardinalDirection\nlocation.city\nlocation.continent\nlocation.country\nlocation.countryCode\nlocation.county\nlocation.direction\nlocation.latitude\nlocation.longitude\nlocation.ordinalDirection\nlocation.secondaryAddress\nlocation.state\nlocation.street\nlocation.streetAddress\nlocation.timeZone\nlocation.zipCode\nlorem.lines\nlorem.paragraph\nlorem.paragraphs\nlorem.sentence\nlorem.sentences\nlorem.slug\nlorem.text\nlorem.word\nlorem.words\nmusic.album\nmusic.artist\nmusic.genre\nmusic.songName\nnumber.bigInt\nnumber.binary\nnumber.float\nnumber.hex\nnumber.int\nnumber.octal\nnumber.romanNumeral\nperson.bio\nperson.firstName\nperson.fullName\nperson.gender\nperson.jobArea\nperson.jobDescriptor\nperson.jobTitle\nperson.jobType\nperson.lastName\nperson.middleName\nperson.prefix\nperson.sex\nperson.sexType\nperson.suffix\nperson.zodiacSign\nphone.imei\nphone.number\nstring.alpha\nstring.alphanumeric\nstring.binary\nstring.counterString\nstring.fromCharacters\nstring.hexadecimal\nstring.nanoid\nstring.numeric\nstring.octal\nstring.sample\nstring.symbol\nstring.ulid\nstring.uuid\nsystem.commonFileExt\nsystem.commonFileName\nsystem.commonFileType\nsystem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words\nRow 1: column name is required."
+      },
+      "screenshot": "screenshots/loop1-picker-commerce-price.png"
+    },
+    {
+      "command": "internet.email",
+      "searchTerm": "internet.email",
+      "search": {
+        "searchValue": "internet.email",
+        "filteredCount": 1,
+        "filtered": [
+          {
+            "command": "internet.email",
+            "source": "domain",
+            "selected": true,
+            "text": "internet.email Generates data using faker internet email. domain"
+          }
+        ],
+        "detail": "internet.email\n\nGenerates data using faker internet email.\n\nSchema: awd.domain.internet.email()\n\nParameter Details\nName\tDetails\nallowSpecialCharacters\tWhether special characters such as .!#$%&'*+-/=?^_`{|}~ should be included in the email address.\nfirstName\tThe optional first name to use.\nlastName\tThe optional last name to use.\nprovider\tThe mail provider domain to use. If not specified, a random free mail provider will be chosen.\nParameter Types\nName\tType\tReq\nallowSpecialCharacters\tboolean\toptional\nfirstName\tstring\toptional\nlastName\tstring\toptional\nprovider\tstring\toptional\nUsage Examples\n\nShows internet.email when optional params are omitted.\n\nCommand: internet.email\n\nParams field: Leave blank\n\nFull call: internet.email()\n\nReturns: Edwin.Dibbert@hotmail.com\n\nShows internet.email using allowSpecialCharacters.\n\nCommand: internet.email\n\nParams field: (allowSpecialCharacters=true)\n\nFull call: internet.email(allowSpecialCharacters=true)\n\nReturns: Edwin.Dibbert@hotmail.com\n\nShows internet.email using firstName.\n\nCommand: internet.email\n\nParams field: (firstName=\"Ada\")\n\nFull call: internet.email(firstName=\"Ada\")\n\nReturns: Ada.Gutmann9@hotmail.com\n\nShows internet.email using lastName.\n\nCommand: internet.email\n\nParams field: (lastName=\"Lovelace\")\n\nFull call: internet.email(lastName=\"Lovelace\")\n\nReturns: Edwin.Lovelace9@hotmail.com\n\nShows internet.email using provider.\n\nCommand: internet.email\n\nParams field: (provider=\"example.com\")\n\nFull call: internet.email(provider=\"example.com\")\n\nReturns: Aaliyah.Bosco@example.com\n\nOpen documentation",
+        "applyDisabled": false
+      },
+      "detail": "internet.email\n\nGenerates data using faker internet email.\n\nSchema: awd.domain.internet.email()\n\nParameter Details\nName\tDetails\nallowSpecialCharacters\tWhether special characters such as .!#$%&'*+-/=?^_`{|}~ should be included in the email address.\nfirstName\tThe optional first name to use.\nlastName\tThe optional last name to use.\nprovider\tThe mail provider domain to use. If not specified, a random free mail provider will be chosen.\nParameter Types\nName\tType\tReq\nallowSpecialCharacters\tboolean\toptional\nfirstName\tstring\toptional\nlastName\tstring\toptional\nprovider\tstring\toptional\nUsage Examples\n\nShows internet.email when optional params are omitted.\n\nCommand: internet.email\n\nParams field: Leave blank\n\nFull call: internet.email()\n\nReturns: Edwin.Dibbert@hotmail.com\n\nShows internet.email using allowSpecialCharacters.\n\nCommand: internet.email\n\nParams field: (allowSpecialCharacters=true)\n\nFull call: internet.email(allowSpecialCharacters=true)\n\nReturns: Edwin.Dibbert@hotmail.com\n\nShows internet.email using firstName.\n\nCommand: internet.email\n\nParams field: (firstName=\"Ada\")\n\nFull call: internet.email(firstName=\"Ada\")\n\nReturns: Ada.Gutmann9@hotmail.com\n\nShows internet.email using lastName.\n\nCommand: internet.email\n\nParams field: (lastName=\"Lovelace\")\n\nFull call: internet.email(lastName=\"Lovelace\")\n\nReturns: Edwin.Lovelace9@hotmail.com\n\nShows internet.email using provider.\n\nCommand: internet.email\n\nParams field: (provider=\"example.com\")\n\nFull call: internet.email(provider=\"example.com\")\n\nReturns: Aaliyah.Bosco@example.com\n\nOpen documentation",
+      "row": {
+        "sourceType": "domain",
+        "commandValue": "internet.email",
+        "buttonText": "internet.email",
+        "paramsDisabled": false,
+        "paramsTitle": "Edit params in dialog",
+        "rowText": "enum\nliteral\nregex\ndomain\nfaker\ninternet.email\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjective\ncompany.buzzNoun\ncompany.buzzPhrase\ncompany.buzzVerb\ncompany.catchPhrase\ncompany.catchPhraseAdjective\ncompany.catchPhraseDescriptor\ncompany.catchPhraseNoun\ncompany.name\ndatabase.collation\ndatabase.column\ndatabase.engine\ndatabase.mongodbObjectId\ndatabase.type\ndatatype.boolean\ndatatype.enum\ndate.anytime\ndate.between\ndate.birthdate\ndate.future\ndate.month\ndate.past\ndate.recent\ndate.soon\ndate.timeZone\ndate.weekday\nfinance.accountName\nfinance.accountNumber\nfinance.amount\nfinance.bic\nfinance.bitcoinAddress\nfinance.creditCardCVV\nfinance.creditCardIssuer\nfinance.creditCardNumber\nfinance.currencyCode\nfinance.currencyName\nfinance.currencyNumericCode\nfinance.currencySymbol\nfinance.ethereumAddress\nfinance.iban\nfinance.litecoinAddress\nfinance.pin\nfinance.routingNumber\nfinance.transactionDescription\nfinance.transactionType\nfood.adjective\nfood.description\nfood.dish\nfood.ethnicCategory\nfood.fruit\nfood.ingredient\nfood.meat\nfood.spice\nfood.vegetable\ngit.branch\ngit.commitDate\ngit.commitEntry\ngit.commitMessage\ngit.commitSha\nhacker.abbreviation\nhacker.adjective\nhacker.ingverb\nhacker.noun\nhacker.phrase\nhacker.verb\nimage.avatar\nimage.avatarGitHub\nimage.dataUri\nimage.personPortrait\nimage.url\nimage.urlPicsumPhotos\ninternet.displayName\ninternet.domainName\ninternet.domainSuffix\ninternet.domainWord\ninternet.email\ninternet.emoji\ninternet.exampleEmail\ninternet.httpMethod\ninternet.httpStatusCode\ninternet.ip\ninternet.ipv4\ninternet.ipv6\ninternet.jwt\ninternet.jwtAlgorithm\ninternet.mac\ninternet.password\ninternet.port\ninternet.protocol\ninternet.url\ninternet.userAgent\ninternet.username\nlanguage.alpha2\nlanguage.alpha3\nlanguage.name\nliteral.value\nlocation.buildingNumber\nlocation.cardinalDirection\nlocation.city\nlocation.continent\nlocation.country\nlocation.countryCode\nlocation.county\nlocation.direction\nlocation.latitude\nlocation.longitude\nlocation.ordinalDirection\nlocation.secondaryAddress\nlocation.state\nlocation.street\nlocation.streetAddress\nlocation.timeZone\nlocation.zipCode\nlorem.lines\nlorem.paragraph\nlorem.paragraphs\nlorem.sentence\nlorem.sentences\nlorem.slug\nlorem.text\nlorem.word\nlorem.words\nmusic.album\nmusic.artist\nmusic.genre\nmusic.songName\nnumber.bigInt\nnumber.binary\nnumber.float\nnumber.hex\nnumber.int\nnumber.octal\nnumber.romanNumeral\nperson.bio\nperson.firstName\nperson.fullName\nperson.gender\nperson.jobArea\nperson.jobDescriptor\nperson.jobTitle\nperson.jobType\nperson.lastName\nperson.middleName\nperson.prefix\nperson.sex\nperson.sexType\nperson.suffix\nperson.zodiacSign\nphone.imei\nphone.number\nstring.alpha\nstring.alphanumeric\nstring.binary\nstring.counterString\nstring.fromCharacters\nstring.hexadecimal\nstring.nanoid\nstring.numeric\nstring.octal\nstring.sample\nstring.symbol\nstring.ulid\nstring.uuid\nsystem.commonFileExt\nsystem.commonFileName\nsystem.commonFileType\nsystem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words\nRow 1: column name is required."
+      },
+      "screenshot": "screenshots/loop1-picker-internet-email.png"
+    },
+    {
+      "command": "number.int",
+      "searchTerm": "number.int",
+      "search": {
+        "searchValue": "number.int",
+        "filteredCount": 1,
+        "filtered": [
+          {
+            "command": "number.int",
+            "source": "domain",
+            "selected": true,
+            "text": "number.int Returns a single random integer between zero and the given max value or the given range. domain"
+          }
+        ],
+        "detail": "number.int\n\nReturns a single random integer between zero and the given max value or the given range.\n\nSchema: awd.domain.number.int()\n\nParameter Details\nName\tDetails\nmin\tOptional minimum integer.\nmax\tOptional maximum integer.\nmultipleOf\tGenerated number will be a multiple of the given integer.\nParameter Types\nName\tType\tReq\nmin\tnumber\toptional\nmax\tnumber\toptional\nmultipleOf\tnumber\toptional\nUsage Examples\n\nShows number.int when optional params are omitted.\n\nCommand: number.int\n\nParams field: Leave blank\n\nFull call: number.int()\n\nReturns: 3756200289967619\n\nShows number.int using min.\n\nCommand: number.int\n\nParams field: (max=10, min=1)\n\nFull call: number.int(max=10, min=1)\n\nReturns: 5\n\nShows number.int using max.\n\nCommand: number.int\n\nParams field: (max=5)\n\nFull call: number.int(max=5)\n\nReturns: 2\n\nShows number.int using multipleOf.\n\nCommand: number.int\n\nParams field: (multipleOf=1)\n\nFull call: number.int(multipleOf=1)\n\nReturns: 3756200289967619\n\nOpen documentation",
+        "applyDisabled": false
+      },
+      "detail": "number.int\n\nReturns a single random integer between zero and the given max value or the given range.\n\nSchema: awd.domain.number.int()\n\nParameter Details\nName\tDetails\nmin\tOptional minimum integer.\nmax\tOptional maximum integer.\nmultipleOf\tGenerated number will be a multiple of the given integer.\nParameter Types\nName\tType\tReq\nmin\tnumber\toptional\nmax\tnumber\toptional\nmultipleOf\tnumber\toptional\nUsage Examples\n\nShows number.int when optional params are omitted.\n\nCommand: number.int\n\nParams field: Leave blank\n\nFull call: number.int()\n\nReturns: 3756200289967619\n\nShows number.int using min.\n\nCommand: number.int\n\nParams field: (max=10, min=1)\n\nFull call: number.int(max=10, min=1)\n\nReturns: 5\n\nShows number.int using max.\n\nCommand: number.int\n\nParams field: (max=5)\n\nFull call: number.int(max=5)\n\nReturns: 2\n\nShows number.int using multipleOf.\n\nCommand: number.int\n\nParams field: (multipleOf=1)\n\nFull call: number.int(multipleOf=1)\n\nReturns: 3756200289967619\n\nOpen documentation",
+      "row": {
+        "sourceType": "domain",
+        "commandValue": "number.int",
+        "buttonText": "number.int",
+        "paramsDisabled": false,
+        "paramsTitle": "Edit params in dialog",
+        "rowText": "enum\nliteral\nregex\ndomain\nfaker\nnumber.int\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjective\ncompany.buzzNoun\ncompany.buzzPhrase\ncompany.buzzVerb\ncompany.catchPhrase\ncompany.catchPhraseAdjective\ncompany.catchPhraseDescriptor\ncompany.catchPhraseNoun\ncompany.name\ndatabase.collation\ndatabase.column\ndatabase.engine\ndatabase.mongodbObjectId\ndatabase.type\ndatatype.boolean\ndatatype.enum\ndate.anytime\ndate.between\ndate.birthdate\ndate.future\ndate.month\ndate.past\ndate.recent\ndate.soon\ndate.timeZone\ndate.weekday\nfinance.accountName\nfinance.accountNumber\nfinance.amount\nfinance.bic\nfinance.bitcoinAddress\nfinance.creditCardCVV\nfinance.creditCardIssuer\nfinance.creditCardNumber\nfinance.currencyCode\nfinance.currencyName\nfinance.currencyNumericCode\nfinance.currencySymbol\nfinance.ethereumAddress\nfinance.iban\nfinance.litecoinAddress\nfinance.pin\nfinance.routingNumber\nfinance.transactionDescription\nfinance.transactionType\nfood.adjective\nfood.description\nfood.dish\nfood.ethnicCategory\nfood.fruit\nfood.ingredient\nfood.meat\nfood.spice\nfood.vegetable\ngit.branch\ngit.commitDate\ngit.commitEntry\ngit.commitMessage\ngit.commitSha\nhacker.abbreviation\nhacker.adjective\nhacker.ingverb\nhacker.noun\nhacker.phrase\nhacker.verb\nimage.avatar\nimage.avatarGitHub\nimage.dataUri\nimage.personPortrait\nimage.url\nimage.urlPicsumPhotos\ninternet.displayName\ninternet.domainName\ninternet.domainSuffix\ninternet.domainWord\ninternet.email\ninternet.emoji\ninternet.exampleEmail\ninternet.httpMethod\ninternet.httpStatusCode\ninternet.ip\ninternet.ipv4\ninternet.ipv6\ninternet.jwt\ninternet.jwtAlgorithm\ninternet.mac\ninternet.password\ninternet.port\ninternet.protocol\ninternet.url\ninternet.userAgent\ninternet.username\nlanguage.alpha2\nlanguage.alpha3\nlanguage.name\nliteral.value\nlocation.buildingNumber\nlocation.cardinalDirection\nlocation.city\nlocation.continent\nlocation.country\nlocation.countryCode\nlocation.county\nlocation.direction\nlocation.latitude\nlocation.longitude\nlocation.ordinalDirection\nlocation.secondaryAddress\nlocation.state\nlocation.street\nlocation.streetAddress\nlocation.timeZone\nlocation.zipCode\nlorem.lines\nlorem.paragraph\nlorem.paragraphs\nlorem.sentence\nlorem.sentences\nlorem.slug\nlorem.text\nlorem.word\nlorem.words\nmusic.album\nmusic.artist\nmusic.genre\nmusic.songName\nnumber.bigInt\nnumber.binary\nnumber.float\nnumber.hex\nnumber.int\nnumber.octal\nnumber.romanNumeral\nperson.bio\nperson.firstName\nperson.fullName\nperson.gender\nperson.jobArea\nperson.jobDescriptor\nperson.jobTitle\nperson.jobType\nperson.lastName\nperson.middleName\nperson.prefix\nperson.sex\nperson.sexType\nperson.suffix\nperson.zodiacSign\nphone.imei\nphone.number\nstring.alpha\nstring.alphanumeric\nstring.binary\nstring.counterString\nstring.fromCharacters\nstring.hexadecimal\nstring.nanoid\nstring.numeric\nstring.octal\nstring.sample\nstring.symbol\nstring.ulid\nstring.uuid\nsystem.commonFileExt\nsystem.commonFileName\nsystem.commonFileType\nsystem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words\nRow 1: column name is required."
+      },
+      "screenshot": "screenshots/loop1-picker-number-int.png"
+    },
+    {
+      "command": "string.uuid",
+      "searchTerm": "string.uuid",
+      "search": {
+        "searchValue": "string.uuid",
+        "filteredCount": 1,
+        "filtered": [
+          {
+            "command": "string.uuid",
+            "source": "domain",
+            "selected": true,
+            "text": "string.uuid Returns a UUID (Universally Unique Identifier). domain"
+          }
+        ],
+        "detail": "string.uuid\n\nReturns a UUID (Universally Unique Identifier).\n\nSchema: awd.domain.string.uuid()\n\nParameter Details\nName\tDetails\nversion\tThe specific UUID version to use. If refDate is supplied and version is omitted, version 7 is used automatically.\nrefDate\tThe timestamp to encode into the UUID. This is only valid for UUID v7. If refDate is supplied and version is omitted, version 7 is used automatically. Providing refDate with version 4 is invalid.\nParameter Types\nName\tType\tReq\nversion\t4|7\toptional\nrefDate\tstring|number|date\toptional\nUsage Examples\n\nShows string.uuid when optional params are omitted.\n\nCommand: string.uuid\n\nParams field: Leave blank\n\nFull call: string.uuid()\n\nReturns: 6b042125-686a-43e0-8a68-23cf5bee102e\n\nShows string.uuid using version.\n\nCommand: string.uuid\n\nParams field: (version=7)\n\nFull call: string.uuid(version=7)\n\nReturns: 019edb71-aa40-76b0-8421-25686a3e0a68\n\nShows string.uuid using refDate.\n\nCommand: string.uuid\n\nParams field: (refDate=\"2026-06-18T00:00:00.000Z\")\n\nFull call: string.uuid(refDate=\"2026-06-18T00:00:00.000Z\")\n\nReturns: 019ed807-0800-76b0-8421-25686a3e0a68\n\nOpen documentation",
+        "applyDisabled": false
+      },
+      "detail": "string.uuid\n\nReturns a UUID (Universally Unique Identifier).\n\nSchema: awd.domain.string.uuid()\n\nParameter Details\nName\tDetails\nversion\tThe specific UUID version to use. If refDate is supplied and version is omitted, version 7 is used automatically.\nrefDate\tThe timestamp to encode into the UUID. This is only valid for UUID v7. If refDate is supplied and version is omitted, version 7 is used automatically. Providing refDate with version 4 is invalid.\nParameter Types\nName\tType\tReq\nversion\t4|7\toptional\nrefDate\tstring|number|date\toptional\nUsage Examples\n\nShows string.uuid when optional params are omitted.\n\nCommand: string.uuid\n\nParams field: Leave blank\n\nFull call: string.uuid()\n\nReturns: 6b042125-686a-43e0-8a68-23cf5bee102e\n\nShows string.uuid using version.\n\nCommand: string.uuid\n\nParams field: (version=7)\n\nFull call: string.uuid(version=7)\n\nReturns: 019edb71-aa40-76b0-8421-25686a3e0a68\n\nShows string.uuid using refDate.\n\nCommand: string.uuid\n\nParams field: (refDate=\"2026-06-18T00:00:00.000Z\")\n\nFull call: string.uuid(refDate=\"2026-06-18T00:00:00.000Z\")\n\nReturns: 019ed807-0800-76b0-8421-25686a3e0a68\n\nOpen documentation",
+      "row": {
+        "sourceType": "domain",
+        "commandValue": "string.uuid",
+        "buttonText": "string.uuid",
+        "paramsDisabled": false,
+        "paramsTitle": "Edit params in dialog",
+        "rowText": "enum\nliteral\nregex\ndomain\nfaker\nstring.uuid\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjective\ncompany.buzzNoun\ncompany.buzzPhrase\ncompany.buzzVerb\ncompany.catchPhrase\ncompany.catchPhraseAdjective\ncompany.catchPhraseDescriptor\ncompany.catchPhraseNoun\ncompany.name\ndatabase.collation\ndatabase.column\ndatabase.engine\ndatabase.mongodbObjectId\ndatabase.type\ndatatype.boolean\ndatatype.enum\ndate.anytime\ndate.between\ndate.birthdate\ndate.future\ndate.month\ndate.past\ndate.recent\ndate.soon\ndate.timeZone\ndate.weekday\nfinance.accountName\nfinance.accountNumber\nfinance.amount\nfinance.bic\nfinance.bitcoinAddress\nfinance.creditCardCVV\nfinance.creditCardIssuer\nfinance.creditCardNumber\nfinance.currencyCode\nfinance.currencyName\nfinance.currencyNumericCode\nfinance.currencySymbol\nfinance.ethereumAddress\nfinance.iban\nfinance.litecoinAddress\nfinance.pin\nfinance.routingNumber\nfinance.transactionDescription\nfinance.transactionType\nfood.adjective\nfood.description\nfood.dish\nfood.ethnicCategory\nfood.fruit\nfood.ingredient\nfood.meat\nfood.spice\nfood.vegetable\ngit.branch\ngit.commitDate\ngit.commitEntry\ngit.commitMessage\ngit.commitSha\nhacker.abbreviation\nhacker.adjective\nhacker.ingverb\nhacker.noun\nhacker.phrase\nhacker.verb\nimage.avatar\nimage.avatarGitHub\nimage.dataUri\nimage.personPortrait\nimage.url\nimage.urlPicsumPhotos\ninternet.displayName\ninternet.domainName\ninternet.domainSuffix\ninternet.domainWord\ninternet.email\ninternet.emoji\ninternet.exampleEmail\ninternet.httpMethod\ninternet.httpStatusCode\ninternet.ip\ninternet.ipv4\ninternet.ipv6\ninternet.jwt\ninternet.jwtAlgorithm\ninternet.mac\ninternet.password\ninternet.port\ninternet.protocol\ninternet.url\ninternet.userAgent\ninternet.username\nlanguage.alpha2\nlanguage.alpha3\nlanguage.name\nliteral.value\nlocation.buildingNumber\nlocation.cardinalDirection\nlocation.city\nlocation.continent\nlocation.country\nlocation.countryCode\nlocation.county\nlocation.direction\nlocation.latitude\nlocation.longitude\nlocation.ordinalDirection\nlocation.secondaryAddress\nlocation.state\nlocation.street\nlocation.streetAddress\nlocation.timeZone\nlocation.zipCode\nlorem.lines\nlorem.paragraph\nlorem.paragraphs\nlorem.sentence\nlorem.sentences\nlorem.slug\nlorem.text\nlorem.word\nlorem.words\nmusic.album\nmusic.artist\nmusic.genre\nmusic.songName\nnumber.bigInt\nnumber.binary\nnumber.float\nnumber.hex\nnumber.int\nnumber.octal\nnumber.romanNumeral\nperson.bio\nperson.firstName\nperson.fullName\nperson.gender\nperson.jobArea\nperson.jobDescriptor\nperson.jobTitle\nperson.jobType\nperson.lastName\nperson.middleName\nperson.prefix\nperson.sex\nperson.sexType\nperson.suffix\nperson.zodiacSign\nphone.imei\nphone.number\nstring.alpha\nstring.alphanumeric\nstring.binary\nstring.counterString\nstring.fromCharacters\nstring.hexadecimal\nstring.nanoid\nstring.numeric\nstring.octal\nstring.sample\nstring.symbol\nstring.ulid\nstring.uuid\nsystem.commonFileExt\nsystem.commonFileName\nsystem.commonFileType\nsystem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words\nRow 1: column name is required."
+      },
+      "screenshot": "screenshots/loop1-picker-string-uuid.png"
+    },
+    {
+      "command": "helpers.arrayElement",
+      "searchTerm": "helpers.arrayElement",
+      "search": {
+        "searchValue": "helpers.arrayElement",
+        "filteredCount": 2,
+        "filtered": [
+          {
+            "command": "helpers.arrayElement",
+            "source": "faker",
+            "selected": true,
+            "text": "helpers.arrayElement Returns one random element from the supplied array. faker"
+          },
+          {
+            "command": "helpers.arrayElements",
+            "source": "faker",
+            "selected": false,
+            "text": "helpers.arrayElements Returns multiple random elements from the supplied array. faker"
+          }
+        ],
+        "detail": "helpers.arrayElement\n\nReturns one random element from the supplied array.\n\nSchema: faker.helpers.arrayElement()\n\nParameter Details\nName\tDetails\narray\tArray of candidate values to choose from.\nParameter Types\nName\tType\tReq\narray\tarray\trequired\nUsage Examples\n\nShows helpers.arrayElement in use.\n\nCommand: helpers.arrayElement\n\nParams field: ([\"A\", \"B\", \"C\"])\n\nFull call: helpers.arrayElement([\"A\", \"B\", \"C\"])\n\nReturns: B\n\nOpen documentation",
+        "applyDisabled": false
+      },
+      "detail": "helpers.arrayElement\n\nReturns one random element from the supplied array.\n\nSchema: faker.helpers.arrayElement()\n\nParameter Details\nName\tDetails\narray\tArray of candidate values to choose from.\nParameter Types\nName\tType\tReq\narray\tarray\trequired\nUsage Examples\n\nShows helpers.arrayElement in use.\n\nCommand: helpers.arrayElement\n\nParams field: ([\"A\", \"B\", \"C\"])\n\nFull call: helpers.arrayElement([\"A\", \"B\", \"C\"])\n\nReturns: B\n\nOpen documentation",
+      "row": {
+        "sourceType": "faker",
+        "commandValue": "helpers.arrayElement",
+        "buttonText": "helpers.arrayElement",
+        "paramsDisabled": false,
+        "paramsTitle": "Edit params in dialog",
+        "rowText": "enum\nliteral\nregex\ndomain\nfaker\nhelpers.arrayElement\nSelect faker command\nhelpers.arrayElement\nhelpers.arrayElements\nhelpers.fake\nhelpers.fromRegExp\nhelpers.maybe\nhelpers.multiple\nhelpers.mustache\nhelpers.rangeToNumber\nhelpers.replaceCreditCardSymbols\nhelpers.replaceSymbols\nhelpers.shuffle\nhelpers.slugify\nhelpers.uniqueArray\nhelpers.weightedArrayElement\nRow 1: column name is required."
+      },
+      "screenshot": "screenshots/loop1-picker-helpers-arrayElement.png"
+    }
+  ],
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    }
+  ],
+  "inventory": {
+    "label": "initial open",
+    "tabCount": 36,
+    "tabs": [
+      "All",
+      "Core",
+      "airline",
+      "airplane",
+      "airport",
+      "animal",
+      "autoIncrement",
+      "book",
+      "chemicalElement",
+      "color",
+      "commerce",
+      "company",
+      "database",
+      "datatype",
+      "date",
+      "finance",
+      "food",
+      "git",
+      "hacker",
+      "image",
+      "internet",
+      "language",
+      "literal",
+      "location",
+      "lorem",
+      "music",
+      "number",
+      "person",
+      "phone",
+      "string",
+      "system",
+      "unit",
+      "vehicle",
+      "word",
+      "Faker",
+      "Recently used"
+    ],
+    "tileCount": 269,
+    "sourceCounts": {
+      "enum": 1,
+      "literal": 1,
+      "regex": 1,
+      "domain": 252,
+      "faker": 14
+    }
+  },
+  "noMatchSearch": {
+    "searchValue": "zzzz-no-such-command",
+    "filteredCount": 0,
+    "filtered": [],
+    "detail": "No method selected",
+    "applyDisabled": true
+  },
+  "escapeClosed": true,
+  "slashFocus": false,
+  "enterSelection": {
+    "selected": "location.city",
+    "detail": "location.city\n\nGenerates a random localized city name.\n\nSchema: awd.domain.location.city()\n\nParameter Details\n\nNo params\n\nUsage Examples\n\nShows the default location.city call.\n\nCommand: location.city\n\nParams field: Leave blank\n\nFull call: location.city\n\nReturns: Edwinville\n\nOpen documentation"
+  },
+  "previewAfterHelperWithoutParams": {
+    "status": "",
+    "schemaError": "Row 1: column name is required. Row 1: helpers.* is faker-only; use faker.helpers.*",
+    "output": "",
+    "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~rename-me\n\n"
+  }
+}

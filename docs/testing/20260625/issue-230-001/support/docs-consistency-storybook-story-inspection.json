@@ -1,0 +1,150 @@
+[
+  {
+    "id": "shared-method-picker-dialog--help-display-with-usage",
+    "ok": true,
+    "attempt": 1,
+    "url": "https://eviltester.github.io/grid-table-editor/storybook/iframe.html?id=shared-method-picker-dialog--help-display-with-usage&viewMode=story",
+    "finalUrl": "https://eviltester.github.io/grid-table-editor/storybook/iframe.html?id=shared-method-picker-dialog--help-display-with-usage&viewMode=story",
+    "text": "internet.password\n\nGenerates a random password-like string. Do not use this method for generating actual passwords for users.\n\nSchema: awd.domain.internet.password()\n\nParameter Details\nName\tDetails\nlength\tThe length of the password to generate. Example: 12\nmemorable\tWhether the generated password should be memorable. Example: true\npattern\tThe pattern that all chars should match. This option will be ignored, if memorable is true. Example: [A-Z]\nprefix\tThe prefix to use. Example: #\nParameter Types\nName\tType\tReq\nlength\tinteger\toptional\nmemorable\tboolean\toptional\npattern\tregexp\toptional\nprefix\tstring\toptional\nUsage Examples\n\nShows internet.password with all optional params omitted.\n\nCommand: internet.password\n\nParams field: Leave blank\n\nFull call: internet.password()\n\nReturns: He2AFTHb4tHV3mb\n\nShows internet.password using only a custom length.\n\nCommand: internet.password\n\nParams field: (length=12)\n\nFull call: internet.password(length=12)\n\nReturns: He2AFTHb4tHV\n\nShows internet.password using only the memorable flag.\n\nCommand: internet.password\n\nParams field: (memorable=true)\n\nFull call: internet.password(memorable=true)\n\nReturns: hefutisawetikub\n\nShows internet.password generating a memorable password-like string.\n\nCommand: internet.password\n\nParams field: (length=12, memorable=true)\n\nFull call: internet.password(length=12, memorable=true)\n\nReturns: hefutisaweti\n\nShows internet.password constrained only by a regex-style pattern.\n\nCommand: internet.password\n\nParams field: (pattern=\"[A-Z]\")\n\nFull call: internet.password(pattern=\"[A-Z]\")\n\nReturns: HAFTHHVISKOWXHH\n\nShows internet.password constrained by a regex-style pattern.\n\nCommand: internet.password\n\nParams field: (length=12, memorable=false, pattern=\"[A-Z]\")\n\nFull call: internet.password(length=12, memorable=false, pattern=\"[A-Z]\")\n\nReturns: HAFTHHVISKOW\n\nShows internet.password using only the prefix option.\n\nCommand: internet.password\n\nParams field: (prefix=\"#\")\n\nFull call: internet.password(prefix=\"#\")\n\nReturns: #He2AFTHb4tHV3m\n\nShows internet.password using length, pattern, and prefix together.\n\nCommand: internet.password\n\nParams field: (length=12, memorable=false, pattern=\"[A-Z]\", prefix=\"#\")\n\nFull call: internet.password(length=12, memorable=false, pattern=\"[A-Z]\", prefix=\"#\")\n\nReturns: #HAFTHHVISKO\n\nOpen documentation",
+    "links": [
+      {
+        "text": "Decorators documentation",
+        "href": "https://storybook.js.org/docs/writing-stories/decorators",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Webpack",
+        "href": "https://storybook.js.org/docs/builders/webpack",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Vite",
+        "href": "https://storybook.js.org/docs/builders/vite",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Environment Variables documentation",
+        "href": "https://storybook.js.org/docs/configure/environment-variables",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Open documentation",
+        "href": "https://anywaydata.com/docs/test-data/domain/internet",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ]
+  },
+  {
+    "id": "shared-method-picker-dialog--visual-always-open",
+    "ok": true,
+    "attempt": 1,
+    "url": "https://eviltester.github.io/grid-table-editor/storybook/iframe.html?id=shared-method-picker-dialog--visual-always-open&viewMode=story",
+    "finalUrl": "https://eviltester.github.io/grid-table-editor/storybook/iframe.html?id=shared-method-picker-dialog--visual-always-open&viewMode=story",
+    "text": "Choose Method\n×\nAll\nCore\ncommerce\ninternet\nFaker\nRecently used\nregex\nRegex patterns generate random values that match the specified expression.\nregex\nhelpers.arrayElement\nReturns one random element from the supplied array.\nfaker\ninternet.password\nGenerates a random password-like string. Do not use this method for generating actual passwords for users.\ndomain\ncommerce.price\nGenerates a price between min and max (inclusive).\ndomain\nhelpers.arrayElement\n\nReturns one random element from the supplied array.\n\nSchema: faker.helpers.arrayElement()\n\nParameter Details\nName\tDetails\narray\tArray of candidate values to choose from.\nParameter Types\nName\tType\tReq\narray\tarray\trequired\nUsage Examples\n\nShows helpers.arrayElement in use.\n\nCommand: helpers.arrayElement\n\nParams field: ([\"A\", \"B\", \"C\"])\n\nFull call: helpers.arrayElement([\"A\", \"B\", \"C\"])\n\nReturns: B\n\nOpen documentation\n\nCancel\nApply\naction:close",
+    "links": [
+      {
+        "text": "Decorators documentation",
+        "href": "https://storybook.js.org/docs/writing-stories/decorators",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Webpack",
+        "href": "https://storybook.js.org/docs/builders/webpack",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Vite",
+        "href": "https://storybook.js.org/docs/builders/vite",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Environment Variables documentation",
+        "href": "https://storybook.js.org/docs/configure/environment-variables",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Open documentation",
+        "href": "https://anywaydata.com/docs/test-data/faker/helpers",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ]
+  },
+  {
+    "id": "shared-method-picker-dialog--navigator-default",
+    "ok": true,
+    "attempt": 1,
+    "url": "https://eviltester.github.io/grid-table-editor/storybook/iframe.html?id=shared-method-picker-dialog--navigator-default&viewMode=story",
+    "finalUrl": "https://eviltester.github.io/grid-table-editor/storybook/iframe.html?id=shared-method-picker-dialog--navigator-default&viewMode=story",
+    "text": "All\nCore\ncommerce\ninternet\nFaker\nRecently used\ntab:core",
+    "links": [
+      {
+        "text": "Decorators documentation",
+        "href": "https://storybook.js.org/docs/writing-stories/decorators",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Webpack",
+        "href": "https://storybook.js.org/docs/builders/webpack",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Vite",
+        "href": "https://storybook.js.org/docs/builders/vite",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Environment Variables documentation",
+        "href": "https://storybook.js.org/docs/configure/environment-variables",
+        "target": "",
+        "rel": ""
+      }
+    ]
+  },
+  {
+    "id": "shared-method-picker-dialog--list-default",
+    "ok": true,
+    "attempt": 1,
+    "url": "https://eviltester.github.io/grid-table-editor/storybook/iframe.html?id=shared-method-picker-dialog--list-default&viewMode=story",
+    "finalUrl": "https://eviltester.github.io/grid-table-editor/storybook/iframe.html?id=shared-method-picker-dialog--list-default&viewMode=story",
+    "text": "regex\nRegex patterns generate random values that match the specified expression.\nregex\nhelpers.arrayElement\nReturns one random element from the supplied array.\nfaker\ninternet.password\nGenerates a random password-like string. Do not use this method for generating actual passwords for users.\ndomain\ncommerce.price\nGenerates a price between min and max (inclusive).\ndomain\nselected:commerce.price",
+    "links": [
+      {
+        "text": "Decorators documentation",
+        "href": "https://storybook.js.org/docs/writing-stories/decorators",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Webpack",
+        "href": "https://storybook.js.org/docs/builders/webpack",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Vite",
+        "href": "https://storybook.js.org/docs/builders/vite",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Environment Variables documentation",
+        "href": "https://storybook.js.org/docs/configure/environment-variables",
+        "target": "",
+        "rel": ""
+      }
+    ]
+  }
+]

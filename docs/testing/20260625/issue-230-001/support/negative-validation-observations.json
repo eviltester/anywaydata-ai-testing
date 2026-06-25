@@ -1,0 +1,95 @@
+{
+  "session": "issue-230-001",
+  "charter": "Negative validation and malformed parameter testing",
+  "environment": {
+    "landingUrl": "https://eviltester.github.io/grid-table-editor/",
+    "appUrl": "https://eviltester.github.io/grid-table-editor/app.html",
+    "branch": "codex/230-method-picker-mvc",
+    "commit": "04570e0e428d",
+    "built": "2026-06-25T21:29:58.356Z"
+  },
+  "screenshots": [
+    "screenshots/negative-00-landing.png",
+    "screenshots/negative-01-app-initial.png",
+    "screenshots/negative-02-test-data-open.png",
+    "screenshots/negative-03-regex-help-click.png",
+    "screenshots/negative-04-faker-help.png",
+    "screenshots/negative-05-method-picker-open.png",
+    "screenshots/negative-06-empty-required-params.png",
+    "screenshots/negative-07-malformed-faker-params.png",
+    "screenshots/negative-08-valid-params-recovery.png",
+    "screenshots/negative-09-enum-simple-stuck.png",
+    "screenshots/negative-10-literal-empty-stuck.png",
+    "screenshots/negative-11-enum-quoted-row-count.png",
+    "screenshots/negative-12-text-mode-last-case.png",
+    "screenshots/negative-13-text-empty-busy.png",
+    "screenshots/negative-14-text-unknown-busy.png",
+    "screenshots/negative-15-text-regex-busy.png",
+    "screenshots/negative-16-constraint-valid-recovery.png"
+  ],
+  "defectCandidates": [
+    {
+      "severity": "medium",
+      "title": "Empty required faker params expose internal JavaScript exception text",
+      "data": "Column BadParam, faker helpers.arrayElement, empty params",
+      "observed": "Row 1: invalid faker params - Invalid Faker API Call Cannot read properties of undefined (reading 'length')",
+      "expected": "User-facing message that the required array params are missing/invalid.",
+      "evidence": "screenshots/negative-06-empty-required-params.png"
+    },
+    {
+      "severity": "low-medium",
+      "title": "Text schema unknown() is accepted as generated data",
+      "data": "Mystery\\nunknown()",
+      "observed": "Grid generated one row with value unknown.",
+      "expected": "Either reject unknown method-like calls or document that unknown() is normalized to literal text.",
+      "evidence": "screenshots/negative-14-text-unknown-busy.png"
+    },
+    {
+      "severity": "low",
+      "title": "Text-mode invalid schemas lack detailed visible error text",
+      "data": "empty schema; BadRegex\\nregex([A-Z",
+      "observed": "Generic Schema validation failed. Grid unchanged. No visible line-specific detail.",
+      "expected": "Detailed row/line-specific error comparable to row mode.",
+      "evidence": "screenshots/negative-13-text-empty-busy.png, screenshots/negative-15-text-regex-busy.png"
+    },
+    {
+      "severity": "low",
+      "title": "Domain and faker top-level help lack params/examples",
+      "data": "source type help for domain and faker",
+      "observed": "Domain/faker help only shows a short description and Learn more.",
+      "expected": "Help pattern should match enum/literal/regex with schema params and examples, or clearly route users to picker details.",
+      "evidence": "screenshots/negative-04-faker-help.png"
+    },
+    {
+      "severity": "low",
+      "title": "Malformed params error echoes incomplete example/input",
+      "data": "helpers.arrayElement params ([\"A\",\"B\"",
+      "observed": "Row 1: params should be wrapped in parentheses, e.g. ([\"A\",\"B\").",
+      "expected": "Stable example that is syntactically complete and not confused with the bad input.",
+      "evidence": "screenshots/negative-07-malformed-faker-params.png"
+    }
+  ],
+  "passedChecks": [
+    "Method picker opens from app.html and shows navigator, tabs, search, list, help detail, parameter tables, usage examples, and Apply/Cancel.",
+    "Valid helpers.arrayElement params recover after prior empty/malformed params and generate a row.",
+    "Row-mode empty enum, invalid regex, missing domain command, and missing faker command are blocked with visible row validation.",
+    "Simple enum, quoted-comma enum, and empty literal all generated successfully with longer waits.",
+    "Constraint unknown source/target columns and missing ENDIF are blocked with line-specific validation.",
+    "Valid constraint recovers and generates one constrained row."
+  ],
+  "followUpIdeas": [
+    "Add regression for helpers.arrayElement empty params with no raw JS exception text.",
+    "Test every faker helper with required params blank.",
+    "Test every domain command with required/optional params blank and malformed.",
+    "Clarify parser behavior for unknown vs unknown() in text schema.",
+    "Improve text-mode validation detail parity with row mode.",
+    "Add params tests for nested arrays, nested objects, escaped quotes, closing parentheses inside strings, and trailing commas.",
+    "Add validation coverage for malformed error examples.",
+    "Test enum values containing commas, quotes, and parentheses through row and text modes.",
+    "Assert Generate always clears aria-busy and disabled after validation failures.",
+    "Test constraints with escaped quotes, comma-containing enum values, multiple IF blocks, and semicolon-separated constraints.",
+    "Test in-place recovery after bad text-mode schema without reload.",
+    "Test keyboard-only method picker negative flows.",
+    "Compare app.html and generator.html with identical malformed schemas."
+  ]
+}

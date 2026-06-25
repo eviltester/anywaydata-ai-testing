@@ -1,0 +1,105 @@
+{
+  "ideas": [
+    {
+      "idea": "Reconfirm Apply focus restoration after a normal domain selection",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Reconfirm Enter on focused single result does not apply",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Reconfirm background scroll while modal is open",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Check top-level domain/faker help depth versus core help",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Compare live vs Storybook docs-link bases for one representative command",
+      "classification": "execute-now"
+    },
+    {
+      "idea": "Run exhaustive params examples for every helper command",
+      "classification": "defer"
+    },
+    {
+      "idea": "Run all 269 commands end-to-end with generated data or expected validation",
+      "classification": "defer"
+    },
+    {
+      "idea": "Manual screen-reader pass in NVDA/VoiceOver",
+      "classification": "defer"
+    },
+    {
+      "idea": "Real mobile touch-device pass below 390px",
+      "classification": "defer"
+    },
+    {
+      "idea": "Deep constraints/pairwise matrix with command-generated enum values",
+      "classification": "defer"
+    },
+    {
+      "idea": "Production anywaydata.com parity crawl against GitHub Pages docs",
+      "classification": "defer"
+    },
+    {
+      "idea": "Visual regression for all Storybook method-picker stories at multiple widths",
+      "classification": "defer"
+    }
+  ],
+  "results": {
+    "applyFocus": {
+      "activeTag": "BODY",
+      "activeText": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nlocation.city\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjective\ncompany.buzzNoun\ncompany.buzzPhrase\ncompany.buzzVerb\ncompany.catchPhrase\ncompany.catchPhraseAdjective\ncompany.catchPhraseDescriptor\ncompany.catchPhraseNoun\ncompany.name\ndatabase.collation\ndatabase.column\ndatabase.engine\ndatabase.mongodbObjectId\ndatabase.type\ndatatype.boolean\ndatatype.enum\ndate.anytime\ndate.between\ndate.birthdate\ndate.future\ndate.month\ndate.past\ndate.recent\ndate.soon\ndate.timeZone\ndate.weekday\nfinance.accountName\nfinance.accountNumber\nfinance.amount\nfinance.bic\nfinance.bitcoinAddress\nfinance.creditCardCVV\nfinance.creditCardIssuer\nfinance.creditCardNumber\nfinance.currencyCode\nfinance.currencyName\nfinance.currencyNumericCode\nfinance.currencySymbol\nfinance.ethereumAddress\nfinance.iban\nfinance.litecoinAddress\nfinance.pin\nfinance.routingNumber\nfinance.transactionDescription\nfinance.transactionType\nfood.adjective\nfood.description\nfood.dish\nfood.ethnicCategory\nfood.fruit\nfood.ingredient\nfood.meat\nfood.spice\nfood.vegetable\ngit.branch\ngit.commitDate\ngit.commitEntry\ngit.commitMessage\ngit.commitSha\nhacker.abbreviation\nhacker.adjective\nhacker.ingverb\nhacker.noun\nhacker.phrase\nhacker.verb\nimage.avatar\nimage.avatarGitHub\nimage.dataUri\nimage.personPortrait\nimage.url\nimage.urlPicsumPhotos\ninternet.displayName\ninternet.domainName\ninternet.domainSuffix\ninternet.domainWord\ninternet.email\ninternet.emoji\ninternet.exampleEmail\ninternet.httpMethod\ninternet.httpStatusCode\ninternet.ip\ninternet.ipv4\ninternet.ipv6\ninternet.jwt\ninternet.jwtAlgorithm\ninternet.mac\ninternet.password\ninternet.port\ninternet.protocol\ninternet.url\ninternet.userAgent\ninternet.username\nlanguage.alpha2\nlanguage.alpha3\nlanguage.name\nliteral.value\nlocation.buildingNumber\nlocation.cardinalDirection\nlocation.city\nlocation.continent\nlocation.country\nlocation.countryCode\nlocation.county\nlocation.direction\nlocation.latitude\nlocation.longitude\nlocation.ordinalDirection\nlocation.secondaryAddress\nlocation.state\nlocation.street\nlocation.streetAddress\nlocation.timeZone\nlocation.zipCode\nlorem.lines\nlorem.paragraph\nlorem.paragraphs\nlorem.sentence\nlorem.sentences\nlorem.slug\nlorem.text\nlorem.word\nlorem.words\nmusic.album\nmusic.artist\nmusic.genre\nmusic.songName\nnumber.bigInt\nnumber.binary\nnumber.float\nnumber.hex\nnumber.int\nnumber.octal\nnumber.romanNumeral\nperson.bio\nperson.firstName\nperson.fullName\nperson.gender\nperson.jobArea\nperson.jobDescriptor\nperson.jobTitle\nperson.jobType\nperson.lastName\nperson.middleName\nperson.prefix\nperson.sex\nperson.sexType\nperson.suffix\nperson.zodiacSign\nphone.imei\nphone.number\nstring.alpha\nstring.alphanumeric\nstring.binary\nstring.counterString\nstring.fromCharacters\nstring.hexadecimal\nstring.nanoid\nstring.numeric\nstring.octal\nstring.sample\nstring.symbol\nstring.ulid\nstring.uuid\nsystem.commonFileExt\nsystem.commonFileName\nsystem.commonFileType\nsystem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words\nRow 1: column name is required.\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n",
+      "buttonFocused": false,
+      "pickerText": "location.city"
+    },
+    "enterFocusedTile": {
+      "dialogOpen": true,
+      "rowCommand": "",
+      "selected": "internet.email"
+    },
+    "backgroundScroll": {
+      "scrollY": 31,
+      "dialogOpen": true,
+      "bodyOverflow": "visible"
+    },
+    "topLevelHelp": [
+      {
+        "type": "enum",
+        "text": "<p><strong>Enum</strong></p><p>Enum values allow you to specify a list of discrete options. Use comma-separated values with no quotes, for example &quot;active,inactive,pending&quot; or &quot;enum active,inactive,pending&quot;.</p><p><strong>Schema params field:</strong> <code>(values)</code></p><p><strong>Params:</strong></p><ul><li><code>values</code>: <code>comma-separated list</code> - List of allowed values randomly selected during generation.</li></ul><p><strong>Example:</strong> <code>enum active,inactive,pending</code></p><p><a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/category/generating-data\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more</a></p>",
+        "href": "https://eviltester.github.io/grid-table-editor/site/docs/category/generating-data"
+      },
+      {
+        "type": "literal",
+        "text": "<p><strong>Literal</strong></p><p>Literal data repeats the exact text you enter for every generated row.</p><p><strong>Schema params field:</strong> <code>(value)</code></p><p><strong>Params:</strong></p><ul><li><code>value</code>: <code>string</code> - The exact value emitted for every generated row.</li></ul><p><strong>Example:</strong> <code>literal(Pending Review)</code></p><p><a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/category/generating-data\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more</a></p>",
+        "href": "https://eviltester.github.io/grid-table-editor/site/docs/category/generating-data"
+      },
+      {
+        "type": "regex",
+        "text": "<p><strong>Regex</strong></p><p>Regex patterns generate random values that match the specified expression.</p><p><strong>Schema params field:</strong> <code>(pattern)</code></p><p><strong>Params:</strong></p><ul><li><code>pattern</code>: <code>regex string</code> - The regular expression used to generate each value.</li></ul><p><strong>Example:</strong> <code>regex([A-Z]{3})</code></p><p><a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/regex-test-data\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more</a></p>",
+        "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/regex-test-data"
+      },
+      {
+        "type": "domain",
+        "text": "<p><strong>Domain</strong></p><p>Domain commands provide a controlled interface for data generation.</p><p><a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/domain-test-data\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more</a></p>",
+        "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/domain-test-data"
+      },
+      {
+        "type": "faker",
+        "text": "<p><strong>Faker</strong></p><p>Faker commands generate realistic random values such as names, addresses, and dates.</p><p><a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/faker-test-data\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more</a></p>",
+        "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/faker-test-data"
+      }
+    ],
+    "liveDocsHref": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/internet",
+    "storybookDocsHrefs": [
+      "https://storybook.js.org/docs/writing-stories/decorators",
+      "https://storybook.js.org/docs/builders/webpack",
+      "https://storybook.js.org/docs/builders/vite",
+      "https://storybook.js.org/docs/configure/environment-variables",
+      "https://anywaydata.com/docs/test-data/domain/internet"
+    ]
+  }
+}

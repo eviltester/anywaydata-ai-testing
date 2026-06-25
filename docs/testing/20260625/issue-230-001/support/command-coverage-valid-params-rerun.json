@@ -1,0 +1,59 @@
+[
+  {
+    "case": "commerce.price exact help syntax",
+    "detail": "commerce.price\n\nGenerates a price between min and max (inclusive).\n\nSchema: awd.domain.commerce.price()\n\nParameter Details\nName\tDetails\ndec\tThe number of decimal places. Example: 2\nmax\tThe maximum price. Example: 100\nmin\tThe minimum price. Example: 1\nsymbol\tThe currency value to use. Example: $\nParameter Types\nName\tType\tReq\ndec\tinteger\toptional\nmax\tnumber\toptional\nmin\tnumber\toptional\nsymbol\tstring\toptional\nUsage Examples\n\nShows commerce.price in use.\n\nCommand: commerce.price\n\nParams field: (dec=2, max=10, min=1, symbol=\"$\")\n\nFull call: commerce.price(dec=2, max=10, min=1, symbol=\"$\")\n\nReturns: $4.79\n\nShows commerce.price when optional params are omitted.\n\nCommand: commerce.price\n\nParams fiel",
+    "input": "(dec=2, max=20, min=10, symbol=\"$\")",
+    "result": {
+      "status": "Generate complete. Grid updated.",
+      "total": "Total rows: 4",
+      "headers": [
+        "price"
+      ],
+      "cells": [
+        "35.69",
+        "426.99",
+        "280.05",
+        "489.35"
+      ],
+      "bodySnippet": " Generate\n Grid to Enum Schema\nGenerate complete. Grid updated.\nHow Many?\nNew Table\nAmend Table\nAmend Selected\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\ncommerce.price\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fi"
+    }
+  },
+  {
+    "case": "helpers.arrayElement exact help syntax",
+    "detail": "helpers.arrayElement\n\nReturns one random element from the supplied array.\n\nSchema: faker.helpers.arrayElement()\n\nParameter Details\nName\tDetails\narray\tArray of candidate values to choose from.\nParameter Types\nName\tType\tReq\narray\tarray\trequired\nUsage Examples\n\nShows helpers.arrayElement in use.\n\nCommand: helpers.arrayElement\n\nParams field: ([\"A\", \"B\", \"C\"])\n\nFull call: helpers.arrayElement([\"A\", \"B\", \"C\"])\n\nReturns: B\n\nOpen documentation",
+    "input": "([\"free\", \"pro\", \"enterprise\"])",
+    "result": {
+      "status": "Schema validation failed. Grid unchanged.",
+      "total": "Total rows: 4",
+      "headers": [
+        "price"
+      ],
+      "cells": [
+        "35.69",
+        "426.99",
+        "280.05",
+        "489.35"
+      ],
+      "bodySnippet": " Generate\n Grid to Enum Schema\nSchema validation failed. Grid unchanged.\nHow Many?\nNew Table\nAmend Table\nAmend Selected\nRow 1: invalid faker params - Invalid Faker API Call Cannot read properties of undefined (reading 'length')\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nhelpers.arrayElement\nSelect faker command\nhelpers.arrayElement\nhelpers.arrayElements\nhelpers.fake\nhelpers.fromRegExp\nhelpers.maybe\nhelpers.multiple\nhelpers.mustache\nhelpers.rangeToNumber\nhelper"
+    }
+  },
+  {
+    "case": "core enum via picker with values",
+    "detail": "enum\n\nEnum values allow you to specify a list of discrete options. Use comma-separated values with no quotes, for example \"active,inactive,pending\" or \"enum active,inactive,pending\".\n\nSchema: Enum()\n\nParameter Details\nName\tDetails\nvalues\tList of allowed values randomly selected during generation. Example: active,inactive,pending\nParameter Types\nName\tType\tReq\nvalues\tcomma-separated list\trequired\nUsage Examples\n\nEnum example usage.\n\nCommand: enum\n\nParams field: Leave blank\n\nFull call: enum active,inactive,pending\n\nOpen documentation",
+    "input": "alpha,beta,gamma",
+    "result": {
+      "status": "Schema validation failed. Grid unchanged.",
+      "total": "Total rows: 4",
+      "headers": [
+        "price"
+      ],
+      "cells": [
+        "35.69",
+        "426.99",
+        "280.05",
+        "489.35"
+      ],
+      "bodySnippet": " Generate\n Grid to Enum Schema\nSchema validation failed. Grid unchanged.\nHow Many?\nNew Table\nAmend Table\nAmend Selected\nRow 1: enum value is required.\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nRow 1: enum value is required.\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)"
+    }
+  }
+]

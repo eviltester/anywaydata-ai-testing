@@ -1,0 +1,6 @@
+{
+  "dialogAfterFill": {
+    "applyDisabled": true,
+    "text": "Edit Params\n\nfaker.helpers.arrayElement\n\n×\n\nReturns one random element from the supplied array.\n\nName\tType\tReq\tValue\n\narray\n\tarray\t\n\t\nGenerated params\n(array=red,green,blue)\n\nRow 1: invalid faker params - Invalid Faker API Call Unsafe faker rule syntax detected: requires complex argument parsing\n\nCancel\nApply"
+  }
+}

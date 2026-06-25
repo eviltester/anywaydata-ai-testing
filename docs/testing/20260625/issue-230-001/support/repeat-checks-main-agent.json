@@ -1,0 +1,19 @@
+{
+  "initialFocusTag": "<input type=\"search\" class=\"method-picker-search\" data-role=\"method-picker-search\" placeholder=\"Filter domain or method...\" aria-label=\"Filter methods\">",
+  "slashAfterDialogFocus": {
+    "isSearch": false,
+    "active": "<body class=\"theme-light\">\n    <div class=\"header\" data-role=\"theme-toggle-host\">\n      <div class=\"pageheading\"><a href=\"/grid-table-editor/\">AnyWayData</a></div>\n      <div class=\"mainmenu\"><a href="
+  },
+  "helperRow": {
+    "sourceType": "faker",
+    "commandValue": "helpers.arrayElement",
+    "buttonText": "helpers.arrayElement",
+    "paramsDisabled": false,
+    "rowText": "enum\nliteral\nregex\ndomain\nfaker\nhelpers.arrayElement\nSelect faker command\nhelpers.arrayElement\nhelpers.arrayElements\nhelpers.fake\nhelpers.fromRegExp\nhelpers.maybe\nhelpers.multiple\nhelpers.mustache\nhelpers.rangeToNumber\nhelpers.replaceCreditCardSymbols\nhelpers.replaceSymbols\nhelpers.shuffle\nhelpers.slugify\nhelpers.uniqueArray\nhelpers.weightedArrayElement\nRow 1: invalid faker params - Invalid Faker API Call Cannot read properties of undefined (reading 'length')"
+  },
+  "helperPreviewNoParams": {
+    "status": "",
+    "schemaError": "Row 1: invalid faker params - Invalid Faker API Call Cannot read properties of undefined (reading 'length')",
+    "output": ""
+  }
+}

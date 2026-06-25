@@ -1,0 +1,98 @@
+[
+  {
+    "command": "internet.password",
+    "detailText": "internet.password\n\nGenerates a random password-like string. Do not use this method for generating actual passwords for users.\n\nSchema: awd.domain.internet.password()\n\nParameter Details\nName\tDetails\nlength\tThe length of the password to generate. Example: 12\nmemorable\tWhether the generated password should be memorable. Example: true\npattern\tThe pattern that all chars should match. This option will be ignored, if memorable is true. Example: [A-Z]\nprefix\tThe prefix to use. Example: #\nParameter Types\nName\tType\tReq\nlength\tinteger\toptional\nmemorable\tboolean\toptional\npattern\tregexp\toptional\nprefix\tstring\toptional\nUsage Examples\n\nShows internet.password with all optional params omitted.\n\nCommand: internet.password\n\nParams field: Leave blank\n\nFull call: internet.password()\n\nReturns: He2AFTHb4tHV3mb\n\nShows internet.password using only a custom length.\n\nCommand: internet.password\n\nParams field: (length=12)\n\nFull call: internet.password(length=12)\n\nReturns: He2AFTHb4tHV\n\nShows internet.password using only the memorable flag.\n\nCommand: internet.password\n\nParams field: (memorable=true)\n\nFull call: internet.password(memorable=true)\n\nReturns: hefutisawetikub\n\nShows internet.password generating a memorable password-like string.\n\nCommand: internet.password\n\nParams field: (length=12, memorable=true)\n\nFull call: internet.password(length=12, memorable=true)\n\nReturns: hefutisaweti\n\nShows internet.password constrained only by a regex-style pattern.\n\nCommand: internet.password\n\nParams field: (pattern=\"[A-Z]\")\n\nFull call: internet.password(pattern=\"[A-Z]\")\n\nReturns: HAFTHHVISKOWXHH\n\nShows internet.password constrained by a regex-style pattern.\n\nCommand: internet.password\n\nParams field: (length=12, memorable=false, pattern=\"[A-Z]\")\n\nFull call: internet.password(length=12, memorable=false, pattern=\"[A-Z]\")\n\nReturns: HAFTHHVISKOW\n\nShows internet.password using only the prefix option.\n\nCommand: internet.password\n\nParams field: (prefix=\"#\")\n\nFull call: internet.password(prefix=\"#\")\n\nReturns: #He2AFTHb4tHV3m\n\nShows internet.password using length, pattern, and prefix together.\n\nCommand: internet.password\n\nParams field: (length=12, memorable=false, pattern=\"[A-Z]\", prefix=\"#\")\n\nFull call: internet.password(length=12, memorable=false, pattern=\"[A-Z]\", prefix=\"#\")\n\nReturns: #HAFTHHVISKO\n\nOpen documentation",
+    "links": [
+      {
+        "text": "Open documentation",
+        "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/internet",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "selected": [
+      "internet.password"
+    ],
+    "visibleTiles": [
+      "internet.password"
+    ]
+  },
+  {
+    "command": "commerce.price",
+    "detailText": "commerce.price\n\nGenerates a price between min and max (inclusive).\n\nSchema: awd.domain.commerce.price()\n\nParameter Details\nName\tDetails\ndec\tThe number of decimal places. Example: 2\nmax\tThe maximum price. Example: 100\nmin\tThe minimum price. Example: 1\nsymbol\tThe currency value to use. Example: $\nParameter Types\nName\tType\tReq\ndec\tinteger\toptional\nmax\tnumber\toptional\nmin\tnumber\toptional\nsymbol\tstring\toptional\nUsage Examples\n\nShows commerce.price in use.\n\nCommand: commerce.price\n\nParams field: (dec=2, max=10, min=1, symbol=\"$\")\n\nFull call: commerce.price(dec=2, max=10, min=1, symbol=\"$\")\n\nReturns: $4.79\n\nShows commerce.price when optional params are omitted.\n\nCommand: commerce.price\n\nParams field: Leave blank\n\nFull call: commerce.price()\n\nReturns: 417.69\n\nShows commerce.price using dec.\n\nCommand: commerce.price\n\nParams field: (dec=2)\n\nFull call: commerce.price(dec=2)\n\nReturns: 417.69\n\nShows commerce.price using max.\n\nCommand: commerce.price\n\nParams field: (max=100)\n\nFull call: commerce.price(max=100)\n\nReturns: 42.29\n\nShows commerce.price using min.\n\nCommand: commerce.price\n\nParams field: (max=10, min=1)\n\nFull call: commerce.price(max=10, min=1)\n\nReturns: 4.79\n\nShows commerce.price using symbol.\n\nCommand: commerce.price\n\nParams field: (symbol=\"$\")\n\nFull call: commerce.price(symbol=\"$\")\n\nReturns: $417.69\n\nOpen documentation",
+    "links": [
+      {
+        "text": "Open documentation",
+        "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/commerce",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "selected": [
+      "commerce.price"
+    ],
+    "visibleTiles": [
+      "commerce.price"
+    ]
+  },
+  {
+    "command": "helpers.arrayElement",
+    "detailText": "helpers.arrayElement\n\nReturns one random element from the supplied array.\n\nSchema: faker.helpers.arrayElement()\n\nParameter Details\nName\tDetails\narray\tArray of candidate values to choose from.\nParameter Types\nName\tType\tReq\narray\tarray\trequired\nUsage Examples\n\nShows helpers.arrayElement in use.\n\nCommand: helpers.arrayElement\n\nParams field: ([\"A\", \"B\", \"C\"])\n\nFull call: helpers.arrayElement([\"A\", \"B\", \"C\"])\n\nReturns: B\n\nOpen documentation",
+    "links": [
+      {
+        "text": "Open documentation",
+        "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/faker/helpers",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "selected": [
+      "helpers.arrayElement"
+    ],
+    "visibleTiles": [
+      "helpers.arrayElement",
+      "helpers.arrayElements"
+    ]
+  },
+  {
+    "command": "datatype.boolean",
+    "detailText": "datatype.boolean\n\nReturns the boolean value true or false.\n\nSchema: awd.domain.datatype.boolean()\n\nParameter Details\nName\tDetails\nprobability\tProbability threshold for returning true (between 0 and 1).\nParameter Types\nName\tType\tReq\nprobability\tnumber\toptional\nUsage Examples\n\nShows datatype.boolean when optional params are omitted.\n\nCommand: datatype.boolean\n\nParams field: Leave blank\n\nFull call: datatype.boolean()\n\nReturns: true\n\nShows datatype.boolean using probability.\n\nCommand: datatype.boolean\n\nParams field: (probability=0.5)\n\nFull call: datatype.boolean(probability=0.5)\n\nReturns: true\n\nOpen documentation",
+    "links": [
+      {
+        "text": "Open documentation",
+        "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/datatype",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "selected": [
+      "datatype.boolean"
+    ],
+    "visibleTiles": [
+      "datatype.boolean"
+    ]
+  },
+  {
+    "command": "internet.httpMethod",
+    "detailText": "internet.httpMethod\n\nReturns a random HTTP request method from an AnywayData-defined pool of GET, HEAD, POST, PUT, DELETE, PATCH, OPTIONS, TRACE, and CONNECT, with optional filtering for common methods and exclusions.\n\nSchema: awd.domain.internet.httpMethod()\n\nParameter Details\nName\tDetails\ncommonOnly\tWhen true, limits generation to GET, HEAD, POST, PUT, and DELETE. Defaults to false. Example: true\nexcludes\tComma-separated HTTP methods to remove from the candidate set. Values are case-insensitive, surrounding spaces are trimmed, and generation throws if exclusions remove every available method. Example: patch, TRACE\nParameter Types\nName\tType\tReq\ncommonOnly\tboolean\toptional\nexcludes\tstring\toptional\nUsage Examples\n\nShows internet.httpMethod choosing from the full HTTP method set by default.\n\nCommand: internet.httpMethod\n\nParams field: Leave blank\n\nFull call: internet.httpMethod()\n\nReturns: PUT\n\nShows internet.httpMethod restricted to the common request methods.\n\nCommand: internet.httpMethod\n\nParams field: (commonOnly=true)\n\nFull call: internet.httpMethod(commonOnly=true)\n\nReturns: POST\n\nShows internet.httpMethod trimming spaces, normalizing case, and excluding methods from the full set.\n\nCommand: internet.httpMethod\n\nParams field: (excludes=\"patch, TRACE\")\n\nFull call: internet.httpMethod(excludes=\"patch, TRACE\")\n\nReturns: POST\n\nOpen documentation",
+    "links": [
+      {
+        "text": "Open documentation",
+        "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/internet",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "selected": [
+      "internet.httpMethod"
+    ],
+    "visibleTiles": [
+      "internet.httpMethod"
+    ]
+  },
+  {
+    "command": "image.urlLoremFlickr",
+    "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-role=\"method-picker-tile\"][data-command=\"image.urlLoremFlickr\"]').first()\u001b[22m\n",
+    "body": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nSelect domain command\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjective\ncompany.buzzNoun\ncompany.buzzPhrase\ncompany.buzzVerb\ncompany.catchPhrase\ncompany.catchPhraseAdjective\ncompany.catchPhraseDescriptor\ncompany.catchPhraseNoun\ncompany.name\ndatabase.collation\ndatabase.column\ndatabase.engine\ndatabase.mongodbObjectId\ndatabase.type\ndatatype.boolean\ndatatype.enum\ndate.anytime\ndate.between\ndate.birthdate\ndate.future\ndate.month\ndate.past\ndate.recent\ndate.soon\ndate.timeZone\ndate.weekday\nfinance.accountName\nfinance.accountNumber\nfinance.amount\nfinance.bic\nfinance.bitcoinAddress\nfinance.creditCardCVV\nfinance.creditCardIssuer\nfinance.creditCardNumber\nfinance.currencyCode\nfinance.currencyName\nfinance.currencyNumericCode\nfinance.currencySymbol\nfinance.ethereumAddress\nfinance.iban\nfinance.litecoinAddress\nfinance.pin\nfinance.routingNumber\nfinance.transactionDescription\nfinance.transactionType\nfood.adjective\nfood.description\nfood.dish\nfood.ethnicCategory\nfood.fruit\nfood.ingredient\nfood.meat\nfood.spice\nfood.vegetable\ngit.branch\ngit.commitDate\ngit.commitEntry\ngit.commitMessage\ngit.commitSha\nhacker.abbreviation\nhacker.adjective\nhacker.ingverb\nhacker.noun\nhacker.phrase\nhacker.verb\nimage.avatar\nimage.avatarGitHub\nimage.dataUri\nimage.personPortrait\nimage.url\nimage.urlPicsumPhotos\ninternet.displayName\ninternet.domainName\ninternet.domainSuffix\ninternet.domainWord\ninternet.email\ninternet.emoji\ninternet.exampleEmail\ninternet.httpMethod\ninternet.httpStatusCode\ninternet.ip\ninternet.ipv4\ninternet.ipv6\ninternet.jwt\ninternet.jwtAlgorithm\ninternet.mac\ninternet.password\ninternet.port\ninternet.protocol\ninternet.url\ninternet.userAgent\ninternet.username\nlanguage.alpha2\nlanguage.alpha3\nlanguage.name\nliteral.value\nlocation.buildingNumber\nlocation.cardinalDirection\nlocation.city\nlocation.continent\nlocation.country\nlocation.countryCode\nlocation.county\nlocation.direction\nlocation.latitude\nlocation.longitude\nlocation.ordinalDirection\nlocation.secondaryAddress\nlocation.state\nlocation.street\nlocation.streetAddress\nlocation.timeZone\nlocation.zipCode\nlorem.lines\nlorem.paragraph\nlorem.paragraphs\nlorem.sentence\nlorem.sentences\nlorem.slug\nlorem.text\nlorem.word\nlorem.words\nmusic.album\nmusic.artist\nmusic.genre\nmusic.songName\nnumber.bigInt\nnumber.binary\nnumber.float\nnumber.hex\nnumber.int\nnumber.octal\nnumber.romanNumeral\nperson.bio\nperson.firstName\nperson.fullName\nperson.gender\nperson.jobArea\nperson.jobDescriptor\nperson.jobTitle\nperson.jobType\nperson.lastName\nperson.middleName\nperson.prefix\nperson.sex\nperson.sexType\nperson.suffix\nperson.zodiacSign\nphone.imei\nphone.number\nstring.alpha\nstring.alphanumeric\nstring.binary\nstring.counterString\nstring.fromCharacters\nstring.hexadecimal\nstring.nanoid\nstring.numeric\nstring.octal\nstring.sample\nstring.symbol\nstring.ulid\nstring.uuid\nsystem.commonFileExt\nsystem.commonFileName\nsystem.commonFileType\nsystem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n\nSelect schema method\n×\nAll\nCore\nairline\nairplane\nairport\nanimal\nautoIncrement\nbook\nchemicalElement\ncolor\ncommerce\ncompany\ndatabase\ndatatype\ndate\nfinance\nfood\ngit\nhacker\nimage\ninternet\nlanguage\nliteral\nlocation\nlorem\nmusic\nnumber\nperson\nphone\nstring\nsystem\nunit\nvehicle\nword\nFaker\nRecently used\n\nNo methods match the current filter.\n\nNo method selected\n\nCancel\nApply"
+  }
+]

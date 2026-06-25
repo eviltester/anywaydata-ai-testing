@@ -1,0 +1,307 @@
+{
+  "startedUrl": "https://eviltester.github.io/grid-table-editor/app.html",
+  "samples": [
+    {
+      "family": "domain location",
+      "pick": {
+        "command": "location.city",
+        "detail": "location.city\n\nGenerates a random localized city name.\n\nSchema: awd.domain.location.city()\n\nParameter Details\n\nNo params\n\nUsage Examples\n\nShows the default location.city call.\n\nCommand: location.city\n\nParams field: Leave blank\n\nFull call: location.city\n\nReturns: Edwinville\n\nOpen documentation",
+        "rowState": {
+          "type": "domain",
+          "pickerText": "location.city",
+          "shadowValue": "location.city",
+          "paramTitle": "No documented params available",
+          "paramsDisabled": true
+        }
+      },
+      "generate": {
+        "status": "Generate complete. Grid updated.",
+        "total": "Total rows: 3",
+        "headers": [
+          "city"
+        ],
+        "cells": [
+          "North Laurence",
+          "Fort Linneamouth",
+          "South Fabian"
+        ],
+        "tableText": "city\n\n\nNorth Laurence\nFort Linneamouth\nSouth Fabian"
+      }
+    },
+    {
+      "family": "domain commerce constrained params",
+      "pick": {
+        "command": "commerce.price",
+        "detail": "commerce.price\n\nGenerates a price between min and max (inclusive).\n\nSchema: awd.domain.commerce.price()\n\nParameter Details\nName\tDetails\ndec\tThe number of decimal places. Example: 2\nmax\tThe maximum price. Example: 100\nmin\tThe minimum price. Example: 1\nsymbol\tThe currency value to use. Example: $\nParameter Types\nName\tType\tReq\ndec\tinteger\toptional\nmax\tnumber\toptional\nmin\tnumber\toptional\nsymbol\tstring\toptional\nUsage Examples\n\nShows commerce.price in use.\n\nCommand: commerce.price\n\nParams field: (dec=2, max=10, min=1, symbol=\"$\")\n\nFull call: commerce.price(dec=2, max=10, min=1, symbol=\"$\")\n\nReturns: $4.79\n\nShows commerce.price when optional params are omitted.\n\nCommand: commerce.price\n\nParams field: Leave blank\n\nFull call: commerce.price()\n\nReturns: 417.69\n\nShows commerce.price using dec.\n\nCommand: commerce.price\n\nParams field: (dec=2)\n\nFull call: commerce.price(dec=2)\n\nReturns: 417.69\n\nShows ",
+        "rowState": {
+          "type": "domain",
+          "pickerText": "commerce.price",
+          "shadowValue": "commerce.price",
+          "paramTitle": "Edit params in dialog",
+          "paramsDisabled": false
+        }
+      },
+      "params": "min=10,max=20,dec=2",
+      "generate": {
+        "status": "Schema validation failed. Grid unchanged.",
+        "total": "Total rows: 3",
+        "headers": [
+          "city"
+        ],
+        "cells": [
+          "North Laurence",
+          "Fort Linneamouth",
+          "South Fabian"
+        ],
+        "tableText": "city\n\n\nNorth Laurence\nFort Linneamouth\nSouth Fabian"
+      }
+    },
+    {
+      "family": "domain datatype enum structured params",
+      "pick": {
+        "command": "datatype.enum",
+        "error": "not found",
+        "visible": []
+      },
+      "params": "csv=\"active,inactive,pending\"",
+      "generate": {
+        "status": "Schema validation failed. Grid unchanged.",
+        "total": "Total rows: 3",
+        "headers": [
+          "city"
+        ],
+        "cells": [
+          "North Laurence",
+          "Fort Linneamouth",
+          "South Fabian"
+        ],
+        "tableText": "city\n\n\nNorth Laurence\nFort Linneamouth\nSouth Fabian"
+      }
+    },
+    {
+      "family": "faker helper arrayElement",
+      "pick": {
+        "command": "helpers.arrayElement",
+        "detail": "helpers.arrayElement\n\nReturns one random element from the supplied array.\n\nSchema: faker.helpers.arrayElement()\n\nParameter Details\nName\tDetails\narray\tArray of candidate values to choose from.\nParameter Types\nName\tType\tReq\narray\tarray\trequired\nUsage Examples\n\nShows helpers.arrayElement in use.\n\nCommand: helpers.arrayElement\n\nParams field: ([\"A\", \"B\", \"C\"])\n\nFull call: helpers.arrayElement([\"A\", \"B\", \"C\"])\n\nReturns: B\n\nOpen documentation",
+        "rowState": {
+          "type": "faker",
+          "pickerText": "helpers.arrayElement",
+          "shadowValue": "helpers.arrayElement",
+          "paramTitle": "Edit params in dialog",
+          "paramsDisabled": false
+        }
+      },
+      "params": "array=[\"free\",\"pro\",\"enterprise\"]",
+      "generate": {
+        "status": "Schema validation failed. Grid unchanged.",
+        "total": "Total rows: 3",
+        "headers": [
+          "city"
+        ],
+        "cells": [
+          "North Laurence",
+          "Fort Linneamouth",
+          "South Fabian"
+        ],
+        "tableText": "city\n\n\nNorth Laurence\nFort Linneamouth\nSouth Fabian"
+      }
+    },
+    {
+      "family": "core enum via picker",
+      "pick": {
+        "command": "enum",
+        "detail": "enum\n\nEnum values allow you to specify a list of discrete options. Use comma-separated values with no quotes, for example \"active,inactive,pending\" or \"enum active,inactive,pending\".\n\nSchema: Enum()\n\nParameter Details\nName\tDetails\nvalues\tList of allowed values randomly selected during generation. Example: active,inactive,pending\nParameter Types\nName\tType\tReq\nvalues\tcomma-separated list\trequired\nUsage Examples\n\nEnum example usage.\n\nCommand: enum\n\nParams field: Leave blank\n\nFull call: enum active,inactive,pending\n\nOpen documentation",
+        "rowState": {
+          "type": "enum",
+          "pickerText": "",
+          "shadowValue": "",
+          "paramTitle": "",
+          "paramsDisabled": null
+        }
+      },
+      "value": "alpha,beta,gamma",
+      "generate": {
+        "status": "Schema validation failed. Grid unchanged.",
+        "total": "Total rows: 3",
+        "headers": [
+          "city"
+        ],
+        "cells": [
+          "North Laurence",
+          "Fort Linneamouth",
+          "South Fabian"
+        ],
+        "tableText": "city\n\n\nNorth Laurence\nFort Linneamouth\nSouth Fabian"
+      }
+    }
+  ],
+  "inventory": {
+    "tabs": [
+      {
+        "id": "all",
+        "label": "All"
+      },
+      {
+        "id": "core",
+        "label": "Core"
+      },
+      {
+        "id": "domain:airline",
+        "label": "airline"
+      },
+      {
+        "id": "domain:airplane",
+        "label": "airplane"
+      },
+      {
+        "id": "domain:airport",
+        "label": "airport"
+      },
+      {
+        "id": "domain:animal",
+        "label": "animal"
+      },
+      {
+        "id": "domain:autoIncrement",
+        "label": "autoIncrement"
+      },
+      {
+        "id": "domain:book",
+        "label": "book"
+      },
+      {
+        "id": "domain:chemicalElement",
+        "label": "chemicalElement"
+      },
+      {
+        "id": "domain:color",
+        "label": "color"
+      },
+      {
+        "id": "domain:commerce",
+        "label": "commerce"
+      },
+      {
+        "id": "domain:company",
+        "label": "company"
+      },
+      {
+        "id": "domain:database",
+        "label": "database"
+      },
+      {
+        "id": "domain:datatype",
+        "label": "datatype"
+      },
+      {
+        "id": "domain:date",
+        "label": "date"
+      },
+      {
+        "id": "domain:finance",
+        "label": "finance"
+      },
+      {
+        "id": "domain:food",
+        "label": "food"
+      },
+      {
+        "id": "domain:git",
+        "label": "git"
+      },
+      {
+        "id": "domain:hacker",
+        "label": "hacker"
+      },
+      {
+        "id": "domain:image",
+        "label": "image"
+      },
+      {
+        "id": "domain:internet",
+        "label": "internet"
+      },
+      {
+        "id": "domain:language",
+        "label": "language"
+      },
+      {
+        "id": "domain:literal",
+        "label": "literal"
+      },
+      {
+        "id": "domain:location",
+        "label": "location"
+      },
+      {
+        "id": "domain:lorem",
+        "label": "lorem"
+      },
+      {
+        "id": "domain:music",
+        "label": "music"
+      },
+      {
+        "id": "domain:number",
+        "label": "number"
+      },
+      {
+        "id": "domain:person",
+        "label": "person"
+      },
+      {
+        "id": "domain:phone",
+        "label": "phone"
+      },
+      {
+        "id": "domain:string",
+        "label": "string"
+      },
+      {
+        "id": "domain:system",
+        "label": "system"
+      },
+      {
+        "id": "domain:unit",
+        "label": "unit"
+      },
+      {
+        "id": "domain:vehicle",
+        "label": "vehicle"
+      },
+      {
+        "id": "domain:word",
+        "label": "word"
+      },
+      {
+        "id": "faker",
+        "label": "Faker"
+      },
+      {
+        "id": "recent",
+        "label": "Recently used"
+      }
+    ],
+    "count": 269,
+    "first": [
+      "enum",
+      "literal",
+      "regex",
+      "airline.aircraftType",
+      "airline.flightNumber",
+      "airline.iataCode",
+      "airline.name",
+      "airline.recordLocator"
+    ]
+  },
+  "recent": {
+    "active": false,
+    "commands": [
+      "enum",
+      "commerce.price",
+      "location.city",
+      "helpers.arrayElement"
+    ],
+    "text": "enum Enum values allow you to specify a list of discrete options. Use comma-separated values with no quotes, for example \"active,inactive,pending\" or \"enum active,inactive,pending\". enum commerce.price Generates a price between min and max (inclusive). domain location.city Generates a random localized city name. domain helpers.arrayElement Returns one random element from the supplied array. faker"
+  }
+}

@@ -1,0 +1,2607 @@
+{
+  "text": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nSelect domain command\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjective\ncompany.buzzNoun\ncompany.buzzPhrase\ncompany.buzzVerb\ncompany.catchPhrase\ncompany.catchPhraseAdjective\ncompany.catchPhraseDescriptor\ncompany.catchPhraseNoun\ncompany.name\ndatabase.collation\ndatabase.column\ndatabase.engine\ndatabase.mongodbObjectId\ndatabase.type\ndatatype.boolean\ndatatype.enum\ndate.anytime\ndate.between\ndate.birthdate\ndate.future\ndate.month\ndate.past\ndate.recent\ndate.soon\ndate.timeZone\ndate.weekday\nfinance.accountName\nfinance.accountNumber\nfinance.amount\nfinance.bic\nfinance.bitcoinAddress\nfinance.creditCardCVV\nfinance.creditCardIssuer\nfinance.creditCardNumber\nfinance.currencyCode\nfinance.currencyName\nfinance.currencyNumericCode\nfinance.currencySymbol\nfinance.ethereumAddress\nfinance.iban\nfinance.litecoinAddress\nfinance.pin\nfinance.routingNumber\nfinance.transactionDescription\nfinance.transactionType\nfood.adjective\nfood.description\nfood.dish\nfood.ethnicCategory\nfood.fruit\nfood.ingredient\nfood.meat\nfood.spice\nfood.vegetable\ngit.branch\ngit.commitDate\ngit.commitEntry\ngit.commitMessage\ngit.commitSha\nhacker.abbreviation\nhacker.adjective\nhacker.ingverb\nhacker.noun\nhacker.phrase\nhacker.verb\nimage.avatar\nimage.avatarGitHub\nimage.dataUri\nimage.personPortrait\nimage.url\nimage.urlPicsumPhotos\ninternet.displayName\ninternet.domainName\ninternet.domainSuffix\ninternet.domainWord\ninternet.email\ninternet.emoji\ninternet.exampleEmail\ninternet.httpMethod\ninternet.httpStatusCode\ninternet.ip\ninternet.ipv4\ninternet.ipv6\ninternet.jwt\ninternet.jwtAlgorithm\ninternet.mac\ninternet.password\ninternet.port\ninternet.protocol\ninternet.url\ninternet.userAgent\ninternet.username\nlanguage.alpha2\nlanguage.alpha3\nlanguage.name\nliteral.value\nlocation.buildingNumber\nlocation.cardinalDirection\nlocation.city\nlocation.continent\nlocation.country\nlocation.countryCode\nlocation.county\nlocation.direction\nlocation.latitude\nlocation.longitude\nlocation.ordinalDirection\nlocation.secondaryAddress\nlocation.state\nlocation.street\nlocation.streetAddress\nlocation.timeZone\nlocation.zipCode\nlorem.lines\nlorem.paragraph\nlorem.paragraphs\nlorem.sentence\nlorem.sentences\nlorem.slug\nlorem.text\nlorem.word\nlorem.words\nmusic.album\nmusic.artist\nmusic.genre\nmusic.songName\nnumber.bigInt\nnumber.binary\nnumber.float\nnumber.hex\nnumber.int\nnumber.octal\nnumber.romanNumeral\nperson.bio\nperson.firstName\nperson.fullName\nperson.gender\nperson.jobArea\nperson.jobDescriptor\nperson.jobTitle\nperson.jobType\nperson.lastName\nperson.middleName\nperson.prefix\nperson.sex\nperson.sexType\nperson.suffix\nperson.zodiacSign\nphone.imei\nphone.number\nstring.alpha\nstring.alphanumeric\nstring.binary\nstring.counterString\nstring.fromCharacters\nstring.hexadecimal\nstring.nanoid\nstring.numeric\nstring.octal\nstring.sample\nstring.symbol\nstring.ulid\nstring.uuid\nsystem.commonFileExt\nsystem.commonFileName\nsystem.commonFileType\nsystem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n",
+  "active": "<body class=\"theme-light\">\n    <div class=\"header\" data-role=\"theme-toggle-host\">\n      <div class=\"pageheading\"><a href=\"/grid-table-editor/\">AnyWayData</a></div>\n      <div class=\"mainmenu\"><a href=\"/grid-table-editor/app.html\">App</a></div>\n      <div class=\"mainmenu\">&nbsp;Generator&nbsp;</div>\n",
+  "controls": [
+    {
+      "i": 0,
+      "tag": "A",
+      "type": null,
+      "text": "AnyWayData",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<a href=\"/grid-table-editor/\">AnyWayData</a>"
+    },
+    {
+      "i": 1,
+      "tag": "A",
+      "type": null,
+      "text": "App",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<a href=\"/grid-table-editor/app.html\">App</a>"
+    },
+    {
+      "i": 2,
+      "tag": "A",
+      "type": null,
+      "text": "Docs",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<a href=\"/grid-table-editor/site/docs/intro\">Docs</a>"
+    },
+    {
+      "i": 3,
+      "tag": "A",
+      "type": null,
+      "text": "Blog",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<a href=\"/grid-table-editor/site/blog\">Blog</a>"
+    },
+    {
+      "i": 4,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "🌙",
+      "id": "",
+      "name": null,
+      "cls": "theme-toggle-button",
+      "html": "<button type=\"button\" class=\"theme-toggle-button\" data-role=\"theme-toggle-button\" aria-label=\"Switch to dark theme\" title=\"Switch to dark theme\">🌙</button>"
+    },
+    {
+      "i": 5,
+      "tag": "A",
+      "type": null,
+      "text": "Skip to main content",
+      "id": "",
+      "name": null,
+      "cls": "skip-link",
+      "html": "<a class=\"skip-link\" href=\"#generator-main-content\">Skip to main content</a>"
+    },
+    {
+      "i": 6,
+      "tag": "SUMMARY",
+      "type": null,
+      "text": "Data Generator Instructions",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<summary>\n            Data Generator Instructions\n            <button type=\"button\" data-help=\"shared-generator-screen-overview\" data-help-role=\"help-icon\" class=\"helpicon\" tabindex=\"0\" aria-label=\"Show help\" aria-expanded=\"false\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon helpicon-svg\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"></path><path d=\"M12 17h.01\"></path"
+    },
+    {
+      "i": 7,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Show help",
+      "id": "",
+      "name": null,
+      "cls": "helpicon",
+      "html": "<button type=\"button\" data-help=\"shared-generator-screen-overview\" data-help-role=\"help-icon\" class=\"helpicon\" tabindex=\"0\" aria-label=\"Show help\" aria-expanded=\"false\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon helpicon-svg\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"></path><path d=\"M12 17h.01\"></path></svg></button>"
+    },
+    {
+      "i": 8,
+      "tag": "A",
+      "type": null,
+      "text": "import the text box content",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing\" target=\"anywaydatadocs\">import the text box content</a>"
+    },
+    {
+      "i": 9,
+      "tag": "A",
+      "type": null,
+      "text": "import a text file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import a text file</a>"
+    },
+    {
+      "i": 10,
+      "tag": "A",
+      "type": null,
+      "text": "export the Data Grid",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data\" target=\"anywaydatadocs\">export the Data Grid</a>"
+    },
+    {
+      "i": 11,
+      "tag": "A",
+      "type": null,
+      "text": "import the file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import the file</a>"
+    },
+    {
+      "i": 12,
+      "tag": "A",
+      "type": null,
+      "text": "imports the text box content",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing\" target=\"anywaydatadocs\">imports the text box content</a>"
+    },
+    {
+      "i": 13,
+      "tag": "A",
+      "type": null,
+      "text": "import a text file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import a text file</a>"
+    },
+    {
+      "i": 14,
+      "tag": "A",
+      "type": null,
+      "text": "export the Data Grid",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data\" target=\"anywaydatadocs\">export the Data Grid</a>"
+    },
+    {
+      "i": 15,
+      "tag": "A",
+      "type": null,
+      "text": "Data Formats docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/category/data-formats\" target=\"_blank\" rel=\"noopener noreferrer\">Data Formats docs</a>"
+    },
+    {
+      "i": 16,
+      "tag": "A",
+      "type": null,
+      "text": "Markdown",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/markdown\" target=\"anywaydatadocs\">Markdown</a>"
+    },
+    {
+      "i": 17,
+      "tag": "A",
+      "type": null,
+      "text": "formatting options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options\" target=\"anywaydatadocs\">formatting options</a>"
+    },
+    {
+      "i": 18,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 19,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ascii-tables/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 20,
+      "tag": "A",
+      "type": null,
+      "text": "CSV (Comma Separated Values)",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/csv\" target=\"anywaydatadocs\">CSV (Comma Separated Values)</a>"
+    },
+    {
+      "i": 21,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 22,
+      "tag": "A",
+      "type": null,
+      "text": "Delimited",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/delimited\" target=\"anywaydatadocs\">Delimited</a>"
+    },
+    {
+      "i": 23,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 24,
+      "tag": "A",
+      "type": null,
+      "text": "JSON",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/json\" target=\"anywaydatadocs\">JSON</a>"
+    },
+    {
+      "i": 25,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 26,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/jsonl\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 27,
+      "tag": "A",
+      "type": null,
+      "text": "JSONL options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/options\" target=\"anywaydatadocs\">JSONL options</a>"
+    },
+    {
+      "i": 28,
+      "tag": "A",
+      "type": null,
+      "text": "Javascript",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/javascript\" target=\"anywaydatadocs\">Javascript</a>"
+    },
+    {
+      "i": 29,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 30,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/java/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 31,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/python/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 32,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/php/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 33,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ruby/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 34,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/perl/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 35,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/kotlin/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 36,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csharp/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 37,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/typescript/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 38,
+      "tag": "A",
+      "type": null,
+      "text": "XML",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/xml\" target=\"anywaydatadocs\">XML</a>"
+    },
+    {
+      "i": 39,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 40,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/sql\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 41,
+      "tag": "A",
+      "type": null,
+      "text": "SQL options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/options\" target=\"anywaydatadocs\">SQL options</a>"
+    },
+    {
+      "i": 42,
+      "tag": "A",
+      "type": null,
+      "text": "Gherkin",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/gherkin\" target=\"anywaydatadocs\">Gherkin</a>"
+    },
+    {
+      "i": 43,
+      "tag": "A",
+      "type": null,
+      "text": "formatting options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options\" target=\"anywaydatadocs\">formatting options</a>"
+    },
+    {
+      "i": 44,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 45,
+      "tag": "A",
+      "type": null,
+      "text": "HTML Table",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/html-tables\" target=\"anywaydatadocs\">HTML Table</a>"
+    },
+    {
+      "i": 46,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 47,
+      "tag": "A",
+      "type": null,
+      "text": "See full unit-test option mapping",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/unit-test-code/options\" target=\"anywaydatadocs\">See full unit-test option mapping</a>"
+    },
+    {
+      "i": 48,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 49,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 50,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 51,
+      "tag": "A",
+      "type": null,
+      "text": "Pairwise testing docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing\" target=\"_blank\" rel=\"noopener noreferrer\">Pairwise testing docs</a>"
+    },
+    {
+      "i": 52,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 53,
+      "tag": "A",
+      "type": null,
+      "text": "Pairwise testing docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing\" target=\"_blank\" rel=\"noopener noreferrer\">Pairwise testing docs</a>"
+    },
+    {
+      "i": 54,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Dismiss message",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<button type=\"button\" data-role=\"dismiss-button\" aria-label=\"Dismiss message\" title=\"Dismiss message\" style=\"display: none; margin-left: 0.5rem; width: 1rem; height: 1rem; padding: 0px; border: 0px; background: transparent; color: inherit; cursor: pointer; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; position: relativ"
+    },
+    {
+      "i": 55,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Show help",
+      "id": "",
+      "name": null,
+      "cls": "helpicon",
+      "html": "<button type=\"button\" class=\"helpicon\" data-help-role=\"help-icon\" data-role=\"schema-mode-help\" data-help=\"shared-schema-mode-help\" tabindex=\"0\" aria-label=\"Show help\" aria-expanded=\"false\" data-help-text=\"\n    &lt;p&gt;&lt;strong&gt;Edit as Text&lt;/strong&gt;&lt;/p&gt;\n    &lt;p&gt;You are currently using row-based schema editing. Click &lt;strong&gt;Edit as Text&lt;/strong&gt; to switch to text schema mode.&lt;/p&gt;\n    &lt;p&gt;&lt;a class=&quot;helplink&quot; href=&quot;https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file&quot; target=&quot;_blank&quot; rel="
+    },
+    {
+      "i": 56,
+      "tag": "BUTTON",
+      "type": null,
+      "text": "Edit as Text",
+      "id": "",
+      "name": null,
+      "cls": "icon-button",
+      "html": "<button class=\"icon-button\" data-role=\"schema-mode-toggle\" title=\"Toggle schema text mode\">Edit as Text</button>"
+    },
+    {
+      "i": 57,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Load Schema File",
+      "id": "",
+      "name": null,
+      "cls": "icon-button",
+      "html": "<button type=\"button\" class=\"icon-button\" data-role=\"schema-load-file-button\">Load Schema File</button>"
+    },
+    {
+      "i": 58,
+      "tag": "INPUT",
+      "type": "file",
+      "text": "Load Schema File",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<input type=\"file\" data-role=\"schema-file-input\" accept=\".txt,.schema,text/plain\" aria-label=\"Load Schema File\" hidden=\"\">"
+    },
+    {
+      "i": 59,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Save Schema File",
+      "id": "",
+      "name": null,
+      "cls": "icon-button",
+      "html": "<button type=\"button\" class=\"icon-button\" data-role=\"schema-save-file-button\">Save Schema File</button>"
+    },
+    {
+      "i": 60,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Drag field to reorder",
+      "id": "",
+      "name": null,
+      "cls": "icon-button shared-schema-drag-handle",
+      "html": "<button class=\"icon-button shared-schema-drag-handle\" type=\"button\" data-action=\"drag\" data-row-id=\"schema-row-2\" title=\"Drag field to reorder\" draggable=\"true\" aria-label=\"Drag field to reorder\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"9\" cy=\"6\" r=\"1\"></circle><circle cx=\"9\" cy=\"12\" r=\"1\"></circle><circle cx=\"9\" cy=\"18\" r=\"1\"></circle><circle cx=\"15\" cy=\"6\" r=\"1\"></circle><circle cx=\"15\" cy"
+    },
+    {
+      "i": 61,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Insert field after this row",
+      "id": "",
+      "name": null,
+      "cls": "icon-button",
+      "html": "<button class=\"icon-button\" type=\"button\" data-action=\"add\" data-row-id=\"schema-row-2\" title=\"Add field\" aria-label=\"Insert field after this row\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg></button>"
+    },
+    {
+      "i": 62,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Remove field",
+      "id": "",
+      "name": null,
+      "cls": "icon-button",
+      "html": "<button class=\"icon-button\" type=\"button\" data-action=\"remove\" data-row-id=\"schema-row-2\" title=\"Remove field\" aria-label=\"Remove field\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M5 12h14\"></path></svg></button>"
+    },
+    {
+      "i": 63,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Move up",
+      "id": "",
+      "name": null,
+      "cls": "icon-button",
+      "html": "<button class=\"icon-button\" type=\"button\" data-action=\"up\" data-row-id=\"schema-row-2\" title=\"Move up\" aria-label=\"Move up\" disabled=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon\" aria-hidden=\"true\" focusable=\"false\"><path d=\"m5 12 7-7 7 7\"></path><path d=\"M12 19V5\"></path></svg></button>"
+    },
+    {
+      "i": 64,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Move down",
+      "id": "",
+      "name": null,
+      "cls": "icon-button",
+      "html": "<button class=\"icon-button\" type=\"button\" data-action=\"down\" data-row-id=\"schema-row-2\" title=\"Move down\" aria-label=\"Move down\" disabled=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 5v14\"></path><path d=\"m19 12-7 7-7-7\"></path></svg></button>"
+    },
+    {
+      "i": 65,
+      "tag": "INPUT",
+      "type": "text",
+      "text": "Column Name",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<input type=\"text\" data-field=\"name\" class=\"\" placeholder=\"Column Name\" aria-label=\"Column Name\" value=\"\">"
+    },
+    {
+      "i": 66,
+      "tag": "SELECT",
+      "type": null,
+      "text": "enum\nliteral\nregex\ndomain\nfaker",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<select data-field=\"sourceType\" class=\"\" aria-label=\"Field type\">\n                    <option value=\"enum\">enum</option>\n                    <option value=\"literal\">literal</option>\n                    <option value=\"regex\">regex</option>\n                    <option value=\"domain\" selected=\"\">domain</option>\n                    <option value=\"faker\">faker</option>\n                </select>"
+    },
+    {
+      "i": 67,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Select domain command",
+      "id": "",
+      "name": null,
+      "cls": "shared-schema-command-picker-button ",
+      "html": "<button type=\"button\" data-action=\"pick-command\" data-row-id=\"schema-row-2\" class=\"shared-schema-command-picker-button \">Select domain command</button>"
+    },
+    {
+      "i": 68,
+      "tag": "SELECT",
+      "type": null,
+      "text": "Select domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjective\ncompany.buzzNoun\ncompany.buzzPhrase\ncompany.buzzVerb\ncompany.catchPhrase\ncompany.catchPhraseAdjective\ncompany.catchPhraseDescriptor\ncompany.catchPhraseNoun\ncompany.name\ndatabase.collation\ndatabase.column\ndatabase.engine\ndatabase.mongodbObjectId\ndatabase.type\ndatatype.boolean\ndatatype.enum\ndate.anytime\ndate.between\ndate.birthdate\ndate.future\ndate.month\ndate.past\ndate.recent\ndate.soon\ndate.timeZone\ndate.weekday\nfinance.accountName\nfinance.accountNumber\nfinance.amount\nfinance.bic\nfinance.bitcoinAddress\nfinance.creditCardCVV\nfinance.creditCardIssuer\nfinance.creditCardNumber\nfinance.currencyCode\nfinance.currencyName\nfinance.currencyNumericCode\nfinance.currencySymbol\nfinance.ethereumAddress\nfinance.iban\nfinance.litecoinAddress\nfinance.pin\nfinance.routingNumber\nfinance.transactionDescription\nfinance.transactionType\nfood.adjective\nfood.description\nfood.dish\nfood.ethnicCategory\nfood.fruit\nfood.ingredient\nfood.meat\nfood.spice\nfood.vegetable\ngit.branch\ngit.commitDate\ngit.commitEntry\ngit.commitMessage\ngit.commitSha\nhacker.abbreviation\nhacker.adjective\nhacker.ingverb\nhacker.noun\nhacker.phrase\nhacker.verb\nimage.avatar\nimage.avatarGitHub\nimage.dataUri\nimage.personPortrait\nimage.url\nimage.urlPicsumPhotos\ninternet.displayName\ninternet.domainName\ninternet.domainSuffix\ninternet.domainWord\ninternet.email\ninternet.emoji\ninternet.exampleEmail\ninternet.httpMethod\ninternet.httpStatusCode\ninternet.ip\ninternet.ipv4\ninternet.ipv6\ninternet.jwt\ninternet.jwtAlgorithm\ninternet.mac\ninternet.password\ninternet.port\ninternet.protocol\ninternet.url\ninternet.userAgent\ninternet.username\nlanguage.alpha2\nlanguage.alpha3\nlanguage.name\nliteral.value\nlocation.buildingNumber\nlocation.cardinalDirection\nlocation.city\nlocation.continent\nlocation.country\nlocation.countryCode\nlocation.county\nlocation.direction\nlocation.latitude\nlocation.longitude\nlocation.ordinalDirection\nlocation.secondaryAddress\nlocation.state\nlocation.street\nlocation.streetAddress\nlocation.timeZone\nlocation.zipCode\nlorem.lines\nlorem.paragraph\nlorem.paragraphs\nlorem.sentence\nlorem.sentences\nlorem.slug\nlorem.text\nlorem.word\nlorem.words\nmusic.album\nmusic.artist\nmusic.genre\nmusic.songName\nnumber.bigInt\nnumber.binary\nnumber.float\nnumber.hex\nnumber.int\nnumber.octal\nnumber.romanNumeral\nperson.bio\nperson.firstName\nperson.fullName\nperson.gender\nperson.jobArea\nperson.jobDescriptor\nperson.jobTitle\nperson.jobType\nperson.lastName\nperson.middleName\nperson.prefix\nperson.sex\nperson.sexType\nperson.suffix\nperson.zodiacSign\nphone.imei\nphone.number\nstring.alpha\nstring.alphanumeric\nstring.binary\nstring.counterString\nstring.fromCharacters\nstring.hexadecimal\nstring.nanoid\nstring.numeric\nstring.octal\nstring.sample\nstring.symbol\nstring.ulid\nstring.uuid\nsystem.commonFileExt\nsystem.commonFileName\nsystem.commonFileType\nsystem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words",
+      "id": "",
+      "name": null,
+      "cls": "shared-schema-command-picker-shadow-select",
+      "html": "<select data-field=\"command\" class=\"shared-schema-command-picker-shadow-select\" aria-hidden=\"true\" tabindex=\"-1\">\n                          <option value=\"\">Select domain command</option>\n                          <option value=\"airline.aircraftType\">airline.aircraftType</option><option value=\"airline.flightNumber\">airline.flightNumber</option><option value=\"airline.iataCode\">airline.iataCode</option><option value=\"airline.name\">airline.name</option><option value=\"airline.recordLocator\">airline.recordLocator</option><option value=\"airline.seat\">airline.seat</option><option value=\"airplane.iata"
+    },
+    {
+      "i": 69,
+      "tag": "A",
+      "type": null,
+      "text": "Domain data help",
+      "id": "",
+      "name": null,
+      "cls": "helpicon shared-schema-help-link",
+      "html": "<a data-field=\"faker-doc-link\" class=\"helpicon shared-schema-help-link\" data-help-role=\"help-icon\" data-help=\"shared-schema-help\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/domain-test-data\" aria-label=\"Domain data help\" target=\"_blank\" rel=\"noopener noreferrer\" data-help-text=\"&lt;p&gt;&lt;strong&gt;Domain&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Domain commands provide a controlled interface for data generation.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;helplink&quot; href=&quot;https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/domain-test-data&"
+    },
+    {
+      "i": 70,
+      "tag": "INPUT",
+      "type": "text",
+      "text": "Params e.g. (10)",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<input type=\"text\" data-field=\"params\" class=\"\" placeholder=\"Params e.g. (10)\" aria-label=\"Params\" value=\"\">"
+    },
+    {
+      "i": 71,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Edit params for selected command",
+      "id": "",
+      "name": null,
+      "cls": "icon-button shared-schema-params-button",
+      "html": "<button type=\"button\" data-action=\"edit-params\" data-row-id=\"schema-row-2\" class=\"icon-button shared-schema-params-button\" aria-label=\"Edit params for selected command\" title=\"No documented params available\" disabled=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M21.174 6.812a1 1 0 0 0-1.414-1.414L5 20.158 2 22l1.842-3 14.76-14.76a1 1 0 0 1 1.414 0z\"></path><path d=\"m15 5 4 4\"></path></svg></butt"
+    },
+    {
+      "i": 72,
+      "tag": "TEXTAREA",
+      "type": null,
+      "text": "Column Name\nrule\nColumn Name\nrule",
+      "id": "",
+      "name": null,
+      "cls": "testDataSchemaTextArea",
+      "html": "<textarea class=\"testDataSchemaTextArea\" data-role=\"schema-textbox\" aria-label=\"Schema text\" placeholder=\"Column Name\nrule\nColumn Name\nrule\"></textarea>"
+    },
+    {
+      "i": 73,
+      "tag": "SUMMARY",
+      "type": null,
+      "text": "Schema Constraints (0)",
+      "id": "",
+      "name": null,
+      "cls": "shared-schema-constraints-summary",
+      "html": "<summary class=\"shared-schema-constraints-summary\" data-role=\"schema-constraints-summary\">Schema Constraints (0)</summary>"
+    },
+    {
+      "i": 74,
+      "tag": "TEXTAREA",
+      "type": null,
+      "text": "IF [Column] =",
+      "id": "",
+      "name": null,
+      "cls": "testDataSchemaTextArea shared-schema-constraints-textarea",
+      "html": "<textarea class=\"testDataSchemaTextArea shared-schema-constraints-textarea\" data-role=\"schema-constraints-textbox\" aria-label=\"Schema constraints\" placeholder=\"IF [Column] = \" value\"=\"\" then=\"\" [other=\"\" column]=\"value\" endif\"=\"\"></textarea>"
+    },
+    {
+      "i": 75,
+      "tag": "BUTTON",
+      "type": null,
+      "text": "+ Add Field",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<button class=\"\" data-role=\"schema-add-field\" style=\"display: inline-block;\">+ Add Field</button>"
+    },
+    {
+      "i": 76,
+      "tag": "A",
+      "type": null,
+      "text": "import the text box content",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing\" target=\"anywaydatadocs\">import the text box content</a>"
+    },
+    {
+      "i": 77,
+      "tag": "A",
+      "type": null,
+      "text": "import a text file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import a text file</a>"
+    },
+    {
+      "i": 78,
+      "tag": "A",
+      "type": null,
+      "text": "export the Data Grid",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data\" target=\"anywaydatadocs\">export the Data Grid</a>"
+    },
+    {
+      "i": 79,
+      "tag": "A",
+      "type": null,
+      "text": "import the file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import the file</a>"
+    },
+    {
+      "i": 80,
+      "tag": "A",
+      "type": null,
+      "text": "imports the text box content",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing\" target=\"anywaydatadocs\">imports the text box content</a>"
+    },
+    {
+      "i": 81,
+      "tag": "A",
+      "type": null,
+      "text": "import a text file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import a text file</a>"
+    },
+    {
+      "i": 82,
+      "tag": "A",
+      "type": null,
+      "text": "export the Data Grid",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data\" target=\"anywaydatadocs\">export the Data Grid</a>"
+    },
+    {
+      "i": 83,
+      "tag": "A",
+      "type": null,
+      "text": "Data Formats docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/category/data-formats\" target=\"_blank\" rel=\"noopener noreferrer\">Data Formats docs</a>"
+    },
+    {
+      "i": 84,
+      "tag": "A",
+      "type": null,
+      "text": "Markdown",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/markdown\" target=\"anywaydatadocs\">Markdown</a>"
+    },
+    {
+      "i": 85,
+      "tag": "A",
+      "type": null,
+      "text": "formatting options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options\" target=\"anywaydatadocs\">formatting options</a>"
+    },
+    {
+      "i": 86,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 87,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ascii-tables/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 88,
+      "tag": "A",
+      "type": null,
+      "text": "CSV (Comma Separated Values)",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/csv\" target=\"anywaydatadocs\">CSV (Comma Separated Values)</a>"
+    },
+    {
+      "i": 89,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 90,
+      "tag": "A",
+      "type": null,
+      "text": "Delimited",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/delimited\" target=\"anywaydatadocs\">Delimited</a>"
+    },
+    {
+      "i": 91,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 92,
+      "tag": "A",
+      "type": null,
+      "text": "JSON",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/json\" target=\"anywaydatadocs\">JSON</a>"
+    },
+    {
+      "i": 93,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 94,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/jsonl\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 95,
+      "tag": "A",
+      "type": null,
+      "text": "JSONL options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/options\" target=\"anywaydatadocs\">JSONL options</a>"
+    },
+    {
+      "i": 96,
+      "tag": "A",
+      "type": null,
+      "text": "Javascript",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/javascript\" target=\"anywaydatadocs\">Javascript</a>"
+    },
+    {
+      "i": 97,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 98,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/java/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 99,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/python/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 100,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/php/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 101,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ruby/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 102,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/perl/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 103,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/kotlin/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 104,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csharp/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 105,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/typescript/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 106,
+      "tag": "A",
+      "type": null,
+      "text": "XML",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/xml\" target=\"anywaydatadocs\">XML</a>"
+    },
+    {
+      "i": 107,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 108,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/sql\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 109,
+      "tag": "A",
+      "type": null,
+      "text": "SQL options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/options\" target=\"anywaydatadocs\">SQL options</a>"
+    },
+    {
+      "i": 110,
+      "tag": "A",
+      "type": null,
+      "text": "Gherkin",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/gherkin\" target=\"anywaydatadocs\">Gherkin</a>"
+    },
+    {
+      "i": 111,
+      "tag": "A",
+      "type": null,
+      "text": "formatting options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options\" target=\"anywaydatadocs\">formatting options</a>"
+    },
+    {
+      "i": 112,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 113,
+      "tag": "A",
+      "type": null,
+      "text": "HTML Table",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/html-tables\" target=\"anywaydatadocs\">HTML Table</a>"
+    },
+    {
+      "i": 114,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 115,
+      "tag": "A",
+      "type": null,
+      "text": "See full unit-test option mapping",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/unit-test-code/options\" target=\"anywaydatadocs\">See full unit-test option mapping</a>"
+    },
+    {
+      "i": 116,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 117,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 118,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 119,
+      "tag": "A",
+      "type": null,
+      "text": "Pairwise testing docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing\" target=\"_blank\" rel=\"noopener noreferrer\">Pairwise testing docs</a>"
+    },
+    {
+      "i": 120,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 121,
+      "tag": "A",
+      "type": null,
+      "text": "Pairwise testing docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing\" target=\"_blank\" rel=\"noopener noreferrer\">Pairwise testing docs</a>"
+    },
+    {
+      "i": 122,
+      "tag": "SUMMARY",
+      "type": null,
+      "text": "Managed Stored Schemas (0)",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<summary data-role=\"stored-schemas-summary\">Managed Stored Schemas (0)</summary>"
+    },
+    {
+      "i": 123,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Save Schema As",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<button type=\"button\" data-role=\"stored-schemas-save-as\" aria-label=\"Save Schema As\" title=\"Save Schema As\" disabled=\"\">Save Schema As</button>"
+    },
+    {
+      "i": 124,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Recover Draft",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<button type=\"button\" data-role=\"stored-schemas-recover-draft\" aria-label=\"Recover Draft\" title=\"Recover Draft\" disabled=\"\">Recover Draft</button>"
+    },
+    {
+      "i": 125,
+      "tag": "SELECT",
+      "type": null,
+      "text": "Last Used",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<select aria-label=\"Last Used\" data-role=\"stored-schemas-last-used-select\"><option value=\"\">No last used schemas</option></select>"
+    },
+    {
+      "i": 126,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Load last used schema",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<button type=\"button\" data-role=\"stored-schemas-load-last-used\" aria-label=\"Load last used schema\" title=\"Load last used schema\" disabled=\"\">Load</button>"
+    },
+    {
+      "i": 127,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Clear last used schema",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<button type=\"button\" data-role=\"stored-schemas-clear-last-used\" aria-label=\"Clear last used schema\" title=\"Clear last used schema\" disabled=\"\">Clear Last Used</button>"
+    },
+    {
+      "i": 129,
+      "tag": "INPUT",
+      "type": "number",
+      "text": "1000",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<input data-role=\"input\" type=\"number\" min=\"0\" step=\"1\" class=\"\">"
+    },
+    {
+      "i": 130,
+      "tag": "SELECT",
+      "type": null,
+      "text": "CSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<select data-role=\"generator-output-format-select\"><option value=\"csv\">CSV</option><option value=\"json\">JSON</option><option value=\"jsonl\">JSONL</option><option value=\"xml\">XML</option><option value=\"sql\">SQL</option><option value=\"markdown\">MARKDOWN</option><option value=\"dsv\">DSV</option><option value=\"html\">HTML</option><option value=\"gherkin\">GHERKIN</option><option value=\"asciitable\">ASCIITABLE</option><optgroup label=\"-- Code --\"><option value=\"csharp\">C#</option><option value=\"java\">Java</option><option value=\"javascript\">JavaScript</option><option value=\"kotlin\">Kotlin</option><option "
+    },
+    {
+      "i": 131,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Show file generation help",
+      "id": "",
+      "name": null,
+      "cls": "helpicon",
+      "html": "<button type=\"button\" class=\"helpicon\" data-help-role=\"help-icon\" data-help=\"inline-population-action-help\" data-help-text=\"\n  &lt;p&gt;Generate data for the current schema and output format to a file.&lt;/p&gt;\n  &lt;p&gt;&lt;a class=&quot;helplink&quot; href=&quot;https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Generate To File docs&lt;/a&gt;&lt;/p&gt;\n\" aria-label=\"Show file generation help\" tabindex=\"0\" aria-expanded=\"false\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" "
+    },
+    {
+      "i": 132,
+      "tag": "BUTTON",
+      "type": null,
+      "text": "Generate Data",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<button data-role=\"generator-generate-data-button\" aria-label=\"Generate Data\" title=\"Generate Data\" aria-disabled=\"false\" aria-busy=\"false\">\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon shared-file-action-icon generator-file-icon\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z\"></path><path d=\"M14 2v6h6\"></path><path d=\"M12 11v6\"></path><path d=\"M9 14h6\"></path></svg>\n         "
+    },
+    {
+      "i": 133,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Show combination generation help",
+      "id": "",
+      "name": null,
+      "cls": "helpicon",
+      "html": "<button type=\"button\" class=\"helpicon\" data-help-role=\"help-icon\" data-help=\"inline-population-action-help\" data-help-text=\"\n  &lt;p&gt;Generate n-wise combinations from enum columns in the current schema.&lt;/p&gt;\n  &lt;p&gt;&lt;a class=&quot;helplink&quot; href=&quot;https://eviltester.github.io/grid-table-editor/site/docs/test-data/n-wise-testing&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;N-wise generation docs&lt;/a&gt;&lt;/p&gt;\n\" aria-label=\"Show combination generation help\" tabindex=\"0\" aria-expanded=\"false\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0"
+    },
+    {
+      "i": 134,
+      "tag": "BUTTON",
+      "type": null,
+      "text": "Generate Combinations",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<button data-role=\"generator-generate-pairwise-button\" aria-label=\"Generate Combinations\" title=\"Generate Combinations\" aria-disabled=\"false\" aria-busy=\"false\">\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon shared-file-action-icon generator-file-icon\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z\"></path><path d=\"M14 2v6h6\"></path><path d=\"M12 11v6\"></path><path d=\"M9 14h6\"></p"
+    },
+    {
+      "i": 135,
+      "tag": "SUMMARY",
+      "type": null,
+      "text": "Settings",
+      "id": "",
+      "name": null,
+      "cls": "export-encoding-settings__summary",
+      "html": "<summary class=\"export-encoding-settings__summary\" data-role=\"export-encoding-summary\" aria-label=\"Export settings\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon export-encoding-settings__icon\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><path d=\"M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1"
+    },
+    {
+      "i": 136,
+      "tag": "SELECT",
+      "type": null,
+      "text": "crlf",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<select aria-label=\"Line endings\" data-role=\"line-ending-select\">\n                <option value=\"lf\">Unix (LF)</option>\n                <option value=\"crlf\">Windows (CR/LF)</option>\n              </select>"
+    },
+    {
+      "i": 137,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "on",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<input type=\"checkbox\" data-role=\"include-bom-checkbox\">"
+    },
+    {
+      "i": 138,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "on",
+      "id": "",
+      "name": "quotes",
+      "cls": "",
+      "html": "<input type=\"checkbox\" name=\"quotes\">"
+    },
+    {
+      "i": 139,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "on",
+      "id": "",
+      "name": "header",
+      "cls": "",
+      "html": "<input type=\"checkbox\" name=\"header\">"
+    },
+    {
+      "i": 140,
+      "tag": "INPUT",
+      "type": "text",
+      "text": "\"",
+      "id": "",
+      "name": "quoteChar",
+      "cls": "format-option-control",
+      "html": "<input class=\"format-option-control\" type=\"text\" name=\"quoteChar\" value=\"&quot;\" style=\"width:5em\">"
+    },
+    {
+      "i": 141,
+      "tag": "INPUT",
+      "type": "text",
+      "text": "\"",
+      "id": "",
+      "name": "escapeChar",
+      "cls": "format-option-control",
+      "html": "<input class=\"format-option-control\" type=\"text\" name=\"escapeChar\" value=\"&quot;\" style=\"width:5em\">"
+    },
+    {
+      "i": 142,
+      "tag": "BUTTON",
+      "type": null,
+      "text": "Apply",
+      "id": "",
+      "name": null,
+      "cls": "apply-options",
+      "html": "<button class=\"apply-options\" data-role=\"apply-options-button\" disabled=\"\" aria-disabled=\"true\">Apply</button>"
+    },
+    {
+      "i": 143,
+      "tag": "A",
+      "type": null,
+      "text": "import the text box content",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing\" target=\"anywaydatadocs\">import the text box content</a>"
+    },
+    {
+      "i": 144,
+      "tag": "A",
+      "type": null,
+      "text": "import a text file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import a text file</a>"
+    },
+    {
+      "i": 145,
+      "tag": "A",
+      "type": null,
+      "text": "export the Data Grid",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data\" target=\"anywaydatadocs\">export the Data Grid</a>"
+    },
+    {
+      "i": 146,
+      "tag": "A",
+      "type": null,
+      "text": "import the file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import the file</a>"
+    },
+    {
+      "i": 147,
+      "tag": "A",
+      "type": null,
+      "text": "imports the text box content",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing\" target=\"anywaydatadocs\">imports the text box content</a>"
+    },
+    {
+      "i": 148,
+      "tag": "A",
+      "type": null,
+      "text": "import a text file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import a text file</a>"
+    },
+    {
+      "i": 149,
+      "tag": "A",
+      "type": null,
+      "text": "export the Data Grid",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data\" target=\"anywaydatadocs\">export the Data Grid</a>"
+    },
+    {
+      "i": 150,
+      "tag": "A",
+      "type": null,
+      "text": "Data Formats docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/category/data-formats\" target=\"_blank\" rel=\"noopener noreferrer\">Data Formats docs</a>"
+    },
+    {
+      "i": 151,
+      "tag": "A",
+      "type": null,
+      "text": "Markdown",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/markdown\" target=\"anywaydatadocs\">Markdown</a>"
+    },
+    {
+      "i": 152,
+      "tag": "A",
+      "type": null,
+      "text": "formatting options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options\" target=\"anywaydatadocs\">formatting options</a>"
+    },
+    {
+      "i": 153,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 154,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ascii-tables/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 155,
+      "tag": "A",
+      "type": null,
+      "text": "CSV (Comma Separated Values)",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/csv\" target=\"anywaydatadocs\">CSV (Comma Separated Values)</a>"
+    },
+    {
+      "i": 156,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 157,
+      "tag": "A",
+      "type": null,
+      "text": "Delimited",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/delimited\" target=\"anywaydatadocs\">Delimited</a>"
+    },
+    {
+      "i": 158,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 159,
+      "tag": "A",
+      "type": null,
+      "text": "JSON",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/json\" target=\"anywaydatadocs\">JSON</a>"
+    },
+    {
+      "i": 160,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 161,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/jsonl\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 162,
+      "tag": "A",
+      "type": null,
+      "text": "JSONL options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/options\" target=\"anywaydatadocs\">JSONL options</a>"
+    },
+    {
+      "i": 163,
+      "tag": "A",
+      "type": null,
+      "text": "Javascript",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/javascript\" target=\"anywaydatadocs\">Javascript</a>"
+    },
+    {
+      "i": 164,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 165,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/java/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 166,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/python/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 167,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/php/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 168,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ruby/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 169,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/perl/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 170,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/kotlin/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 171,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csharp/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 172,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/typescript/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 173,
+      "tag": "A",
+      "type": null,
+      "text": "XML",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/xml\" target=\"anywaydatadocs\">XML</a>"
+    },
+    {
+      "i": 174,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 175,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/sql\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 176,
+      "tag": "A",
+      "type": null,
+      "text": "SQL options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/options\" target=\"anywaydatadocs\">SQL options</a>"
+    },
+    {
+      "i": 177,
+      "tag": "A",
+      "type": null,
+      "text": "Gherkin",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/gherkin\" target=\"anywaydatadocs\">Gherkin</a>"
+    },
+    {
+      "i": 178,
+      "tag": "A",
+      "type": null,
+      "text": "formatting options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options\" target=\"anywaydatadocs\">formatting options</a>"
+    },
+    {
+      "i": 179,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 180,
+      "tag": "A",
+      "type": null,
+      "text": "HTML Table",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/html-tables\" target=\"anywaydatadocs\">HTML Table</a>"
+    },
+    {
+      "i": 181,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 182,
+      "tag": "A",
+      "type": null,
+      "text": "See full unit-test option mapping",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/unit-test-code/options\" target=\"anywaydatadocs\">See full unit-test option mapping</a>"
+    },
+    {
+      "i": 183,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 184,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 185,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 186,
+      "tag": "A",
+      "type": null,
+      "text": "Pairwise testing docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing\" target=\"_blank\" rel=\"noopener noreferrer\">Pairwise testing docs</a>"
+    },
+    {
+      "i": 187,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 188,
+      "tag": "A",
+      "type": null,
+      "text": "Pairwise testing docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing\" target=\"_blank\" rel=\"noopener noreferrer\">Pairwise testing docs</a>"
+    },
+    {
+      "i": 189,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Dismiss message",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<button type=\"button\" data-role=\"dismiss-button\" aria-label=\"Dismiss message\" title=\"Dismiss message\" style=\"display: none; margin-left: 0.5rem; width: 1rem; height: 1rem; padding: 0px; border: 0px; background: transparent; color: inherit; cursor: pointer; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; position: relativ"
+    },
+    {
+      "i": 190,
+      "tag": "A",
+      "type": null,
+      "text": "import the text box content",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing\" target=\"anywaydatadocs\">import the text box content</a>"
+    },
+    {
+      "i": 191,
+      "tag": "A",
+      "type": null,
+      "text": "import a text file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import a text file</a>"
+    },
+    {
+      "i": 192,
+      "tag": "A",
+      "type": null,
+      "text": "export the Data Grid",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data\" target=\"anywaydatadocs\">export the Data Grid</a>"
+    },
+    {
+      "i": 193,
+      "tag": "A",
+      "type": null,
+      "text": "import the file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import the file</a>"
+    },
+    {
+      "i": 194,
+      "tag": "A",
+      "type": null,
+      "text": "imports the text box content",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing\" target=\"anywaydatadocs\">imports the text box content</a>"
+    },
+    {
+      "i": 195,
+      "tag": "A",
+      "type": null,
+      "text": "import a text file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import a text file</a>"
+    },
+    {
+      "i": 196,
+      "tag": "A",
+      "type": null,
+      "text": "export the Data Grid",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data\" target=\"anywaydatadocs\">export the Data Grid</a>"
+    },
+    {
+      "i": 197,
+      "tag": "A",
+      "type": null,
+      "text": "Data Formats docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/category/data-formats\" target=\"_blank\" rel=\"noopener noreferrer\">Data Formats docs</a>"
+    },
+    {
+      "i": 198,
+      "tag": "A",
+      "type": null,
+      "text": "Markdown",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/markdown\" target=\"anywaydatadocs\">Markdown</a>"
+    },
+    {
+      "i": 199,
+      "tag": "A",
+      "type": null,
+      "text": "formatting options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options\" target=\"anywaydatadocs\">formatting options</a>"
+    },
+    {
+      "i": 200,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 201,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ascii-tables/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 202,
+      "tag": "A",
+      "type": null,
+      "text": "CSV (Comma Separated Values)",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/csv\" target=\"anywaydatadocs\">CSV (Comma Separated Values)</a>"
+    },
+    {
+      "i": 203,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 204,
+      "tag": "A",
+      "type": null,
+      "text": "Delimited",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/delimited\" target=\"anywaydatadocs\">Delimited</a>"
+    },
+    {
+      "i": 205,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 206,
+      "tag": "A",
+      "type": null,
+      "text": "JSON",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/json\" target=\"anywaydatadocs\">JSON</a>"
+    },
+    {
+      "i": 207,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 208,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/jsonl\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 209,
+      "tag": "A",
+      "type": null,
+      "text": "JSONL options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/options\" target=\"anywaydatadocs\">JSONL options</a>"
+    },
+    {
+      "i": 210,
+      "tag": "A",
+      "type": null,
+      "text": "Javascript",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/javascript\" target=\"anywaydatadocs\">Javascript</a>"
+    },
+    {
+      "i": 211,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 212,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/java/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 213,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/python/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 214,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/php/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 215,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ruby/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 216,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/perl/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 217,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/kotlin/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 218,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csharp/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 219,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/typescript/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 220,
+      "tag": "A",
+      "type": null,
+      "text": "XML",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/xml\" target=\"anywaydatadocs\">XML</a>"
+    },
+    {
+      "i": 221,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 222,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/sql\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 223,
+      "tag": "A",
+      "type": null,
+      "text": "SQL options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/options\" target=\"anywaydatadocs\">SQL options</a>"
+    },
+    {
+      "i": 224,
+      "tag": "A",
+      "type": null,
+      "text": "Gherkin",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/gherkin\" target=\"anywaydatadocs\">Gherkin</a>"
+    },
+    {
+      "i": 225,
+      "tag": "A",
+      "type": null,
+      "text": "formatting options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options\" target=\"anywaydatadocs\">formatting options</a>"
+    },
+    {
+      "i": 226,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 227,
+      "tag": "A",
+      "type": null,
+      "text": "HTML Table",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/html-tables\" target=\"anywaydatadocs\">HTML Table</a>"
+    },
+    {
+      "i": 228,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 229,
+      "tag": "A",
+      "type": null,
+      "text": "See full unit-test option mapping",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/unit-test-code/options\" target=\"anywaydatadocs\">See full unit-test option mapping</a>"
+    },
+    {
+      "i": 230,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 231,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 232,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 233,
+      "tag": "A",
+      "type": null,
+      "text": "Pairwise testing docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing\" target=\"_blank\" rel=\"noopener noreferrer\">Pairwise testing docs</a>"
+    },
+    {
+      "i": 234,
+      "tag": "A",
+      "type": null,
+      "text": "Generate To File docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file\" target=\"_blank\" rel=\"noopener noreferrer\">Generate To File docs</a>"
+    },
+    {
+      "i": 235,
+      "tag": "A",
+      "type": null,
+      "text": "Pairwise testing docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing\" target=\"_blank\" rel=\"noopener noreferrer\">Pairwise testing docs</a>"
+    },
+    {
+      "i": 236,
+      "tag": "INPUT",
+      "type": "number",
+      "text": "10",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<input data-role=\"input\" type=\"number\" min=\"0\" step=\"1\" class=\"\" max=\"50\">"
+    },
+    {
+      "i": 237,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Show preview help",
+      "id": "",
+      "name": null,
+      "cls": "helpicon",
+      "html": "<button type=\"button\" class=\"helpicon\" data-help-role=\"help-icon\" data-help=\"shared-generator-preview-help\" aria-label=\"Show preview help\" tabindex=\"0\" aria-expanded=\"false\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon helpicon-svg\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"></path><path d=\"M12 17h.01\"></path></svg></button>"
+    },
+    {
+      "i": 238,
+      "tag": "BUTTON",
+      "type": null,
+      "text": "Preview",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<button data-role=\"generator-preview-button\">Preview</button>"
+    },
+    {
+      "i": 239,
+      "tag": "TEXTAREA",
+      "type": null,
+      "text": "Output Preview",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<textarea data-role=\"generator-output-preview\" aria-label=\"Output Preview\" readonly=\"\" spellcheck=\"false\"></textarea>"
+    },
+    {
+      "i": 240,
+      "tag": "INPUT",
+      "type": "search",
+      "text": "Filter preview column",
+      "id": "",
+      "name": null,
+      "cls": "",
+      "html": "<input type=\"search\" aria-label=\"Filter preview column\" placeholder=\"\" style=\"padding: 4px; width: 100%; box-sizing: border-box;\">"
+    },
+    {
+      "i": 241,
+      "tag": "A",
+      "type": null,
+      "text": "import the text box content",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing\" target=\"anywaydatadocs\">import the text box content</a>"
+    },
+    {
+      "i": 242,
+      "tag": "A",
+      "type": null,
+      "text": "import a text file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import a text file</a>"
+    },
+    {
+      "i": 243,
+      "tag": "A",
+      "type": null,
+      "text": "export the Data Grid",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data\" target=\"anywaydatadocs\">export the Data Grid</a>"
+    },
+    {
+      "i": 244,
+      "tag": "A",
+      "type": null,
+      "text": "import the file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import the file</a>"
+    },
+    {
+      "i": 245,
+      "tag": "A",
+      "type": null,
+      "text": "imports the text box content",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing\" target=\"anywaydatadocs\">imports the text box content</a>"
+    },
+    {
+      "i": 246,
+      "tag": "A",
+      "type": null,
+      "text": "import a text file",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import a text file</a>"
+    },
+    {
+      "i": 247,
+      "tag": "A",
+      "type": null,
+      "text": "export the Data Grid",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data\" target=\"anywaydatadocs\">export the Data Grid</a>"
+    },
+    {
+      "i": 248,
+      "tag": "A",
+      "type": null,
+      "text": "Data Formats docs",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/category/data-formats\" target=\"_blank\" rel=\"noopener noreferrer\">Data Formats docs</a>"
+    },
+    {
+      "i": 249,
+      "tag": "A",
+      "type": null,
+      "text": "Markdown",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/markdown\" target=\"anywaydatadocs\">Markdown</a>"
+    },
+    {
+      "i": 250,
+      "tag": "A",
+      "type": null,
+      "text": "formatting options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options\" target=\"anywaydatadocs\">formatting options</a>"
+    },
+    {
+      "i": 251,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 252,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ascii-tables/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 253,
+      "tag": "A",
+      "type": null,
+      "text": "CSV (Comma Separated Values)",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/csv\" target=\"anywaydatadocs\">CSV (Comma Separated Values)</a>"
+    },
+    {
+      "i": 254,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 255,
+      "tag": "A",
+      "type": null,
+      "text": "Delimited",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/delimited\" target=\"anywaydatadocs\">Delimited</a>"
+    },
+    {
+      "i": 256,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 257,
+      "tag": "A",
+      "type": null,
+      "text": "JSON",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/json\" target=\"anywaydatadocs\">JSON</a>"
+    },
+    {
+      "i": 258,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/options\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 259,
+      "tag": "A",
+      "type": null,
+      "text": "Learn more",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/jsonl\" target=\"anywaydatadocs\">Learn more</a>"
+    },
+    {
+      "i": 260,
+      "tag": "A",
+      "type": null,
+      "text": "JSONL options",
+      "id": "",
+      "name": null,
+      "cls": "helplink",
+      "html": "<a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/options\" target=\"anywaydatadocs\">JSONL options</a>"
+    }
+  ],
+  "rowHtml": "<div class=\"shared-schema-row shared-schema-row-value \" data-row-id=\"schema-row-2\" data-row-index=\"0\">\n                <div class=\"shared-schema-row-actions\">\n                    <button class=\"icon-button shared-schema-drag-handle\" type=\"button\" data-action=\"drag\" data-row-id=\"schema-row-2\" title=\"Drag field to reorder\" draggable=\"true\" aria-label=\"Drag field to reorder\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"9\" cy=\"6\" r=\"1\"></circle><circle cx=\"9\" cy=\"12\" r=\"1\"></circle><circle cx=\"9\" cy=\"18\" r=\"1\"></circle><circle cx=\"15\" cy=\"6\" r=\"1\"></circle><circle cx=\"15\" cy=\"12\" r=\"1\"></circle><circle cx=\"15\" cy=\"18\" r=\"1\"></circle></svg></button>\n                    <button class=\"icon-button\" type=\"button\" data-action=\"add\" data-row-id=\"schema-row-2\" title=\"Add field\" aria-label=\"Insert field after this row\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg></button>\n                    <button class=\"icon-button\" type=\"button\" data-action=\"remove\" data-row-id=\"schema-row-2\" title=\"Remove field\" aria-label=\"Remove field\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M5 12h14\"></path></svg></button>\n                    <button class=\"icon-button\" type=\"button\" data-action=\"up\" data-row-id=\"schema-row-2\" title=\"Move up\" aria-label=\"Move up\" disabled=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon\" aria-hidden=\"true\" focusable=\"false\"><path d=\"m5 12 7-7 7 7\"></path><path d=\"M12 19V5\"></path></svg></button>\n                    <button class=\"icon-button\" type=\"button\" data-action=\"down\" data-row-id=\"schema-row-2\" title=\"Move down\" aria-label=\"Move down\" disabled=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 5v14\"></path><path d=\"m19 12-7 7-7-7\"></path></svg></button>\n                </div>\n                <input type=\"text\" data-field=\"name\" class=\"\" placeholder=\"Column Name\" aria-label=\"Column Name\" value=\"\">\n                <select data-field=\"sourceType\" class=\"\" aria-label=\"Field type\">\n                    <option value=\"enum\">enum</option>\n                    <option value=\"literal\">literal</option>\n                    <option value=\"regex\" selected=\"\">regex</option>\n                    <option value=\"domain\">domain</option>\n                    <option value=\"faker\">faker</option>\n                </select>\n                \n                <a data-field=\"faker-doc-link\" class=\"helpicon shared-schema-help-link\" data-help-role=\"help-icon\" data-help=\"shared-schema-help\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/regex-test-data\" aria-label=\"Regex data help\" target=\"_blank\" rel=\"noopener noreferrer\" data-help-text=\"&lt;p&gt;&lt;strong&gt;Regex&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Regex patterns generate random values that match the specified expression.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Schema params field:&lt;/strong&gt; &lt;code&gt;(pattern)&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Params:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;pattern&lt;/code&gt;: &lt;code&gt;regex string&lt;/code&gt; - The regular expression used to generate each value.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; &lt;code&gt;regex([A-Z]{3})&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;helplink&quot; href=&quot;https://eviltester.github.io/grid-table-editor/site/docs/test-data/regex-test-data&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Learn more&lt;/a&gt;&lt;/p&gt;\" tabindex=\"0\" aria-expanded=\"false\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon helpicon-svg\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"></path><path d=\"M12 17h.01\"></path></svg></a>\n                <input type=\"text\" data-field=\"value\" placeholder=\"Value / Regex\" aria-label=\"Value / Regex\" value=\"\">\n                \n            </div>"
+}

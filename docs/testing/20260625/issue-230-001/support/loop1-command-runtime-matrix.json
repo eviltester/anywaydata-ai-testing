@@ -1,0 +1,389 @@
+[
+  {
+    "id": "core-enum",
+    "kind": "core",
+    "sourceType": "enum",
+    "value": "red,green,blue",
+    "consoleMessages": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      }
+    ],
+    "row": {
+      "sourceType": "enum",
+      "value": "red,green,blue",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\nRow 1: enum value is required."
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"green\"\n\"red\"\n\"blue\"\n\"green\"\n\"blue\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\ngreen\nred\nblue\ngreen\nblue"
+    },
+    "ok": true
+  },
+  {
+    "id": "core-literal",
+    "kind": "core",
+    "sourceType": "literal",
+    "value": "hello world",
+    "consoleMessages": [],
+    "row": {
+      "sourceType": "literal",
+      "value": "hello world",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker"
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"hello world\"\n\"hello world\"\n\"hello world\"\n\"hello world\"\n\"hello world\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\nhello world\nhello world\nhello world\nhello world\nhello world"
+    },
+    "ok": true
+  },
+  {
+    "id": "core-regex",
+    "kind": "core",
+    "sourceType": "regex",
+    "value": "[A-Z]{2}[0-9]{2}",
+    "consoleMessages": [],
+    "row": {
+      "sourceType": "regex",
+      "value": "[A-Z]{2}[0-9]{2}",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\nRow 1: regex value is required."
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"LY59\"\n\"UE92\"\n\"ZF92\"\n\"KP48\"\n\"MD85\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\nLY59\nUE92\nZF92\nKP48\nMD85"
+    },
+    "ok": true
+  },
+  {
+    "id": "commerce-productName",
+    "kind": "domain",
+    "command": "commerce.productName",
+    "consoleMessages": [],
+    "searchState": {
+      "count": 1,
+      "first": [
+        "commerce.productName Generates a random descriptive product name. domain"
+      ],
+      "detail": "commerce.productName\n\nGenerates a random descriptive product name.\n\nSchema: awd.domain.commerce.productName()\n\nParameter Details\n\nNo params\n\nUsage Examples\n\nShows the default commerce.productName call.\n\nCommand: commerce.productName\n\nParams field: Leave blank\n\nFull call: commerce.productName\n\nReturns: Handmade Plastic Bacon\n\nOpen documentation"
+    },
+    "clicked": true,
+    "row": {
+      "sourceType": "domain",
+      "commandValue": "commerce.productName",
+      "buttonText": "commerce.productName",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\ncommerce.productName\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany"
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"Small Metal Fish\"\n\"Small Marble Towels\"\n\"Gorgeous Cotton Shoes\"\n\"Intelligent Gold Table\"\n\"Incredible Bronze Salad\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\nSmall Metal Fish\nSmall Marble Towels\nGorgeous Cotton Shoes\nIntelligent Gold Table\nIncredible Bronze Salad"
+    },
+    "ok": true
+  },
+  {
+    "id": "commerce-price",
+    "kind": "domain",
+    "command": "commerce.price",
+    "consoleMessages": [],
+    "searchState": {
+      "count": 1,
+      "first": [
+        "commerce.price Generates a price between min and max (inclusive). domain"
+      ],
+      "detail": "commerce.price\n\nGenerates a price between min and max (inclusive).\n\nSchema: awd.domain.commerce.price()\n\nParameter Details\nName\tDetails\ndec\tThe number of decimal places. Example: 2\nmax\tThe maximum price. Example: 100\nmin\tThe minimum price. Example: 1\nsymbol\tThe currency value to use. Example: $\nParameter Types\nName\tType\tReq\ndec\tinteger\toptional\nmax\tnumber\toptional\nmin\tnumber\toptional\nsymbol\tstring\toptional\nUsage Examples\n\nShows commerce.price in use.\n\nCommand: commerce.price\n\nParams field: (dec=2, max=10, min=1, symbol=\"$\")\n\nFull call: commerce.price(dec=2, max=10, min=1, symbol=\"$\")\n\nReturns: $4.79\n\nShows commerce.price when optional params are omitted.\n\nCommand: commerce.price\n\nParams field: Leave blank\n\nFull call: commerce.price()\n\nReturns: 417.69\n\nShows commerce.price using dec.\n\nCommand: commerce.price\n\nParams field: (dec=2)\n\nFull call: commerce.price(dec=2)\n\nReturns: 417.69\n\nShows commerce.price using max.\n\nCommand: commerce.price\n\nParams field: (max=100)\n\nFull call: commerce.pri"
+    },
+    "clicked": true,
+    "row": {
+      "sourceType": "domain",
+      "commandValue": "commerce.price",
+      "buttonText": "commerce.price",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\ncommerce.price\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzA"
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"965.20\"\n\"886.59\"\n\"257.00\"\n\"155.25\"\n\"953.35\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\n965.20\n886.59\n257.00\n155.25\n953.35"
+    },
+    "ok": true
+  },
+  {
+    "id": "internet-email",
+    "kind": "domain",
+    "command": "internet.email",
+    "consoleMessages": [],
+    "searchState": {
+      "count": 1,
+      "first": [
+        "internet.email Generates data using faker internet email. domain"
+      ],
+      "detail": "internet.email\n\nGenerates data using faker internet email.\n\nSchema: awd.domain.internet.email()\n\nParameter Details\nName\tDetails\nallowSpecialCharacters\tWhether special characters such as .!#$%&'*+-/=?^_`{|}~ should be included in the email address.\nfirstName\tThe optional first name to use.\nlastName\tThe optional last name to use.\nprovider\tThe mail provider domain to use. If not specified, a random free mail provider will be chosen.\nParameter Types\nName\tType\tReq\nallowSpecialCharacters\tboolean\toptional\nfirstName\tstring\toptional\nlastName\tstring\toptional\nprovider\tstring\toptional\nUsage Examples\n\nShows internet.email when optional params are omitted.\n\nCommand: internet.email\n\nParams field: Leave blank\n\nFull call: internet.email()\n\nReturns: Edwin.Dibbert@hotmail.com\n\nShows internet.email using allowSpecialCharacters.\n\nCommand: internet.email\n\nParams field: (allowSpecialCharacters=true)\n\nFull call: internet.email(allowSpecialCharacters=true)\n\nReturns: Edwin.Dibbert@hotmail.com\n\nShows internet.em"
+    },
+    "clicked": true,
+    "row": {
+      "sourceType": "domain",
+      "commandValue": "internet.email",
+      "buttonText": "internet.email",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\ninternet.email\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzA"
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"Garth47@yahoo.com\"\n\"Clifford5@hotmail.com\"\n\"Daisy50@yahoo.com\"\n\"Frances81@yahoo.com\"\n\"Josephine30@hotmail.com\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\nGarth47@yahoo.com\nClifford5@hotmail.com\nDaisy50@yahoo.com\nFrances81@yahoo.com\nJosephine30@hotmail.com"
+    },
+    "ok": true
+  },
+  {
+    "id": "location-city",
+    "kind": "domain",
+    "command": "location.city",
+    "consoleMessages": [],
+    "searchState": {
+      "count": 1,
+      "first": [
+        "location.city Generates a random localized city name. domain"
+      ],
+      "detail": "location.city\n\nGenerates a random localized city name.\n\nSchema: awd.domain.location.city()\n\nParameter Details\n\nNo params\n\nUsage Examples\n\nShows the default location.city call.\n\nCommand: location.city\n\nParams field: Leave blank\n\nFull call: location.city\n\nReturns: Edwinville\n\nOpen documentation"
+    },
+    "clicked": true,
+    "row": {
+      "sourceType": "domain",
+      "commandValue": "location.city",
+      "buttonText": "location.city",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\nlocation.city\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAd"
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"Lindborough\"\n\"New Braunfels\"\n\"Port Della\"\n\"Addiecester\"\n\"Lake Stefaniestead\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\nLindborough\nNew Braunfels\nPort Della\nAddiecester\nLake Stefaniestead"
+    },
+    "ok": true
+  },
+  {
+    "id": "person-firstName",
+    "kind": "domain",
+    "command": "person.firstName",
+    "consoleMessages": [],
+    "searchState": {
+      "count": 2,
+      "first": [
+        "person.firstName Returns a random first name. domain",
+        "helpers.fake Interpolates faker template placeholders inside a string and returns the rendered result. faker"
+      ],
+      "detail": "person.firstName\n\nReturns a random first name.\n\nSchema: awd.domain.person.firstName()\n\nParameter Details\nName\tDetails\nsex\tOptional sex for first-name selection. Valid values: female or male.\nParameter Types\nName\tType\tReq\nsex\tfemale|male\toptional\nUsage Examples\n\nShows person.firstName when optional params are omitted.\n\nCommand: person.firstName\n\nParams field: Leave blank\n\nFull call: person.firstName()\n\nReturns: Aaliyah\n\nShows person.firstName using sex.\n\nCommand: person.firstName\n\nParams field: (sex=\"female\")\n\nFull call: person.firstName(sex=\"female\")\n\nReturns: Monique\n\nOpen documentation"
+    },
+    "clicked": true,
+    "row": {
+      "sourceType": "domain",
+      "commandValue": "person.firstName",
+      "buttonText": "person.firstName",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\nperson.firstName\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buz"
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"Terrence\"\n\"Mavis\"\n\"Alek\"\n\"Vernon\"\n\"Lucille\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\nTerrence\nMavis\nAlek\nVernon\nLucille"
+    },
+    "ok": true
+  },
+  {
+    "id": "finance-iban",
+    "kind": "domain",
+    "command": "finance.iban",
+    "consoleMessages": [],
+    "searchState": {
+      "count": 1,
+      "first": [
+        "finance.iban Generates a random IBAN. domain"
+      ],
+      "detail": "finance.iban\n\nGenerates a random IBAN.\n\nSchema: awd.domain.finance.iban()\n\nParameter Details\nName\tDetails\ncountryCode\tThe country code from which you want to generate an IBAN, if none is provided a random country will be used. Example: GB\nformatted\tReturn a formatted version of the generated IBAN. Example: true\nParameter Types\nName\tType\tReq\ncountryCode\tstring\toptional\nformatted\tboolean\toptional\nUsage Examples\n\nShows finance.iban when optional params are omitted.\n\nCommand: finance.iban\n\nParams field: Leave blank\n\nFull call: finance.iban()\n\nReturns: IE39SAHD00454601410936\n\nShows finance.iban using countryCode.\n\nCommand: finance.iban\n\nParams field: (countryCode=\"GB\")\n\nFull call: finance.iban(countryCode=\"GB\")\n\nReturns: GB98KSAH00235420410936\n\nShows finance.iban using formatted.\n\nCommand: finance.iban\n\nParams field: (formatted=true)\n\nFull call: finance.iban(formatted=true)\n\nReturns: IE39 SAHD 0045 4601 4109 36\n\nOpen documentation"
+    },
+    "clicked": true,
+    "row": {
+      "sourceType": "domain",
+      "commandValue": "finance.iban",
+      "buttonText": "finance.iban",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\nfinance.iban\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdj"
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"LV90COOS4I6279F037667\"\n\"QA77ZRTA1ZG66E3SH78U48G983178\"\n\"QA85OCUP86QT80900776023933141\"\n\"SK2790808001838078501771\"\n\"BA486661875282002778\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\nLV90COOS4I6279F037667\nQA77ZRTA1ZG66E3SH78U48G983178\nQA85OCUP86QT80900776023933141\nSK2790808001838078501771\nBA486661875282002778"
+    },
+    "ok": true
+  },
+  {
+    "id": "date-future",
+    "kind": "domain",
+    "command": "date.future",
+    "consoleMessages": [],
+    "searchState": {
+      "count": 1,
+      "first": [
+        "date.future Generates a random date in the future. domain"
+      ],
+      "detail": "date.future\n\nGenerates a random date in the future.\n\nSchema: awd.domain.date.future()\n\nParameter Details\nName\tDetails\nrefDate\tReference date as a Unix timestamp in milliseconds since epoch used as the generation anchor. Example: 1577836800000\nyears\tThe range of years the date may be in the future. Example: 2\nParameter Types\nName\tType\tReq\nrefDate\tinteger\toptional\nyears\tinteger\toptional\nUsage Examples\n\nShows date.future when optional params are omitted.\n\nCommand: date.future\n\nParams field: Leave blank\n\nFull call: date.future()\n\nReturns: 2026-11-17T21:02:06.523Z\n\nShows date.future using refDate.\n\nCommand: date.future\n\nParams field: (refDate=1577836800000)\n\nFull call: date.future(refDate=1577836800000)\n\nReturns: 2020-06-01T05:06:46.523Z\n\nShows date.future using years.\n\nCommand: date.future\n\nParams field: (years=2)\n\nFull call: date.future(years=2)\n\nReturns: 2027-04-19T02:08:52.463Z\n\nOpen documentation"
+    },
+    "clicked": true,
+    "row": {
+      "sourceType": "domain",
+      "commandValue": "date.future",
+      "buttonText": "date.future",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\ndate.future\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdje"
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"2026-09-14T06:11:38.049Z\"\n\"2027-02-20T20:23:32.875Z\"\n\"2027-02-13T13:46:57.424Z\"\n\"2026-11-08T14:06:53.777Z\"\n\"2026-07-03T11:18:58.010Z\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\n2026-09-14T06:11:38.049Z\n2027-02-20T20:23:32.875Z\n2027-02-13T13:46:57.424Z\n2026-11-08T14:06:53.777Z\n2026-07-03T11:18:58.010Z"
+    },
+    "ok": true
+  },
+  {
+    "id": "datatype-boolean",
+    "kind": "domain",
+    "command": "datatype.boolean",
+    "consoleMessages": [],
+    "searchState": {
+      "count": 1,
+      "first": [
+        "datatype.boolean Returns the boolean value true or false. domain"
+      ],
+      "detail": "datatype.boolean\n\nReturns the boolean value true or false.\n\nSchema: awd.domain.datatype.boolean()\n\nParameter Details\nName\tDetails\nprobability\tProbability threshold for returning true (between 0 and 1).\nParameter Types\nName\tType\tReq\nprobability\tnumber\toptional\nUsage Examples\n\nShows datatype.boolean when optional params are omitted.\n\nCommand: datatype.boolean\n\nParams field: Leave blank\n\nFull call: datatype.boolean()\n\nReturns: true\n\nShows datatype.boolean using probability.\n\nCommand: datatype.boolean\n\nParams field: (probability=0.5)\n\nFull call: datatype.boolean(probability=0.5)\n\nReturns: true\n\nOpen documentation"
+    },
+    "clicked": true,
+    "row": {
+      "sourceType": "domain",
+      "commandValue": "datatype.boolean",
+      "buttonText": "datatype.boolean",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\ndatatype.boolean\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buz"
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"false\"\n\"true\"\n\"false\"\n\"false\"\n\"false\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\nfalse\ntrue\nfalse\nfalse\nfalse"
+    },
+    "ok": true
+  },
+  {
+    "id": "string-uuid",
+    "kind": "domain",
+    "command": "string.uuid",
+    "consoleMessages": [],
+    "searchState": {
+      "count": 1,
+      "first": [
+        "string.uuid Returns a UUID (Universally Unique Identifier). domain"
+      ],
+      "detail": "string.uuid\n\nReturns a UUID (Universally Unique Identifier).\n\nSchema: awd.domain.string.uuid()\n\nParameter Details\nName\tDetails\nversion\tThe specific UUID version to use. If refDate is supplied and version is omitted, version 7 is used automatically.\nrefDate\tThe timestamp to encode into the UUID. This is only valid for UUID v7. If refDate is supplied and version is omitted, version 7 is used automatically. Providing refDate with version 4 is invalid.\nParameter Types\nName\tType\tReq\nversion\t4|7\toptional\nrefDate\tstring|number|date\toptional\nUsage Examples\n\nShows string.uuid when optional params are omitted.\n\nCommand: string.uuid\n\nParams field: Leave blank\n\nFull call: string.uuid()\n\nReturns: 6b042125-686a-43e0-8a68-23cf5bee102e\n\nShows string.uuid using version.\n\nCommand: string.uuid\n\nParams field: (version=7)\n\nFull call: string.uuid(version=7)\n\nReturns: 019edb71-aa40-76b0-8421-25686a3e0a68\n\nShows string.uuid using refDate.\n\nCommand: string.uuid\n\nParams field: (refDate=\"2026-06-18T00:00:00.000Z"
+    },
+    "clicked": true,
+    "row": {
+      "sourceType": "domain",
+      "commandValue": "string.uuid",
+      "buttonText": "string.uuid",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\nstring.uuid\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdje"
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"523529b8-6a0a-49f7-aad6-e072712b03ca\"\n\"679e8724-fb1f-4e1c-bf57-df5bdc16b6b5\"\n\"c60340bd-deeb-4f8b-85ca-edcb8727f85d\"\n\"a150d635-de75-4ecb-a01b-d14f73ffbb09\"\n\"b90f1f19-a08d-4341-8cd9-590c2be6772e\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\n523529b8-6a0a-49f7-aad6-e072712b03ca\n679e8724-fb1f-4e1c-bf57-df5bdc16b6b5\nc60340bd-deeb-4f8b-85ca-edcb8727f85d\na150d635-de75-4ecb-a01b-d14f73ffbb09\nb90f1f19-a08d-4341-8cd9-590c2be6772e"
+    },
+    "ok": true
+  },
+  {
+    "id": "system-fileName",
+    "kind": "domain",
+    "command": "system.fileName",
+    "consoleMessages": [],
+    "searchState": {
+      "count": 1,
+      "first": [
+        "system.fileName Returns a random file name with extension. domain"
+      ],
+      "detail": "system.fileName\n\nReturns a random file name with extension.\n\nSchema: awd.domain.system.fileName()\n\nParameter Details\n\nNo params\n\nUsage Examples\n\nShows the default system.fileName call.\n\nCommand: system.fileName\n\nParams field: Leave blank\n\nFull call: system.fileName\n\nReturns: fog_aboard.otf\n\nOpen documentation"
+    },
+    "clicked": true,
+    "row": {
+      "sourceType": "domain",
+      "commandValue": "system.fileName",
+      "buttonText": "system.fileName",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\nsystem.fileName\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzz"
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"loftily.bmp\"\n\"endow_near_neighboring.svg\"\n\"ick_needily_profuse.oga\"\n\"dress_up_so.spx\"\n\"ah.js\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\nloftily.bmp\nendow_near_neighboring.svg\nick_needily_profuse.oga\ndress_up_so.spx\nah.js"
+    },
+    "ok": true
+  },
+  {
+    "id": "vehicle-vin",
+    "kind": "domain",
+    "command": "vehicle.vin",
+    "consoleMessages": [],
+    "searchState": {
+      "count": 1,
+      "first": [
+        "vehicle.vin Returns a vehicle identification number (VIN). domain"
+      ],
+      "detail": "vehicle.vin\n\nReturns a vehicle identification number (VIN).\n\nSchema: awd.domain.vehicle.vin()\n\nParameter Details\n\nNo params\n\nUsage Examples\n\nShows the default vehicle.vin call.\n\nCommand: vehicle.vin\n\nParams field: Leave blank\n\nFull call: vehicle.vin\n\nReturns: DP09436BDHKN28064\n\nOpen documentation"
+    },
+    "clicked": true,
+    "row": {
+      "sourceType": "domain",
+      "commandValue": "vehicle.vin",
+      "buttonText": "vehicle.vin",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\nvehicle.vin\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdje"
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"UM70AP2ENHBE14699\"\n\"XF3YDD8NB8B084790\"\n\"8ZY8LLR493NM27099\"\n\"S4A527VBRAFJ77293\"\n\"EV5TANGXSPTK13156\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\nUM70AP2ENHBE14699\nXF3YDD8NB8B084790\n8ZY8LLR493NM27099\nS4A527VBRAFJ77293\nEV5TANGXSPTK13156"
+    },
+    "ok": true
+  },
+  {
+    "id": "word-words",
+    "kind": "domain",
+    "command": "word.words",
+    "consoleMessages": [],
+    "searchState": {
+      "count": 1,
+      "first": [
+        "word.words Returns a random string containing some words separated by spaces. domain"
+      ],
+      "detail": "word.words\n\nReturns a random string containing some words separated by spaces.\n\nSchema: awd.domain.word.words()\n\nParameter Details\nName\tDetails\ncount\tNumber of items to generate.\nmax\tMaximum bound used when generating a value.\nParameter Types\nName\tType\tReq\ncount\tnumber\toptional\nmax\tnumber\toptional\nUsage Examples\n\nShows word.words when optional params are omitted.\n\nCommand: word.words\n\nParams field: Leave blank\n\nFull call: word.words()\n\nReturns: fog aboard\n\nShows word.words using count.\n\nCommand: word.words\n\nParams field: (count=5)\n\nFull call: word.words(count=5)\n\nReturns: boohoo pish tenderly above pop\n\nShows word.words using max.\n\nCommand: word.words\n\nParams field: (max=5)\n\nFull call: word.words(max=5)\n\nReturns: fog aboard\n\nOpen documentation"
+    },
+    "clicked": true,
+    "row": {
+      "sourceType": "domain",
+      "commandValue": "word.words",
+      "buttonText": "word.words",
+      "rowText": "enum\nliteral\nregex\ndomain\nfaker\nword.words\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjec"
+    },
+    "preview": {
+      "status": "",
+      "schemaError": "",
+      "output": "\"Value\"\n\"round\"\n\"larva meh\"\n\"politely geez\"\n\"lashes too woot\"\n\"healthily apud\"",
+      "tableText": "Preview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nValue\n\n\nround\nlarva meh\npolitely geez\nlashes too woot\nhealthily apud"
+    },
+    "ok": true
+  }
+]

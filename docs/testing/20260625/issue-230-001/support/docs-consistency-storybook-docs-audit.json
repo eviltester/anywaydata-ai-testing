@@ -1,0 +1,255 @@
+{
+  "storybook": {
+    "ok": true,
+    "status": 200,
+    "methodEntries": [
+      {
+        "id": "shared-method-picker-dialog--docs",
+        "title": "Shared/Method Picker Dialog",
+        "name": "Docs",
+        "type": "docs",
+        "importPath": "./apps/web/src/stories/method-picker-dialog.stories.js",
+        "tags": [
+          "dev",
+          "test",
+          "manifest",
+          "autodocs",
+          "play-fn"
+        ]
+      },
+      {
+        "id": "shared-method-picker-dialog--navigator-default",
+        "title": "Shared/Method Picker Dialog",
+        "name": "Navigator Default",
+        "type": "story",
+        "importPath": "./apps/web/src/stories/method-picker-dialog.stories.js",
+        "tags": [
+          "dev",
+          "test",
+          "manifest",
+          "autodocs",
+          "play-fn"
+        ]
+      },
+      {
+        "id": "shared-method-picker-dialog--list-default",
+        "title": "Shared/Method Picker Dialog",
+        "name": "List Default",
+        "type": "story",
+        "importPath": "./apps/web/src/stories/method-picker-dialog.stories.js",
+        "tags": [
+          "dev",
+          "test",
+          "manifest",
+          "autodocs",
+          "play-fn"
+        ]
+      },
+      {
+        "id": "shared-method-picker-dialog--help-display-with-usage",
+        "title": "Shared/Method Picker Dialog",
+        "name": "Help Display With Usage",
+        "type": "story",
+        "importPath": "./apps/web/src/stories/method-picker-dialog.stories.js",
+        "tags": [
+          "dev",
+          "test",
+          "manifest",
+          "autodocs",
+          "play-fn"
+        ]
+      },
+      {
+        "id": "shared-method-picker-dialog--visual-always-open",
+        "title": "Shared/Method Picker Dialog",
+        "name": "Visual Always Open",
+        "type": "story",
+        "importPath": "./apps/web/src/stories/method-picker-dialog.stories.js",
+        "tags": [
+          "dev",
+          "test",
+          "manifest",
+          "autodocs",
+          "play-fn"
+        ]
+      },
+      {
+        "id": "shared-method-picker-dialog--choose-faker-method",
+        "title": "Shared/Method Picker Dialog",
+        "name": "Choose Faker Method",
+        "type": "story",
+        "importPath": "./apps/web/src/stories/method-picker-dialog.stories.js",
+        "tags": [
+          "dev",
+          "test",
+          "manifest",
+          "autodocs",
+          "play-fn"
+        ]
+      },
+      {
+        "id": "shared-method-picker-dialog--filter-and-choose-domain-method",
+        "title": "Shared/Method Picker Dialog",
+        "name": "Filter And Choose Domain Method",
+        "type": "story",
+        "importPath": "./apps/web/src/stories/method-picker-dialog.stories.js",
+        "tags": [
+          "dev",
+          "test",
+          "manifest",
+          "autodocs",
+          "play-fn"
+        ]
+      },
+      {
+        "id": "shared-method-picker-dialog--cancel-method-selection",
+        "title": "Shared/Method Picker Dialog",
+        "name": "Cancel Method Selection",
+        "type": "story",
+        "importPath": "./apps/web/src/stories/method-picker-dialog.stories.js",
+        "tags": [
+          "dev",
+          "test",
+          "manifest",
+          "autodocs",
+          "play-fn"
+        ]
+      }
+    ]
+  },
+  "docs": [
+    {
+      "url": "https://eviltester.github.io/grid-table-editor/site/docs/category/generating-data",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://eviltester.github.io/grid-table-editor/site/docs/category/generating-data/",
+      "length": 31776,
+      "contains": {
+        "methodPicker": false,
+        "openDocumentation": false,
+        "javascriptHref": false,
+        "enumFullCall": false,
+        "datatypeEnum": false,
+        "internetHttpMethod": false,
+        "commercePrice": false,
+        "helpersArrayElement": false,
+        "urlLoremFlickr": false
+      },
+      "snippet": "Generating Data | AnyWayData - Data Table Editor &amp; Generator Skip to main content AnyWayData App Docs Blog GitHub Docs About Editing Data Editable Data Grid Import From File Text Editing Exporting Data Data Formats Generating Data Test Data Generation Data Grid Editable Generate to File Schema Definition Regex Based Data Literal Data Pairwise Testing N-Wise Testing Domain Test Data Faker Based Data Counterstrings Auto Increment Sequences Misc Related Tools Video Tutorials Faker Test Data Int"
+    },
+    {
+      "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/domain-test-data",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/domain-test-data/",
+      "length": 39923,
+      "contains": {
+        "methodPicker": false,
+        "openDocumentation": false,
+        "javascriptHref": false,
+        "enumFullCall": false,
+        "datatypeEnum": false,
+        "internetHttpMethod": false,
+        "commercePrice": false,
+        "helpersArrayElement": false,
+        "urlLoremFlickr": false
+      },
+      "snippet": "Domain Test Data | AnyWayData - Data Table Editor &amp; Generator Skip to main content AnyWayData App Docs Blog GitHub Docs About Editing Data Editable Data Grid Import From File Text Editing Exporting Data Data Formats Generating Data Test Data Generation Data Grid Editable Generate to File Schema Definition Regex Based Data Literal Data Pairwise Testing N-Wise Testing Domain Test Data airline Domain animal Domain autoIncrement Domain book Domain color Domain commerce Domain company Domain data"
+    },
+    {
+      "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/commerce/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/commerce/",
+      "length": 49672,
+      "contains": {
+        "methodPicker": false,
+        "openDocumentation": false,
+        "javascriptHref": false,
+        "enumFullCall": false,
+        "datatypeEnum": false,
+        "internetHttpMethod": false,
+        "commercePrice": true,
+        "helpersArrayElement": false,
+        "urlLoremFlickr": false
+      },
+      "snippet": "commerce Domain | AnyWayData - Data Table Editor &amp; Generator Skip to main content AnyWayData App Docs Blog GitHub Docs About Editing Data Editable Data Grid Import From File Text Editing Exporting Data Data Formats Generating Data Test Data Generation Data Grid Editable Generate to File Schema Definition Regex Based Data Literal Data Pairwise Testing N-Wise Testing Domain Test Data airline Domain animal Domain autoIncrement Domain book Domain color Domain commerce Domain company Domain datab"
+    },
+    {
+      "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/datatype/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/datatype/",
+      "length": 37223,
+      "contains": {
+        "methodPicker": false,
+        "openDocumentation": false,
+        "javascriptHref": false,
+        "enumFullCall": false,
+        "datatypeEnum": true,
+        "internetHttpMethod": false,
+        "commercePrice": false,
+        "helpersArrayElement": false,
+        "urlLoremFlickr": false
+      },
+      "snippet": "datatype Domain | AnyWayData - Data Table Editor &amp; Generator Skip to main content AnyWayData App Docs Blog GitHub Docs About Editing Data Editable Data Grid Import From File Text Editing Exporting Data Data Formats Generating Data Test Data Generation Data Grid Editable Generate to File Schema Definition Regex Based Data Literal Data Pairwise Testing N-Wise Testing Domain Test Data airline Domain animal Domain autoIncrement Domain book Domain color Domain commerce Domain company Domain datab"
+    },
+    {
+      "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/internet/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/internet/",
+      "length": 78878,
+      "contains": {
+        "methodPicker": false,
+        "openDocumentation": false,
+        "javascriptHref": false,
+        "enumFullCall": false,
+        "datatypeEnum": false,
+        "internetHttpMethod": true,
+        "commercePrice": false,
+        "helpersArrayElement": false,
+        "urlLoremFlickr": false
+      },
+      "snippet": "internet Domain | AnyWayData - Data Table Editor &amp; Generator Skip to main content AnyWayData App Docs Blog GitHub Docs About Editing Data Editable Data Grid Import From File Text Editing Exporting Data Data Formats Generating Data Test Data Generation Data Grid Editable Generate to File Schema Definition Regex Based Data Literal Data Pairwise Testing N-Wise Testing Domain Test Data airline Domain animal Domain autoIncrement Domain book Domain color Domain commerce Domain company Domain datab"
+    },
+    {
+      "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/location/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/location/",
+      "length": 67889,
+      "contains": {
+        "methodPicker": false,
+        "openDocumentation": false,
+        "javascriptHref": false,
+        "enumFullCall": false,
+        "datatypeEnum": false,
+        "internetHttpMethod": false,
+        "commercePrice": false,
+        "helpersArrayElement": false,
+        "urlLoremFlickr": false
+      },
+      "snippet": "location Domain | AnyWayData - Data Table Editor &amp; Generator Skip to main content AnyWayData App Docs Blog GitHub Docs About Editing Data Editable Data Grid Import From File Text Editing Exporting Data Data Formats Generating Data Test Data Generation Data Grid Editable Generate to File Schema Definition Regex Based Data Literal Data Pairwise Testing N-Wise Testing Domain Test Data airline Domain animal Domain autoIncrement Domain book Domain color Domain commerce Domain company Domain datab"
+    },
+    {
+      "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/faker-test-data/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/faker-test-data/",
+      "length": 32029,
+      "contains": {
+        "methodPicker": false,
+        "openDocumentation": false,
+        "javascriptHref": false,
+        "enumFullCall": false,
+        "datatypeEnum": false,
+        "internetHttpMethod": false,
+        "commercePrice": false,
+        "helpersArrayElement": false,
+        "urlLoremFlickr": false
+      },
+      "snippet": "Faker Based Data | AnyWayData - Data Table Editor &amp; Generator Skip to main content AnyWayData App Docs Blog GitHub Docs About Editing Data Editable Data Grid Import From File Text Editing Exporting Data Data Formats Generating Data Test Data Generation Data Grid Editable Generate to File Schema Definition Regex Based Data Literal Data Pairwise Testing N-Wise Testing Domain Test Data Faker Based Data Faker Helpers Counterstrings Auto Increment Sequences Misc Related Tools Video Tutorials Fake"
+    }
+  ]
+}
