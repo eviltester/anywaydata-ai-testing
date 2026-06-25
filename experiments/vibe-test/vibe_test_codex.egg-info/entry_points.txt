@@ -1,0 +1,5 @@
+[console_scripts]
+vibe-test-codex = vibe_test_codex.cli:main
+vibe-test-codex-mcp = vibe_test_codex.mcp_server:run
+vibe-test-local = vibe_test_codex.cli:main
+vibe-test-local-mcp = vibe_test_codex.mcp_server:run

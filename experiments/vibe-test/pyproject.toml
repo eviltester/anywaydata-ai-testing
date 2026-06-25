@@ -1,0 +1,18 @@
+[project]
+name = "vibe-test-codex"
+version = "0.1.0"
+description = "Local Ollama-powered vibe testing experiment using Playwright CLI and MCP."
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2.8.0",
+  "mcp[cli]>=1.0.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["vibe_test_codex*"]
+
+[project.scripts]
+vibe-test-codex-mcp = "vibe_test_codex.mcp_server:run"
+vibe-test-codex = "vibe_test_codex.cli:main"
+vibe-test-local-mcp = "vibe_test_codex.mcp_server:run"
+vibe-test-local = "vibe_test_codex.cli:main"
