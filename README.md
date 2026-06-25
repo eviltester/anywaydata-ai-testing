@@ -35,7 +35,9 @@ This worked, but it polled the environment every minute. But when the env was up
 - 20260622 amended to
   - collate the logs and defects into a single file to use through pandoc, not create an index of links
 - 20260624 amended to
-  - only mention PR and Issue once to avoid mismatched ids in para and lnk 
+  - only mention PR and Issue once to avoid mismatched ids in para and lnk
+- 20260625 amended to
+  - try and reduce teh amount of files in the root report folder - put agent logs in /logs and put any supporting scripts or data in /support 
 
 
 ```text
@@ -64,7 +66,8 @@ Required deliverables
   - `issue-999-test-report.md`
 - Final PDF export:
   - `issue-999-test-report.pdf`
-- Subagent logs for each delegated area in the same folder
+- Subagent logs for each delegated area in a /logs sub folder
+- any suppoting test data or scripts generated or written to files should be placed in a /support sub folder
 - Any screenshots needed to explain findings, embedded in the markdown report
 - Split all defects found into a `/defects` folder with one markdown file per defect. Where each defect is explained in enough detail that another AI agent could process this report to investigate and fix the issue. Include any supporting screenshots as necessary.
 
