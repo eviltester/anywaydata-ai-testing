@@ -38,8 +38,11 @@ This worked, but it polled the environment every minute. But when the env was up
   - only mention PR and Issue once to avoid mismatched ids in para and lnk
 - 20260625 amended to
   - try and reduce teh amount of files in the root report folder - put agent logs in /logs and put any supporting scripts or data in /support
-- 20260627 ammended to
-  - try to capture videos of bug replication and report issues to github  
+- 20260627 amended to
+  - try to capture videos of bug replication and report issues to github
+- 20260628 amended to
+  - improve target github test report
+  - remove non-evidential screenshots  
 
 
 ```text
@@ -297,7 +300,8 @@ When completely finished:
   - the pandoc pdf of the collated `test-logs-and-defects.md` file
   - the final PDF report
 - create a README.md which describes the md files and links to each in the best reading order to understand the testing and results
-- in the target project github repo create an issue for the testing activity and then create sub issues - one for each defect that you are reporting with the description of the issue and supporting evidence
+- in the target project github repo create an issue for the testing activity with a summary of the testing found and major highlights and then create sub issues - one for each defect that you are reporting with the description of the issue and supporting evidence
+- tidy the evidence folder and make sure that the screenshots folder only contains images that are referenced in the markdown files
 
 Non-optional constraints
 
