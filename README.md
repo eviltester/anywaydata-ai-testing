@@ -37,16 +37,23 @@ This worked, but it polled the environment every minute. But when the env was up
 - 20260624 amended to
   - only mention PR and Issue once to avoid mismatched ids in para and lnk
 - 20260625 amended to
-  - try and reduce teh amount of files in the root report folder - put agent logs in /logs and put any supporting scripts or data in /support 
+  - try and reduce teh amount of files in the root report folder - put agent logs in /logs and put any supporting scripts or data in /support
+- 20260627 amended to
+  - try to capture videos of bug replication and report issues to github
+- 20260628 amended to
+  - improve target github test report
+  - remove non-evidential screenshots  
 
 
 ```text
 /Goal Perform a comprehensive multi-agent exploratory test review of issue/story and PR in the github links below with all testing conducted using only the deployed test environment linked to below.
 
+Target Project Github Repo: https://github.com/eviltester/grid-table-editor
 Story: https://github.com/eviltester/grid-table-editor/issues/226
 PR: https://github.com/eviltester/grid-table-editor/pull/231
-Test environment: https://eviltester.github.io/grid-table-editor/
+Test environment: https://eviltester.github.io/grid-table-editor/site/
 
+ 
 Prior to any testing check that you can open the test environment in a browser and interact with the application using either Chrome Dev Tools MCP or Playwright MCP.
 
 Operating rules
@@ -70,6 +77,7 @@ Required deliverables
 - any suppoting test data or scripts generated or written to files should be placed in a /support sub folder
 - Any screenshots needed to explain findings, embedded in the markdown report
 - Split all defects found into a `/defects` folder with one markdown file per defect. Where each defect is explained in enough detail that another AI agent could process this report to investigate and fix the issue. Include any supporting screenshots as necessary.
+   - only defects which are replicable should be output to the defect folder
 
 Main sequential log format
 
@@ -252,6 +260,7 @@ Evidence expectations
 - Record concrete evidence for defects and suspicious behavior.
 - Distinguish confirmed defects from hypotheses and follow-up risks.
 - For any suspected defect, try to repeat, and if it can be repeated make a note that this is repeatable or not.
+   - for all replicable defects, record a video of the replication steps which clearly shows the input,actions and output then save the video to a sub folder `/videos` because this makes the defect visible to aid triage and future understanding
 - If a behavior may be intentional, say so and explain why it still deserves follow-up.
 
 When adding links to files or between logs and reports in the output. Use relative file path links, not absolute file links.
@@ -291,6 +300,8 @@ When completely finished:
   - the pandoc pdf of the collated `test-logs-and-defects.md` file
   - the final PDF report
 - create a README.md which describes the md files and links to each in the best reading order to understand the testing and results
+- in the target project github repo create an issue for the testing activity with a summary of the testing found and major highlights and then create sub issues - one for each defect that you are reporting with the description of the issue and supporting evidence
+- tidy the evidence folder and make sure that the screenshots folder only contains images that are referenced in the markdown files
 
 Non-optional constraints
 
