@@ -7,10 +7,13 @@ Recommended reading order:
 3. [issue-266-test-log.md](issue-266-test-log.md) - append-only main sequential session log.
 4. [test-logs-and-defects.md](test-logs-and-defects.md) - full collated logs and defect files for archival/PDF use.
 5. [logs/](logs/) - subagent lane logs.
-6. [support/](support/) - JSON, scripts, and supporting screenshots generated during deployed-only testing.
-7. [screenshots/](screenshots/) - screenshots referenced by the report and defect files.
-8. [videos/](videos/) - repeatable defect reproduction videos.
-9. [issue-266-session-goal-prompt.md](issue-266-session-goal-prompt.md) - original user goal saved before testing.
+6. [screenshots/](screenshots/) - screenshots referenced by the report and defect files.
+7. [issue-266-session-goal-prompt.md](issue-266-session-goal-prompt.md) - original user goal saved before testing.
+
+Local-only evidence folders, intentionally not checked in:
+
+- `support/` - JSON, scripts, and supporting screenshots generated during deployed-only testing.
+- `videos/` - repeatable defect reproduction videos.
 
 PDFs:
 
