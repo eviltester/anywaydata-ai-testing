@@ -899,7 +899,7 @@ helpers.uniqueArray(faker.word.sample, 5)
 
 ![Working control example](../screenshots/defect-001-control-helpers-uniquearray-faker-word.png)
 
-Video: [defect-001-docs-helpers-uniquearray-this-word.webm](../videos/defect-001-docs-helpers-uniquearray-this-word.webm)
+Video evidence was recorded locally at `videos/defect-001-docs-helpers-uniquearray-this-word.webm` and is intentionally not checked in.
 
 Supporting data:
 
@@ -949,7 +949,7 @@ Repeated by the responsive/accessibility subagent and main Loop 3. Repeatable.
 
 ![App page mobile view](../screenshots/defect-002-app-missing-main-h1-mobile.png)
 
-Video: [defect-002-app-missing-main-h1.webm](../videos/defect-002-app-missing-main-h1.webm)
+Video evidence was recorded locally at `videos/defect-002-app-missing-main-h1.webm` and is intentionally not checked in.
 
 Supporting data:
 
@@ -1004,7 +1004,7 @@ Red outlines mark controls below 24px in at least one dimension.
 
 ![Generator small touch targets](../screenshots/defect-003-generator-sub-24px-touch-targets.png)
 
-Video: [defect-003-sub-24px-touch-targets.webm](../videos/defect-003-sub-24px-touch-targets.webm)
+Video evidence was recorded locally at `videos/defect-003-sub-24px-touch-targets.webm` and is intentionally not checked in.
 
 Supporting data:
 
@@ -1059,7 +1059,7 @@ Repeated by responsive/accessibility lane and main Loop 3, with main Loop 3 refi
 
 ![Schema row tab order](../screenshots/defect-004-schema-row-tab-order.png)
 
-Video: [defect-004-schema-row-tab-order.webm](../videos/defect-004-schema-row-tab-order.webm)
+Video evidence was recorded locally at `videos/defect-004-schema-row-tab-order.webm` and is intentionally not checked in.
 
 Supporting data:
 

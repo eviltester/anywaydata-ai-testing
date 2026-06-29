@@ -9,8 +9,11 @@ Recommended reading order:
 5. [Collated logs and defects](test-logs-and-defects.md) - full content of the main log, subagent logs, and defect files.
 6. [Collated logs and defects PDF](test-logs-and-defects.pdf) - PDF export of the collated detail bundle.
 7. [Subagent logs](logs/) - detailed append-only logs for delegated lanes.
-8. [Support evidence](support/) - scripts, JSON probes, PR/issue evidence, loop matrices, and lane summaries.
-9. [Videos](videos/) - Playwright screencast reproductions for each confirmed defect.
+
+Local-only evidence:
+
+- `support/` contains scripts, JSON probes, PR/issue evidence, loop matrices, and lane summaries. It is intentionally not checked in.
+- `videos/` contains Playwright screencast reproductions for confirmed defects. It is intentionally not checked in.
 
 Key files:
 

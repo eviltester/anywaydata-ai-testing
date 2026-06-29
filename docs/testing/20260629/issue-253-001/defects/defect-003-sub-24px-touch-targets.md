@@ -44,7 +44,7 @@ Red outlines mark controls below 24px in at least one dimension.
 
 ![Generator small touch targets](../screenshots/defect-003-generator-sub-24px-touch-targets.png)
 
-Video: [defect-003-sub-24px-touch-targets.webm](../videos/defect-003-sub-24px-touch-targets.webm)
+Video evidence was recorded locally at `videos/defect-003-sub-24px-touch-targets.webm` and is intentionally not checked in.
 
 Supporting data:
 

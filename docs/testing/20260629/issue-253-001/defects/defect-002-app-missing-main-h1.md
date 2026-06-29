@@ -39,7 +39,7 @@ Repeated by the responsive/accessibility subagent and main Loop 3. Repeatable.
 
 ![App page mobile view](../screenshots/defect-002-app-missing-main-h1-mobile.png)
 
-Video: [defect-002-app-missing-main-h1.webm](../videos/defect-002-app-missing-main-h1.webm)
+Video evidence was recorded locally at `videos/defect-002-app-missing-main-h1.webm` and is intentionally not checked in.
 
 Supporting data:
 

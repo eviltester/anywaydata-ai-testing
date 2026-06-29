@@ -42,12 +42,14 @@ Changed-surface inventory:
 
 Six subagents were used:
 
-- Command coverage and example execution: [logs/command-coverage-test-log.md](logs/command-coverage-test-log.md), [support/command-coverage-findings.md](support/command-coverage-findings.md)
-- Negative validation and malformed parameter testing: [logs/negative-validation-test-log.md](logs/negative-validation-test-log.md), [support/negative-validation-findings.md](support/negative-validation-findings.md)
-- Docs/help/content consistency: [logs/docs-consistency-test-log.md](logs/docs-consistency-test-log.md), [support/docs-consistency-findings.md](support/docs-consistency-findings.md)
-- UX/usability and workflow regression: [logs/ux-regression-test-log.md](logs/ux-regression-test-log.md), [support/ux-regression-findings.md](support/ux-regression-findings.md)
-- Responsive/mobile and accessibility: [logs/responsive-accessibility-test-log.md](logs/responsive-accessibility-test-log.md), [support/responsive-accessibility-findings.md](support/responsive-accessibility-findings.md)
-- Grid/filter and duplicate-column regression: [logs/grid-filter-regression-test-log.md](logs/grid-filter-regression-test-log.md), [support/grid-filter-regression-findings.md](support/grid-filter-regression-findings.md)
+- Command coverage and example execution: [logs/command-coverage-test-log.md](logs/command-coverage-test-log.md)
+- Negative validation and malformed parameter testing: [logs/negative-validation-test-log.md](logs/negative-validation-test-log.md)
+- Docs/help/content consistency: [logs/docs-consistency-test-log.md](logs/docs-consistency-test-log.md)
+- UX/usability and workflow regression: [logs/ux-regression-test-log.md](logs/ux-regression-test-log.md)
+- Responsive/mobile and accessibility: [logs/responsive-accessibility-test-log.md](logs/responsive-accessibility-test-log.md)
+- Grid/filter and duplicate-column regression: [logs/grid-filter-regression-test-log.md](logs/grid-filter-regression-test-log.md)
+
+The lane summaries and structured probes remain in the local `support/` folder only and are intentionally not checked in.
 
 ## Model-Based Coverage Diagram
 
@@ -87,7 +89,7 @@ Command families sampled:
 - Structured/constrained params: arrays, booleans, object-like helper examples, date numeric bounds, prefixed/suffixed padded sequence.
 - Output formats sampled: CSV, JSON, Markdown, plus grid/export lane checks.
 
-Docs/pages reviewed included the site home, app, generator, docs intro, generating-data category, schema definition, Faker docs/helpers, domain docs, number docs, auto-increment docs, web UI, REST API, and CLI pages. See [support/docs-consistency-findings.md](support/docs-consistency-findings.md) for the full list.
+Docs/pages reviewed included the site home, app, generator, docs intro, generating-data category, schema definition, Faker docs/helpers, domain docs, number docs, auto-increment docs, web UI, REST API, and CLI pages. The full structured docs inventory remains in the local-only `support/` folder.
 
 Workflow areas covered:
 

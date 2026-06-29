@@ -54,7 +54,7 @@ helpers.uniqueArray(faker.word.sample, 5)
 
 ![Working control example](../screenshots/defect-001-control-helpers-uniquearray-faker-word.png)
 
-Video: [defect-001-docs-helpers-uniquearray-this-word.webm](../videos/defect-001-docs-helpers-uniquearray-this-word.webm)
+Video evidence was recorded locally at `videos/defect-001-docs-helpers-uniquearray-this-word.webm` and is intentionally not checked in.
 
 Supporting data:
 

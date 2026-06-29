@@ -44,7 +44,7 @@ Repeated by responsive/accessibility lane and main Loop 3, with main Loop 3 refi
 
 ![Schema row tab order](../screenshots/defect-004-schema-row-tab-order.png)
 
-Video: [defect-004-schema-row-tab-order.webm](../videos/defect-004-schema-row-tab-order.webm)
+Video evidence was recorded locally at `videos/defect-004-schema-row-tab-order.webm` and is intentionally not checked in.
 
 Supporting data:
 
