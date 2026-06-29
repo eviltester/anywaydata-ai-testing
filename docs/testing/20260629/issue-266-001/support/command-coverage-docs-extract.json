@@ -1,0 +1,377 @@
+[
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/test-data-generation/",
+    "title": "Test Data Generation | AnyWayData - Data Table Editor & Generator",
+    "h1": [
+      "Test Data Generation"
+    ],
+    "h2": [
+      "Choose a Workflow​",
+      "Data Types​",
+      "Learn More About Rule Types​"
+    ],
+    "codeBlocks": [
+      "app.html",
+      "generator.html",
+      "app.html",
+      "generator.html",
+      "Literal",
+      "RegEx",
+      "Faker",
+      "Enum",
+      "app.html",
+      "generator.html"
+    ],
+    "text": "Skip to main content\nAnyWayData\nApp\nDocs\nBlog\nGitHub\nDocs\nDocumentation\nAbout\nEditing Data\nEditable Data Grid\nImport From File\nText Editing\nExporting Data\nData Formats\nGenerating Data\nTest Data Generation\nData Grid Editable\nGenerate to File\nSchema Definition\nRegex Based Data\nLiteral Data\nPairwise Testing\nN-Wise Testing\nDomain Test Data\nFaker Based Data\nCounterstrings\nAuto Increment Sequences\nMisc\nRelated Tools\nVideo Tutorials\nFaker Test Data\nInterfaces & Deployment\nOverview\nWeb UI\nREST API\nMCP\nCLI (Node and Bun)\nDocsGenerating DataTest Data Generation\nTest Data Generation\n\nAnyWayData offers two main web UI workflows for generating and working with test data:\n\nData Grid Editable (app.html) for interactive grid-first editing and generation\nGenerate to File (generator.html) for schema-driven generation and direct file output\nChoose a Workflow​\nData Grid Editable (app.html)​\n\nUse this when you want to:\n\nedit/import/export table data directly in a grid\ndefine generation rules and generate rows into the same editable grid\nrefine data interactively before exporting\n\nSee Data Grid Editable.\n\nGenerate to File (generator.html)​\n\nUse this when you want to:\n\ndefine a schema and preview generated rows\nconfigure output format-specific options\ngenerate and download output directly as a file\n\nSee Generate to File.\n\nData Types​\n\nBoth workflows support generation rules such as:\n\nLiteral\nRegEx\nFaker\nEnum (including pairwise combinations when applicable)\nLearn More About Rule Types​\nLiteral Data\nRegex Based Data\nFaker Based Data\nCounterstrings\nDomain Test Data\nAll Pairs Combinatorial Testing - Generate optimal test combinations from enum data\nPrevious\nGenerating Data\nNext\nData Grid Editable\nChoose a Workflow\nData Grid Editable (app.html)\nGenerate to File (generator.html)\nData Types\nLearn More About Rule Types\nDocs\nTutorial\nPrivacy Policy\nAbout\nContact\nCommunity\nTwitter\nMore\nBlog\nGitHub\nCopyright © 2026 Compendium Developments Ltd. Built with Docusaurus."
+  },
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/Schema-Definition/",
+    "title": "Schema Definition | AnyWayData - Data Table Editor & Generator",
+    "h1": [
+      "Schema Definition"
+    ],
+    "h2": [
+      "Basic schema format​",
+      "Field rule examples​",
+      "Switching text schemas back to the Schema UI​",
+      "Comments and blank lines​",
+      "Schema constraints​",
+      "What constraints do​",
+      "Parameter references​",
+      "Supported operators​",
+      "Logical operators​",
+      "Constraint value types​",
+      "Validation rules for constraints​",
+      "Generation-time constraint failures​",
+      "Pairwise and n-wise constraints​",
+      "Copy-paste examples​",
+      "Summary​"
+    ],
+    "codeBlocks": [
+      "app.html",
+      "generator.html",
+      "Column Namerule definition",
+      "Column Namerule definition",
+      "Statusenum(\"Open\",\"In Progress\",\"Closed\")",
+      "Statusenum(\"Open\",\"In Progress\",\"Closed\")",
+      "Status",
+      "Status: enum(\"Open\",\"In Progress\",\"Closed\")",
+      "Status: enum(\"Open\",\"In Progress\",\"Closed\")",
+      "name: values",
+      "Browser: Chrome,Firefox,SafariTheme: Light,Dark",
+      "Browser: Chrome,Firefox,SafariTheme: Light,Dark",
+      "Buildliteral(1.0.0)",
+      "Buildliteral(1.0.0)",
+      "1.0.0",
+      "Priorityenum(\"High\",\"Medium\",\"Low\")",
+      "Priorityenum(\"High\",\"Medium\",\"Low\")",
+      "High",
+      "Medium",
+      "Low",
+      "Ticket Idregex([A-Z]{3}-\\d{4})",
+      "Ticket Idregex([A-Z]{3}-\\d{4})",
+      "ABC-1234",
+      "[A-Z]{3}",
+      "[A-Z]{2,3}",
+      "regex([A-Z]{3})",
+      "regex([A-Z]{2,3})",
+      "/[A-Z]{3}/",
+      "/abc/i",
+      "GET,POST,PUT",
+      "enum(\"GET\",\"POST\",\"PUT\")",
+      "[A-Z]{2,3}",
+      "^GET,POST$",
+      "regex(...)",
+      "enum(...)",
+      "person.fullName",
+      "person.fullName()",
+      "person.notACommand",
+      "person.notACommand()",
+      "literal(...)",
+      "regex(...)",
+      "Customer Nameperson.fullName",
+      "Customer Nameperson.fullName",
+      "CreatedAtautoIncrement.timestamp(start=\"2026-06-12T12:39:23Z\", step=1, type=\"seconds\")",
+      "CreatedAtautoIncrement.timestamp(start=\"2026-06-12T12:39:23Z\", step=1, type=\"seconds\")",
+      "Customer Name",
+      "Alice Smith",
+      "CreatedAt",
+      "#",
+      "# Core workflow fieldsPriorityenum(\"High\",\"Medium\",\"Low\")# User-facing statusStatusenum(\"Open\",\"Closed\")"
+    ],
+    "text": "Skip to main content\nAnyWayData\nApp\nDocs\nBlog\nGitHub\nDocs\nDocumentation\nAbout\nEditing Data\nEditable Data Grid\nImport From File\nText Editing\nExporting Data\nData Formats\nGenerating Data\nTest Data Generation\nData Grid Editable\nGenerate to File\nSchema Definition\nRegex Based Data\nLiteral Data\nPairwise Testing\nN-Wise Testing\nDomain Test Data\nFaker Based Data\nCounterstrings\nAuto Increment Sequences\nMisc\nRelated Tools\nVideo Tutorials\nFaker Test Data\nInterfaces & Deployment\nOverview\nWeb UI\nREST API\nMCP\nCLI (Node and Bun)\nDocsGenerating DataSchema Definition\nSchema Definition\n\nThe schema editor in app.html and generator.html uses a plain text format.\n\nThis page explains:\n\nhow field rules are written\nhow schema constraints are written\nwhich operators are supported\nhow constraints affect generated data\ncopy-paste examples you can use directly in the tool\nBasic schema format​\n\nA schema is usually written as repeating two-line field definitions:\n\nColumn Name\n\nrule definition\n\n\nExample:\n\nStatus\n\nenum(\"Open\",\"In Progress\",\"Closed\")\n\n\nThis creates one output column called Status.\n\nYou can also use a compact inline form when you prefer a PICT-style layout:\n\nStatus: enum(\"Open\",\"In Progress\",\"Closed\")\n\n\nFor enum-heavy schemas, a shorter name: values form is also supported:\n\nBrowser: Chrome,Firefox,Safari\n\nTheme: Light,Dark\n\n\nBoth formats are supported, and you can mix them in the same schema.\n\nField rule examples​\nLiteral values​\n\nUse a literal when every generated row should contain the same value.\n\nBuild\n\nliteral(1.0.0)\n\n\nThis always generates 1.0.0.\n\nEnum values​\n\nUse an enum when the column should be chosen from a fixed set of values.\n\nPriority\n\nenum(\"High\",\"Medium\",\"Low\")\n\n\nThis generates one of High, Medium, or Low.\n\nRegex values​\n\nUse a regex when the value should match a pattern.\n\nTicket Id\n\nregex([A-Z]{3}-\\d{4})\n\n\nThis generates values such as ABC-1234.\n\nRaw regex patterns are still accepted for quick entry when the text does not look like a command. For example, [A-Z]{3} and [A-Z]{2,3} are treated as regex shorthand and are shown as regex([A-Z]{3}) or regex([A-Z]{2,3}) when schema text is refreshed after previewing or generating data. JavaScript-style regex literals such as /[A-Z]{3}/ are also accepted and are normalized to the inner pattern. Regex flags such as /abc/i are not supported.\n\nPlain comma-separated words still act as enum shorthand. For example, GET,POST,PUT is treated as enum(\"GET\",\"POST\",\"PUT\"). If comma-containing text includes regex syntax such as [A-Z]{2,3} or ^GET,POST$, it is treated as regex shorthand rather than enum. Use regex(...) or enum(...) when you want the intent to be completely explicit.\n\nCommand-like text is validated as a command before regex or literal shorthand is considered. A dotted identifier such as person.fullName, person.fullName(), person.notACommand, or person.notACommand() must resolve to a supported AnyWayData domain command or allowed Faker helper. Unknown command-like text is reported as a schema error instead of being interpreted as regex or literal text. To use command-looking text as data, wrap it explicitly with literal(...); to use it as a regex, wrap it explicitly with regex(...).\n\nDomain and Faker-style methods​\n\nUse a domain method for realistic generated values.\n\nCustomer Name\n\nperson.fullName\n\nCreatedAt\n\nautoIncrement.timestamp(start=\"2026-06-12T12:39:23Z\", step=1, type=\"seconds\")\n\n\nThe Customer Name example generates names such as Alice Smith. The CreatedAt example generates deterministic timestamps for time-ordered rows.\n\nSwitching text schemas back to the Schema UI​\n\nWhen you switch from Edit as Text to Edit as Schema, AnyWayData validates the text first. If the text contains invalid rule definitions, the app asks whether to convert those invalid definitions to literal values so they can be edited in the Schema UI.\n\nChoosing Yes keeps valid rows as their detected types and converts only invalid rule definitions to literal rows using the original rule text. Choosing No, pressing Escape, or dismissing the dialog keeps you in Edit as Text mode with the schema error visible. Constraint errors are not converted to literals; fix those in text mode first.\n\nComments and blank lines​\n\nYou can use blank lines to make a schema easier to read.\n\nLines starting with # are treated as comments.\n\nExample:\n\n# Core workflow fields\n\nPriority\n\nenum(\"High\",\"Medium\",\"Low\")\n\n\n\n# User-facing status\n\nStatus\n\nenum(\"Open\",\"Closed\")\n\nSchema constraints​\n\nSchema constraints restrict which combinations of values are allowed.\n\nThe currently supported constraint form is:\n\nIF predicate THEN predicate\n\n\nYou can terminate a constraint with either:\n\n;\nENDIF\n\nBoth of these are valid:\n\nIF [Priority] = \"High\" THEN [Status] = \"Open\";\n\nIF [Priority] = \"High\" THEN [Status] = \"Open\" ENDIF\n\nWhat constraints do​\n\nConstraints do not assign or mutate values after generation.\n\nInstead, they define which rows are valid.\n\nThe generator creates candidate rows, checks them against the constraints, and keeps only rows that satisfy all constraints.\n\nFor example:\n\nPriority\n\nenum(\"High\",\"Low\")\n\nStatus\n\nenum(\"Open\",\"Closed\")\n\n\n\nIF [Priority] = \"High\" THEN [Status] = \"Open\";\n\n\nMeaning:\n\nrows with Priority = High are only valid if Status = Open\nrows with Priority = Low can have either Open or Closed\n\nSo High + Closed should never appear in generated output.\n\nParameter references​\n\nInside constraints, column names must be written in square brackets:\n\n[Priority]\n\n[Status]\n\n[Ticket Id]\n\n\nImportant:\n\nuse the exact schema column name\nbracketed names are required inside constraints\nspaces are allowed inside the brackets\n\nExample:\n\nIF [Ticket Status] = \"Open\" THEN [Resolution Code] = \"\";\n\nSupported operators​\nEquality and comparison​\n\nSupported comparison operators are:\n\n=\n<>\n>\n>=\n<\n<=\n\nExample:\n\nIF [Age] >= 18 THEN [Access Level] = \"Adult\";\n\n\nNotes:\n\nuse <> for \"not equal\"\n!= is not supported\nLIKE​\n\nLIKE checks a wildcard pattern.\n\nSupported wildcard characters are:\n\n* for any number of characters\n? for a single character\n\nExample:\n\nIF [Code] LIKE \"QA-*\" THEN [Environment] = \"Test\";\n\n\nMeaning:\n\nif Code starts with QA-, then Environment must be Test\nNOT LIKE​\n\nExample:\n\nIF [Code] NOT LIKE \"QA-*\" THEN [Environment] = \"Production\";\n\n\nMeaning:\n\nif Code does not start with QA-, then Environment must be Production\nIN​\n\nIN checks whether a value is one of a listed set.\n\nThe current schema format uses curly braces:\n\nIF [Priority] IN {\"High\",\"Critical\"} THEN [Escalated] = \"Yes\";\n\n\nMeaning:\n\nif Priority is either High or Critical, then Escalated must be Yes\nNOT IN​\n\nExample:\n\nIF [Priority] NOT IN {\"High\",\"Critical\"} THEN [Escalated] = \"No\";\n\n\nMeaning:\n\nif Priority is neither High nor Critical, then Escalated must be No\nLogical operators​\n\nSupported logical operators are:\n\nAND\nOR\nNOT\n\nYou can also use parentheses for grouping.\n\nAND example​\nIF [Priority] = \"High\" AND [Status] = \"Open\" THEN [Owner] <> \"\";\n\n\nMeaning:\n\nwhen both conditions are true, Owner must not be blank\nOR example​\nIF [Region] = \"UK\" OR [Region] = \"IE\" THEN [Currency] = \"GBP\";\n\n\nMeaning:\n\nif the region is UK or IE, then currency must be GBP\nNOT example​\nIF NOT ([Status] = \"Closed\") THEN [Remaining Work] <> \"0\";\n\n\nMeaning:\n\nif status is not Closed, then remaining work must not be 0\nConstraint value types​\n\nConstraints can compare against:\n\nquoted string values, e.g. \"Open\"\nnumeric values, e.g. 18\nother parameters, e.g. [Min Age] <= [Max Age]\nParameter-to-parameter comparison​\nMin Age\n\nnumber.int({\"min\": 18, \"max\": 50})\n\nMax Age\n\nnumber.int({\"min\": 18, \"max\": 65})\n\n\n\nIF [Min Age] > [Max Age] THEN [Max Age] >= [Min Age];\n\n\nMeaning:\n\nany row where Min Age is greater than Max Age is only valid if Max Age is at least Min Age\nin practice, this prevents invalid min/max ordering\nValidation rules for constraints​\n\nConstraints are validated against the schema.\n\nUnknown columns are rejected​\n\nThis is invalid because [Severity] is not defined in the schema:\n\nPriority\n\nenum(\"High\",\"Low\")\n\n\n\nIF [Severity] = \"Critical\" THEN [Priority] = \"High\";\n\nInvalid enum values are rejected​\n\nThis is invalid because Urgent is not in the enum:\n\nPriority\n\nenum(\"High\",\"Medium\",\"Low\")\n\n\n\nIF [Priority] = \"Urgent\" THEN [Priority] = \"High\";\n\nInvalid regex values are rejected​\n\nThis is invalid because bob does not match the regex:\n\nTicket Id\n\nregex([A-Z]{3}-\\d{4})\n\n\n\nIF [Ticket Id] = \"bob\" THEN [Status] = \"Open\";\n\nImpossible literal comparisons are rejected​\n\nThis is invalid because the only literal value is Closed:\n\nStatus\n\nliteral(Closed)\n\n\n\nIF [Status] = \"Closed\" THEN [Status] = \"Open\";\n\nGeneration-time constraint failures​\n\nSome constraints are syntactically valid and can reference valid columns and values, but still make row generation impossible.\n\nThese cases are not always discoverable during schema parsing or validation. They may only be found when the generator starts creating rows and repeatedly fails to find a valid combination.\n\nExample:\n\nStatus\n\nenum(\"Open\",\"Closed\")\n\n\n\nIF [Status] = \"Open\" THEN [Status] = \"Closed\";\n\nIF [Status] = \"Closed\" THEN [Status] = \"Open\";\n\n\nIllustrates:\n\na schema that parses correctly\nconstraints that use valid enum values\na rule set that makes every possible row invalid\n\nMeaning:\n\nif Status is Open, the row is only valid when Status is Closed\nif Status is Closed, the row is only valid when Status is Open\nno generated row can satisfy both possibilities\n\nWhen this happens, the tool reports:\n\nSchema Constraints are impacting row generation - generated X rows, failed to generate Y rows. Consider changing constraints to improve row generation.\n\nImportant:\n\nthis condition is only found and reported during generation\ncare must be taken when writing constraints, especially when combining multiple rules\na schema can be structurally valid but still impossible to generate data from\nPairwise and n-wise constraints​\n\nConstraints are supported during pairwise and n-wise generation only when every referenced constrained field is an enum column.\n\nThat means:\n\nconstrained pairwise and n-wise generation works best for enum-only decision tables\nif a constraint references non-enum fields such as regex, literal, or domain-generated values, normal random generation is supported, but combinatorial generation is not\nCopy-paste examples​\n\nEach example below is complete and can be pasted directly into the tool.\n\nExample 1: Basic enum dependency​\n\nIllustrates:\n\nenum fields\nsimple equality constraint\nPriority\n\nenum(\"High\",\"Medium\",\"Low\")\n\nStatus\n\nenum(\"Open\",\"Queued\",\"Closed\")\n\n\n\nIF [Priority] = \"High\" THEN [Status] = \"Open\";\n\n\nMeaning:\n\nHigh priority rows must use Open\nExample 2: Multiple allowed trigger values with IN​\n\nIllustrates:\n\nIN\nset-based trigger conditions\nPriority\n\nenum(\"Critical\",\"High\",\"Medium\",\"Low\")\n\nEscalated\n\nenum(\"Yes\",\"No\")\n\n\n\nIF [Priority] IN {\"Critical\",\"High\"} THEN [Escalated] = \"Yes\";\n\n\nMeaning:\n\nCritical and High rows must be escalated\nExample 3: NOT IN inverse rule​\n\nIllustrates:\n\nNOT IN\ninverse constraint logic\nPriority\n\nenum(\"Critical\",\"High\",\"Medium\",\"Low\")\n\nEscalated\n\nenum(\"Yes\",\"No\")\n\n\n\nIF [Priority] NOT IN {\"Critical\",\"High\"} THEN [Escalated] = \"No\";\n\n\nMeaning:\n\nMedium and Low rows must not be escalated\nExample 4: Regex-triggered routing​\n\nIllustrates:\n\nregex field definition\nLIKE\nTicket Id\n\nregex([A-Z]{3}-\\d{4})\n\nQueue\n\nenum(\"Support\",\"QA\",\"Ops\")\n\n\n\nIF [Ticket Id] LIKE \"QA-*\" THEN [Queue] = \"QA\";\n\n\nMeaning:\n\nvalues starting with QA- must use the QA queue\nExample 5: Combined conditions with AND​\n\nIllustrates:\n\nAND\nmultiple field dependency\nPriority\n\nenum(\"High\",\"Low\")\n\nStatus\n\nenum(\"Open\",\"Closed\")\n\nOwner\n\nenum(\"Alice\",\"Bob\",\"\")\n\n\n\nIF [Priority] = \"High\" AND [Status] = \"Open\" THEN [Owner] <> \"\";\n\n\nMeaning:\n\na high-priority open item must have an owner\nExample 6: Grouped logic with OR and parentheses​\n\nIllustrates:\n\nOR\nparentheses\nRegion\n\nenum(\"UK\",\"IE\",\"US\",\"CA\")\n\nCurrency\n\nenum(\"GBP\",\"USD\",\"CAD\")\n\n\n\nIF ([Region] = \"UK\" OR [Region] = \"IE\") THEN [Currency] = \"GBP\";\n\n\nMeaning:\n\nboth UK and IE rows must use GBP\nExample 7: Nume"
+  },
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/faker-test-data/",
+    "title": "Faker Based Data | AnyWayData - Data Table Editor & Generator",
+    "h1": [
+      "Faker Data Generation"
+    ],
+    "h2": [
+      "Tips Video​",
+      "Faker Scope​",
+      "Faker API Reference​",
+      "Direct Faker Examples​",
+      "See Domain Examples​",
+      "See Also​"
+    ],
+    "codeBlocks": [
+      "domain.*",
+      "helpers.*",
+      "domain.*",
+      "helpers.*",
+      "Sentencehelpers.mustache(\"Hello {{name}}\", { name: \"Ada\" })",
+      "Sentencehelpers.mustache(\"Hello {{name}}\", { name: \"Ada\" })",
+      "Sentencehelpers.fake(\"Hi, my name is {{person.firstName}} {{person.lastName}}!\")",
+      "Sentencehelpers.fake(\"Hi, my name is {{person.firstName}} {{person.lastName}}!\")",
+      "Directionlocation.direction(abbreviated=true)",
+      "Directionlocation.direction(abbreviated=true)"
+    ],
+    "text": "Skip to main content\nAnyWayData\nApp\nDocs\nBlog\nGitHub\nDocs\nDocumentation\nAbout\nEditing Data\nEditable Data Grid\nImport From File\nText Editing\nExporting Data\nData Formats\nGenerating Data\nTest Data Generation\nData Grid Editable\nGenerate to File\nSchema Definition\nRegex Based Data\nLiteral Data\nPairwise Testing\nN-Wise Testing\nDomain Test Data\nFaker Based Data\nFaker Helpers\nCounterstrings\nAuto Increment Sequences\nMisc\nRelated Tools\nVideo Tutorials\nFaker Test Data\nInterfaces & Deployment\nOverview\nWeb UI\nREST API\nMCP\nCLI (Node and Bun)\nDocsGenerating DataFaker Based Data\nFaker Data Generation\n\nFaker.js is a test data generation library for JavaScript.\n\nAnyWayData supports Faker commands directly via the faker source path, and also via a curated Domain abstraction.\n\nFor helper-specific usage, see Faker Helpers.\n\nMost common Faker usage is mapped to curated domain.* methods. Use domain docs for domain-first schemas: Domain Test Data.\n\nTips Video​\nFaker Scope​\nUse this page for explicit faker usage, especially helpers.*.\nFor non-helper generation, prefer domain.* methods.\nUse domain pages for curated aliases and domain metadata.\nhelpers.* is faker-only and is not part of the domain abstraction.\nFaker API Reference​\nfakerjs.dev/api\nfakerjs.dev/api/helpers\nDirect Faker Examples​\nSentence\n\nhelpers.mustache(\"Hello {{name}}\", { name: \"Ada\" })\n\nSentence\n\nhelpers.fake(\"Hi, my name is {{person.firstName}} {{person.lastName}}!\")\n\nDirection\n\nlocation.direction(abbreviated=true)\n\n\nNote: non-helper faker calls may be superseded by domain mappings over time. Prefer the documented domain syntax when a domain equivalent exists.\n\nSee Domain Examples​\n\nMost practical examples and parameterized patterns are documented in:\n\nDomain Test Data\nFaker Helpers\nSee Also​\nDomain Test Data\nFaker Helpers\nLiteral Data\nRegex Based Data\nPrevious\nword Domain\nNext\nFaker Helpers\nTips Video\nFaker Scope\nFaker API Reference\nDirect Faker Examples\nSee Domain Examples\nSee Also\nDocs\nTutorial\nPrivacy Policy\nAbout\nContact\nCommunity\nTwitter\nMore\nBlog\nGitHub\nCopyright © 2026 Compendium Developments Ltd. Built with Docusaurus."
+  },
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/domain-test-data/",
+    "title": "Domain Test Data | AnyWayData - Data Table Editor & Generator",
+    "h1": [
+      "Domain Test Data"
+    ],
+    "h2": [
+      "Quick Examples​",
+      "Migration​",
+      "Domains​"
+    ],
+    "codeBlocks": [
+      "helpers.*",
+      "FirstNameperson.firstName()LastNameperson.lastName()Emailinternet.email()Addresslocation.streetAddress()",
+      "FirstNameperson.firstName()LastNameperson.lastName()Emailinternet.email()Addresslocation.streetAddress()",
+      "Directionlocation.cardinalDirection(abbreviated=true)",
+      "Directionlocation.cardinalDirection(abbreviated=true)",
+      "Datedate.between(from=1577836800000, to=1659312000000)",
+      "Datedate.between(from=1577836800000, to=1659312000000)",
+      "IBANfinance.iban(formatted=true, countryCode=\"GB\")IBANDEfinance.iban(formatted=false, countryCode=\"DE\")",
+      "IBANfinance.iban(formatted=true, countryCode=\"GB\")IBANDEfinance.iban(formatted=false, countryCode=\"DE\")",
+      "Numnumber.int(min=32, max=47)",
+      "Numnumber.int(min=32, max=47)",
+      "domain.helpers.fake(\"...\")",
+      "faker.helpers.fake(\"...\")",
+      "helpers.fake(\"...\")"
+    ],
+    "text": "Skip to main content\nAnyWayData\nApp\nDocs\nBlog\nGitHub\nDocs\nDocumentation\nAbout\nEditing Data\nEditable Data Grid\nImport From File\nText Editing\nExporting Data\nData Formats\nGenerating Data\nTest Data Generation\nData Grid Editable\nGenerate to File\nSchema Definition\nRegex Based Data\nLiteral Data\nPairwise Testing\nN-Wise Testing\nDomain Test Data\nairline Domain\nanimal Domain\nautoIncrement Domain\nbook Domain\ncolor Domain\ncommerce Domain\ncompany Domain\ndatabase Domain\ndatatype Domain\ndate Domain\nfinance Domain\nfood Domain\ngit Domain\nhacker Domain\nimage Domain\ninternet Domain\nliteral Domain\nlocation Domain\nlorem Domain\nmusic Domain\nnumber Domain\nperson Domain\nphone Domain\nscience Domain\nstring Domain\nsystem Domain\nvehicle Domain\nword Domain\nFaker Based Data\nCounterstrings\nAuto Increment Sequences\nMisc\nRelated Tools\nVideo Tutorials\nFaker Test Data\nInterfaces & Deployment\nOverview\nWeb UI\nREST API\nMCP\nCLI (Node and Bun)\nDocsGenerating DataDomain Test Data\nDomain Test Data\n\nDomain keywords provide a stable AnyWayData abstraction over Faker-backed generators.\n\nNote: helpers.* is intentionally faker-only and not part of the domain abstraction.\n\nMost common Faker usage is mapped to domain methods so schemas can use a curated, stable surface.\n\nEach domain page lists methods, arguments, and executable examples.\n\nQuick Examples​\nFirstName\n\nperson.firstName()\n\nLastName\n\nperson.lastName()\n\nEmail\n\ninternet.email()\n\nAddress\n\nlocation.streetAddress()\n\nDirection\n\nlocation.cardinalDirection(abbreviated=true)\n\nDate\n\ndate.between(from=1577836800000, to=1659312000000)\n\nIBAN\n\nfinance.iban(formatted=true, countryCode=\"GB\")\n\nIBANDE\n\nfinance.iban(formatted=false, countryCode=\"DE\")\n\nNum\n\nnumber.int(min=32, max=47)\n\nMigration​\nBefore (invalid): domain.helpers.fake(\"...\")\nAfter: faker.helpers.fake(\"...\") (or helpers.fake(\"...\") in faker contexts)\n\nFor faker helper templates and utility functions, use faker helpers:\n\nFaker Helpers\nfakerjs.dev/api/helpers\nDomains​\nairline\nanimal\nautoIncrement\nbook\ncolor\ncommerce\ncompany\ndatabase\ndatatype\ndate\nfinance\nfood\ngit\nhacker\nimage\ninternet\nliteral\nlocation\nlorem\nmusic\nnumber\nperson\nphone\nscience\nstring\nsystem\nvehicle\nword\nPrevious\nN-Wise Testing\nNext\nairline Domain\nQuick Examples\nMigration\nDomains\nDocs\nTutorial\nPrivacy Policy\nAbout\nContact\nCommunity\nTwitter\nMore\nBlog\nGitHub\nCopyright © 2026 Compendium Developments Ltd. Built with Docusaurus."
+  },
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/regex-test-data/",
+    "title": "Regex Based Data | AnyWayData - Data Table Editor & Generator",
+    "h1": [
+      "Regex Data Generation"
+    ],
+    "h2": [
+      "Useful Regex Tools​",
+      "Useful Regex Cheatsheets​",
+      "Useful Regex Sites​",
+      "Examples​",
+      "See Also​"
+    ],
+    "codeBlocks": [
+      "[\\d]*",
+      "{min,max}",
+      "[\\d]{2,11}",
+      "[A-Z ]{3,12}",
+      "[A-Z ]",
+      "{3,12}",
+      "col1[A-Z ]{3,12}col2[A-Z ]{5,12}col3[A-Z ]{1,12}",
+      "col1[A-Z ]{3,12}col2[A-Z ]{5,12}col3[A-Z ]{1,12}"
+    ],
+    "text": "Skip to main content\nAnyWayData\nApp\nDocs\nBlog\nGitHub\nDocs\nDocumentation\nAbout\nEditing Data\nEditable Data Grid\nImport From File\nText Editing\nExporting Data\nData Formats\nGenerating Data\nTest Data Generation\nData Grid Editable\nGenerate to File\nSchema Definition\nRegex Based Data\nLiteral Data\nPairwise Testing\nN-Wise Testing\nDomain Test Data\nFaker Based Data\nCounterstrings\nAuto Increment Sequences\nMisc\nRelated Tools\nVideo Tutorials\nFaker Test Data\nInterfaces & Deployment\nOverview\nWeb UI\nREST API\nMCP\nCLI (Node and Bun)\nDocsGenerating DataRegex Based Data\nRegex Data Generation\n\nRegex Strings are normally used for 'matching' data e.g. searching for data that matches a particular format.\n\nRegex can be used in reverse to generate data. Care has to be taken that limits are added to lengths of character sequences, otherwise 'in theory' strings could be of infinite length.\n\ne.g. [\\d]* could 'in theory' generate an infinite string of digits.\n\nUnder the covers we are using RandExp as the library to generate strings from regular expressions and uses a limit of 100 as a default upper bound if no upper bound is provided in the regex value.\n\nLimits can be supplied for length using the {min,max} syntax e.g. [\\d]{2,11} generate between 2 and 11 length strings of digits.\n\nUseful Regex Tools​\n\nRegex Testers, these can be used to see if a particular Regex matches a list of Strings. In general, if the Regex can be used to match the string then it can also be used to generate the string.\n\nregexr.com\nregex101.com\nRegexTester.com\nUseful Regex Cheatsheets​\nrexegg.com/regex-quickstart.html\nUseful Regex Sites​\nregexone.com Interactive Regex tutorial\nregular-expressions.info\nrexegg.com\nExamples​\nWords of Random Length​\n\ne.g. [A-Z ]{3,12}\n\nBy using a character group [A-Z ] which contains the letters A to Z and the space character we can generate a string between 3 and 12 characters long {3,12}.\n\nFor example, this could be used to generate a table with the multiple columns of random 'word' lengths:\n\ncol1\n\n[A-Z ]{3,12}\n\ncol2\n\n[A-Z ]{5,12}\n\ncol3\n\n[A-Z ]{1,12}\n\nSee Also​\nLiteral Data\nFaker Based Data\nPrevious\nSchema Definition\nNext\nLiteral Data\nUseful Regex Tools\nUseful Regex Cheatsheets\nUseful Regex Sites\nExamples\nWords of Random Length\nSee Also\nDocs\nTutorial\nPrivacy Policy\nAbout\nContact\nCommunity\nTwitter\nMore\nBlog\nGitHub\nCopyright © 2026 Compendium Developments Ltd. Built with Docusaurus."
+  },
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/literal-test-data/",
+    "title": "Literal Data | AnyWayData - Data Table Editor & Generator",
+    "h1": [
+      "Literal Data Generation"
+    ],
+    "h2": [
+      "When to use Literal values​",
+      "Basic Example​",
+      "Multiple Literal Columns​",
+      "Mixed Example: Literal + Faker + Regex​",
+      "Tips​"
+    ],
+    "codeBlocks": [
+      "UAT",
+      "PROD",
+      "local",
+      "enabled",
+      "active",
+      "pending",
+      "# deployment contextEnvironmentUAT",
+      "# deployment contextEnvironmentUAT",
+      "Environment",
+      "UAT",
+      "# locale defaultsCountryUK# currency defaultsCurrencyGBP# workflow stateStatusACTIVE",
+      "# locale defaultsCountryUK# currency defaultsCurrencyGBP# workflow stateStatusACTIVE",
+      "# constant labelEnvironmentUAT# generated identityCustomer Nameperson.fullName# generated order idOrder Ref[A-Z]{3}-[0-9]{6}# constant flagIs Premiumtrue",
+      "# constant labelEnvironmentUAT# generated identityCustomer Nameperson.fullName# generated order idOrder Ref[A-Z]{3}-[0-9]{6}# constant flagIs Premiumtrue",
+      "Environment",
+      "UAT",
+      "Customer Name",
+      "Order Ref",
+      "Is Premium",
+      "true"
+    ],
+    "text": "Skip to main content\nAnyWayData\nApp\nDocs\nBlog\nGitHub\nDocs\nDocumentation\nAbout\nEditing Data\nEditable Data Grid\nImport From File\nText Editing\nExporting Data\nData Formats\nGenerating Data\nTest Data Generation\nData Grid Editable\nGenerate to File\nSchema Definition\nRegex Based Data\nLiteral Data\nPairwise Testing\nN-Wise Testing\nDomain Test Data\nFaker Based Data\nCounterstrings\nAuto Increment Sequences\nMisc\nRelated Tools\nVideo Tutorials\nFaker Test Data\nInterfaces & Deployment\nOverview\nWeb UI\nREST API\nMCP\nCLI (Node and Bun)\nDocsGenerating DataLiteral Data\nLiteral Data Generation\n\nLiteral data is the simplest data generation option.\n\nA literal value is static text. The exact text is used for every generated row.\n\nUse literal data when you want stable, predictable values rather than random values.\n\nWhen to use Literal values​\n\nLiteral values are useful for:\n\nfixed environment labels, e.g. UAT, PROD, local\ndefault flags, e.g. enabled, active, pending\nseeded values for specific test scenarios\ncolumns that should remain constant while other columns vary\nBasic Example​\n\nSchema text format uses:\n\ncolumn name\ngeneration rule\n\nFor a literal column:\n\n# deployment context\n\nEnvironment\n\nUAT\n\n\nIf you generate 5 rows, every row in Environment will be UAT.\n\nMultiple Literal Columns​\n\nYou can define several static columns at once:\n\n# locale defaults\n\nCountry\n\nUK\n\n\n\n# currency defaults\n\nCurrency\n\nGBP\n\n\n\n# workflow state\n\nStatus\n\nACTIVE\n\n\nThis is useful for creating baseline datasets quickly.\n\nMixed Example: Literal + Faker + Regex​\n\nLiteral values are often combined with Faker and Regex columns.\n\n# constant label\n\nEnvironment\n\nUAT\n\n\n\n# generated identity\n\nCustomer Name\n\nperson.fullName\n\n\n\n# generated order id\n\nOrder Ref\n\n[A-Z]{3}-[0-9]{6}\n\n\n\n# constant flag\n\nIs Premium\n\ntrue\n\n\nIn this example:\n\nEnvironment is always UAT\nCustomer Name varies per row using Faker\nOrder Ref varies per row using Regex\nIs Premium is always true\nTips​\nUse Literal for columns that should not vary.\nUse Faker/Regex for variability and realism.\nKeep literal values simple and explicit so generated data is easy to reason about.\n\nYou can read more about the other generation modes here:\n\nRegex Based Data\nFaker Based Data\nPrevious\nRegex Based Data\nNext\nPairwise Testing\nWhen to use Literal values\nBasic Example\nMultiple Literal Columns\nMixed Example: Literal + Faker + Regex\nTips\nDocs\nTutorial\nPrivacy Policy\nAbout\nContact\nCommunity\nTwitter\nMore\nBlog\nGitHub\nCopyright © 2026 Compendium Developments Ltd. Built with Docusaurus."
+  },
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/auto-increment-sequences/",
+    "title": "Auto Increment Sequences | AnyWayData - Data Table Editor & Generator",
+    "h1": [
+      "Auto Increment Sequences"
+    ],
+    "h2": [
+      "Basic Usage​",
+      "Start and Step​",
+      "Prefix, Suffix, and Zero Padding​",
+      "Constraint-Aware Sequences​",
+      "Parameters​",
+      "See Also​"
+    ],
+    "codeBlocks": [
+      "autoIncrement.sequence",
+      "IdautoIncrement.sequence()",
+      "IdautoIncrement.sequence()",
+      "123",
+      "123",
+      "BuildautoIncrement.sequence(start=10, step=5)",
+      "BuildautoIncrement.sequence(start=10, step=5)",
+      "101520",
+      "101520",
+      "FilenameautoIncrement.sequence(start=1, step=5, prefix=\"filename\", suffix=\".txt\", zeropadding=3)",
+      "FilenameautoIncrement.sequence(start=1, step=5, prefix=\"filename\", suffix=\".txt\", zeropadding=3)",
+      "filename001.txtfilename006.txtfilename011.txt",
+      "filename001.txtfilename006.txtfilename011.txt",
+      "zeropadding=3",
+      "1",
+      "001",
+      "100",
+      "100",
+      "1000",
+      "1000",
+      "TicketautoIncrement.sequence(prefix=\"T-\", zeropadding=4)PriorityHigh,LowStatusOpen,ClosedIF [Priority] = \"High\" THEN [Status] = \"Open\";",
+      "TicketautoIncrement.sequence(prefix=\"T-\", zeropadding=4)PriorityHigh,LowStatusOpen,ClosedIF [Priority] = \"High\" THEN [Status] = \"Open\";",
+      "start",
+      "1",
+      "step",
+      "1",
+      "prefix",
+      "suffix",
+      "zeropadding",
+      "0"
+    ],
+    "text": "Skip to main content\nAnyWayData\nApp\nDocs\nBlog\nGitHub\nDocs\nDocumentation\nAbout\nEditing Data\nEditable Data Grid\nImport From File\nText Editing\nExporting Data\nData Formats\nGenerating Data\nTest Data Generation\nData Grid Editable\nGenerate to File\nSchema Definition\nRegex Based Data\nLiteral Data\nPairwise Testing\nN-Wise Testing\nDomain Test Data\nFaker Based Data\nCounterstrings\nAuto Increment Sequences\nMisc\nRelated Tools\nVideo Tutorials\nFaker Test Data\nInterfaces & Deployment\nOverview\nWeb UI\nREST API\nMCP\nCLI (Node and Bun)\nDocsGenerating DataAuto Increment Sequences\nAuto Increment Sequences\n\nautoIncrement.sequence generates a sequential value for each accepted row.\n\nUnlike a plain counter that advances on every attempt, this sequence only advances when the row is kept. If a row is rejected by schema constraints and retried, the skipped attempt does not consume the next number.\n\nBasic Usage​\nId\n\nautoIncrement.sequence()\n\n\nExample output:\n\n1\n\n2\n\n3\n\nStart and Step​\nBuild\n\nautoIncrement.sequence(start=10, step=5)\n\n\nExample output:\n\n10\n\n15\n\n20\n\nPrefix, Suffix, and Zero Padding​\nFilename\n\nautoIncrement.sequence(start=1, step=5, prefix=\"filename\", suffix=\".txt\", zeropadding=3)\n\n\nExample output:\n\nfilename001.txt\n\nfilename006.txt\n\nfilename011.txt\n\n\nzeropadding=3 means the numeric portion is padded to a total width of three digits, so 1 becomes 001, 100 stays 100, and 1000 stays 1000.\n\nConstraint-Aware Sequences​\n\nThis command is especially useful when you generate rows under constraints.\n\nTicket\n\nautoIncrement.sequence(prefix=\"T-\", zeropadding=4)\n\nPriority\n\nHigh,Low\n\nStatus\n\nOpen,Closed\n\n\n\nIF [Priority] = \"High\" THEN [Status] = \"Open\";\n\n\nIf a generated row fails the constraint and is retried, the ticket sequence does not skip a value.\n\nParameters​\nstart Starting integer. Defaults to 1.\nstep Non-zero increment between accepted rows. Defaults to 1.\nprefix Optional text before the number.\nsuffix Optional text after the number.\nzeropadding Optional integer padding amount. Defaults to 0.\nSee Also​\nDomain Test Data\nSchema Definition\nPrevious\nCounterstrings\nNext\nMisc\nBasic Usage\nStart and Step\nPrefix, Suffix, and Zero Padding\nConstraint-Aware Sequences\nParameters\nSee Also\nDocs\nTutorial\nPrivacy Policy\nAbout\nContact\nCommunity\nTwitter\nMore\nBlog\nGitHub\nCopyright © 2026 Compendium Developments Ltd. Built with Docusaurus."
+  },
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/counterstrings/",
+    "title": "Counterstrings | AnyWayData - Data Table Editor & Generator",
+    "h1": [
+      "Counterstrings"
+    ],
+    "h2": [
+      "Why Use Counterstrings​",
+      "AnyWayData Support​",
+      "Related Links​"
+    ],
+    "codeBlocks": [
+      "*3*5*7*9*12*15*",
+      "*3*5*7*9*12*15*",
+      "*",
+      "*",
+      "string.counterString(min, max, delimiter=\"*\")",
+      "string.counterString(min, max, delimiter=\"*\")",
+      "min == max",
+      "1",
+      "*",
+      "string.counterString(15)",
+      "string.counterString(15)",
+      "string.counterString(5, 12)",
+      "string.counterString(5, 12)",
+      "string.counterString(12, 12, \"#\")",
+      "string.counterString(12, 12, \"#\")"
+    ],
+    "text": "Skip to main content\nAnyWayData\nApp\nDocs\nBlog\nGitHub\nDocs\nDocumentation\nAbout\nEditing Data\nEditable Data Grid\nImport From File\nText Editing\nExporting Data\nData Formats\nGenerating Data\nTest Data Generation\nData Grid Editable\nGenerate to File\nSchema Definition\nRegex Based Data\nLiteral Data\nPairwise Testing\nN-Wise Testing\nDomain Test Data\nFaker Based Data\nCounterstrings\nAuto Increment Sequences\nMisc\nRelated Tools\nVideo Tutorials\nFaker Test Data\nInterfaces & Deployment\nOverview\nWeb UI\nREST API\nMCP\nCLI (Node and Bun)\nDocsGenerating DataCounterstrings\nCounterstrings\n\nA counterstring is a specially structured string where marker numbers show exact character positions.\n\nExample of a 15-character counterstring:\n\n*3*5*7*9*12*15*\n\n\nEach * is preceded by the numeric position in the string. So the final * is at position 15.\n\nThis makes it easy to see where text is cut off, wrapped, or rejected.\n\nWhy Use Counterstrings​\n\nCounterstrings are useful for:\n\nfield length boundary testing\ntruncation behavior checks\nUI clipping and overflow diagnostics\nAPI validation and error-message checks\nAnyWayData Support​\n\nAnyWayData supports counterstrings through:\n\nstring.counterString(min, max, delimiter=\"*\")\n\n\nBehavior:\n\none integer: fixed length (min == max)\ntwo integers: range (smaller becomes min, larger becomes max)\nminimum effective length is 1\ndelimiter defaults to *\nmulti-character delimiter uses first character\n\nExamples:\n\nstring.counterString(15)\n\nstring.counterString(5, 12)\n\nstring.counterString(12, 12, \"#\")\n\nRelated Links​\nstring domain reference\nDomain Test Data overview\nCounterstring reference implementation\nJames Bach on counterstrings\nCounterString Chrome Extension\nAlan Richardson on counterstrings\nPrevious\nFaker Helpers\nNext\nAuto Increment Sequences\nWhy Use Counterstrings\nAnyWayData Support\nRelated Links\nDocs\nTutorial\nPrivacy Policy\nAbout\nContact\nCommunity\nTwitter\nMore\nBlog\nGitHub\nCopyright © 2026 Compendium Developments Ltd. Built with Docusaurus."
+  },
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing/",
+    "title": "Pairwise Testing | AnyWayData - Data Table Editor & Generator",
+    "h1": [
+      "Pairwise Test Data Generation"
+    ],
+    "h2": [
+      "What is Pairwise Testing?​",
+      "When to Use Pairwise​",
+      "How to Generate Pairwise Data​",
+      "Schema Formatting​",
+      "Enum Format Examples​",
+      "Mixed Pairwise with Random Data​",
+      "Algorithm Details​",
+      "Example Output​",
+      "Integration with Other Features​",
+      "Best Practices​",
+      "Limitations​",
+      "Related Sources of Information​"
+    ],
+    "codeBlocks": [
+      "#",
+      "# categorical parameterscolorred,blue,green,yellow# sizing optionssize  small,medium,large# material choicesmaterialwood,metal",
+      "# categorical parameterscolorred,blue,green,yellow# sizing optionssize  small,medium,large# material choicesmaterialwood,metal",
+      "# pairwise field 1Priorityhigh,medium,low# pairwise field 2Status  active,inactive,pending",
+      "# pairwise field 1Priorityhigh,medium,low# pairwise field 2Status  active,inactive,pending",
+      "# function style enumPriorityhigh,medium,low# another function style enumStatusactive,inactive,pending",
+      "# function style enumPriorityhigh,medium,low# another function style enumStatusactive,inactive,pending",
+      "# datatype enum formPrioritydatatype.enum(csv=\"high,medium,low\")# second datatype enumStatusdatatype.enum(csv=\"active,inactive,pending\")",
+      "# datatype enum formPrioritydatatype.enum(csv=\"high,medium,low\")# second datatype enumStatusdatatype.enum(csv=\"active,inactive,pending\")",
+      "# fully-qualified enum formPriorityawd.datatype.enum(csv=\"high,medium,low\")# fully-qualified enum formStatusawd.datatype.enum(csv=\"active,inactive,pending\")",
+      "# fully-qualified enum formPriorityawd.datatype.enum(csv=\"high,medium,low\")# fully-qualified enum formStatusawd.datatype.enum(csv=\"active,inactive,pending\")",
+      "# values containing commasProduct Categoryenum(\"Hardware, Electronics\",\"Software, Applications\",\"Books, Media\")# geo values containing commasLocationenum(\"New York, NY\",\"Los Angeles, CA\",\"Chicago, IL\")# status text with commasStatus Messageenum(\"Ready, waiting for input\",\"Processing, please wait\",\"Error, check configuration\")",
+      "# values containing commasProduct Categoryenum(\"Hardware, Electronics\",\"Software, Applications\",\"Books, Media\")# geo values containing commasLocationenum(\"New York, NY\",\"Los Angeles, CA\",\"Chicago, IL\")# status text with commasStatus Messageenum(\"Ready, waiting for input\",\"Processing, please wait\",\"Error, check configuration\")",
+      "# mixed quoting exampleEnvironmentenum(\"Production, Live\",staging,development,\"Test, QA\")# mixed quoting exampleUser Typeenum(\"Admin, Full Access\",editor,viewer,\"Guest, Limited\")",
+      "# mixed quoting exampleEnvironmentenum(\"Production, Live\",staging,development,\"Test, QA\")# mixed quoting exampleUser Typeenum(\"Admin, Full Access\",editor,viewer,\"Guest, Limited\")",
+      "# pairwise enumsHTTP MethodGET,POST,PUT,DELETE# pairwise enumsContent Type  enum(\"application/json\",\"application/xml\",\"text/plain\")# randomized fieldsUser IDnumber.intEmail Addressinternet.emailRequest Timestampdate.recentAuthorization Token[A-Fa-f0-9]{32}Response Timenumber.int",
+      "# pairwise enumsHTTP MethodGET,POST,PUT,DELETE# pairwise enumsContent Type  enum(\"application/json\",\"application/xml\",\"text/plain\")# randomized fieldsUser IDnumber.intEmail Addressinternet.emailRequest Timestampdate.recentAuthorization Token[A-Fa-f0-9]{32}Response Timenumber.int",
+      "HTTP Method,Content Type,User ID,Email Address,Request Timestamp,Authorization Token,Response TimeGET,application/json,15847,alice.johnson@example.com,2026-05-05T14:30:22Z,A1B2C3D4E5F6789012345678,245POST,application/xml,92634,bob.smith@test.org,2026-05-04T09:15:43Z,F9E8D7C6B5A4321098765432,189PUT,text/plain,7321,carol.davis@demo.net,2026-05-03T16:45:12Z,1122334455667788AABBCCDD,312DELETE,application/json,48592,david.wilson@sample.io,2026-05-02T11:20:55Z,9988776655443322EEFFAABB,156GET,application/xml,83746,eve.brown@testing.com,2026-05-01T08:35:17Z,DEADBEEFCAFEBABE12345678,278POST,text/plain,19873,frank.miller@qa.org,2026-04-30T13:50:09Z,ABCDEF1234567890FEDCBA09,203",
+      "HTTP Method,Content Type,User ID,Email Address,Request Timestamp,Authorization Token,Response TimeGET,application/json,15847,alice.johnson@example.com,2026-05-05T14:30:22Z,A1B2C3D4E5F6789012345678,245POST,application/xml,92634,bob.smith@test.org,2026-05-04T09:15:43Z,F9E8D7C6B5A4321098765432,189PUT,text/plain,7321,carol.davis@demo.net,2026-05-03T16:45:12Z,1122334455667788AABBCCDD,312DELETE,application/json,48592,david.wilson@sample.io,2026-05-02T11:20:55Z,9988776655443322EEFFAABB,156GET,application/xml,83746,eve.brown@testing.com,2026-05-01T08:35:17Z,DEADBEEFCAFEBABE12345678,278POST,text/plain,19873,frank.miller@qa.org,2026-04-30T13:50:09Z,ABCDEF1234567890FEDCBA09,203",
+      "# simple pairwise schemacolorred,blue,green,yellow# simple pairwise schemasize  small,medium,large",
+      "# simple pairwise schemacolorred,blue,green,yellow# simple pairwise schemasize  small,medium,large",
+      "color,sizered,smallred,medium  red,largeblue,smallblue,mediumblue,largegreen,smallgreen,mediumgreen,largeyellow,smallyellow,mediumyellow,large",
+      "color,sizered,smallred,medium  red,largeblue,smallblue,mediumblue,largegreen,smallgreen,mediumgreen,largeyellow,smallyellow,mediumyellow,large"
+    ],
+    "text": "Skip to main content\nAnyWayData\nApp\nDocs\nBlog\nGitHub\nDocs\nDocumentation\nAbout\nEditing Data\nEditable Data Grid\nImport From File\nText Editing\nExporting Data\nData Formats\nGenerating Data\nTest Data Generation\nData Grid Editable\nGenerate to File\nSchema Definition\nRegex Based Data\nLiteral Data\nPairwise Testing\nN-Wise Testing\nDomain Test Data\nFaker Based Data\nCounterstrings\nAuto Increment Sequences\nMisc\nRelated Tools\nVideo Tutorials\nFaker Test Data\nInterfaces & Deployment\nOverview\nWeb UI\nREST API\nMCP\nCLI (Node and Bun)\nDocsGenerating DataPairwise Testing\nPairwise Test Data Generation\n\nThe pairwise feature generates the minimal set of test data combinations that provides complete pairwise coverage across multiple enum fields. This is ideal for combinatorial testing scenarios where you need to test interactions between different categorical parameters efficiently.\n\nWhat is Pairwise Testing?​\n\nPairwise Testing is a combinatorial testing technique that generates test cases to cover all possible pairs of parameter values. Instead of testing every possible combination (which can be exponentially large), pairwise testing ensures that every pair of values across different parameters is tested at least once.\n\nFor example, with:\n\nColor: red, blue, green, yellow (4 values)\nSize: small, medium, large (3 values)\nMaterial: wood, metal (2 values)\n\nA full factorial test would require 4 × 3 × 2 = 24 test cases. Pairwise testing achieves 100% pairwise coverage with just 8-12 test cases, providing a 50-67% reduction in test data while maintaining comprehensive coverage of parameter interactions.\n\nWhen to Use Pairwise​\n\nPairwise testing is most effective when:\n\nYou have 2 or more categorical parameters (enum fields)\nEach parameter has multiple possible values\nYou want to test interactions between parameters\nFull factorial testing is impractical due to the large number of combinations\nYou're doing configuration testing, UI testing, or API testing with multiple options\nHow to Generate Pairwise Data​\nSchema Formatting​\n\nSchema text supports:\n\nComments: lines starting with # (after optional leading whitespace) are treated as comments.\nBlank lines: allowed and ignored, useful for readability between column groups.\nColumn definitions: each column name must be followed by its generation rule on the next logical content line.\nIn the Main App (app.html)​\nOpen the Test Data section by clicking the \"Test Data\" header\nDefine your enum parameters in the Test Data Text Schema:\n# categorical parameters\n\ncolor\n\nred,blue,green,yellow\n\n\n\n# sizing options\n\nsize  \n\nsmall,medium,large\n\n\n\n# material choices\n\nmaterial\n\nwood,metal\n\nClick \"Generate Pairwise\" - the button appears automatically when you have 2+ enum fields\nReview the results - compact pairwise combinations will populate the main grid\nExport as needed using any of the available export formats (CSV, JSON, etc.)\nIn the Data Generator (generator.html)​\nSet up enum fields in the schema:\nSet Column Name (e.g., \"color\")\nChoose \"enum\" from the source type dropdown\nEnter comma-separated values (e.g., \"red,blue,green,yellow\")\nAdd additional enum fields using the \"+ Add Field\" button\nClick \"Generate Pairwise\" - appears when 2+ enum fields are configured\nDownload the results as a file in your chosen format\nEnum Format Examples​\n\nAnyWayData supports multiple formats for specifying enum values in pairwise testing:\n\nSimple Comma-Separated Format​\n\nThe basic format uses comma-separated values:\n\n# pairwise field 1\n\nPriority\n\nhigh,medium,low\n\n\n\n# pairwise field 2\n\nStatus  \n\nactive,inactive,pending\n\nFunction-Based Formats​\n\nFor more complex scenarios, you can use function-based formats:\n\nBasic enum() Function​\n# function style enum\n\nPriority\n\nhigh,medium,low\n\n\n\n# another function style enum\n\nStatus\n\nactive,inactive,pending\n\nDatatype enum() Function​\n# datatype enum form\n\nPriority\n\ndatatype.enum(csv=\"high,medium,low\")\n\n\n\n# second datatype enum\n\nStatus\n\ndatatype.enum(csv=\"active,inactive,pending\")\n\nFull AWD enum() Function​\n# fully-qualified enum form\n\nPriority\n\nawd.datatype.enum(csv=\"high,medium,low\")\n\n\n\n# fully-qualified enum form\n\nStatus\n\nawd.datatype.enum(csv=\"active,inactive,pending\")\n\nQuoted Values for Complex Data​\n\nWhen your enum values contain commas or special characters, use quoted values:\n\n# values containing commas\n\nProduct Category\n\nenum(\"Hardware, Electronics\",\"Software, Applications\",\"Books, Media\")\n\n\n\n# geo values containing commas\n\nLocation\n\nenum(\"New York, NY\",\"Los Angeles, CA\",\"Chicago, IL\")\n\n\n\n# status text with commas\n\nStatus Message\n\nenum(\"Ready, waiting for input\",\"Processing, please wait\",\"Error, check configuration\")\n\nMixed Quoted and Unquoted Values​\n\nYou can mix quoted and unquoted values in the same enum:\n\n# mixed quoting example\n\nEnvironment\n\nenum(\"Production, Live\",staging,development,\"Test, QA\")\n\n\n\n# mixed quoting example\n\nUser Type\n\nenum(\"Admin, Full Access\",editor,viewer,\"Guest, Limited\")\n\nMixed Pairwise with Random Data​\n\nOne of the most powerful features of pairwise testing is combining it with random data generation. You can use pairwise for your categorical parameters while generating random values for other fields.\n\nExample: API Testing Scenario​\n\nConsider testing an API with both categorical parameters (that need pairwise coverage) and data fields (that need realistic random values):\n\nFirst categorical parameters for pairwise coverage\nThen random values User ID, etc.\n# pairwise enums\n\nHTTP Method\n\nGET,POST,PUT,DELETE\n\n\n\n# pairwise enums\n\nContent Type  \n\nenum(\"application/json\",\"application/xml\",\"text/plain\")\n\n\n\n# randomized fields\n\nUser ID\n\nnumber.int\n\nEmail Address\n\ninternet.email\n\nRequest Timestamp\n\ndate.recent\n\nAuthorization Token\n\n[A-Fa-f0-9]{32}\n\nResponse Time\n\nnumber.int\n\n\nThis configuration generates test data where:\n\nHTTP Method and Content Type use pairwise to ensure every combination is tested (4 × 3 = 12 pairs covered)\nUser ID, Email, Timestamp, Token, and Response Time generate unique random values for each test case\nExample Output​\n\nThe mixed approach generates data like this:\n\nHTTP Method,Content Type,User ID,Email Address,Request Timestamp,Authorization Token,Response Time\n\nGET,application/json,15847,alice.johnson@example.com,2026-05-05T14:30:22Z,A1B2C3D4E5F6789012345678,245\n\nPOST,application/xml,92634,bob.smith@test.org,2026-05-04T09:15:43Z,F9E8D7C6B5A4321098765432,189\n\nPUT,text/plain,7321,carol.davis@demo.net,2026-05-03T16:45:12Z,1122334455667788AABBCCDD,312\n\nDELETE,application/json,48592,david.wilson@sample.io,2026-05-02T11:20:55Z,9988776655443322EEFFAABB,156\n\nGET,application/xml,83746,eve.brown@testing.com,2026-05-01T08:35:17Z,DEADBEEFCAFEBABE12345678,278\n\nPOST,text/plain,19873,frank.miller@qa.org,2026-04-30T13:50:09Z,ABCDEF1234567890FEDCBA09,203\n\nBenefits of Mixed Approach​\nComprehensive Coverage: All parameter interactions are tested while maintaining realistic data variety\nOptimal Test Size: Fewer test cases than full factorial, more coverage than pure random\nReal-World Relevance: Combines systematic testing with realistic random values\nFlexible Configuration: Easy to adjust which parameters use All Pairs vs. random generation\nBest Practices for Mixed Testing​\nUse pairwise for categorical parameters with limited, well-defined values\nUse random generation for data fields that need variety (IDs, timestamps, names)\nKeep enum parameters meaningful - they should represent real configuration choices\nBalance test data size - more enum parameters = larger pairwise sets\nValidate generated combinations to ensure they make business sense\nAlgorithm Details​\n\nAnyWayData uses a greedy set cover approximation algorithm that:\n\nAchieves 90-99% data reduction compared to full factorial testing\nGuarantees 100% pairwise coverage - every pair of values is tested at least once\nRuns in O(n² × v² × log(pairs)) time where n is parameters and v is values per parameter\nGenerates deterministic results - same input always produces the same pairwise set\nExample Output​\n\nExample Input Schema:\n\n# simple pairwise schema\n\ncolor\n\nred,blue,green,yellow\n\n\n\n# simple pairwise schema\n\nsize  \n\nsmall,medium,large\n\n\nGiven the color and size example above, pairwise generates these 12 combinations:\n\ncolor,size\n\nred,small\n\nred,medium  \n\nred,large\n\nblue,small\n\nblue,medium\n\nblue,large\n\ngreen,small\n\ngreen,medium\n\ngreen,large\n\nyellow,small\n\nyellow,medium\n\nyellow,large\n\n\nThis covers every possible pair:\n\n(red,small), (red,medium), (red,large)\n(blue,small), (blue,medium), (blue,large)\nAnd so on...\nIntegration with Other Features​\n\nPairwise data integrates with AnyWayData's other capabilities:\n\nExport formats: Use CSV, JSON, SQL, Markdown, or code generation formats\nGrid editing: Manually adjust generated combinations if needed\nText formats: Copy results directly for use in test frameworks\nBest Practices​\nUse meaningful parameter names that clearly describe what's being tested\nKeep enum values concise and representative of real test scenarios\nUse quoted values when enum options contain commas or special characters\nChoose appropriate enum formats - simple comma-separated for basic cases, function formats for complex schemas\nReview generated combinations to ensure they make sense for your use case\nCombine with other test data types - use pairwise for categorical parameters and faker/regex for random data fields\nBalance categorical vs. random parameters - more enum fields increase the pairwise test set size\nValidate mixed scenarios - ensure pairwise combinations work with random data values\nDocument your test coverage - export results to show what parameter interactions are tested\nTest your enum formats - verify that quoted and complex enum values work as expected\nLimitations​\nAll Pairs testing is designed for categorical (enum) parameters only - other parameter types use random generation\nRequires at least 2 enum fields to generate meaningful pairwise combinations\nDoes not test higher-order interactions (3-way, 4-way, etc.) - only pairwise coverage\nMay not be suitable for parameters with dependencies or constraints between values\nRelated Sources of Information​\nOfficial Standards and Publications​\nTools and Implementations​\n\nJames Bach Satisfice AllPairs Tool\n\nOpen-source tool written in Perl for pairwise data generation\nDownload: https://www.satisfice.com/download/allpairs\n\nMicrosoft PICT (Pairwise Independent Combinatorial Tool)\n\nOpen-source command-line tool for generating pairwise test cases\nIndustry-standard reference implementation\nGitHub Repository: https://github.com/microsoft/pict\nDocumentation: https://github.com/Microsoft/pict/blob/main/doc/pict.md\n\nPairwise.org Community Resource\n\nComprehensive resource site for pairwise testing\nTool comparisons and efficiency analysis\nWebsite: http://www.pairwise.org/\nTools listing: https://www.pairwise.org/tools.html\nAcademic Research and Papers​\n\nMichael Bolton Developsense\n\nA good overview of Pairwise and Orthogonal data generation\nhttps://www.developsense.com/resource/pairwiseTesting.html\n\nGoogle Scholar - Combinatorial Testing Research\n\nExtensive collection of academic papers on pairwise and combinatorial testing\nSearch: \"pairwise testing\" OR \"combinatorial testing\"\nCovers theoretical foundations, algorithms, and empirical studies\n\nNIST Special Publication 800-142: Practical Combinatorial Testing\n\nNational Institute of Standards and Technology\nComprehensive guide to combinatorial testing methodology and best practices\nAvailable at: https://csrc.nist.gov/publications/detail/sp/800-142/final\nAuthors: Richard Kuhn, Raghu Kacker, Yu Lei (NIST)\nPrevious\nLiteral Data\nNext\nN-Wise Testing\nWhat is Pairwise Testing?\nWhen to Use Pairwise\nHow to Generate Pairwise Data\nSchema Formatting\nIn the Main App (app.html)\nIn the Data Generator (generator.html)\nEnum Format Examples\nSimple Comma-Separated Format\nFunction-Based Formats\nQuoted Values for Complex Data\nMixed Quoted and Unquoted Values\nMixed Pairwise with Random Data\nExample: API Testing Scenario\nExample Output\nBenefits of Mixed Approach\nBest Practices for Mixed Testing\nAlgorithm "
+  },
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/n-wise-testing/",
+    "title": "N-Wise Testing | AnyWayData - Data Table Editor & Generator",
+    "h1": [
+      "N-Wise Test Data Generation"
+    ],
+    "h2": [
+      "When to use n-wise generation​",
+      "Strategies​",
+      "Scenario 6x3 Data Set​",
+      "Scenario 6x4 Data Set​"
+    ],
+    "codeBlocks": [
+      "n",
+      "n",
+      "n",
+      "2",
+      "n = 2",
+      "n = 3",
+      "n",
+      "n",
+      "n",
+      "P1enum(\"1.1\",\"1.2\",\"1.3\")P2enum(\"2.1\",\"2.2\",\"2.3\")P3enum(\"3.1\",\"3.2\",\"3.3\")P4enum(\"4.1\",\"4.2\",\"4.3\")P5enum(\"5.1\",\"5.2\",\"5.3\")P6enum(\"6.1\",\"6.2\",\"6.3\")",
+      "P1enum(\"1.1\",\"1.2\",\"1.3\")P2enum(\"2.1\",\"2.2\",\"2.3\")P3enum(\"3.1\",\"3.2\",\"3.3\")P4enum(\"4.1\",\"4.2\",\"4.3\")P5enum(\"5.1\",\"5.2\",\"5.3\")P6enum(\"6.1\",\"6.2\",\"6.3\")",
+      "P1enum(\"1.1\",\"1.2\",\"1.3\",\"1.4\")P2enum(\"2.1\",\"2.2\",\"2.3\",\"2.4\")P3enum(\"3.1\",\"3.2\",\"3.3\",\"3.4\")P4enum(\"4.1\",\"4.2\",\"4.3\",\"4.4\")P5enum(\"5.1\",\"5.2\",\"5.3\",\"5.4\")P6enum(\"6.1\",\"6.2\",\"6.3\",\"6.4\")",
+      "P1enum(\"1.1\",\"1.2\",\"1.3\",\"1.4\")P2enum(\"2.1\",\"2.2\",\"2.3\",\"2.4\")P3enum(\"3.1\",\"3.2\",\"3.3\",\"3.4\")P4enum(\"4.1\",\"4.2\",\"4.3\",\"4.4\")P5enum(\"5.1\",\"5.2\",\"5.3\",\"5.4\")P6enum(\"6.1\",\"6.2\",\"6.3\",\"6.4\")"
+    ],
+    "text": "Skip to main content\nAnyWayData\nApp\nDocs\nBlog\nGitHub\nDocs\nDocumentation\nAbout\nEditing Data\nEditable Data Grid\nImport From File\nText Editing\nExporting Data\nData Formats\nGenerating Data\nTest Data Generation\nData Grid Editable\nGenerate to File\nSchema Definition\nRegex Based Data\nLiteral Data\nPairwise Testing\nN-Wise Testing\nDomain Test Data\nFaker Based Data\nCounterstrings\nAuto Increment Sequences\nMisc\nRelated Tools\nVideo Tutorials\nFaker Test Data\nInterfaces & Deployment\nOverview\nWeb UI\nREST API\nMCP\nCLI (Node and Bun)\nDocsGenerating DataN-Wise Testing\nN-Wise Test Data Generation\n\nN-wise generation creates a covering set for enum columns. For a selected value of n, every value tuple across every group of n enum columns should appear at least once.\n\nThe Generate Combinations dialog only offers valid n values: from 2 up to the number of enum columns in the current schema.\n\nNon-enum columns are still generated normally for each emitted combination row. Only enum columns participate in the finite n-wise coverage model.\n\nWhen to use n-wise generation​\n\nUse n-wise generation when:\n\nYou have two or more enum fields with finite value sets.\nYou want systematic coverage of value interactions.\nFull Cartesian generation would create too many rows.\nYou want to compare pairwise, 3-wise, 4-wise, or stronger coverage before choosing the right test-data volume.\n\nFor n = 2, the generator covers every pair of enum values across every pair of enum columns. For n = 3, it covers every triplet, and so on. When n equals the number of enum columns, the result is full Cartesian coverage for those enum columns.\n\nStrategies​\n\nThe dialog orders available strategies by the lowest-row evidence from the current comparison scenarios for the selected n. The best row-count choice can change by strength, so the order changes when you change n.\n\nStrategy\tAvailable for\tWhen to pick it\tReferences\nGreedy\t2-wise and higher\tPick as the general default for low rows with low runtime. It led the current 3-wise and 5-wise samples overall.\tGreedy covering-array family\nIPOG-style\t2-wise and higher\tPick for predictable low runtime at higher strengths. It tracked Greedy closely and tied it on some larger samples.\tNIST IPOG\nAETG-style\t2-wise and higher\tPick when you can spend more runtime to chase compact output. It was strongest for 4-wise row count in the samples.\tAETG reference summary\nPICT-inspired GCD\t2-wise and higher\tPick for 2-wise when row count matters. It produced the fewest pairwise rows in the current comparison samples.\tMicrosoft PICT\nBach AllPairs\t2-wise only\tPick for 2-wise when you want Bach Allpairs-style pair-frequency balancing. It targets lower row counts than the simple legacy pairwise algorithm while staying fast.\tJames Bach Satisfice AllPairs\nHypergraph vertex\t2-wise and higher\tPick as the graph-informed comparator that stays closer on rows than compatibility graph, with higher runtime.\tCovering arrays on hypergraphs\nCompatibility graph\t2-wise and higher\tPick for comparison against graph-style compatibility scoring. It was usually behind the best row-count choices.\tNIST covering arrays\nPairwise (simple)\t2-wise only\tPick for legacy-compatible 2-wise output. It is stable and familiar, though PICT, AETG, and Bach AllPairs used fewer rows in sample runs.\tNIST covering arrays\nScenario 6x3 Data Set​\n\nFor Cartesian all combinations the number of rows would be 729.\n\nP1\n\nenum(\"1.1\",\"1.2\",\"1.3\")\n\nP2\n\nenum(\"2.1\",\"2.2\",\"2.3\")\n\nP3\n\nenum(\"3.1\",\"3.2\",\"3.3\")\n\nP4\n\nenum(\"4.1\",\"4.2\",\"4.3\")\n\nP5\n\nenum(\"5.1\",\"5.2\",\"5.3\")\n\nP6\n\nenum(\"6.1\",\"6.2\",\"6.3\")\n\nScenario 6x3 - Strength 2​\nAlgorithm\tRows\tTotal tuples\tCovered tuples\tCoverage %\tRuntime ms\npict-gcd\t13\t135\t135\t100.0\t2\naetg\t14\t135\t135\t100.0\t10\nhypergraph-vertex\t14\t135\t135\t100.0\t6\ncompatibility-graph\t16\t135\t135\t100.0\t3\nbach-allpairs\t16\t135\t135\t100.0\tn/a\ngreedy\t17\t135\t135\t100.0\t2\nipog\t17\t135\t135\t100.0\t1\npairwise\t17\t135\t135\t100.0\tn/a\nScenario 6x3 - Strength 3​\nAlgorithm\tRows\tTotal tuples\tCovered tuples\tCoverage %\tRuntime ms\naetg\t45\t540\t540\t100.0\t36\ngreedy\t48\t540\t540\t100.0\t3\npict-gcd\t48\t540\t540\t100.0\t4\nhypergraph-vertex\t50\t540\t540\t100.0\t21\ncompatibility-graph\t51\t540\t540\t100.0\t21\nipog\t58\t540\t540\t100.0\t2\nScenario 6x3 - Strength 4​\nAlgorithm\tRows\tTotal tuples\tCovered tuples\tCoverage %\tRuntime ms\naetg\t134\t1215\t1215\t100.0\t90\ngreedy\t137\t1215\t1215\t100.0\t10\nhypergraph-vertex\t141\t1215\t1215\t100.0\t145\npict-gcd\t142\t1215\t1215\t100.0\t8\ncompatibility-graph\t153\t1215\t1215\t100.0\t100\nipog\t169\t1215\t1215\t100.0\t4\nScenario 6x3 - Strength 5​\nAlgorithm\tRows\tTotal tuples\tCovered tuples\tCoverage %\tRuntime ms\ngreedy\t288\t1458\t1458\t100.0\t4\naetg\t308\t1458\t1458\t100.0\t108\nipog\t318\t1458\t1458\t100.0\t4\nhypergraph-vertex\t330\t1458\t1458\t100.0\t421\npict-gcd\t331\t1458\t1458\t100.0\t6\ncompatibility-graph\t368\t1458\t1458\t100.0\t405\nScenario 6x3 - Strength 6​\nAlgorithm\tRows\tTotal tuples\tCovered tuples\tCoverage %\tRuntime ms\naetg\t729\t729\t729\t100.0\t0\ncompatibility-graph\t729\t729\t729\t100.0\t1\ngreedy\t729\t729\t729\t100.0\t0\nhypergraph-vertex\t729\t729\t729\t100.0\t1\nipog\t729\t729\t729\t100.0\t0\npict-gcd\t729\t729\t729\t100.0\t0\nScenario 6x4 Data Set​\n\nFor Cartesian all combinations the number of rows would be 4096.\n\nP1\n\nenum(\"1.1\",\"1.2\",\"1.3\",\"1.4\")\n\nP2\n\nenum(\"2.1\",\"2.2\",\"2.3\",\"2.4\")\n\nP3\n\nenum(\"3.1\",\"3.2\",\"3.3\",\"3.4\")\n\nP4\n\nenum(\"4.1\",\"4.2\",\"4.3\",\"4.4\")\n\nP5\n\nenum(\"5.1\",\"5.2\",\"5.3\",\"5.4\")\n\nP6\n\nenum(\"6.1\",\"6.2\",\"6.3\",\"6.4\")\n\nScenario 6x4 - Strength 2​\nAlgorithm\tRows\tTotal tuples\tCovered tuples\tCoverage %\tRuntime ms\naetg\t23\t240\t240\t100.0\t18\npict-gcd\t23\t240\t240\t100.0\t3\ncompatibility-graph\t24\t240\t240\t100.0\t4\nhypergraph-vertex\t26\t240\t240\t100.0\t6\nbach-allpairs\t28\t240\t240\t100.0\tn/a\ngreedy\t28\t240\t240\t100.0\t1\nipog\t28\t240\t240\t100.0\t1\npairwise\t28\t240\t240\t100.0\tn/a\nScenario 6x4 - Strength 3​\nAlgorithm\tRows\tTotal tuples\tCovered tuples\tCoverage %\tRuntime ms\ngreedy\t64\t1280\t1280\t100.0\t4\nipog\t64\t1280\t1280\t100.0\t3\naetg\t105\t1280\t1280\t100.0\t112\npict-gcd\t110\t1280\t1280\t100.0\t11\nhypergraph-vertex\t115\t1280\t1280\t100.0\t122\ncompatibility-graph\t120\t1280\t1280\t100.0\t60\nScenario 6x4 - Strength 4​\nAlgorithm\tRows\tTotal tuples\tCovered tuples\tCoverage %\tRuntime ms\naetg\t420\t3840\t3840\t100.0\t320\npict-gcd\t440\t3840\t3840\t100.0\t25\nhypergraph-vertex\t446\t3840\t3840\t100.0\t2184\ngreedy\t448\t3840\t3840\t100.0\t29\nipog\t448\t3840\t3840\t100.0\t14\ncompatibility-graph\t495\t3840\t3840\t100.0\t1017\nScenario 6x4 - Strength 5​\nAlgorithm\tRows\tTotal tuples\tCovered tuples\tCoverage %\tRuntime ms\ngreedy\t1024\t6144\t6144\t100.0\t23\nipog\t1024\t6144\t6144\t100.0\t23\naetg\t1335\t6144\t6144\t100.0\t1477\nhypergraph-vertex\t1375\t6144\t6144\t100.0\t11946\npict-gcd\t1414\t6144\t6144\t100.0\t89\ncompatibility-graph\t1534\t6144\t6144\t100.0\t9611\nScenario 6x4 - Strength 6​\nAlgorithm\tRows\tTotal tuples\tCovered tuples\tCoverage %\tRuntime ms\naetg\t4096\t4096\t4096\t100.0\t2\ncompatibility-graph\t4096\t4096\t4096\t100.0\t2\ngreedy\t4096\t4096\t4096\t100.0\t3\nhypergraph-vertex\t4096\t4096\t4096\t100.0\t3\nipog\t4096\t4096\t4096\t100.0\t3\npict-gcd\t4096\t4096\t4096\t100.0\t3\nPrevious\nPairwise Testing\nNext\nDomain Test Data\nWhen to use n-wise generation\nStrategies\nScenario 6x3 Data Set\nScenario 6x3 - Strength 2\nScenario 6x3 - Strength 3\nScenario 6x3 - Strength 4\nScenario 6x3 - Strength 5\nScenario 6x3 - Strength 6\nScenario 6x4 Data Set\nScenario 6x4 - Strength 2\nScenario 6x4 - Strength 3\nScenario 6x4 - Strength 4\nScenario 6x4 - Strength 5\nScenario 6x4 - Strength 6\nDocs\nTutorial\nPrivacy Policy\nAbout\nContact\nCommunity\nTwitter\nMore\nBlog\nGitHub\nCopyright © 2026 Compendium Developments Ltd. Built with Docusaurus."
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "viewport": {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "mobile": false
+    },
+    "controls": [
+      {
+        "i": 0,
+        "tag": "button",
+        "type": "button",
+        "text": "🌙",
+        "aria": "Switch to dark theme",
+        "title": "Switch to dark theme",
+        "placeholder": "",
+        "tabIndex": 0,
+        "disabled": false,
+        "visible": true,
+        "rect": {
+          "x": 1390,
+          "y": 24,
+          "w": 32,
+          "h": 32
+        }
+      }
+    ],
+    "steps": [
+      {
+        "action": "focus Column Name",
+        "active": {
+          "tag": "input",
+          "type": "text",
+          "text": "Column Name",
+          "tabIndex": 0,
+          "rect": {
+            "x": 218,
+            "y": 179,
+            "w": 383,
+            "h": 21
+          }
+        }
+      },
+      {
+        "action": "Tab 1",
+        "active": {
+          "tag": "body",
+          "type": "",
+          "text": "AnyWayData App Generator Docs Blog 🌙 Skip to main content Data Generator Data Generator Instructions Schema Edit as Tex",
+          "tabIndex": -1,
+          "rect": {
+            "x": 8,
+            "y": 8,
+            "w": 1424,
+            "h": 956
+          }
+        }
+      },
+      {
+        "action": "Tab 2",
+        "active": {
+          "tag": "button",
+          "type": "button",
+          "text": "Drag field to reorder",
+          "tabIndex": 0,
+          "rect": {
+            "x": 39,
+            "y": 173,
+            "w": 32,
+            "h": 32
+          }
+        }
+      },
+      {
+        "action": "Tab 3",
+        "active": {
+          "tag": "button",
+          "type": "button",
+          "text": "Insert field after this row",
+          "tabIndex": 0,
+          "rect": {
+            "x": 74,
+            "y": 173,
+            "w": 32,
+            "h": 32
+          }
+        }
+      },
+      {
+        "action": "Tab 4",
+        "active": {
+          "tag": "button",
+          "type": "button",
+          "text": "Remove field",
+          "tabIndex": 0,
+          "rect": {
+            "x": 110,
+            "y": 173,
+            "w": 32,
+            "h": 32
+          }
+        }
+      },
+      {
+        "action": "Tab 5",
+        "active": {
+          "tag": "input",
+          "type": "text",
+          "text": "Column Name",
+          "tabIndex": 0,
+          "rect": {
+            "x": 218,
+            "y": 179,
+            "w": 383,
+            "h": 21
+          }
+        }
+      },
+      {
+        "action": "Tab 6",
+        "active": {
+          "tag": "body",
+          "type": "",
+          "text": "AnyWayData App Generator Docs Blog 🌙 Skip to main content Data Generator Data Generator Instructions Schema Edit as Tex",
+          "tabIndex": -1,
+          "rect": {
+            "x": 8,
+            "y": 8,
+            "w": 1424,
+            "h": 956
+          }
+        }
+      },
+      {
+        "action": "programmatic focus Field type",
+        "active": {
+          "tag": "select",
+          "type": "select-one",
+          "text": "enum literal regex domain faker",
+          "tabIndex": 0,
+          "rect": {
+            "x": 607,
+            "y": 180,
+            "w": 120,
+            "h": 19
+          }
+        }
+      },
+      {
+        "action": "Tab after Field type",
+        "active": {
+          "tag": "a",
+          "type": "",
+          "text": "Regex data help",
+          "tabIndex": 0,
+          "rect": {
+            "x": 734,
+            "y": 181,
+            "w": 16,
+            "h": 16
+          }
+        }
+      },
+      {
+        "action": "programmatic focus Value / Regex",
+        "active": {
+          "tag": "input",
+          "type": "text",
+          "text": "Value / Regex",
+          "tabIndex": 0,
+          "rect": {
+            "x": 756,
+            "y": 179,
+            "w": 645,
+            "h": 21
+          }
+        }
+      },
+      {
+        "action": "Tab after Value / Regex",
+        "active": {
+          "tag": "summary",
+          "type": "",
+          "text": "Schema Constraints (0)",
+          "tabIndex": 0,
+          "rect": {
+            "x": 39,
+            "y": 217,
+            "w": 1362,
+            "h": 18
+          }
+        }
+      }
+    ]
+  },
+  {
+    "viewport": {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "mobile": true
+    },
+    "controls": [
+      {
+        "i": 0,
+        "tag": "button",
+        "type": "button",
+        "text": "🌙",
+        "aria": "Switch to dark theme",
+        "title": "Switch to dark theme",
+        "placeholder": "",
+        "tabIndex": 0,
+        "disabled": false,
+        "visible": true,
+        "rect": {
+          "x": 16,
+          "y": 37,
+          "w": 32,
+          "h": 32
+        }
+      }
+    ],
+    "steps": [
+      {
+        "action": "focus Column Name",
+        "active": {
+          "tag": "input",
+          "type": "text",
+          "text": "Column Name",
+          "tabIndex": 0,
+          "rect": {
+            "x": 39,
+            "y": 279,
+            "w": 320,
+            "h": 21
+          }
+        }
+      },
+      {
+        "action": "Tab 1",
+        "active": {
+          "tag": "body",
+          "type": "",
+          "text": "AnyWayData App Generator Docs Blog 🌙 Skip to main content Data Generator Data Generator Instructions Schema Edit as Tex",
+          "tabIndex": -1,
+          "rect": {
+            "x": 8,
+            "y": 8,
+            "w": 374,
+            "h": 1226
+          }
+        }
+      },
+      {
+        "action": "Tab 2",
+        "active": {
+          "tag": "button",
+          "type": "button",
+          "text": "Drag field to reorder",
+          "tabIndex": 0,
+          "rect": {
+            "x": 39,
+            "y": 241,
+            "w": 32,
+            "h": 32
+          }
+        }
+      },
+      {
+        "action": "Tab 3",
+        "active": {
+          "tag": "button",
+          "type": "button",
+          "text": "Insert field after this row",
+          "tabIndex": 0,
+          "rect": {
+            "x": 74,
+            "y": 241,
+            "w": 32,
+            "h": 32
+          }
+        }
+      },
+      {
+        "action": "Tab 4",
+        "active": {
+          "tag": "button",
+          "type": "button",
+          "text": "Remove field",
+          "tabIndex": 0,
+          "rect": {
+            "x": 110,
+            "y": 241,
+            "w": 32,
+            "h": 32
+          }
+        }
+      },
+      {
+        "action": "Tab 5",
+        "active": {
+          "tag": "input",
+          "type": "text",
+          "text": "Column Name",
+          "tabIndex": 0,
+          "rect": {
+            "x": 39,
+            "y": 279,
+            "w": 320,
+            "h": 21
+          }
+        }
+      },
+      {
+        "action": "Tab 6",
+        "active": {
+          "tag": "body",
+          "type": "",
+          "text": "AnyWayData App Generator Docs Blog 🌙 Skip to main content Data Generator Data Generator Instructions Schema Edit as Tex",
+          "tabIndex": -1,
+          "rect": {
+            "x": 8,
+            "y": 8,
+            "w": 374,
+            "h": 1226
+          }
+        }
+      },
+      {
+        "action": "programmatic focus Field type",
+        "active": {
+          "tag": "select",
+          "type": "select-one",
+          "text": "enum literal regex domain faker",
+          "tabIndex": 0,
+          "rect": {
+            "x": 39,
+            "y": 307,
+            "w": 312,
+            "h": 19
+          }
+        }
+      },
+      {
+        "action": "Tab after Field type",
+        "active": {
+          "tag": "a",
+          "type": "",
+          "text": "Regex data help",
+          "tabIndex": 0,
+          "rect": {
+            "x": 39,
+            "y": 332,
+            "w": 16,
+            "h": 16
+          }
+        }
+      },
+      {
+        "action": "programmatic focus Value / Regex",
+        "active": {
+          "tag": "input",
+          "type": "text",
+          "text": "Value / Regex",
+          "tabIndex": 0,
+          "rect": {
+            "x": 39,
+            "y": 354,
+            "w": 320,
+            "h": 21
+          }
+        }
+      },
+      {
+        "action": "Tab after Value / Regex",
+        "active": {
+          "tag": "summary",
+          "type": "",
+          "text": "Schema Constraints (0)",
+          "tabIndex": 0,
+          "rect": {
+            "x": 39,
+            "y": 387,
+            "w": 312,
+            "h": 18
+          }
+        }
+      }
+    ]
+  }
+]

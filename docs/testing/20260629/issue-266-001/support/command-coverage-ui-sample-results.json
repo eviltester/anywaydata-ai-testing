@@ -1,0 +1,171 @@
+[
+  {
+    "id": "domain-http-method-common",
+    "label": "docs/domain internet.httpMethod(commonOnly=true)",
+    "docs": "domain-test-data",
+    "input": {
+      "id": "domain-http-method-common",
+      "label": "docs/domain internet.httpMethod(commonOnly=true)",
+      "docs": "domain-test-data",
+      "name": "Method",
+      "type": "domain",
+      "command": "internet.httpMethod",
+      "params": "(commonOnly=true)",
+      "rows": 5,
+      "format": "csv"
+    },
+    "output": "",
+    "visibleErrors": [],
+    "bodyTail": "tem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n"
+  },
+  {
+    "id": "domain-direction-abbrev",
+    "label": "docs/faker location.direction(abbreviated=true)",
+    "docs": "faker-test-data",
+    "input": {
+      "id": "domain-direction-abbrev",
+      "label": "docs/faker location.direction(abbreviated=true)",
+      "docs": "faker-test-data",
+      "name": "Direction",
+      "type": "domain",
+      "command": "location.direction",
+      "params": "(abbreviated=true)",
+      "rows": 5,
+      "format": "csv"
+    },
+    "output": "",
+    "visibleErrors": [],
+    "bodyTail": "tem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n"
+  },
+  {
+    "id": "domain-number-int-range",
+    "label": "docs/domain number.int(min=32, max=47)",
+    "docs": "domain-test-data",
+    "input": {
+      "id": "domain-number-int-range",
+      "label": "docs/domain number.int(min=32, max=47)",
+      "docs": "domain-test-data",
+      "name": "Num",
+      "type": "domain",
+      "command": "number.int",
+      "params": "(min=32, max=47)",
+      "rows": 5,
+      "format": "csv"
+    },
+    "output": "",
+    "visibleErrors": [],
+    "bodyTail": "tem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n"
+  },
+  {
+    "id": "faker-mustache",
+    "label": "docs/faker helpers.mustache",
+    "docs": "faker-test-data",
+    "input": {
+      "id": "faker-mustache",
+      "label": "docs/faker helpers.mustache",
+      "docs": "faker-test-data",
+      "name": "Sentence",
+      "type": "faker",
+      "command": "helpers.mustache",
+      "params": "(\"Hello {{name}}\", { name: \"Ada\" })",
+      "rows": 3,
+      "format": "csv"
+    },
+    "output": "",
+    "visibleErrors": [],
+    "bodyTail": "r Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nhelpers.mustache\nSelect faker command\nhelpers.arrayElement\nhelpers.arrayElements\nhelpers.fake\nhelpers.fromRegExp\nhelpers.maybe\nhelpers.multiple\nhelpers.mustache\nhelpers.rangeToNumber\nhelpers.replaceCreditCardSymbols\nhelpers.replaceSymbols\nhelpers.shuffle\nhelpers.slugify\nhelpers.uniqueArray\nhelpers.weightedArrayElement\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n"
+  },
+  {
+    "id": "domain-sequence-padded",
+    "label": "docs/sequence autoIncrement.sequence padded",
+    "docs": "auto-increment-sequences",
+    "input": {
+      "id": "domain-sequence-padded",
+      "label": "docs/sequence autoIncrement.sequence padded",
+      "docs": "auto-increment-sequences",
+      "name": "Filename",
+      "type": "domain",
+      "command": "autoIncrement.sequence",
+      "params": "(start=1, step=5, prefix=\"filename\", suffix=\".txt\", zeropadding=3)",
+      "rows": 3,
+      "format": "csv"
+    },
+    "output": "",
+    "visibleErrors": [],
+    "bodyTail": "tem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n"
+  },
+  {
+    "id": "domain-counterstring",
+    "label": "docs/counterstrings string.counterString(15)",
+    "docs": "counterstrings",
+    "input": {
+      "id": "domain-counterstring",
+      "label": "docs/counterstrings string.counterString(15)",
+      "docs": "counterstrings",
+      "name": "Counter",
+      "type": "domain",
+      "command": "string.counterString",
+      "params": "(15)",
+      "rows": 3,
+      "format": "csv"
+    },
+    "output": "",
+    "visibleErrors": [],
+    "bodyTail": "tem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n"
+  },
+  {
+    "id": "domain-finance-iban",
+    "label": "docs/domain finance.iban formatted GB",
+    "docs": "domain-test-data",
+    "input": {
+      "id": "domain-finance-iban",
+      "label": "docs/domain finance.iban formatted GB",
+      "docs": "domain-test-data",
+      "name": "IBAN",
+      "type": "domain",
+      "command": "finance.iban",
+      "params": "(formatted=true, countryCode=\"GB\")",
+      "rows": 3,
+      "format": "csv"
+    },
+    "output": "",
+    "visibleErrors": [],
+    "bodyTail": "tem.cron\nsystem.directoryPath\nsystem.fileExt\nsystem.fileName\nsystem.filePath\nsystem.fileType\nsystem.mimeType\nsystem.networkInterface\nsystem.semver\nunit.name\nunit.symbol\nvehicle.bicycle\nvehicle.color\nvehicle.fuel\nvehicle.manufacturer\nvehicle.model\nvehicle.type\nvehicle.vehicle\nvehicle.vin\nvehicle.vrm\nword.adjective\nword.adverb\nword.conjunction\nword.interjection\nword.noun\nword.preposition\nword.sample\nword.verb\nword.words\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n"
+  },
+  {
+    "id": "literal-basic",
+    "label": "docs/literal UAT",
+    "docs": "literal-test-data",
+    "input": {
+      "id": "literal-basic",
+      "label": "docs/literal UAT",
+      "docs": "literal-test-data",
+      "name": "Environment",
+      "type": "literal",
+      "value": "UAT",
+      "rows": 3,
+      "format": "csv"
+    },
+    "output": "",
+    "visibleErrors": [],
+    "bodyTail": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n"
+  },
+  {
+    "id": "regex-basic",
+    "label": "docs/regex [A-Z ]{3,12}",
+    "docs": "regex-test-data",
+    "input": {
+      "id": "regex-basic",
+      "label": "docs/regex [A-Z ]{3,12}",
+      "docs": "regex-test-data",
+      "name": "Code",
+      "type": "regex",
+      "value": "[A-Z ]{3,12}",
+      "rows": 3,
+      "format": "csv"
+    },
+    "output": "",
+    "visibleErrors": [],
+    "bodyTail": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n"
+  }
+]

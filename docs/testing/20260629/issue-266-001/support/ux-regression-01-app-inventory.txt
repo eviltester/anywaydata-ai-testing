@@ -1,0 +1,781 @@
+{
+  "url": "https://eviltester.github.io/grid-table-editor/site/app.html",
+  "title": "Test Data Generator and Table Editor for Markdown, CSV, JSON, Gherkin and HTML - AnyWayData",
+  "headings": [
+    {
+      "text": "",
+      "id": "confirm-modal-title"
+    },
+    {
+      "text": "",
+      "id": "text-input-modal-title"
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "text": "🌙",
+      "id": "",
+      "cls": "theme-toggle-button"
+    },
+    {
+      "i": 1,
+      "tag": "BUTTON",
+      "text": "Show help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 2,
+      "tag": "BUTTON",
+      "text": "Copy Instructions To Grid",
+      "id": "",
+      "cls": "instructions-copy-to-grid-button"
+    },
+    {
+      "i": 3,
+      "tag": "BUTTON",
+      "text": "Add Row",
+      "id": "addRowButton",
+      "cls": ""
+    },
+    {
+      "i": 4,
+      "tag": "BUTTON",
+      "text": "Add Rows Above",
+      "id": "addRowsAboveButton",
+      "cls": ""
+    },
+    {
+      "i": 5,
+      "tag": "BUTTON",
+      "text": "Add Rows Below",
+      "id": "addRowsBelowButton",
+      "cls": ""
+    },
+    {
+      "i": 6,
+      "tag": "BUTTON",
+      "text": "Delete Selected Rows",
+      "id": "deleteSelectedRowsButton",
+      "cls": ""
+    },
+    {
+      "i": 7,
+      "tag": "BUTTON",
+      "text": "Clear Filters",
+      "id": "clearFiltersButton",
+      "cls": ""
+    },
+    {
+      "i": 8,
+      "tag": "BUTTON",
+      "text": "Clear Sort",
+      "id": "clearSortButton",
+      "cls": ""
+    },
+    {
+      "i": 9,
+      "tag": "BUTTON",
+      "text": "Reset Table",
+      "id": "clearTableButton",
+      "cls": ""
+    },
+    {
+      "i": 10,
+      "tag": "BUTTON",
+      "text": "Filter column",
+      "id": "",
+      "cls": "customFilterMenuButton header-icon-button"
+    },
+    {
+      "i": 11,
+      "tag": "BUTTON",
+      "text": "Sort descending",
+      "id": "",
+      "cls": "customSortDownLabel header-icon-button"
+    },
+    {
+      "i": 12,
+      "tag": "BUTTON",
+      "text": "Sort ascending",
+      "id": "",
+      "cls": "customSortUpLabel header-icon-button"
+    },
+    {
+      "i": 13,
+      "tag": "BUTTON",
+      "text": "Clear sort",
+      "id": "",
+      "cls": "customSortRemoveLabel header-icon-button"
+    },
+    {
+      "i": 14,
+      "tag": "BUTTON",
+      "text": "Add column left",
+      "id": "",
+      "cls": "customHeaderAddLeftButton header-icon-button"
+    },
+    {
+      "i": 15,
+      "tag": "BUTTON",
+      "text": "Rename column",
+      "id": "",
+      "cls": "customHeaderRenameButton header-icon-button"
+    },
+    {
+      "i": 16,
+      "tag": "BUTTON",
+      "text": "Delete column",
+      "id": "",
+      "cls": "customHeaderDeleteButton header-icon-button"
+    },
+    {
+      "i": 17,
+      "tag": "BUTTON",
+      "text": "Duplicate column",
+      "id": "",
+      "cls": "customHeaderDuplicateButton header-icon-button"
+    },
+    {
+      "i": 18,
+      "tag": "BUTTON",
+      "text": "Add column right",
+      "id": "",
+      "cls": "customHeaderAddRightButton header-icon-button"
+    },
+    {
+      "i": 19,
+      "tag": "SPAN",
+      "text": "Show help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 20,
+      "tag": "BUTTON",
+      "text": "Show generate help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 21,
+      "tag": "BUTTON",
+      "text": "Generate",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 22,
+      "tag": "BUTTON",
+      "text": "Show combination generation help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 23,
+      "tag": "BUTTON",
+      "text": "Generate Combinations",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 24,
+      "tag": "BUTTON",
+      "text": "Show grid to enum schema help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 25,
+      "tag": "BUTTON",
+      "text": "Grid to Enum Schema",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 26,
+      "tag": "BUTTON",
+      "text": "Dismiss message",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 27,
+      "tag": "BUTTON",
+      "text": "Show help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 28,
+      "tag": "BUTTON",
+      "text": "Toggle schema text mode",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 29,
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 30,
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 31,
+      "tag": "BUTTON",
+      "text": "Drag field to reorder",
+      "id": "",
+      "cls": "icon-button shared-schema-drag-handle"
+    },
+    {
+      "i": 32,
+      "tag": "BUTTON",
+      "text": "Insert field after this row",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 33,
+      "tag": "BUTTON",
+      "text": "Remove field",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 34,
+      "tag": "BUTTON",
+      "text": "Move up",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 35,
+      "tag": "BUTTON",
+      "text": "Move down",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 36,
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "cls": "add-schema-row-button"
+    },
+    {
+      "i": 37,
+      "tag": "BUTTON",
+      "text": "Save Schema As",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 38,
+      "tag": "BUTTON",
+      "text": "Recover Draft",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 39,
+      "tag": "BUTTON",
+      "text": "Load last used schema",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 40,
+      "tag": "BUTTON",
+      "text": "Clear last used schema",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 41,
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 42,
+      "tag": "SPAN",
+      "text": "Show help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 43,
+      "tag": "BUTTON",
+      "text": "→",
+      "id": "settextfromgridbutton",
+      "cls": ""
+    },
+    {
+      "i": 44,
+      "tag": "BUTTON",
+      "text": "→",
+      "id": "setgridfromtextbutton",
+      "cls": ""
+    },
+    {
+      "i": 45,
+      "tag": "SPAN",
+      "text": "Show help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 46,
+      "tag": "BUTTON",
+      "text": "Import From Clipboard",
+      "id": "",
+      "cls": "import-export-import-control__clipboard-button"
+    },
+    {
+      "i": 47,
+      "tag": "SPAN",
+      "text": "Show help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 48,
+      "tag": "BUTTON",
+      "text": "Download file",
+      "id": "filedownload",
+      "cls": ""
+    },
+    {
+      "i": 49,
+      "tag": "SPAN",
+      "text": "Show help for this option",
+      "id": "",
+      "cls": "helpicon option-help-icon"
+    },
+    {
+      "i": 50,
+      "tag": "SPAN",
+      "text": "Show help for this option",
+      "id": "",
+      "cls": "helpicon option-help-icon text-preview-toolbar__preview-row-help"
+    },
+    {
+      "i": 51,
+      "tag": "BUTTON",
+      "text": "Preview",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 52,
+      "tag": "BUTTON",
+      "text": "Copy",
+      "id": "",
+      "cls": "text-preview-toolbar__copy-button"
+    },
+    {
+      "i": 53,
+      "tag": "SPAN",
+      "text": "Show help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 54,
+      "tag": "SPAN",
+      "text": "Show help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 55,
+      "tag": "SPAN",
+      "text": "Show help for this option",
+      "id": "",
+      "cls": "helpicon option-help-icon"
+    },
+    {
+      "i": 56,
+      "tag": "SPAN",
+      "text": "Show help for this option",
+      "id": "",
+      "cls": "helpicon option-help-icon"
+    },
+    {
+      "i": 57,
+      "tag": "SPAN",
+      "text": "Show help for this option",
+      "id": "",
+      "cls": "helpicon option-help-icon"
+    },
+    {
+      "i": 58,
+      "tag": "SPAN",
+      "text": "Show help for this option",
+      "id": "",
+      "cls": "helpicon option-help-icon"
+    },
+    {
+      "i": 59,
+      "tag": "BUTTON",
+      "text": "Apply",
+      "id": "",
+      "cls": "apply-options"
+    },
+    {
+      "i": 60,
+      "tag": "BUTTON",
+      "text": "OK",
+      "id": "confirm-modal-ok",
+      "cls": ""
+    },
+    {
+      "i": 61,
+      "tag": "BUTTON",
+      "text": "Cancel",
+      "id": "confirm-modal-cancel",
+      "cls": ""
+    },
+    {
+      "i": 62,
+      "tag": "BUTTON",
+      "text": "OK",
+      "id": "text-input-modal-ok",
+      "cls": ""
+    },
+    {
+      "i": 63,
+      "tag": "BUTTON",
+      "text": "Cancel",
+      "id": "text-input-modal-cancel",
+      "cls": ""
+    },
+    {
+      "i": 64,
+      "tag": "BUTTON",
+      "text": "Load Sample Schema",
+      "id": "",
+      "cls": "testdata-schema-sample-button"
+    },
+    {
+      "i": 65,
+      "tag": "BUTTON",
+      "text": "Load Sample Data",
+      "id": "",
+      "cls": "instructions-sample-data-button"
+    }
+  ],
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "filter-text-box",
+      "name": null,
+      "placeholder": "Filter...",
+      "value": "",
+      "text": ""
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "uniqueColumnNamesCheckbox",
+      "name": null,
+      "placeholder": null,
+      "value": "on",
+      "text": ""
+    },
+    {
+      "i": 2,
+      "tag": "INPUT",
+      "type": "search",
+      "id": "",
+      "name": null,
+      "placeholder": "",
+      "value": "",
+      "text": ""
+    },
+    {
+      "i": 3,
+      "tag": "INPUT",
+      "type": "number",
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "1",
+      "text": ""
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "testDataGenerationMode",
+      "placeholder": null,
+      "value": "new-table",
+      "text": ""
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "testDataGenerationMode",
+      "placeholder": null,
+      "value": "amend-table",
+      "text": ""
+    },
+    {
+      "i": 6,
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "testDataGenerationMode",
+      "placeholder": null,
+      "value": "amend-selected",
+      "text": ""
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "type": "file",
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "",
+      "text": ""
+    },
+    {
+      "i": 8,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": null,
+      "placeholder": "Column Name",
+      "value": "",
+      "text": ""
+    },
+    {
+      "i": 9,
+      "tag": "SELECT",
+      "type": null,
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "regex",
+      "text": ""
+    },
+    {
+      "i": 10,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": null,
+      "placeholder": "Value / Regex",
+      "value": "",
+      "text": ""
+    },
+    {
+      "i": 11,
+      "tag": "TEXTAREA",
+      "type": null,
+      "id": "",
+      "name": null,
+      "placeholder": "Column Name\nrule\nColumn Name\nrule",
+      "value": "",
+      "text": ""
+    },
+    {
+      "i": 12,
+      "tag": "TEXTAREA",
+      "type": null,
+      "id": "",
+      "name": null,
+      "placeholder": "IF [Column] = ",
+      "value": "",
+      "text": ""
+    },
+    {
+      "i": 13,
+      "tag": "SELECT",
+      "type": null,
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "",
+      "text": ""
+    },
+    {
+      "i": 14,
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "import-export-import-control-trim-input-1",
+      "placeholder": null,
+      "value": "off",
+      "text": ""
+    },
+    {
+      "i": 15,
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "import-export-import-control-trim-input-1",
+      "placeholder": null,
+      "value": "on",
+      "text": ""
+    },
+    {
+      "i": 16,
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "import-export-import-control-trim-input-fields-1",
+      "placeholder": null,
+      "value": "off",
+      "text": ""
+    },
+    {
+      "i": 17,
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "import-export-import-control-trim-input-fields-1",
+      "placeholder": null,
+      "value": "selected",
+      "text": ""
+    },
+    {
+      "i": 18,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "",
+      "text": ""
+    },
+    {
+      "i": 19,
+      "tag": "INPUT",
+      "type": "file",
+      "id": "csvinput",
+      "name": null,
+      "placeholder": null,
+      "value": "",
+      "text": ""
+    },
+    {
+      "i": 20,
+      "tag": "SELECT",
+      "type": null,
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "crlf",
+      "text": ""
+    },
+    {
+      "i": 21,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "on",
+      "text": ""
+    },
+    {
+      "i": 22,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "on",
+      "text": ""
+    },
+    {
+      "i": 23,
+      "tag": "INPUT",
+      "type": "number",
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "10",
+      "text": ""
+    },
+    {
+      "i": 24,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "",
+      "name": "quotes",
+      "placeholder": null,
+      "value": "on",
+      "text": ""
+    },
+    {
+      "i": 25,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "",
+      "name": "header",
+      "placeholder": null,
+      "value": "on",
+      "text": ""
+    },
+    {
+      "i": 26,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "quoteChar",
+      "placeholder": null,
+      "value": "\"",
+      "text": ""
+    },
+    {
+      "i": 27,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "escapeChar",
+      "placeholder": null,
+      "value": "\"",
+      "text": ""
+    },
+    {
+      "i": 28,
+      "tag": "TEXTAREA",
+      "type": null,
+      "id": "",
+      "name": "Markdown",
+      "placeholder": null,
+      "value": "",
+      "text": ""
+    },
+    {
+      "i": 29,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "text-input-modal-field",
+      "name": null,
+      "placeholder": null,
+      "value": "",
+      "text": ""
+    }
+  ],
+  "textSample": "AnyWayData\n App \nGenerator\nDocs\nBlog\n🌙\nInstructions \nAdd Row Add Rows Above Add Rows Below Delete Selected Rows Filter:  Clear Filters Clear Sort Reset Table  Unique Column Names\n~rename-me\n\n\nTotal rows: 0\nTest Data \n→\n→\nImport / Export\n Auto Sync\nPreview\nRows \nCopy\nMarkdown\nCSV\nDelimited\nJSON\nJSONL\nXML\nSQL\nCode\nCode (Unit Test)\nGherkin\nHTML\nASCII\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply"
+}

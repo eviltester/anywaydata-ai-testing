@@ -1,0 +1,116 @@
+[
+  {
+    "name": "autoincrement-invalid-step-app",
+    "info": {
+      "filter": "",
+      "headers": [
+        "id"
+      ],
+      "rows": [
+        [
+          "**ERROR**"
+        ],
+        [
+          "**ERROR**"
+        ]
+      ],
+      "bodyLines": [
+        "**ERROR**",
+        "**ERROR**",
+        "Total rows: 2",
+        "Generate complete. Grid updated.",
+        "JSON",
+        "JSONL"
+      ]
+    },
+    "screenshot": "screenshots/defect-autoincrement-invalid-step-app.png",
+    "status": "completed",
+    "video": "videos/defect-autoincrement-invalid-step-app.webm"
+  },
+  {
+    "name": "filter-amend-not-reapplied",
+    "before": {
+      "filter": "2",
+      "headers": [
+        "CaseId",
+        "Status"
+      ],
+      "rows": [
+        [
+          "2",
+          "active"
+        ]
+      ],
+      "bodyLines": [
+        "Total rows: 3 | Filtered Visible: 1",
+        "Generate complete. Grid updated.",
+        "JSON",
+        "JSONL"
+      ]
+    },
+    "after": {
+      "filter": "2",
+      "headers": [
+        "CaseId",
+        "Status"
+      ],
+      "rows": [
+        [
+          "100",
+          "active"
+        ]
+      ],
+      "bodyLines": [
+        "Total rows: 3 | Filtered Visible: 1",
+        "Amend complete. Grid updated.",
+        "JSON",
+        "JSONL"
+      ]
+    },
+    "screenshot": "screenshots/defect-filter-amend-not-reapplied.png",
+    "status": "completed",
+    "video": "videos/defect-filter-amend-not-reapplied.webm"
+  },
+  {
+    "name": "invalid-json-import-no-visible-error",
+    "info": {
+      "filter": "",
+      "headers": [
+        "~rename-me"
+      ],
+      "rows": [],
+      "bodyLines": [
+        "Total rows: 0",
+        ".json import:",
+        "[Drag And Drop .json File Here]",
+        "Import failed. Check file format/options.",
+        " .json Download ",
+        "JSON",
+        "JSONL"
+      ]
+    },
+    "consoleMessages": [
+      "log: Using grid engine: tabulator",
+      "log: TODO: Create help for instructions-summary-title",
+      "warning: Table Not Initialized - Calling the getHeaderFilters function before the table is initialized may result in inconsistent behavior, Please wait for the `tableBuilt` event before calling this function.",
+      "error: Failed importing preview text SyntaxError: Expected double-quoted property name in JSON at position 15 (line 1 column 16)\n    at JSON.parse (<anonymous>)\n    at C.toDataTable (https://eviltester.github.io/grid-table-editor/site/assets/src-VInYNAE8.js:13:334)\n    at tn.toGenericDataTable (https://eviltester.github.io/grid-table-editor/site/assets/src-VInYNAE8.js:112:10996)\n    at Nn (https://eviltester.github.io/grid-table-editor/site/assets/script-CilK9-Qs.js:289:1215)\n    at T (https://eviltester.github.io/grid-table-editor/site/assets/script-CilK9-Qs.js:298:6251)\n    at Object.k [as onSetGridFromText] (https://eviltester.github.io/grid-table-editor/site/assets/script-CilK9-Qs.js:298:7985)\n    at HTMLButtonElement.handleSetGridFromTextClick (https://eviltester.github.io/grid-table-editor/site/assets/script-CilK9-Qs.js:120:4394)"
+    ],
+    "screenshot": "screenshots/defect-invalid-json-import-no-visible-error.png",
+    "status": "completed",
+    "video": "videos/defect-invalid-json-import-no-visible-error.webm"
+  },
+  {
+    "name": "autoincrement-invalid-step-generator",
+    "text": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nId\n\n\n**ERROR**\n**ERROR**\n**ERROR**\n**ERROR**\n**ERROR**\n**ERROR**\n**ERROR**\n**ERROR**\n**ERROR**\n**ERROR**",
+    "screenshot": "screenshots/defect-autoincrement-invalid-step-generator.png",
+    "status": "completed",
+    "video": "videos/defect-autoincrement-invalid-step-generator.webm"
+  },
+  {
+    "name": "autoincrement-negative-zeropadding-generator",
+    "text": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nId\n\n\n**ERROR**\n**ERROR**\n**ERROR**\n**ERROR**\n**ERROR**\n**ERROR**\n**ERROR**\n**ERROR**\n**ERROR**\n**ERROR**",
+    "screenshot": "screenshots/defect-autoincrement-negative-zeropadding-generator.png",
+    "status": "completed",
+    "video": "videos/defect-autoincrement-negative-zeropadding-generator.webm"
+  }
+]

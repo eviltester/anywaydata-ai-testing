@@ -1,0 +1,66 @@
+{
+  "homeTitle": "AnyWayData - Data Table Editor & Generator",
+  "links": [
+    {
+      "text": "Skip to main content",
+      "href": "https://eviltester.github.io/grid-table-editor/site/#__docusaurus_skipToContent_fallback"
+    },
+    {
+      "text": "AnyWayData",
+      "href": "https://eviltester.github.io/grid-table-editor/site/"
+    },
+    {
+      "text": "App",
+      "href": "https://eviltester.github.io/grid-table-editor/site/app.html"
+    },
+    {
+      "text": "Docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/intro"
+    },
+    {
+      "text": "Blog",
+      "href": "https://eviltester.github.io/grid-table-editor/site/blog"
+    },
+    {
+      "text": "GitHub",
+      "href": "https://github.com/eviltester/grid-table-editor/"
+    },
+    {
+      "text": "Use The Application",
+      "href": "https://eviltester.github.io/grid-table-editor/site/app.html"
+    },
+    {
+      "text": "Tutorial",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/intro"
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "https://eviltester.github.io/grid-table-editor/site/privacy"
+    },
+    {
+      "text": "About",
+      "href": "https://eviltester.github.io/grid-table-editor/site/about"
+    },
+    {
+      "text": "Contact",
+      "href": "https://eviltester.github.io/grid-table-editor/site/contact"
+    },
+    {
+      "text": "Twitter",
+      "href": "https://twitter.com/eviltester"
+    },
+    {
+      "text": "Blog",
+      "href": "https://eviltester.github.io/grid-table-editor/site/blog"
+    },
+    {
+      "text": "GitHub",
+      "href": "https://github.com/eviltester/grid-table-editor"
+    }
+  ],
+  "clicked": "App",
+  "afterUrl": "https://eviltester.github.io/grid-table-editor/site/",
+  "afterTitle": "AnyWayData - Data Table Editor & Generator",
+  "bodySample": "Skip to main content\nAnyWayData\nApp\nDocs\nBlog\nGitHub\nAnyWayData - Data Table Editor & Generator\n\nEdit and Generate Test Data in Your Browser\n\nUse The Application\nEasy to Use\n\nThe Data Table Editor is designed to be easy to use and uses the Tabulator Data Grid to create an intuitive editing experience. You can create and edit data in the grid and \"Set Test From Grid\" to view data in your chosen format. Or paste data into the text area and \"Set Grid From Text\". You can even import and export from files.\n\nImport and Export Data\n\nAny Data Grid of data can be converted to multiple table formats e.g. Markdown, CSV, Gherkin, JSON and plain HTML. These formats can all be exported to and converted between. It is possible to import Markdown, CSV, Gherkin and JSON for editing the data.\n\nRandom Data Generation\n\nYou can Generate random data in a Data Grid to use for testing. Simply configure a test data schema and choose from predefined random formats or write your field value description as a RegEx. Generate as many rows as your computer can handle. Want 1000 records? Easy. 100,000? Easy. 1,000,000 sure, it might take 30 seconds or so, but if your computer can handle it, we can generate it.\n\nGenerate Test Data Using Faker\n\nIt is possible to easily generate random data into the Data Grid for editing or export.\n\nDocs\nTutorial\nPrivacy Policy\nAbout\nContact\nCommunity\nTwitter\nMore\nBlog\nGitHub\nCopyright © 2026 Compendium Developments Ltd. Built with Docusaurus.",
+  "screenshot": "D:\\github\\anywaydata-ai-testing\\docs\\testing\\20260629\\issue-266-001\\screenshots\\command-coverage-browser-proof.png"
+}

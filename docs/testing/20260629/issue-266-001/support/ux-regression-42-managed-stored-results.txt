@@ -1,0 +1,361 @@
+{
+  "storedExpandedText": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nSave Schema As  Recover Draft\nLast Used \nSelect a saved history item\nlast used - 2026-06-29T11:03:32.851Z\nlast used - 2026-06-29T11:02:49.097Z\n  Load Clear Last Used\nLoad Saved Schema\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n",
+  "storedButtonsGeom": [
+    {
+      "i": 1,
+      "text": "Show help",
+      "title": "",
+      "aria": "Show help",
+      "role": null,
+      "display": "inline-flex",
+      "offsetParent": true,
+      "rect": {
+        "x": 245.921875,
+        "y": 20.671875,
+        "w": 13.328125,
+        "h": 13.328125
+      }
+    },
+    {
+      "i": 3,
+      "text": "Show help",
+      "title": "",
+      "aria": "Show help",
+      "role": "schema-mode-help",
+      "display": "flex",
+      "offsetParent": true,
+      "rect": {
+        "x": 994.8125,
+        "y": 94.515625,
+        "w": 13.328125,
+        "h": 13.328125
+      }
+    },
+    {
+      "i": 4,
+      "text": "Edit as Text",
+      "title": "Toggle schema text mode",
+      "aria": null,
+      "role": "schema-mode-toggle",
+      "display": "flex",
+      "offsetParent": true,
+      "rect": {
+        "x": 1013.734375,
+        "y": 85.1875,
+        "w": 72.671875,
+        "h": 32
+      }
+    },
+    {
+      "i": 5,
+      "text": "Load Schema File",
+      "title": "",
+      "aria": null,
+      "role": "schema-load-file-button",
+      "display": "flex",
+      "offsetParent": true,
+      "rect": {
+        "x": 1096,
+        "y": 85.1875,
+        "w": 111.453125,
+        "h": 32
+      }
+    },
+    {
+      "i": 6,
+      "text": "Save Schema File",
+      "title": "",
+      "aria": null,
+      "role": "schema-save-file-button",
+      "display": "flex",
+      "offsetParent": true,
+      "rect": {
+        "x": 1214.640625,
+        "y": 85.1875,
+        "w": 112.171875,
+        "h": 32
+      }
+    },
+    {
+      "i": 7,
+      "text": "Drag field to reorder",
+      "title": "Drag field to reorder",
+      "aria": "Drag field to reorder",
+      "role": null,
+      "display": "flex",
+      "offsetParent": true,
+      "rect": {
+        "x": 39.1875,
+        "y": 126.78125,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "i": 8,
+      "text": "Insert field after this row",
+      "title": "Add field",
+      "aria": "Insert field after this row",
+      "role": null,
+      "display": "flex",
+      "offsetParent": true,
+      "rect": {
+        "x": 74.375,
+        "y": 126.78125,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "i": 9,
+      "text": "Remove field",
+      "title": "Remove field",
+      "aria": "Remove field",
+      "role": null,
+      "display": "flex",
+      "offsetParent": true,
+      "rect": {
+        "x": 109.5625,
+        "y": 126.78125,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "i": 10,
+      "text": "Move up",
+      "title": "Move up",
+      "aria": "Move up",
+      "role": null,
+      "display": "flex",
+      "offsetParent": true,
+      "rect": {
+        "x": 144.75,
+        "y": 126.78125,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "i": 11,
+      "text": "Move down",
+      "title": "Move down",
+      "aria": "Move down",
+      "role": null,
+      "display": "flex",
+      "offsetParent": true,
+      "rect": {
+        "x": 179.9375,
+        "y": 126.78125,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "i": 12,
+      "text": "+ Add Field",
+      "title": "",
+      "aria": null,
+      "role": "schema-add-field",
+      "display": "inline-block",
+      "offsetParent": true,
+      "rect": {
+        "x": 39.1875,
+        "y": 206.375,
+        "w": 83.078125,
+        "h": 21
+      }
+    },
+    {
+      "i": 13,
+      "text": "Save Schema As",
+      "title": "Save Schema As",
+      "aria": "Save Schema As",
+      "role": "stored-schemas-save-as",
+      "display": "inline-block",
+      "offsetParent": true,
+      "rect": {
+        "x": 31.59375,
+        "y": 259.96875,
+        "w": 117.515625,
+        "h": 21
+      }
+    },
+    {
+      "i": 14,
+      "text": "Recover Draft",
+      "title": "Recover Draft",
+      "aria": "Recover Draft",
+      "role": "stored-schemas-recover-draft",
+      "display": "inline-block",
+      "offsetParent": true,
+      "rect": {
+        "x": 174.015625,
+        "y": 259.96875,
+        "w": 98.234375,
+        "h": 21
+      }
+    },
+    {
+      "i": 15,
+      "text": "Load",
+      "title": "Load last used schema",
+      "aria": "Load last used schema",
+      "role": "stored-schemas-load-last-used",
+      "display": "inline-block",
+      "offsetParent": true,
+      "rect": {
+        "x": 382,
+        "y": 281.96875,
+        "w": 45.65625,
+        "h": 21
+      }
+    },
+    {
+      "i": 16,
+      "text": "Clear Last Used",
+      "title": "Clear last used schema",
+      "aria": "Clear last used schema",
+      "role": "stored-schemas-clear-last-used",
+      "display": "inline-block",
+      "offsetParent": true,
+      "rect": {
+        "x": 432.109375,
+        "y": 281.96875,
+        "w": 111.578125,
+        "h": 21
+      }
+    },
+    {
+      "i": 17,
+      "text": "Load Saved Schema",
+      "title": "",
+      "aria": null,
+      "role": "stored-schemas-open-saved-dialog",
+      "display": "inline-block",
+      "offsetParent": true,
+      "rect": {
+        "x": 31.59375,
+        "y": 302.96875,
+        "w": 139.765625,
+        "h": 21
+      }
+    },
+    {
+      "i": 18,
+      "text": "Show file generation help",
+      "title": "",
+      "aria": "Show file generation help",
+      "role": null,
+      "display": "flex",
+      "offsetParent": true,
+      "rect": {
+        "x": 566.40625,
+        "y": 399.28125,
+        "w": 13.328125,
+        "h": 13.328125
+      }
+    },
+    {
+      "i": 19,
+      "text": "Generate Data",
+      "title": "Generate Data",
+      "aria": "Generate Data",
+      "role": "generator-generate-data-button",
+      "display": "block",
+      "offsetParent": true,
+      "rect": {
+        "x": 585.328125,
+        "y": 394.953125,
+        "w": 129.546875,
+        "h": 22
+      }
+    },
+    {
+      "i": 22,
+      "text": "Apply",
+      "title": "",
+      "aria": null,
+      "role": "apply-options-button",
+      "display": "inline-block",
+      "offsetParent": true,
+      "rect": {
+        "x": 28.59375,
+        "y": 686.9375,
+        "w": 49.359375,
+        "h": 21
+      }
+    },
+    {
+      "i": 24,
+      "text": "Show preview help",
+      "title": "",
+      "aria": "Show preview help",
+      "role": null,
+      "display": "flex",
+      "offsetParent": true,
+      "rect": {
+        "x": 241.5,
+        "y": 796.53125,
+        "w": 13.328125,
+        "h": 13.328125
+      }
+    },
+    {
+      "i": 25,
+      "text": "Preview",
+      "title": "",
+      "aria": null,
+      "role": "generator-preview-button",
+      "display": "block",
+      "offsetParent": true,
+      "rect": {
+        "x": 260.421875,
+        "y": 792.703125,
+        "w": 63.421875,
+        "h": 21
+      }
+    }
+  ],
+  "visibleSaveCandidates": [
+    {
+      "i": 13,
+      "text": "Save Schema As",
+      "title": "Save Schema As",
+      "aria": "Save Schema As",
+      "role": "stored-schemas-save-as",
+      "display": "inline-block",
+      "offsetParent": true,
+      "rect": {
+        "x": 31.59375,
+        "y": 259.96875,
+        "w": 117.515625,
+        "h": 21
+      }
+    }
+  ],
+  "saveClicked": true,
+  "modalAfterManagedSave": {
+    "active": {
+      "tag": "INPUT",
+      "id": "text-input-modal-field",
+      "value": "",
+      "text": ""
+    },
+    "fieldRect": {
+      "x": 453,
+      "y": 446.203125,
+      "w": 460,
+      "h": 21
+    },
+    "modalRect": {
+      "x": 439.203125,
+      "y": 386.8125,
+      "w": 487.59375,
+      "h": 126.375
+    },
+    "modalText": "Save Schema As\nSchema name \nSave Schema\nCancel"
+  },
+  "saveNameApplied": true,
+  "afterManagedSaveText": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (1)\nSave Schema As  Recover Draft\nLast Used \nSelect a saved history item\nlast used - 2026-06-29T11:03:32.851Z\nlast used - 2026-06-29T11:02:49.097Z\n  Load Clear Last Used\nLoad Saved Schema\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nSaved schema \"uxRegressionSchemaD\".\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n"
+}

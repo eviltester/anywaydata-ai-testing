@@ -1,0 +1,27 @@
+{
+  "overlayInfo": [
+    {
+      "i": 0,
+      "text": "Select schema method\n×\nAll\nCore\nairline\nairplane\nairport\nanimal\nautoIncrement\nbook\nchemicalElement\ncolor\ncommerce\ncompany\ndatabase\ndatatype\ndate\nfinance\nfood\ngit\nhacker\nimage\ninternet\nlanguage\nliteral\nlocation\nlorem\nmusic\nnumber\nperson\nphone\nstring\nsystem\nunit\nvehicle\nword\nFaker\nRecently used\nhelpers.arrayElement\nReturns one random element from the supplied array.\nfaker\nhelpers.arrayElements\nReturns multiple random elements from the supplied array.\nfaker\nhelpers.fake\nInterpolates faker template placeholders inside a string and returns the rendered result.\nfaker\nhelpers.fromRegExp\nGenerates a string that matches the supplied regular-expression-style pattern.\nfaker\nhelpers.maybe\nCalls a callback and returns its value only when faker decides the optional value should be present.\nfaker\nhelpers.multiple\nCalls a generator callback multiple times and returns the collected results as an array.\nfaker\nhelpers.mustache\nReplaces {{placeholder}} tokens in a string using values from the supplied data object.\nfaker\nhelpers.rangeToNumber\nConverts a number or { min, max } range into a concrete number.\nfaker\nhelpers.replaceCreditCardSymbols\nReplaces credit-card placeholders and computes a valid Luhn checksum for the result.\nfaker\nhelpers.replaceSymbols\nReplaces placeholder symbols such as # and ? in a string with random digits or letters.\nfaker\nhelpers.shuffle\nReturns a shuffled copy of the supplied array.\nfaker\nhelpers.slugify\nConverts a string into a URL-friendly slug.\nfaker\nhelpers.uniqueArray\nBuilds an array of unique values by repeatedly sampling a source until the requested length is reached.\nfaker\nhelpers.weightedArrayElement\nReturns one value from a weighted array, favoring entries with higher weights.\nfaker\nhelpers.arrayElement\n\nReturns one random element from the supplied array.\n\nSchema: faker.helpers.arrayElement()\n\nParameter Details\nName\tDetails\narray\tArray of candidate values to choose from.\nParameter Types\nName\tType\tReq\narray\tarray\trequired\nUsage Examples\n\nShows helpers.arrayElement in use.\n\nCommand: helpers.arrayElement\n\nParams field: ([\"A\", \"B\", \"C\"])\n\nFull call: helpers.arrayElement([\"A\", \"B\", \"C\"])\n\nReturns: B\n\nOpen documentation\n\nCancel\nApply",
+      "display": "flex",
+      "visibility": "visible",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1366,
+        "height": 900,
+        "top": 0,
+        "right": 1366,
+        "bottom": 900,
+        "left": 0
+      }
+    }
+  ],
+  "activeStuck": {
+    "tag": "INPUT",
+    "text": "Filter preview column",
+    "cls": "",
+    "role": null
+  },
+  "url": "https://eviltester.github.io/grid-table-editor/generator.html"
+}

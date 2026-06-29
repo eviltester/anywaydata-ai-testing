@@ -1,0 +1,81 @@
+{
+  "results": [],
+  "latest": {
+    "label": "new-table 3 after manual continuation",
+    "headers": [
+      {
+        "field": "column1",
+        "title": "CaseId"
+      },
+      {
+        "field": "column2",
+        "title": "Status"
+      }
+    ],
+    "rows": [
+      {
+        "index": 0,
+        "selected": false,
+        "visible": true,
+        "text": "TC-28active",
+        "cells": [
+          {
+            "field": "column1",
+            "text": "TC-28"
+          },
+          {
+            "field": "column2",
+            "text": "active"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "selected": false,
+        "visible": true,
+        "text": "TC-86blocked",
+        "cells": [
+          {
+            "field": "column1",
+            "text": "TC-86"
+          },
+          {
+            "field": "column2",
+            "text": "blocked"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "selected": false,
+        "visible": true,
+        "text": "TC-58pending",
+        "cells": [
+          {
+            "field": "column1",
+            "text": "TC-58"
+          },
+          {
+            "field": "column2",
+            "text": "pending"
+          }
+        ]
+      }
+    ],
+    "rowCountLabel": "Total rows: 3",
+    "mode": [
+      {
+        "value": "new-table",
+        "checked": true
+      },
+      {
+        "value": "amend-table",
+        "checked": false
+      },
+      {
+        "value": "amend-selected",
+        "checked": false
+      }
+    ]
+  }
+}

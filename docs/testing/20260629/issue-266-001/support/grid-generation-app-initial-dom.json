@@ -1,0 +1,2624 @@
+{
+  "url": "https://eviltester.github.io/grid-table-editor/site/app.html",
+  "title": "Test Data Generator and Table Editor for Markdown, CSV, JSON, Gherkin and HTML - AnyWayData",
+  "text": "AnyWayData\n App \nGenerator\nDocs\nBlog\n🌙\nInstructions \nAdd Row Add Rows Above Add Rows Below Delete Selected Rows Filter:  Clear Filters Clear Sort Reset Table  Unique Column Names\n~rename-me\n\n\nTotal rows: 0\nTest Data \n→\n→\nImport / Export\n Auto Sync\nPreview\nRows \nCopy\nMarkdown\nCSV\nDelimited\nJSON\nJSONL\nXML\nSQL\nCode\nCode (Unit Test)\nGherkin\nHTML\nASCII\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply",
+  "buttons": [
+    {
+      "i": 0,
+      "text": "🌙",
+      "id": "",
+      "cls": "theme-toggle-button"
+    },
+    {
+      "i": 1,
+      "text": "Show help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 2,
+      "text": "Copy Instructions To Grid",
+      "id": "",
+      "cls": "instructions-copy-to-grid-button"
+    },
+    {
+      "i": 3,
+      "text": "Add Row",
+      "id": "addRowButton",
+      "cls": ""
+    },
+    {
+      "i": 4,
+      "text": "Add Rows Above",
+      "id": "addRowsAboveButton",
+      "cls": ""
+    },
+    {
+      "i": 5,
+      "text": "Add Rows Below",
+      "id": "addRowsBelowButton",
+      "cls": ""
+    },
+    {
+      "i": 6,
+      "text": "Delete Selected Rows",
+      "id": "deleteSelectedRowsButton",
+      "cls": ""
+    },
+    {
+      "i": 7,
+      "text": "Clear Filters",
+      "id": "clearFiltersButton",
+      "cls": ""
+    },
+    {
+      "i": 8,
+      "text": "Clear Sort",
+      "id": "clearSortButton",
+      "cls": ""
+    },
+    {
+      "i": 9,
+      "text": "Reset Table",
+      "id": "clearTableButton",
+      "cls": ""
+    },
+    {
+      "i": 10,
+      "text": "Filter column",
+      "id": "",
+      "cls": "customFilterMenuButton header-icon-button"
+    },
+    {
+      "i": 11,
+      "text": "Sort descending",
+      "id": "",
+      "cls": "customSortDownLabel header-icon-button"
+    },
+    {
+      "i": 12,
+      "text": "Sort ascending",
+      "id": "",
+      "cls": "customSortUpLabel header-icon-button"
+    },
+    {
+      "i": 13,
+      "text": "Clear sort",
+      "id": "",
+      "cls": "customSortRemoveLabel header-icon-button"
+    },
+    {
+      "i": 14,
+      "text": "Add column left",
+      "id": "",
+      "cls": "customHeaderAddLeftButton header-icon-button"
+    },
+    {
+      "i": 15,
+      "text": "Rename column",
+      "id": "",
+      "cls": "customHeaderRenameButton header-icon-button"
+    },
+    {
+      "i": 16,
+      "text": "Delete column",
+      "id": "",
+      "cls": "customHeaderDeleteButton header-icon-button"
+    },
+    {
+      "i": 17,
+      "text": "Duplicate column",
+      "id": "",
+      "cls": "customHeaderDuplicateButton header-icon-button"
+    },
+    {
+      "i": 18,
+      "text": "Add column right",
+      "id": "",
+      "cls": "customHeaderAddRightButton header-icon-button"
+    },
+    {
+      "i": 19,
+      "text": "Show generate help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 20,
+      "text": "Generate",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 21,
+      "text": "Show combination generation help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 22,
+      "text": "Generate Combinations",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 23,
+      "text": "Show grid to enum schema help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 24,
+      "text": "Grid to Enum Schema",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 25,
+      "text": "Dismiss message",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 26,
+      "text": "Show help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 27,
+      "text": "Toggle schema text mode",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 28,
+      "text": "",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 29,
+      "text": "",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 30,
+      "text": "Drag field to reorder",
+      "id": "",
+      "cls": "icon-button shared-schema-drag-handle"
+    },
+    {
+      "i": 31,
+      "text": "Insert field after this row",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 32,
+      "text": "Remove field",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 33,
+      "text": "Move up",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 34,
+      "text": "Move down",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 35,
+      "text": "",
+      "id": "",
+      "cls": "add-schema-row-button"
+    },
+    {
+      "i": 36,
+      "text": "Save Schema As",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 37,
+      "text": "Recover Draft",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 38,
+      "text": "Load last used schema",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 39,
+      "text": "Clear last used schema",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 40,
+      "text": "",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 41,
+      "text": "→",
+      "id": "settextfromgridbutton",
+      "cls": ""
+    },
+    {
+      "i": 42,
+      "text": "→",
+      "id": "setgridfromtextbutton",
+      "cls": ""
+    },
+    {
+      "i": 43,
+      "text": "Import From Clipboard",
+      "id": "",
+      "cls": "import-export-import-control__clipboard-button"
+    },
+    {
+      "i": 44,
+      "text": "Download file",
+      "id": "filedownload",
+      "cls": ""
+    },
+    {
+      "i": 45,
+      "text": "Preview",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 46,
+      "text": "Copy",
+      "id": "",
+      "cls": "text-preview-toolbar__copy-button"
+    },
+    {
+      "i": 47,
+      "text": "Apply",
+      "id": "",
+      "cls": "apply-options"
+    },
+    {
+      "i": 48,
+      "text": "OK",
+      "id": "confirm-modal-ok",
+      "cls": ""
+    },
+    {
+      "i": 49,
+      "text": "Cancel",
+      "id": "confirm-modal-cancel",
+      "cls": ""
+    },
+    {
+      "i": 50,
+      "text": "OK",
+      "id": "text-input-modal-ok",
+      "cls": ""
+    },
+    {
+      "i": 51,
+      "text": "Cancel",
+      "id": "text-input-modal-cancel",
+      "cls": ""
+    },
+    {
+      "i": 52,
+      "text": "Load Sample Schema",
+      "id": "",
+      "cls": "testdata-schema-sample-button"
+    },
+    {
+      "i": 53,
+      "text": "Load Sample Data",
+      "id": "",
+      "cls": "instructions-sample-data-button"
+    }
+  ],
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "filter-text-box",
+      "name": "",
+      "value": "",
+      "placeholder": "Filter...",
+      "aria": null,
+      "text": "Filter:"
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "uniqueColumnNamesCheckbox",
+      "name": "",
+      "value": "on",
+      "placeholder": "",
+      "aria": null,
+      "text": "Unique Column Names"
+    },
+    {
+      "i": 2,
+      "tag": "INPUT",
+      "type": "search",
+      "id": "",
+      "name": "",
+      "value": "",
+      "placeholder": "",
+      "aria": "Filter table column"
+    },
+    {
+      "i": 3,
+      "tag": "INPUT",
+      "type": "number",
+      "id": "",
+      "name": "",
+      "value": "1",
+      "placeholder": "",
+      "aria": null,
+      "text": ""
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "testDataGenerationMode",
+      "value": "new-table",
+      "placeholder": "",
+      "aria": null,
+      "text": ""
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "testDataGenerationMode",
+      "value": "amend-table",
+      "placeholder": "",
+      "aria": null,
+      "text": ""
+    },
+    {
+      "i": 6,
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "testDataGenerationMode",
+      "value": "amend-selected",
+      "placeholder": "",
+      "aria": null,
+      "text": ""
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "type": "file",
+      "id": "",
+      "name": "",
+      "value": "",
+      "placeholder": "",
+      "aria": "Load Schema File"
+    },
+    {
+      "i": 8,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "value": "",
+      "placeholder": "Column Name",
+      "aria": "Column Name"
+    },
+    {
+      "i": 9,
+      "tag": "SELECT",
+      "type": "select-one",
+      "id": "",
+      "name": "",
+      "value": "regex",
+      "aria": "Field type"
+    },
+    {
+      "i": 10,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "value": "",
+      "placeholder": "Value / Regex",
+      "aria": "Value / Regex"
+    },
+    {
+      "i": 11,
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "id": "",
+      "name": "",
+      "value": "",
+      "placeholder": "Column Name\nrule\nColumn Name\nrule",
+      "aria": "Schema text"
+    },
+    {
+      "i": 12,
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "id": "",
+      "name": "",
+      "value": "",
+      "placeholder": "IF [Column] = ",
+      "aria": "Schema constraints"
+    },
+    {
+      "i": 13,
+      "tag": "SELECT",
+      "type": "select-one",
+      "id": "",
+      "name": "",
+      "value": "",
+      "aria": "Last Used",
+      "text": ""
+    },
+    {
+      "i": 14,
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "import-export-import-control-trim-input-1",
+      "value": "off",
+      "placeholder": "",
+      "aria": null,
+      "text": ""
+    },
+    {
+      "i": 15,
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "import-export-import-control-trim-input-1",
+      "value": "on",
+      "placeholder": "",
+      "aria": null,
+      "text": ""
+    },
+    {
+      "i": 16,
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "import-export-import-control-trim-input-fields-1",
+      "value": "off",
+      "placeholder": "",
+      "aria": null,
+      "text": ""
+    },
+    {
+      "i": 17,
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "import-export-import-control-trim-input-fields-1",
+      "value": "selected",
+      "placeholder": "",
+      "aria": null,
+      "text": ""
+    },
+    {
+      "i": 18,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "value": "",
+      "placeholder": "",
+      "aria": "Trim input fields CSV",
+      "text": ""
+    },
+    {
+      "i": 19,
+      "tag": "INPUT",
+      "type": "file",
+      "id": "csvinput",
+      "name": "",
+      "value": "",
+      "placeholder": "",
+      "aria": null,
+      "text": ""
+    },
+    {
+      "i": 20,
+      "tag": "SELECT",
+      "type": "select-one",
+      "id": "",
+      "name": "",
+      "value": "crlf",
+      "aria": "Line endings",
+      "text": ""
+    },
+    {
+      "i": 21,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "",
+      "name": "",
+      "value": "on",
+      "placeholder": "",
+      "aria": null,
+      "text": ""
+    },
+    {
+      "i": 22,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "",
+      "name": "",
+      "value": "on",
+      "placeholder": "",
+      "aria": null,
+      "text": "Auto Sync"
+    },
+    {
+      "i": 23,
+      "tag": "INPUT",
+      "type": "number",
+      "id": "",
+      "name": "",
+      "value": "10",
+      "placeholder": "",
+      "aria": "Preview row count",
+      "text": "Rows"
+    },
+    {
+      "i": 24,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "",
+      "name": "quotes",
+      "value": "on",
+      "placeholder": "",
+      "aria": null,
+      "text": "Use Quotes"
+    },
+    {
+      "i": 25,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "",
+      "name": "header",
+      "value": "on",
+      "placeholder": "",
+      "aria": null,
+      "text": "Use Header"
+    },
+    {
+      "i": 26,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "quoteChar",
+      "value": "\"",
+      "placeholder": "",
+      "aria": null,
+      "text": "Quote Char"
+    },
+    {
+      "i": 27,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "escapeChar",
+      "value": "\"",
+      "placeholder": "",
+      "aria": null,
+      "text": "Escape Char"
+    },
+    {
+      "i": 28,
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "id": "",
+      "name": "Markdown",
+      "value": "",
+      "placeholder": "",
+      "aria": "Preview text editor"
+    },
+    {
+      "i": 29,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "text-input-modal-field",
+      "name": "",
+      "value": "",
+      "placeholder": "",
+      "aria": null
+    }
+  ],
+  "tables": [],
+  "links": [
+    {
+      "i": 0,
+      "text": "AnyWayData",
+      "href": "https://eviltester.github.io/grid-table-editor/"
+    },
+    {
+      "i": 1,
+      "text": "Generator",
+      "href": "https://eviltester.github.io/grid-table-editor/generator.html"
+    },
+    {
+      "i": 2,
+      "text": "Docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/intro"
+    },
+    {
+      "i": 3,
+      "text": "Blog",
+      "href": "https://eviltester.github.io/grid-table-editor/site/blog"
+    },
+    {
+      "i": 4,
+      "text": "",
+      "href": "https://eviltester.com/"
+    },
+    {
+      "i": 5,
+      "text": "",
+      "href": "https://tabulator.info/"
+    },
+    {
+      "i": 6,
+      "text": "",
+      "href": "https://fent.github.io/randexp.js/"
+    },
+    {
+      "i": 7,
+      "text": "",
+      "href": "https://fakerjs.dev/"
+    },
+    {
+      "i": 8,
+      "text": "",
+      "href": "https://github.com/AllMightySauron/ascii-table3"
+    },
+    {
+      "i": 9,
+      "text": "",
+      "href": "https://github.com/xpl/printable-characters"
+    },
+    {
+      "i": 10,
+      "text": "",
+      "href": "https://www.papaparse.com/"
+    },
+    {
+      "i": 11,
+      "text": "",
+      "href": "https://github.com/eviltester/grid-table-editor"
+    },
+    {
+      "i": 12,
+      "text": "import the text box content",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 13,
+      "text": "import a text file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 14,
+      "text": "export the Data Grid",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 15,
+      "text": "import the file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 16,
+      "text": "imports the text box content",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 17,
+      "text": "import a text file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 18,
+      "text": "export the Data Grid",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 19,
+      "text": "Data Formats docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/category/data-formats"
+    },
+    {
+      "i": 20,
+      "text": "Markdown",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/markdown"
+    },
+    {
+      "i": 21,
+      "text": "formatting options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 22,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 23,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ascii-tables/options"
+    },
+    {
+      "i": 24,
+      "text": "CSV (Comma Separated Values)",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/csv"
+    },
+    {
+      "i": 25,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/options"
+    },
+    {
+      "i": 26,
+      "text": "Delimited",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/delimited"
+    },
+    {
+      "i": 27,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/options"
+    },
+    {
+      "i": 28,
+      "text": "JSON",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/json"
+    },
+    {
+      "i": 29,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/options"
+    },
+    {
+      "i": 30,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/jsonl"
+    },
+    {
+      "i": 31,
+      "text": "JSONL options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/options"
+    },
+    {
+      "i": 32,
+      "text": "Javascript",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/javascript"
+    },
+    {
+      "i": 33,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/options"
+    },
+    {
+      "i": 34,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/java/options"
+    },
+    {
+      "i": 35,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/python/options"
+    },
+    {
+      "i": 36,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/php/options"
+    },
+    {
+      "i": 37,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ruby/options"
+    },
+    {
+      "i": 38,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/perl/options"
+    },
+    {
+      "i": 39,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/kotlin/options"
+    },
+    {
+      "i": 40,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csharp/options"
+    },
+    {
+      "i": 41,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/typescript/options"
+    },
+    {
+      "i": 42,
+      "text": "XML",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/xml"
+    },
+    {
+      "i": 43,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/options"
+    },
+    {
+      "i": 44,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/sql"
+    },
+    {
+      "i": 45,
+      "text": "SQL options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/options"
+    },
+    {
+      "i": 46,
+      "text": "Gherkin",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/gherkin"
+    },
+    {
+      "i": 47,
+      "text": "formatting options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 48,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 49,
+      "text": "HTML Table",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/html-tables"
+    },
+    {
+      "i": 50,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/options"
+    },
+    {
+      "i": 51,
+      "text": "See full unit-test option mapping",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/unit-test-code/options"
+    },
+    {
+      "i": 52,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 53,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 54,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 55,
+      "text": "Pairwise testing docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 56,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 57,
+      "text": "Pairwise testing docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 58,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 59,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 60,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 61,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 62,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 63,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 64,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 65,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/category/data-formats"
+    },
+    {
+      "i": 66,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/markdown"
+    },
+    {
+      "i": 67,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 68,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 69,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ascii-tables/options"
+    },
+    {
+      "i": 70,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/csv"
+    },
+    {
+      "i": 71,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/options"
+    },
+    {
+      "i": 72,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/delimited"
+    },
+    {
+      "i": 73,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/options"
+    },
+    {
+      "i": 74,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/json"
+    },
+    {
+      "i": 75,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/options"
+    },
+    {
+      "i": 76,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/jsonl"
+    },
+    {
+      "i": 77,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/options"
+    },
+    {
+      "i": 78,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/javascript"
+    },
+    {
+      "i": 79,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/options"
+    },
+    {
+      "i": 80,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/java/options"
+    },
+    {
+      "i": 81,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/python/options"
+    },
+    {
+      "i": 82,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/php/options"
+    },
+    {
+      "i": 83,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ruby/options"
+    },
+    {
+      "i": 84,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/perl/options"
+    },
+    {
+      "i": 85,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/kotlin/options"
+    },
+    {
+      "i": 86,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csharp/options"
+    },
+    {
+      "i": 87,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/typescript/options"
+    },
+    {
+      "i": 88,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/xml"
+    },
+    {
+      "i": 89,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/options"
+    },
+    {
+      "i": 90,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/sql"
+    },
+    {
+      "i": 91,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/options"
+    },
+    {
+      "i": 92,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/gherkin"
+    },
+    {
+      "i": 93,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 94,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 95,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/html-tables"
+    },
+    {
+      "i": 96,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/options"
+    },
+    {
+      "i": 97,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/unit-test-code/options"
+    },
+    {
+      "i": 98,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 99,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 100,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 101,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 102,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 103,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 104,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/regex-test-data"
+    },
+    {
+      "i": 105,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 106,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 107,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 108,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 109,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 110,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 111,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 112,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/category/data-formats"
+    },
+    {
+      "i": 113,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/markdown"
+    },
+    {
+      "i": 114,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 115,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 116,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ascii-tables/options"
+    },
+    {
+      "i": 117,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/csv"
+    },
+    {
+      "i": 118,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/options"
+    },
+    {
+      "i": 119,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/delimited"
+    },
+    {
+      "i": 120,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/options"
+    },
+    {
+      "i": 121,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/json"
+    },
+    {
+      "i": 122,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/options"
+    },
+    {
+      "i": 123,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/jsonl"
+    },
+    {
+      "i": 124,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/options"
+    },
+    {
+      "i": 125,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/javascript"
+    },
+    {
+      "i": 126,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/options"
+    },
+    {
+      "i": 127,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/java/options"
+    },
+    {
+      "i": 128,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/python/options"
+    },
+    {
+      "i": 129,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/php/options"
+    },
+    {
+      "i": 130,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ruby/options"
+    },
+    {
+      "i": 131,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/perl/options"
+    },
+    {
+      "i": 132,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/kotlin/options"
+    },
+    {
+      "i": 133,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csharp/options"
+    },
+    {
+      "i": 134,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/typescript/options"
+    },
+    {
+      "i": 135,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/xml"
+    },
+    {
+      "i": 136,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/options"
+    },
+    {
+      "i": 137,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/sql"
+    },
+    {
+      "i": 138,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/options"
+    },
+    {
+      "i": 139,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/gherkin"
+    },
+    {
+      "i": 140,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 141,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 142,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/html-tables"
+    },
+    {
+      "i": 143,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/options"
+    },
+    {
+      "i": 144,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/unit-test-code/options"
+    },
+    {
+      "i": 145,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 146,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 147,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 148,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 149,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 150,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 151,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 152,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 153,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 154,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 155,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 156,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 157,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 158,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/category/data-formats"
+    },
+    {
+      "i": 159,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/markdown"
+    },
+    {
+      "i": 160,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 161,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 162,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ascii-tables/options"
+    },
+    {
+      "i": 163,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/csv"
+    },
+    {
+      "i": 164,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/options"
+    },
+    {
+      "i": 165,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/delimited"
+    },
+    {
+      "i": 166,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/options"
+    },
+    {
+      "i": 167,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/json"
+    },
+    {
+      "i": 168,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/options"
+    },
+    {
+      "i": 169,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/jsonl"
+    },
+    {
+      "i": 170,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/options"
+    },
+    {
+      "i": 171,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/javascript"
+    },
+    {
+      "i": 172,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/options"
+    },
+    {
+      "i": 173,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/java/options"
+    },
+    {
+      "i": 174,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/python/options"
+    },
+    {
+      "i": 175,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/php/options"
+    },
+    {
+      "i": 176,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ruby/options"
+    },
+    {
+      "i": 177,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/perl/options"
+    },
+    {
+      "i": 178,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/kotlin/options"
+    },
+    {
+      "i": 179,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csharp/options"
+    },
+    {
+      "i": 180,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/typescript/options"
+    },
+    {
+      "i": 181,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/xml"
+    },
+    {
+      "i": 182,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/options"
+    },
+    {
+      "i": 183,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/sql"
+    },
+    {
+      "i": 184,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/options"
+    },
+    {
+      "i": 185,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/gherkin"
+    },
+    {
+      "i": 186,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 187,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 188,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/html-tables"
+    },
+    {
+      "i": 189,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/options"
+    },
+    {
+      "i": 190,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/unit-test-code/options"
+    },
+    {
+      "i": 191,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 192,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 193,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 194,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 195,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 196,
+      "text": "",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 197,
+      "text": "Markdown",
+      "href": "https://eviltester.github.io/grid-table-editor/site/app.html#"
+    },
+    {
+      "i": 198,
+      "text": "CSV",
+      "href": "https://eviltester.github.io/grid-table-editor/site/app.html#"
+    },
+    {
+      "i": 199,
+      "text": "Delimited",
+      "href": "https://eviltester.github.io/grid-table-editor/site/app.html#"
+    },
+    {
+      "i": 200,
+      "text": "JSON",
+      "href": "https://eviltester.github.io/grid-table-editor/site/app.html#"
+    },
+    {
+      "i": 201,
+      "text": "JSONL",
+      "href": "https://eviltester.github.io/grid-table-editor/site/app.html#"
+    },
+    {
+      "i": 202,
+      "text": "XML",
+      "href": "https://eviltester.github.io/grid-table-editor/site/app.html#"
+    },
+    {
+      "i": 203,
+      "text": "SQL",
+      "href": "https://eviltester.github.io/grid-table-editor/site/app.html#"
+    },
+    {
+      "i": 204,
+      "text": "Code",
+      "href": "https://eviltester.github.io/grid-table-editor/site/app.html#"
+    },
+    {
+      "i": 205,
+      "text": "Code (Unit Test)",
+      "href": "https://eviltester.github.io/grid-table-editor/site/app.html#"
+    },
+    {
+      "i": 206,
+      "text": "Gherkin",
+      "href": "https://eviltester.github.io/grid-table-editor/site/app.html#"
+    },
+    {
+      "i": 207,
+      "text": "HTML",
+      "href": "https://eviltester.github.io/grid-table-editor/site/app.html#"
+    },
+    {
+      "i": 208,
+      "text": "ASCII",
+      "href": "https://eviltester.github.io/grid-table-editor/site/app.html#"
+    },
+    {
+      "i": 209,
+      "text": "import the text box content",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 210,
+      "text": "import a text file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 211,
+      "text": "export the Data Grid",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 212,
+      "text": "import the file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 213,
+      "text": "imports the text box content",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 214,
+      "text": "import a text file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 215,
+      "text": "export the Data Grid",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 216,
+      "text": "Data Formats docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/category/data-formats"
+    },
+    {
+      "i": 217,
+      "text": "Markdown",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/markdown"
+    },
+    {
+      "i": 218,
+      "text": "formatting options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 219,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 220,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ascii-tables/options"
+    },
+    {
+      "i": 221,
+      "text": "CSV (Comma Separated Values)",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/csv"
+    },
+    {
+      "i": 222,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/options"
+    },
+    {
+      "i": 223,
+      "text": "Delimited",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/delimited"
+    },
+    {
+      "i": 224,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/options"
+    },
+    {
+      "i": 225,
+      "text": "JSON",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/json"
+    },
+    {
+      "i": 226,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/options"
+    },
+    {
+      "i": 227,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/jsonl"
+    },
+    {
+      "i": 228,
+      "text": "JSONL options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/options"
+    },
+    {
+      "i": 229,
+      "text": "Javascript",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/javascript"
+    },
+    {
+      "i": 230,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/options"
+    },
+    {
+      "i": 231,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/java/options"
+    },
+    {
+      "i": 232,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/python/options"
+    },
+    {
+      "i": 233,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/php/options"
+    },
+    {
+      "i": 234,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ruby/options"
+    },
+    {
+      "i": 235,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/perl/options"
+    },
+    {
+      "i": 236,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/kotlin/options"
+    },
+    {
+      "i": 237,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csharp/options"
+    },
+    {
+      "i": 238,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/typescript/options"
+    },
+    {
+      "i": 239,
+      "text": "XML",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/xml"
+    },
+    {
+      "i": 240,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/options"
+    },
+    {
+      "i": 241,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/sql"
+    },
+    {
+      "i": 242,
+      "text": "SQL options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/options"
+    },
+    {
+      "i": 243,
+      "text": "Gherkin",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/gherkin"
+    },
+    {
+      "i": 244,
+      "text": "formatting options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 245,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 246,
+      "text": "HTML Table",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/html-tables"
+    },
+    {
+      "i": 247,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/options"
+    },
+    {
+      "i": 248,
+      "text": "See full unit-test option mapping",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/unit-test-code/options"
+    },
+    {
+      "i": 249,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 250,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 251,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 252,
+      "text": "Pairwise testing docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 253,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 254,
+      "text": "Pairwise testing docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 255,
+      "text": "import the text box content",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 256,
+      "text": "import a text file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 257,
+      "text": "export the Data Grid",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 258,
+      "text": "import the file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 259,
+      "text": "imports the text box content",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 260,
+      "text": "import a text file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 261,
+      "text": "export the Data Grid",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 262,
+      "text": "Data Formats docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/category/data-formats"
+    },
+    {
+      "i": 263,
+      "text": "Markdown",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/markdown"
+    },
+    {
+      "i": 264,
+      "text": "formatting options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 265,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 266,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ascii-tables/options"
+    },
+    {
+      "i": 267,
+      "text": "CSV (Comma Separated Values)",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/csv"
+    },
+    {
+      "i": 268,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/options"
+    },
+    {
+      "i": 269,
+      "text": "Delimited",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/delimited"
+    },
+    {
+      "i": 270,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/options"
+    },
+    {
+      "i": 271,
+      "text": "JSON",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/json"
+    },
+    {
+      "i": 272,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/options"
+    },
+    {
+      "i": 273,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/jsonl"
+    },
+    {
+      "i": 274,
+      "text": "JSONL options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/options"
+    },
+    {
+      "i": 275,
+      "text": "Javascript",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/javascript"
+    },
+    {
+      "i": 276,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/options"
+    },
+    {
+      "i": 277,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/java/options"
+    },
+    {
+      "i": 278,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/python/options"
+    },
+    {
+      "i": 279,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/php/options"
+    },
+    {
+      "i": 280,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ruby/options"
+    },
+    {
+      "i": 281,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/perl/options"
+    },
+    {
+      "i": 282,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/kotlin/options"
+    },
+    {
+      "i": 283,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csharp/options"
+    },
+    {
+      "i": 284,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/typescript/options"
+    },
+    {
+      "i": 285,
+      "text": "XML",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/xml"
+    },
+    {
+      "i": 286,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/options"
+    },
+    {
+      "i": 287,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/sql"
+    },
+    {
+      "i": 288,
+      "text": "SQL options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/options"
+    },
+    {
+      "i": 289,
+      "text": "Gherkin",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/gherkin"
+    },
+    {
+      "i": 290,
+      "text": "formatting options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 291,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 292,
+      "text": "HTML Table",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/html-tables"
+    },
+    {
+      "i": 293,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/options"
+    },
+    {
+      "i": 294,
+      "text": "See full unit-test option mapping",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/unit-test-code/options"
+    },
+    {
+      "i": 295,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 296,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 297,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 298,
+      "text": "Pairwise testing docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 299,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 300,
+      "text": "Pairwise testing docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 301,
+      "text": "import the text box content",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 302,
+      "text": "import a text file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 303,
+      "text": "export the Data Grid",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 304,
+      "text": "import the file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 305,
+      "text": "imports the text box content",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 306,
+      "text": "import a text file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 307,
+      "text": "export the Data Grid",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 308,
+      "text": "Data Formats docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/category/data-formats"
+    },
+    {
+      "i": 309,
+      "text": "Markdown",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/markdown"
+    },
+    {
+      "i": 310,
+      "text": "formatting options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 311,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 312,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ascii-tables/options"
+    },
+    {
+      "i": 313,
+      "text": "CSV (Comma Separated Values)",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/csv"
+    },
+    {
+      "i": 314,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/options"
+    },
+    {
+      "i": 315,
+      "text": "Delimited",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/delimited"
+    },
+    {
+      "i": 316,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/options"
+    },
+    {
+      "i": 317,
+      "text": "JSON",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/json"
+    },
+    {
+      "i": 318,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/options"
+    },
+    {
+      "i": 319,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/jsonl"
+    },
+    {
+      "i": 320,
+      "text": "JSONL options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/options"
+    },
+    {
+      "i": 321,
+      "text": "Javascript",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/javascript"
+    },
+    {
+      "i": 322,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/options"
+    },
+    {
+      "i": 323,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/java/options"
+    },
+    {
+      "i": 324,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/python/options"
+    },
+    {
+      "i": 325,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/php/options"
+    },
+    {
+      "i": 326,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ruby/options"
+    },
+    {
+      "i": 327,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/perl/options"
+    },
+    {
+      "i": 328,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/kotlin/options"
+    },
+    {
+      "i": 329,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csharp/options"
+    },
+    {
+      "i": 330,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/typescript/options"
+    },
+    {
+      "i": 331,
+      "text": "XML",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/xml"
+    },
+    {
+      "i": 332,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/options"
+    },
+    {
+      "i": 333,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/sql"
+    },
+    {
+      "i": 334,
+      "text": "SQL options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/options"
+    },
+    {
+      "i": 335,
+      "text": "Gherkin",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/gherkin"
+    },
+    {
+      "i": 336,
+      "text": "formatting options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 337,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 338,
+      "text": "HTML Table",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/html-tables"
+    },
+    {
+      "i": 339,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/options"
+    },
+    {
+      "i": 340,
+      "text": "See full unit-test option mapping",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/unit-test-code/options"
+    },
+    {
+      "i": 341,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 342,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 343,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 344,
+      "text": "Pairwise testing docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 345,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 346,
+      "text": "Pairwise testing docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 347,
+      "text": "import the text box content",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 348,
+      "text": "import a text file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 349,
+      "text": "export the Data Grid",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 350,
+      "text": "import the file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 351,
+      "text": "imports the text box content",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing"
+    },
+    {
+      "i": 352,
+      "text": "import a text file",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file"
+    },
+    {
+      "i": 353,
+      "text": "export the Data Grid",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data"
+    },
+    {
+      "i": 354,
+      "text": "Data Formats docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/category/data-formats"
+    },
+    {
+      "i": 355,
+      "text": "Markdown",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/markdown"
+    },
+    {
+      "i": 356,
+      "text": "formatting options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 357,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/markdown/options"
+    },
+    {
+      "i": 358,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ascii-tables/options"
+    },
+    {
+      "i": 359,
+      "text": "CSV (Comma Separated Values)",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/csv"
+    },
+    {
+      "i": 360,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csv/options"
+    },
+    {
+      "i": 361,
+      "text": "Delimited",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/delimited"
+    },
+    {
+      "i": 362,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/delimited/options"
+    },
+    {
+      "i": 363,
+      "text": "JSON",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/json"
+    },
+    {
+      "i": 364,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/json/options"
+    },
+    {
+      "i": 365,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/jsonl"
+    },
+    {
+      "i": 366,
+      "text": "JSONL options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/jsonl/options"
+    },
+    {
+      "i": 367,
+      "text": "Javascript",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/javascript"
+    },
+    {
+      "i": 368,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/javascript/options"
+    },
+    {
+      "i": 369,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/java/options"
+    },
+    {
+      "i": 370,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/python/options"
+    },
+    {
+      "i": 371,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/php/options"
+    },
+    {
+      "i": 372,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/ruby/options"
+    },
+    {
+      "i": 373,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/perl/options"
+    },
+    {
+      "i": 374,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/kotlin/options"
+    },
+    {
+      "i": 375,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/csharp/options"
+    },
+    {
+      "i": 376,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/typescript/options"
+    },
+    {
+      "i": 377,
+      "text": "XML",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/xml"
+    },
+    {
+      "i": 378,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/xml/options"
+    },
+    {
+      "i": 379,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/sql"
+    },
+    {
+      "i": 380,
+      "text": "SQL options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/sql/options"
+    },
+    {
+      "i": 381,
+      "text": "Gherkin",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/gherkin"
+    },
+    {
+      "i": 382,
+      "text": "formatting options",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 383,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/gherkin/options"
+    },
+    {
+      "i": 384,
+      "text": "HTML Table",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/html-tables"
+    },
+    {
+      "i": 385,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/html/options"
+    },
+    {
+      "i": 386,
+      "text": "See full unit-test option mapping",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/data-formats/unit-test-code/options"
+    },
+    {
+      "i": 387,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 388,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 389,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 390,
+      "text": "Pairwise testing docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 391,
+      "text": "Generate To File docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/generate-to-file"
+    },
+    {
+      "i": 392,
+      "text": "Pairwise testing docs",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/pairwise-testing"
+    },
+    {
+      "i": 393,
+      "text": "Learn more",
+      "href": "https://eviltester.github.io/grid-table-editor/site/docs/test-data/test-data-generation"
+    }
+  ]
+}

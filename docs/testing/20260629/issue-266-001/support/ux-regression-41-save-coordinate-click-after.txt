@@ -1,0 +1,28 @@
+{
+  "targetSaveGeom": {
+    "x": 28.59375,
+    "y": 256.96875,
+    "w": 117.515625,
+    "h": 21
+  },
+  "saveCoordState": {
+    "active": {
+      "tag": "BODY",
+      "id": "",
+      "text": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema Fil"
+    },
+    "fieldRect": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "modalRect": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "modalText": "OK\n        Cancel"
+  }
+}

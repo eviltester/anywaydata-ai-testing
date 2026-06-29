@@ -1,0 +1,1089 @@
+{
+  "url": "https://eviltester.github.io/grid-table-editor/site/generator.html",
+  "title": "Data Generator - AnyWayData",
+  "fieldTypes": [
+    "enum",
+    "literal",
+    "regex",
+    "domain",
+    "faker"
+  ],
+  "options": {
+    "domain": [
+      {
+        "value": "",
+        "text": "Select domain command"
+      },
+      {
+        "value": "airline.aircraftType",
+        "text": "airline.aircraftType"
+      },
+      {
+        "value": "airline.flightNumber",
+        "text": "airline.flightNumber"
+      },
+      {
+        "value": "airline.iataCode",
+        "text": "airline.iataCode"
+      },
+      {
+        "value": "airline.name",
+        "text": "airline.name"
+      },
+      {
+        "value": "airline.recordLocator",
+        "text": "airline.recordLocator"
+      },
+      {
+        "value": "airline.seat",
+        "text": "airline.seat"
+      },
+      {
+        "value": "airplane.iataTypeCode",
+        "text": "airplane.iataTypeCode"
+      },
+      {
+        "value": "airplane.name",
+        "text": "airplane.name"
+      },
+      {
+        "value": "airport.iataCode",
+        "text": "airport.iataCode"
+      },
+      {
+        "value": "airport.name",
+        "text": "airport.name"
+      },
+      {
+        "value": "animal.bear",
+        "text": "animal.bear"
+      },
+      {
+        "value": "animal.bird",
+        "text": "animal.bird"
+      },
+      {
+        "value": "animal.cat",
+        "text": "animal.cat"
+      },
+      {
+        "value": "animal.cetacean",
+        "text": "animal.cetacean"
+      },
+      {
+        "value": "animal.cow",
+        "text": "animal.cow"
+      },
+      {
+        "value": "animal.crocodilia",
+        "text": "animal.crocodilia"
+      },
+      {
+        "value": "animal.dog",
+        "text": "animal.dog"
+      },
+      {
+        "value": "animal.fish",
+        "text": "animal.fish"
+      },
+      {
+        "value": "animal.horse",
+        "text": "animal.horse"
+      },
+      {
+        "value": "animal.insect",
+        "text": "animal.insect"
+      },
+      {
+        "value": "animal.lion",
+        "text": "animal.lion"
+      },
+      {
+        "value": "animal.petName",
+        "text": "animal.petName"
+      },
+      {
+        "value": "animal.rabbit",
+        "text": "animal.rabbit"
+      },
+      {
+        "value": "animal.rodent",
+        "text": "animal.rodent"
+      },
+      {
+        "value": "animal.snake",
+        "text": "animal.snake"
+      },
+      {
+        "value": "animal.type",
+        "text": "animal.type"
+      },
+      {
+        "value": "autoIncrement.sequence",
+        "text": "autoIncrement.sequence"
+      },
+      {
+        "value": "autoIncrement.timestamp",
+        "text": "autoIncrement.timestamp"
+      },
+      {
+        "value": "book.author",
+        "text": "book.author"
+      },
+      {
+        "value": "book.format",
+        "text": "book.format"
+      },
+      {
+        "value": "book.genre",
+        "text": "book.genre"
+      },
+      {
+        "value": "book.publisher",
+        "text": "book.publisher"
+      },
+      {
+        "value": "book.series",
+        "text": "book.series"
+      },
+      {
+        "value": "book.title",
+        "text": "book.title"
+      },
+      {
+        "value": "chemicalElement.atomicNumber",
+        "text": "chemicalElement.atomicNumber"
+      },
+      {
+        "value": "chemicalElement.name",
+        "text": "chemicalElement.name"
+      },
+      {
+        "value": "chemicalElement.symbol",
+        "text": "chemicalElement.symbol"
+      },
+      {
+        "value": "color.cmyk",
+        "text": "color.cmyk"
+      },
+      {
+        "value": "color.colorByCSSColorSpace",
+        "text": "color.colorByCSSColorSpace"
+      },
+      {
+        "value": "color.cssSupportedFunction",
+        "text": "color.cssSupportedFunction"
+      },
+      {
+        "value": "color.cssSupportedSpace",
+        "text": "color.cssSupportedSpace"
+      },
+      {
+        "value": "color.hsl",
+        "text": "color.hsl"
+      },
+      {
+        "value": "color.human",
+        "text": "color.human"
+      },
+      {
+        "value": "color.hwb",
+        "text": "color.hwb"
+      },
+      {
+        "value": "color.lab",
+        "text": "color.lab"
+      },
+      {
+        "value": "color.lch",
+        "text": "color.lch"
+      },
+      {
+        "value": "color.rgb",
+        "text": "color.rgb"
+      },
+      {
+        "value": "color.space",
+        "text": "color.space"
+      },
+      {
+        "value": "commerce.department",
+        "text": "commerce.department"
+      },
+      {
+        "value": "commerce.isbn",
+        "text": "commerce.isbn"
+      },
+      {
+        "value": "commerce.price",
+        "text": "commerce.price"
+      },
+      {
+        "value": "commerce.product",
+        "text": "commerce.product"
+      },
+      {
+        "value": "commerce.productAdjective",
+        "text": "commerce.productAdjective"
+      },
+      {
+        "value": "commerce.productDescription",
+        "text": "commerce.productDescription"
+      },
+      {
+        "value": "commerce.productMaterial",
+        "text": "commerce.productMaterial"
+      },
+      {
+        "value": "commerce.productName",
+        "text": "commerce.productName"
+      },
+      {
+        "value": "commerce.upc",
+        "text": "commerce.upc"
+      },
+      {
+        "value": "company.buzzAdjective",
+        "text": "company.buzzAdjective"
+      },
+      {
+        "value": "company.buzzNoun",
+        "text": "company.buzzNoun"
+      },
+      {
+        "value": "company.buzzPhrase",
+        "text": "company.buzzPhrase"
+      },
+      {
+        "value": "company.buzzVerb",
+        "text": "company.buzzVerb"
+      },
+      {
+        "value": "company.catchPhrase",
+        "text": "company.catchPhrase"
+      },
+      {
+        "value": "company.catchPhraseAdjective",
+        "text": "company.catchPhraseAdjective"
+      },
+      {
+        "value": "company.catchPhraseDescriptor",
+        "text": "company.catchPhraseDescriptor"
+      },
+      {
+        "value": "company.catchPhraseNoun",
+        "text": "company.catchPhraseNoun"
+      },
+      {
+        "value": "company.name",
+        "text": "company.name"
+      },
+      {
+        "value": "database.collation",
+        "text": "database.collation"
+      },
+      {
+        "value": "database.column",
+        "text": "database.column"
+      },
+      {
+        "value": "database.engine",
+        "text": "database.engine"
+      },
+      {
+        "value": "database.mongodbObjectId",
+        "text": "database.mongodbObjectId"
+      },
+      {
+        "value": "database.type",
+        "text": "database.type"
+      },
+      {
+        "value": "datatype.boolean",
+        "text": "datatype.boolean"
+      },
+      {
+        "value": "datatype.enum",
+        "text": "datatype.enum"
+      },
+      {
+        "value": "date.anytime",
+        "text": "date.anytime"
+      },
+      {
+        "value": "date.between",
+        "text": "date.between"
+      },
+      {
+        "value": "date.birthdate",
+        "text": "date.birthdate"
+      },
+      {
+        "value": "date.future",
+        "text": "date.future"
+      },
+      {
+        "value": "date.month",
+        "text": "date.month"
+      },
+      {
+        "value": "date.past",
+        "text": "date.past"
+      },
+      {
+        "value": "date.recent",
+        "text": "date.recent"
+      },
+      {
+        "value": "date.soon",
+        "text": "date.soon"
+      },
+      {
+        "value": "date.timeZone",
+        "text": "date.timeZone"
+      },
+      {
+        "value": "date.weekday",
+        "text": "date.weekday"
+      },
+      {
+        "value": "finance.accountName",
+        "text": "finance.accountName"
+      },
+      {
+        "value": "finance.accountNumber",
+        "text": "finance.accountNumber"
+      },
+      {
+        "value": "finance.amount",
+        "text": "finance.amount"
+      },
+      {
+        "value": "finance.bic",
+        "text": "finance.bic"
+      },
+      {
+        "value": "finance.bitcoinAddress",
+        "text": "finance.bitcoinAddress"
+      },
+      {
+        "value": "finance.creditCardCVV",
+        "text": "finance.creditCardCVV"
+      },
+      {
+        "value": "finance.creditCardIssuer",
+        "text": "finance.creditCardIssuer"
+      },
+      {
+        "value": "finance.creditCardNumber",
+        "text": "finance.creditCardNumber"
+      },
+      {
+        "value": "finance.currencyCode",
+        "text": "finance.currencyCode"
+      },
+      {
+        "value": "finance.currencyName",
+        "text": "finance.currencyName"
+      },
+      {
+        "value": "finance.currencyNumericCode",
+        "text": "finance.currencyNumericCode"
+      },
+      {
+        "value": "finance.currencySymbol",
+        "text": "finance.currencySymbol"
+      },
+      {
+        "value": "finance.ethereumAddress",
+        "text": "finance.ethereumAddress"
+      },
+      {
+        "value": "finance.iban",
+        "text": "finance.iban"
+      },
+      {
+        "value": "finance.litecoinAddress",
+        "text": "finance.litecoinAddress"
+      },
+      {
+        "value": "finance.pin",
+        "text": "finance.pin"
+      },
+      {
+        "value": "finance.routingNumber",
+        "text": "finance.routingNumber"
+      },
+      {
+        "value": "finance.transactionDescription",
+        "text": "finance.transactionDescription"
+      },
+      {
+        "value": "finance.transactionType",
+        "text": "finance.transactionType"
+      },
+      {
+        "value": "food.adjective",
+        "text": "food.adjective"
+      },
+      {
+        "value": "food.description",
+        "text": "food.description"
+      },
+      {
+        "value": "food.dish",
+        "text": "food.dish"
+      },
+      {
+        "value": "food.ethnicCategory",
+        "text": "food.ethnicCategory"
+      },
+      {
+        "value": "food.fruit",
+        "text": "food.fruit"
+      },
+      {
+        "value": "food.ingredient",
+        "text": "food.ingredient"
+      },
+      {
+        "value": "food.meat",
+        "text": "food.meat"
+      },
+      {
+        "value": "food.spice",
+        "text": "food.spice"
+      },
+      {
+        "value": "food.vegetable",
+        "text": "food.vegetable"
+      },
+      {
+        "value": "git.branch",
+        "text": "git.branch"
+      },
+      {
+        "value": "git.commitDate",
+        "text": "git.commitDate"
+      },
+      {
+        "value": "git.commitEntry",
+        "text": "git.commitEntry"
+      },
+      {
+        "value": "git.commitMessage",
+        "text": "git.commitMessage"
+      },
+      {
+        "value": "git.commitSha",
+        "text": "git.commitSha"
+      },
+      {
+        "value": "hacker.abbreviation",
+        "text": "hacker.abbreviation"
+      },
+      {
+        "value": "hacker.adjective",
+        "text": "hacker.adjective"
+      },
+      {
+        "value": "hacker.ingverb",
+        "text": "hacker.ingverb"
+      },
+      {
+        "value": "hacker.noun",
+        "text": "hacker.noun"
+      },
+      {
+        "value": "hacker.phrase",
+        "text": "hacker.phrase"
+      },
+      {
+        "value": "hacker.verb",
+        "text": "hacker.verb"
+      },
+      {
+        "value": "image.avatar",
+        "text": "image.avatar"
+      },
+      {
+        "value": "image.avatarGitHub",
+        "text": "image.avatarGitHub"
+      },
+      {
+        "value": "image.dataUri",
+        "text": "image.dataUri"
+      },
+      {
+        "value": "image.personPortrait",
+        "text": "image.personPortrait"
+      },
+      {
+        "value": "image.url",
+        "text": "image.url"
+      },
+      {
+        "value": "image.urlPicsumPhotos",
+        "text": "image.urlPicsumPhotos"
+      },
+      {
+        "value": "internet.displayName",
+        "text": "internet.displayName"
+      },
+      {
+        "value": "internet.domainName",
+        "text": "internet.domainName"
+      },
+      {
+        "value": "internet.domainSuffix",
+        "text": "internet.domainSuffix"
+      },
+      {
+        "value": "internet.domainWord",
+        "text": "internet.domainWord"
+      },
+      {
+        "value": "internet.email",
+        "text": "internet.email"
+      },
+      {
+        "value": "internet.emoji",
+        "text": "internet.emoji"
+      },
+      {
+        "value": "internet.exampleEmail",
+        "text": "internet.exampleEmail"
+      },
+      {
+        "value": "internet.httpMethod",
+        "text": "internet.httpMethod"
+      },
+      {
+        "value": "internet.httpStatusCode",
+        "text": "internet.httpStatusCode"
+      },
+      {
+        "value": "internet.ip",
+        "text": "internet.ip"
+      },
+      {
+        "value": "internet.ipv4",
+        "text": "internet.ipv4"
+      },
+      {
+        "value": "internet.ipv6",
+        "text": "internet.ipv6"
+      },
+      {
+        "value": "internet.jwt",
+        "text": "internet.jwt"
+      },
+      {
+        "value": "internet.jwtAlgorithm",
+        "text": "internet.jwtAlgorithm"
+      },
+      {
+        "value": "internet.mac",
+        "text": "internet.mac"
+      },
+      {
+        "value": "internet.password",
+        "text": "internet.password"
+      },
+      {
+        "value": "internet.port",
+        "text": "internet.port"
+      },
+      {
+        "value": "internet.protocol",
+        "text": "internet.protocol"
+      },
+      {
+        "value": "internet.url",
+        "text": "internet.url"
+      },
+      {
+        "value": "internet.userAgent",
+        "text": "internet.userAgent"
+      },
+      {
+        "value": "internet.username",
+        "text": "internet.username"
+      },
+      {
+        "value": "language.alpha2",
+        "text": "language.alpha2"
+      },
+      {
+        "value": "language.alpha3",
+        "text": "language.alpha3"
+      },
+      {
+        "value": "language.name",
+        "text": "language.name"
+      },
+      {
+        "value": "literal.value",
+        "text": "literal.value"
+      },
+      {
+        "value": "location.buildingNumber",
+        "text": "location.buildingNumber"
+      },
+      {
+        "value": "location.cardinalDirection",
+        "text": "location.cardinalDirection"
+      },
+      {
+        "value": "location.city",
+        "text": "location.city"
+      },
+      {
+        "value": "location.continent",
+        "text": "location.continent"
+      },
+      {
+        "value": "location.country",
+        "text": "location.country"
+      },
+      {
+        "value": "location.countryCode",
+        "text": "location.countryCode"
+      },
+      {
+        "value": "location.county",
+        "text": "location.county"
+      },
+      {
+        "value": "location.direction",
+        "text": "location.direction"
+      },
+      {
+        "value": "location.latitude",
+        "text": "location.latitude"
+      },
+      {
+        "value": "location.longitude",
+        "text": "location.longitude"
+      },
+      {
+        "value": "location.ordinalDirection",
+        "text": "location.ordinalDirection"
+      },
+      {
+        "value": "location.secondaryAddress",
+        "text": "location.secondaryAddress"
+      },
+      {
+        "value": "location.state",
+        "text": "location.state"
+      },
+      {
+        "value": "location.street",
+        "text": "location.street"
+      },
+      {
+        "value": "location.streetAddress",
+        "text": "location.streetAddress"
+      },
+      {
+        "value": "location.timeZone",
+        "text": "location.timeZone"
+      },
+      {
+        "value": "location.zipCode",
+        "text": "location.zipCode"
+      },
+      {
+        "value": "lorem.lines",
+        "text": "lorem.lines"
+      },
+      {
+        "value": "lorem.paragraph",
+        "text": "lorem.paragraph"
+      },
+      {
+        "value": "lorem.paragraphs",
+        "text": "lorem.paragraphs"
+      },
+      {
+        "value": "lorem.sentence",
+        "text": "lorem.sentence"
+      },
+      {
+        "value": "lorem.sentences",
+        "text": "lorem.sentences"
+      },
+      {
+        "value": "lorem.slug",
+        "text": "lorem.slug"
+      },
+      {
+        "value": "lorem.text",
+        "text": "lorem.text"
+      },
+      {
+        "value": "lorem.word",
+        "text": "lorem.word"
+      },
+      {
+        "value": "lorem.words",
+        "text": "lorem.words"
+      },
+      {
+        "value": "music.album",
+        "text": "music.album"
+      },
+      {
+        "value": "music.artist",
+        "text": "music.artist"
+      },
+      {
+        "value": "music.genre",
+        "text": "music.genre"
+      },
+      {
+        "value": "music.songName",
+        "text": "music.songName"
+      },
+      {
+        "value": "number.bigInt",
+        "text": "number.bigInt"
+      },
+      {
+        "value": "number.binary",
+        "text": "number.binary"
+      },
+      {
+        "value": "number.float",
+        "text": "number.float"
+      },
+      {
+        "value": "number.hex",
+        "text": "number.hex"
+      },
+      {
+        "value": "number.int",
+        "text": "number.int"
+      },
+      {
+        "value": "number.octal",
+        "text": "number.octal"
+      },
+      {
+        "value": "number.romanNumeral",
+        "text": "number.romanNumeral"
+      },
+      {
+        "value": "person.bio",
+        "text": "person.bio"
+      },
+      {
+        "value": "person.firstName",
+        "text": "person.firstName"
+      },
+      {
+        "value": "person.fullName",
+        "text": "person.fullName"
+      },
+      {
+        "value": "person.gender",
+        "text": "person.gender"
+      },
+      {
+        "value": "person.jobArea",
+        "text": "person.jobArea"
+      },
+      {
+        "value": "person.jobDescriptor",
+        "text": "person.jobDescriptor"
+      },
+      {
+        "value": "person.jobTitle",
+        "text": "person.jobTitle"
+      },
+      {
+        "value": "person.jobType",
+        "text": "person.jobType"
+      },
+      {
+        "value": "person.lastName",
+        "text": "person.lastName"
+      },
+      {
+        "value": "person.middleName",
+        "text": "person.middleName"
+      },
+      {
+        "value": "person.prefix",
+        "text": "person.prefix"
+      },
+      {
+        "value": "person.sex",
+        "text": "person.sex"
+      },
+      {
+        "value": "person.sexType",
+        "text": "person.sexType"
+      },
+      {
+        "value": "person.suffix",
+        "text": "person.suffix"
+      },
+      {
+        "value": "person.zodiacSign",
+        "text": "person.zodiacSign"
+      },
+      {
+        "value": "phone.imei",
+        "text": "phone.imei"
+      },
+      {
+        "value": "phone.number",
+        "text": "phone.number"
+      },
+      {
+        "value": "string.alpha",
+        "text": "string.alpha"
+      },
+      {
+        "value": "string.alphanumeric",
+        "text": "string.alphanumeric"
+      },
+      {
+        "value": "string.binary",
+        "text": "string.binary"
+      },
+      {
+        "value": "string.counterString",
+        "text": "string.counterString"
+      },
+      {
+        "value": "string.fromCharacters",
+        "text": "string.fromCharacters"
+      },
+      {
+        "value": "string.hexadecimal",
+        "text": "string.hexadecimal"
+      },
+      {
+        "value": "string.nanoid",
+        "text": "string.nanoid"
+      },
+      {
+        "value": "string.numeric",
+        "text": "string.numeric"
+      },
+      {
+        "value": "string.octal",
+        "text": "string.octal"
+      },
+      {
+        "value": "string.sample",
+        "text": "string.sample"
+      },
+      {
+        "value": "string.symbol",
+        "text": "string.symbol"
+      },
+      {
+        "value": "string.ulid",
+        "text": "string.ulid"
+      },
+      {
+        "value": "string.uuid",
+        "text": "string.uuid"
+      },
+      {
+        "value": "system.commonFileExt",
+        "text": "system.commonFileExt"
+      },
+      {
+        "value": "system.commonFileName",
+        "text": "system.commonFileName"
+      },
+      {
+        "value": "system.commonFileType",
+        "text": "system.commonFileType"
+      },
+      {
+        "value": "system.cron",
+        "text": "system.cron"
+      },
+      {
+        "value": "system.directoryPath",
+        "text": "system.directoryPath"
+      },
+      {
+        "value": "system.fileExt",
+        "text": "system.fileExt"
+      },
+      {
+        "value": "system.fileName",
+        "text": "system.fileName"
+      },
+      {
+        "value": "system.filePath",
+        "text": "system.filePath"
+      },
+      {
+        "value": "system.fileType",
+        "text": "system.fileType"
+      },
+      {
+        "value": "system.mimeType",
+        "text": "system.mimeType"
+      },
+      {
+        "value": "system.networkInterface",
+        "text": "system.networkInterface"
+      },
+      {
+        "value": "system.semver",
+        "text": "system.semver"
+      },
+      {
+        "value": "unit.name",
+        "text": "unit.name"
+      },
+      {
+        "value": "unit.symbol",
+        "text": "unit.symbol"
+      },
+      {
+        "value": "vehicle.bicycle",
+        "text": "vehicle.bicycle"
+      },
+      {
+        "value": "vehicle.color",
+        "text": "vehicle.color"
+      },
+      {
+        "value": "vehicle.fuel",
+        "text": "vehicle.fuel"
+      },
+      {
+        "value": "vehicle.manufacturer",
+        "text": "vehicle.manufacturer"
+      },
+      {
+        "value": "vehicle.model",
+        "text": "vehicle.model"
+      },
+      {
+        "value": "vehicle.type",
+        "text": "vehicle.type"
+      },
+      {
+        "value": "vehicle.vehicle",
+        "text": "vehicle.vehicle"
+      },
+      {
+        "value": "vehicle.vin",
+        "text": "vehicle.vin"
+      },
+      {
+        "value": "vehicle.vrm",
+        "text": "vehicle.vrm"
+      },
+      {
+        "value": "word.adjective",
+        "text": "word.adjective"
+      },
+      {
+        "value": "word.adverb",
+        "text": "word.adverb"
+      },
+      {
+        "value": "word.conjunction",
+        "text": "word.conjunction"
+      },
+      {
+        "value": "word.interjection",
+        "text": "word.interjection"
+      },
+      {
+        "value": "word.noun",
+        "text": "word.noun"
+      },
+      {
+        "value": "word.preposition",
+        "text": "word.preposition"
+      },
+      {
+        "value": "word.sample",
+        "text": "word.sample"
+      },
+      {
+        "value": "word.verb",
+        "text": "word.verb"
+      },
+      {
+        "value": "word.words",
+        "text": "word.words"
+      }
+    ],
+    "faker": [
+      {
+        "value": "",
+        "text": "Select faker command"
+      },
+      {
+        "value": "helpers.arrayElement",
+        "text": "helpers.arrayElement"
+      },
+      {
+        "value": "helpers.arrayElements",
+        "text": "helpers.arrayElements"
+      },
+      {
+        "value": "helpers.fake",
+        "text": "helpers.fake"
+      },
+      {
+        "value": "helpers.fromRegExp",
+        "text": "helpers.fromRegExp"
+      },
+      {
+        "value": "helpers.maybe",
+        "text": "helpers.maybe"
+      },
+      {
+        "value": "helpers.multiple",
+        "text": "helpers.multiple"
+      },
+      {
+        "value": "helpers.mustache",
+        "text": "helpers.mustache"
+      },
+      {
+        "value": "helpers.rangeToNumber",
+        "text": "helpers.rangeToNumber"
+      },
+      {
+        "value": "helpers.replaceCreditCardSymbols",
+        "text": "helpers.replaceCreditCardSymbols"
+      },
+      {
+        "value": "helpers.replaceSymbols",
+        "text": "helpers.replaceSymbols"
+      },
+      {
+        "value": "helpers.shuffle",
+        "text": "helpers.shuffle"
+      },
+      {
+        "value": "helpers.slugify",
+        "text": "helpers.slugify"
+      },
+      {
+        "value": "helpers.uniqueArray",
+        "text": "helpers.uniqueArray"
+      },
+      {
+        "value": "helpers.weightedArrayElement",
+        "text": "helpers.weightedArrayElement"
+      }
+    ]
+  }
+}

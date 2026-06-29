@@ -1,0 +1,4346 @@
+{
+  "visibleButtons": [
+    {
+      "i": 0,
+      "visible": true,
+      "text": "🌙",
+      "aria": "Switch to dark theme",
+      "title": "Switch to dark theme",
+      "cls": "theme-toggle-button",
+      "rect": {
+        "x": 1390,
+        "y": 24,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "i": 1,
+      "visible": true,
+      "text": "",
+      "aria": "Show help",
+      "title": "",
+      "cls": "helpicon",
+      "rect": {
+        "x": 121,
+        "y": 57,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "i": 2,
+      "visible": true,
+      "text": "",
+      "aria": "Copy Instructions To Grid",
+      "title": "Copy Instructions To Grid",
+      "cls": "instructions-copy-to-grid-button",
+      "rect": {
+        "x": 18,
+        "y": 545,
+        "w": 165,
+        "h": 21
+      }
+    },
+    {
+      "i": 3,
+      "visible": true,
+      "text": "Add Row",
+      "aria": "",
+      "title": "",
+      "cls": "",
+      "rect": {
+        "x": 18,
+        "y": 95,
+        "w": 70,
+        "h": 21
+      }
+    },
+    {
+      "i": 4,
+      "visible": true,
+      "text": "Add Rows Above",
+      "aria": "",
+      "title": "",
+      "cls": "",
+      "rect": {
+        "x": 93,
+        "y": 95,
+        "w": 118,
+        "h": 21
+      }
+    },
+    {
+      "i": 5,
+      "visible": true,
+      "text": "Add Rows Below",
+      "aria": "",
+      "title": "",
+      "cls": "",
+      "rect": {
+        "x": 215,
+        "y": 95,
+        "w": 117,
+        "h": 21
+      }
+    },
+    {
+      "i": 6,
+      "visible": true,
+      "text": "Delete Selected Rows",
+      "aria": "",
+      "title": "",
+      "cls": "",
+      "rect": {
+        "x": 336,
+        "y": 95,
+        "w": 147,
+        "h": 21
+      }
+    },
+    {
+      "i": 7,
+      "visible": true,
+      "text": "Clear Filters",
+      "aria": "",
+      "title": "Clear Filters",
+      "cls": "",
+      "rect": {
+        "x": 713,
+        "y": 95,
+        "w": 88,
+        "h": 21
+      }
+    },
+    {
+      "i": 8,
+      "visible": true,
+      "text": "Clear Sort",
+      "aria": "",
+      "title": "Clear Sort",
+      "cls": "",
+      "rect": {
+        "x": 806,
+        "y": 95,
+        "w": 76,
+        "h": 21
+      }
+    },
+    {
+      "i": 9,
+      "visible": true,
+      "text": "Reset Table",
+      "aria": "",
+      "title": "Clear All Data",
+      "cls": "",
+      "rect": {
+        "x": 886,
+        "y": 95,
+        "w": 86,
+        "h": 21
+      }
+    },
+    {
+      "i": 10,
+      "visible": true,
+      "text": "",
+      "aria": "Filter column",
+      "title": "Filter column",
+      "cls": "customFilterMenuButton header-icon-button",
+      "rect": {
+        "x": 23,
+        "y": 121,
+        "w": 17,
+        "h": 22
+      }
+    },
+    {
+      "i": 11,
+      "visible": true,
+      "text": "",
+      "aria": "Sort descending",
+      "title": "Sort descending",
+      "cls": "customSortDownLabel header-icon-button",
+      "rect": {
+        "x": 134,
+        "y": 121,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "i": 12,
+      "visible": true,
+      "text": "",
+      "aria": "Sort ascending",
+      "title": "Sort ascending",
+      "cls": "customSortUpLabel header-icon-button",
+      "rect": {
+        "x": 162,
+        "y": 121,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "i": 13,
+      "visible": true,
+      "text": "",
+      "aria": "Clear sort",
+      "title": "Clear sort",
+      "cls": "customSortRemoveLabel header-icon-button",
+      "rect": {
+        "x": 191,
+        "y": 121,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "i": 14,
+      "visible": true,
+      "text": "",
+      "aria": "Add column left",
+      "title": "Add column left",
+      "cls": "customHeaderAddLeftButton header-icon-button",
+      "rect": {
+        "x": 60,
+        "y": 143,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "i": 15,
+      "visible": true,
+      "text": "",
+      "aria": "Rename column",
+      "title": "Rename column",
+      "cls": "customHeaderRenameButton header-icon-button",
+      "rect": {
+        "x": 84,
+        "y": 143,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "i": 16,
+      "visible": true,
+      "text": "",
+      "aria": "Delete column",
+      "title": "Delete column",
+      "cls": "customHeaderDeleteButton header-icon-button",
+      "rect": {
+        "x": 107,
+        "y": 143,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "i": 17,
+      "visible": true,
+      "text": "",
+      "aria": "Duplicate column",
+      "title": "Duplicate column",
+      "cls": "customHeaderDuplicateButton header-icon-button",
+      "rect": {
+        "x": 131,
+        "y": 143,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "i": 18,
+      "visible": true,
+      "text": "",
+      "aria": "Add column right",
+      "title": "Add column right",
+      "cls": "customHeaderAddRightButton header-icon-button",
+      "rect": {
+        "x": 154,
+        "y": 143,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "i": 19,
+      "visible": true,
+      "text": "",
+      "aria": "Show generate help",
+      "title": "",
+      "cls": "helpicon",
+      "rect": {
+        "x": 18,
+        "y": 682,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "i": 20,
+      "visible": true,
+      "text": "",
+      "aria": "Generate",
+      "title": "Generate",
+      "cls": "",
+      "rect": {
+        "x": 37,
+        "y": 678,
+        "w": 98,
+        "h": 22
+      }
+    },
+    {
+      "i": 23,
+      "visible": true,
+      "text": "",
+      "aria": "Show grid to enum schema help",
+      "title": "",
+      "cls": "helpicon",
+      "rect": {
+        "x": 147,
+        "y": 682,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "i": 24,
+      "visible": true,
+      "text": "",
+      "aria": "Grid to Enum Schema",
+      "title": "Grid to Enum Schema",
+      "cls": "",
+      "rect": {
+        "x": 166,
+        "y": 678,
+        "w": 173,
+        "h": 22
+      }
+    },
+    {
+      "i": 26,
+      "visible": true,
+      "text": "",
+      "aria": "Show help",
+      "title": "",
+      "cls": "helpicon",
+      "rect": {
+        "x": 1079,
+        "y": 729,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "i": 27,
+      "visible": true,
+      "text": "",
+      "aria": "",
+      "title": "Toggle schema text mode",
+      "cls": "icon-button",
+      "rect": {
+        "x": 1098,
+        "y": 720,
+        "w": 73,
+        "h": 32
+      }
+    },
+    {
+      "i": 28,
+      "visible": true,
+      "text": "",
+      "aria": "",
+      "title": "",
+      "cls": "icon-button",
+      "rect": {
+        "x": 1181,
+        "y": 720,
+        "w": 111,
+        "h": 32
+      }
+    },
+    {
+      "i": 29,
+      "visible": true,
+      "text": "",
+      "aria": "",
+      "title": "",
+      "cls": "icon-button",
+      "rect": {
+        "x": 1299,
+        "y": 720,
+        "w": 112,
+        "h": 32
+      }
+    },
+    {
+      "i": 30,
+      "visible": true,
+      "text": "",
+      "aria": "Drag field to reorder",
+      "title": "Drag field to reorder",
+      "cls": "icon-button shared-schema-drag-handle",
+      "rect": {
+        "x": 29,
+        "y": 762,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "i": 31,
+      "visible": true,
+      "text": "",
+      "aria": "Insert field after this row",
+      "title": "Add field",
+      "cls": "icon-button",
+      "rect": {
+        "x": 64,
+        "y": 762,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "i": 32,
+      "visible": true,
+      "text": "",
+      "aria": "Remove field",
+      "title": "Remove field",
+      "cls": "icon-button",
+      "rect": {
+        "x": 99,
+        "y": 762,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "i": 33,
+      "visible": true,
+      "text": "",
+      "aria": "Move up",
+      "title": "Move up",
+      "cls": "icon-button",
+      "rect": {
+        "x": 134,
+        "y": 762,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "i": 34,
+      "visible": true,
+      "text": "",
+      "aria": "Move down",
+      "title": "Move down",
+      "cls": "icon-button",
+      "rect": {
+        "x": 169,
+        "y": 762,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "i": 35,
+      "visible": true,
+      "text": "",
+      "aria": "",
+      "title": "",
+      "cls": "add-schema-row-button",
+      "rect": {
+        "x": 29,
+        "y": 841,
+        "w": 83,
+        "h": 21
+      }
+    },
+    {
+      "i": 36,
+      "visible": true,
+      "text": "",
+      "aria": "Save Schema As",
+      "title": "Save Schema As",
+      "cls": "",
+      "rect": {
+        "x": 29,
+        "y": 881,
+        "w": 118,
+        "h": 21
+      }
+    },
+    {
+      "i": 37,
+      "visible": true,
+      "text": "",
+      "aria": "Recover Draft",
+      "title": "Recover Draft",
+      "cls": "",
+      "rect": {
+        "x": 171,
+        "y": 881,
+        "w": 98,
+        "h": 21
+      }
+    },
+    {
+      "i": 38,
+      "visible": true,
+      "text": "",
+      "aria": "Load last used schema",
+      "title": "Load last used schema",
+      "cls": "",
+      "rect": {
+        "x": 284,
+        "y": 903,
+        "w": 46,
+        "h": 21
+      }
+    },
+    {
+      "i": 39,
+      "visible": true,
+      "text": "",
+      "aria": "Clear last used schema",
+      "title": "Clear last used schema",
+      "cls": "",
+      "rect": {
+        "x": 334,
+        "y": 903,
+        "w": 112,
+        "h": 21
+      }
+    },
+    {
+      "i": 40,
+      "visible": true,
+      "text": "",
+      "aria": "",
+      "title": "",
+      "cls": "",
+      "rect": {
+        "x": 29,
+        "y": 924,
+        "w": 140,
+        "h": 21
+      }
+    },
+    {
+      "i": 41,
+      "visible": true,
+      "text": "→",
+      "aria": "Set Text From Grid",
+      "title": "Send Grid to Text Preview",
+      "cls": "",
+      "rect": {
+        "x": 42,
+        "y": 694,
+        "w": 71,
+        "h": 25
+      }
+    },
+    {
+      "i": 42,
+      "visible": true,
+      "text": "→",
+      "aria": "Set Grid From Text",
+      "title": "Send Text Preview to Grid",
+      "cls": "",
+      "rect": {
+        "x": 121,
+        "y": 694,
+        "w": 71,
+        "h": 25
+      }
+    },
+    {
+      "i": 43,
+      "visible": true,
+      "text": "",
+      "aria": "Import From Clipboard",
+      "title": "",
+      "cls": "import-export-import-control__clipboard-button",
+      "rect": {
+        "x": 490,
+        "y": 767,
+        "w": 129,
+        "h": 22
+      }
+    },
+    {
+      "i": 44,
+      "visible": true,
+      "text": "",
+      "aria": "Download file",
+      "title": "Download file",
+      "cls": "",
+      "rect": {
+        "x": 878,
+        "y": 769,
+        "w": 103,
+        "h": 21
+      }
+    },
+    {
+      "i": 45,
+      "visible": true,
+      "text": "Preview",
+      "aria": "",
+      "title": "Toggle Preview/Edit mode",
+      "cls": "",
+      "rect": {
+        "x": 1169,
+        "y": 790,
+        "w": 63,
+        "h": 21
+      }
+    },
+    {
+      "i": 46,
+      "visible": true,
+      "text": "Copy",
+      "aria": "",
+      "title": "Copy text to clipboard",
+      "cls": "text-preview-toolbar__copy-button",
+      "rect": {
+        "x": 1353,
+        "y": 790,
+        "w": 69,
+        "h": 22
+      }
+    },
+    {
+      "i": 47,
+      "visible": true,
+      "text": "Apply",
+      "aria": "",
+      "title": "",
+      "cls": "apply-options",
+      "rect": {
+        "x": 18,
+        "y": 1127,
+        "w": 49,
+        "h": 21
+      }
+    }
+  ],
+  "visibleHelp": [
+    {
+      "i": 0,
+      "visible": true,
+      "text": "🌙",
+      "aria": "Switch to dark theme",
+      "title": "Switch to dark theme",
+      "cls": "theme-toggle-button",
+      "rect": {
+        "x": 1390,
+        "y": 24,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "i": 1,
+      "visible": true,
+      "text": "",
+      "aria": "Show help",
+      "title": "",
+      "cls": "helpicon",
+      "rect": {
+        "x": 121,
+        "y": 57,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "i": 19,
+      "visible": true,
+      "text": "",
+      "aria": "Show generate help",
+      "title": "",
+      "cls": "helpicon",
+      "rect": {
+        "x": 18,
+        "y": 682,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "i": 20,
+      "visible": true,
+      "text": "",
+      "aria": "Generate",
+      "title": "Generate",
+      "cls": "",
+      "rect": {
+        "x": 37,
+        "y": 678,
+        "w": 98,
+        "h": 22
+      }
+    },
+    {
+      "i": 23,
+      "visible": true,
+      "text": "",
+      "aria": "Show grid to enum schema help",
+      "title": "",
+      "cls": "helpicon",
+      "rect": {
+        "x": 147,
+        "y": 682,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "i": 24,
+      "visible": true,
+      "text": "",
+      "aria": "Grid to Enum Schema",
+      "title": "Grid to Enum Schema",
+      "cls": "",
+      "rect": {
+        "x": 166,
+        "y": 678,
+        "w": 173,
+        "h": 22
+      }
+    },
+    {
+      "i": 26,
+      "visible": true,
+      "text": "",
+      "aria": "Show help",
+      "title": "",
+      "cls": "helpicon",
+      "rect": {
+        "x": 1079,
+        "y": 729,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "i": 27,
+      "visible": true,
+      "text": "",
+      "aria": "",
+      "title": "Toggle schema text mode",
+      "cls": "icon-button",
+      "rect": {
+        "x": 1098,
+        "y": 720,
+        "w": 73,
+        "h": 32
+      }
+    },
+    {
+      "i": 30,
+      "visible": true,
+      "text": "",
+      "aria": "Drag field to reorder",
+      "title": "Drag field to reorder",
+      "cls": "icon-button shared-schema-drag-handle",
+      "rect": {
+        "x": 29,
+        "y": 762,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "i": 35,
+      "visible": true,
+      "text": "",
+      "aria": "",
+      "title": "",
+      "cls": "add-schema-row-button",
+      "rect": {
+        "x": 29,
+        "y": 841,
+        "w": 83,
+        "h": 21
+      }
+    },
+    {
+      "i": 36,
+      "visible": true,
+      "text": "",
+      "aria": "Save Schema As",
+      "title": "Save Schema As",
+      "cls": "",
+      "rect": {
+        "x": 29,
+        "y": 881,
+        "w": 118,
+        "h": 21
+      }
+    },
+    {
+      "i": 37,
+      "visible": true,
+      "text": "",
+      "aria": "Recover Draft",
+      "title": "Recover Draft",
+      "cls": "",
+      "rect": {
+        "x": 171,
+        "y": 881,
+        "w": 98,
+        "h": 21
+      }
+    },
+    {
+      "i": 38,
+      "visible": true,
+      "text": "",
+      "aria": "Load last used schema",
+      "title": "Load last used schema",
+      "cls": "",
+      "rect": {
+        "x": 284,
+        "y": 903,
+        "w": 46,
+        "h": 21
+      }
+    },
+    {
+      "i": 39,
+      "visible": true,
+      "text": "",
+      "aria": "Clear last used schema",
+      "title": "Clear last used schema",
+      "cls": "",
+      "rect": {
+        "x": 334,
+        "y": 903,
+        "w": 112,
+        "h": 21
+      }
+    },
+    {
+      "i": 44,
+      "visible": true,
+      "text": "",
+      "aria": "Download file",
+      "title": "Download file",
+      "cls": "",
+      "rect": {
+        "x": 878,
+        "y": 769,
+        "w": 103,
+        "h": 21
+      }
+    },
+    {
+      "i": 45,
+      "visible": true,
+      "text": "Preview",
+      "aria": "",
+      "title": "Toggle Preview/Edit mode",
+      "cls": "",
+      "rect": {
+        "x": 1169,
+        "y": 790,
+        "w": 63,
+        "h": 21
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "target": {
+        "i": 1,
+        "visible": true,
+        "text": "",
+        "aria": "Show help",
+        "title": "",
+        "cls": "helpicon",
+        "rect": {
+          "x": 121,
+          "y": 57,
+          "w": 13,
+          "h": 13
+        }
+      },
+      "hoverState": [
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Generate",
+          "rect": {
+            "x": 18,
+            "y": 678,
+            "w": 117,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Grid to Enum Schema",
+          "rect": {
+            "x": 147,
+            "y": 678,
+            "w": 192,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-schema-button-with-help",
+          "text": "Edit as Text",
+          "rect": {
+            "x": 1079,
+            "y": 720,
+            "w": 92,
+            "h": 32
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "a",
+          "role": "",
+          "id": "",
+          "cls": "helpicon shared-schema-help-link",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 151,
+            "y": 880,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon text-preview-toolbar__preview-row-help",
+          "text": "",
+          "rect": {
+            "x": 1128,
+            "y": 793,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1140,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "div",
+          "role": "tooltip",
+          "id": "",
+          "cls": "tippy-box",
+          "text": "This app converts table data between formats, and lets you edit directly in the grid. Use import/export controls to switch between text formats and grid data. Use column and row controls directly in the grid to shape your table. Load Sample Data",
+          "rect": {
+            "x": 121,
+            "y": 80,
+            "w": 350,
+            "h": 197
+          }
+        }
+      ],
+      "clickState": [
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Generate",
+          "rect": {
+            "x": 18,
+            "y": 678,
+            "w": 117,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Grid to Enum Schema",
+          "rect": {
+            "x": 147,
+            "y": 678,
+            "w": 192,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-schema-button-with-help",
+          "text": "Edit as Text",
+          "rect": {
+            "x": 1079,
+            "y": 720,
+            "w": 92,
+            "h": 32
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "a",
+          "role": "",
+          "id": "",
+          "cls": "helpicon shared-schema-help-link",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 151,
+            "y": 880,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon text-preview-toolbar__preview-row-help",
+          "text": "",
+          "rect": {
+            "x": 1128,
+            "y": 793,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1140,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "div",
+          "role": "tooltip",
+          "id": "",
+          "cls": "tippy-box",
+          "text": "This app converts table data between formats, and lets you edit directly in the grid. Use import/export controls to switch between text formats and grid data. Use column and row controls directly in the grid to shape your table. Load Sample Data",
+          "rect": {
+            "x": 121,
+            "y": 80,
+            "w": 350,
+            "h": 197
+          }
+        }
+      ]
+    },
+    {
+      "target": {
+        "i": 19,
+        "visible": true,
+        "text": "",
+        "aria": "Show generate help",
+        "title": "",
+        "cls": "helpicon",
+        "rect": {
+          "x": 18,
+          "y": 682,
+          "w": 13,
+          "h": 13
+        }
+      },
+      "hoverError": "locator.hover: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button').nth(19)\u001b[22m\n\u001b[2m    - locator resolved to <button tabindex=\"0\" type=\"button\" class=\"helpicon\" aria-expanded=\"false\" data-help-role=\"help-icon\" aria-label=\"Show generate help\" data-help=\"inline-population-action-help\" data-help-text=\"↵  <p>Generate data from the current schema directly into the grid.</p>↵  <p><a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/test-data-generation\" target=\"anywaydatadocs\">Test-data generation docs</a></p>↵\">…</button>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    6 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "target": {
+        "i": 19,
+        "visible": true,
+        "text": "",
+        "aria": "Show generate help",
+        "title": "",
+        "cls": "helpicon",
+        "rect": {
+          "x": 18,
+          "y": 682,
+          "w": 13,
+          "h": 13
+        }
+      },
+      "clickError": "locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button').nth(19)\u001b[22m\n\u001b[2m    - locator resolved to <button tabindex=\"0\" type=\"button\" class=\"helpicon\" aria-expanded=\"false\" data-help-role=\"help-icon\" aria-label=\"Show generate help\" data-help=\"inline-population-action-help\" data-help-text=\"↵  <p>Generate data from the current schema directly into the grid.</p>↵  <p><a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/test-data/test-data-generation\" target=\"anywaydatadocs\">Test-data generation docs</a></p>↵\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    6 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "target": {
+        "i": 19,
+        "visible": true,
+        "text": "",
+        "aria": "Show generate help",
+        "title": "",
+        "cls": "helpicon",
+        "rect": {
+          "x": 18,
+          "y": 682,
+          "w": 13,
+          "h": 13
+        }
+      },
+      "hoverState": [
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Generate",
+          "rect": {
+            "x": 18,
+            "y": 678,
+            "w": 117,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Grid to Enum Schema",
+          "rect": {
+            "x": 147,
+            "y": 678,
+            "w": 192,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-schema-button-with-help",
+          "text": "Edit as Text",
+          "rect": {
+            "x": 1079,
+            "y": 720,
+            "w": 92,
+            "h": 32
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "a",
+          "role": "",
+          "id": "",
+          "cls": "helpicon shared-schema-help-link",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 151,
+            "y": 880,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon text-preview-toolbar__preview-row-help",
+          "text": "",
+          "rect": {
+            "x": 1128,
+            "y": 793,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1140,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "div",
+          "role": "tooltip",
+          "id": "",
+          "cls": "tippy-box",
+          "text": "This app converts table data between formats, and lets you edit directly in the grid. Use import/export controls to switch between text formats and grid data. Use column and row controls directly in the grid to shape your table. Load Sample Data",
+          "rect": {
+            "x": 121,
+            "y": 80,
+            "w": 350,
+            "h": 197
+          }
+        }
+      ],
+      "clickState": [
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Generate",
+          "rect": {
+            "x": 18,
+            "y": 678,
+            "w": 117,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Grid to Enum Schema",
+          "rect": {
+            "x": 147,
+            "y": 678,
+            "w": 192,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-schema-button-with-help",
+          "text": "Edit as Text",
+          "rect": {
+            "x": 1079,
+            "y": 720,
+            "w": 92,
+            "h": 32
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "a",
+          "role": "",
+          "id": "",
+          "cls": "helpicon shared-schema-help-link",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 151,
+            "y": 880,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon text-preview-toolbar__preview-row-help",
+          "text": "",
+          "rect": {
+            "x": 1128,
+            "y": 793,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1140,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "div",
+          "role": "tooltip",
+          "id": "",
+          "cls": "tippy-box",
+          "text": "This app converts table data between formats, and lets you edit directly in the grid. Use import/export controls to switch between text formats and grid data. Use column and row controls directly in the grid to shape your table. Load Sample Data",
+          "rect": {
+            "x": 121,
+            "y": 80,
+            "w": 350,
+            "h": 197
+          }
+        }
+      ]
+    },
+    {
+      "target": {
+        "i": 23,
+        "visible": true,
+        "text": "",
+        "aria": "Show grid to enum schema help",
+        "title": "",
+        "cls": "helpicon",
+        "rect": {
+          "x": 147,
+          "y": 682,
+          "w": 13,
+          "h": 13
+        }
+      },
+      "hoverError": "locator.hover: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button').nth(23)\u001b[22m\n\u001b[2m    - locator resolved to <button tabindex=\"0\" type=\"button\" class=\"helpicon\" aria-expanded=\"false\" data-help-role=\"help-icon\" data-help=\"inline-population-action-help\" aria-label=\"Show grid to enum schema help\" data-help-text=\"↵  <p>Scan the current grid and build an enum-only schema from the visible column values.</p>↵\">…</button>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    6 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "target": {
+        "i": 23,
+        "visible": true,
+        "text": "",
+        "aria": "Show grid to enum schema help",
+        "title": "",
+        "cls": "helpicon",
+        "rect": {
+          "x": 147,
+          "y": 682,
+          "w": 13,
+          "h": 13
+        }
+      },
+      "clickError": "locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button').nth(23)\u001b[22m\n\u001b[2m    - locator resolved to <button tabindex=\"0\" type=\"button\" class=\"helpicon\" aria-expanded=\"false\" data-help-role=\"help-icon\" data-help=\"inline-population-action-help\" aria-label=\"Show grid to enum schema help\" data-help-text=\"↵  <p>Scan the current grid and build an enum-only schema from the visible column values.</p>↵\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    6 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "target": {
+        "i": 23,
+        "visible": true,
+        "text": "",
+        "aria": "Show grid to enum schema help",
+        "title": "",
+        "cls": "helpicon",
+        "rect": {
+          "x": 147,
+          "y": 682,
+          "w": 13,
+          "h": 13
+        }
+      },
+      "hoverState": [
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Generate",
+          "rect": {
+            "x": 18,
+            "y": 678,
+            "w": 117,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Grid to Enum Schema",
+          "rect": {
+            "x": 147,
+            "y": 678,
+            "w": 192,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-schema-button-with-help",
+          "text": "Edit as Text",
+          "rect": {
+            "x": 1079,
+            "y": 720,
+            "w": 92,
+            "h": 32
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "a",
+          "role": "",
+          "id": "",
+          "cls": "helpicon shared-schema-help-link",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 151,
+            "y": 880,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon text-preview-toolbar__preview-row-help",
+          "text": "",
+          "rect": {
+            "x": 1128,
+            "y": 793,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1140,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "div",
+          "role": "tooltip",
+          "id": "",
+          "cls": "tippy-box",
+          "text": "This app converts table data between formats, and lets you edit directly in the grid. Use import/export controls to switch between text formats and grid data. Use column and row controls directly in the grid to shape your table. Load Sample Data",
+          "rect": {
+            "x": 121,
+            "y": 80,
+            "w": 350,
+            "h": 197
+          }
+        }
+      ],
+      "clickState": [
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Generate",
+          "rect": {
+            "x": 18,
+            "y": 678,
+            "w": 117,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Grid to Enum Schema",
+          "rect": {
+            "x": 147,
+            "y": 678,
+            "w": 192,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-schema-button-with-help",
+          "text": "Edit as Text",
+          "rect": {
+            "x": 1079,
+            "y": 720,
+            "w": 92,
+            "h": 32
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "a",
+          "role": "",
+          "id": "",
+          "cls": "helpicon shared-schema-help-link",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 151,
+            "y": 880,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon text-preview-toolbar__preview-row-help",
+          "text": "",
+          "rect": {
+            "x": 1128,
+            "y": 793,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1140,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "div",
+          "role": "tooltip",
+          "id": "",
+          "cls": "tippy-box",
+          "text": "This app converts table data between formats, and lets you edit directly in the grid. Use import/export controls to switch between text formats and grid data. Use column and row controls directly in the grid to shape your table. Load Sample Data",
+          "rect": {
+            "x": 121,
+            "y": 80,
+            "w": 350,
+            "h": 197
+          }
+        }
+      ]
+    },
+    {
+      "target": {
+        "i": 26,
+        "visible": true,
+        "text": "",
+        "aria": "Show help",
+        "title": "",
+        "cls": "helpicon",
+        "rect": {
+          "x": 1079,
+          "y": 729,
+          "w": 13,
+          "h": 13
+        }
+      },
+      "hoverError": "locator.hover: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button').nth(26)\u001b[22m\n\u001b[2m    - locator resolved to <button tabindex=\"0\" type=\"button\" class=\"helpicon\" aria-expanded=\"false\" aria-label=\"Show help\" data-help-role=\"help-icon\" data-role=\"schema-mode-help\" data-help=\"shared-schema-mode-help\" data-help-text=\"↵    <p><strong>Edit as Text</strong></p>↵    <p>You are currently using row-based schema editing. Click <strong>Edit as Text</strong> to switch to text schema mode.</p>↵    ↵    <button type=\"button\" class=\"shared-schema-sample-button\">Insert Example Schema</button>↵  \">…</button>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    6 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "target": {
+        "i": 26,
+        "visible": true,
+        "text": "",
+        "aria": "Show help",
+        "title": "",
+        "cls": "helpicon",
+        "rect": {
+          "x": 1079,
+          "y": 729,
+          "w": 13,
+          "h": 13
+        }
+      },
+      "clickError": "locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button').nth(26)\u001b[22m\n\u001b[2m    - locator resolved to <button tabindex=\"0\" type=\"button\" class=\"helpicon\" aria-expanded=\"false\" aria-label=\"Show help\" data-help-role=\"help-icon\" data-role=\"schema-mode-help\" data-help=\"shared-schema-mode-help\" data-help-text=\"↵    <p><strong>Edit as Text</strong></p>↵    <p>You are currently using row-based schema editing. Click <strong>Edit as Text</strong> to switch to text schema mode.</p>↵    ↵    <button type=\"button\" class=\"shared-schema-sample-button\">Insert Example Schema</button>↵  \">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    6 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "target": {
+        "i": 26,
+        "visible": true,
+        "text": "",
+        "aria": "Show help",
+        "title": "",
+        "cls": "helpicon",
+        "rect": {
+          "x": 1079,
+          "y": 729,
+          "w": 13,
+          "h": 13
+        }
+      },
+      "hoverState": [
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Generate",
+          "rect": {
+            "x": 18,
+            "y": 678,
+            "w": 117,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Grid to Enum Schema",
+          "rect": {
+            "x": 147,
+            "y": 678,
+            "w": 192,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-schema-button-with-help",
+          "text": "Edit as Text",
+          "rect": {
+            "x": 1079,
+            "y": 720,
+            "w": 92,
+            "h": 32
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "a",
+          "role": "",
+          "id": "",
+          "cls": "helpicon shared-schema-help-link",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 151,
+            "y": 880,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon text-preview-toolbar__preview-row-help",
+          "text": "",
+          "rect": {
+            "x": 1128,
+            "y": 793,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1140,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "div",
+          "role": "tooltip",
+          "id": "",
+          "cls": "tippy-box",
+          "text": "This app converts table data between formats, and lets you edit directly in the grid. Use import/export controls to switch between text formats and grid data. Use column and row controls directly in the grid to shape your table. Load Sample Data",
+          "rect": {
+            "x": 121,
+            "y": 80,
+            "w": 350,
+            "h": 197
+          }
+        }
+      ],
+      "clickState": [
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 121,
+            "y": 57,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 107,
+            "y": 658,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Generate",
+          "rect": {
+            "x": 18,
+            "y": 678,
+            "w": 117,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-button-with-help",
+          "text": "Grid to Enum Schema",
+          "rect": {
+            "x": 147,
+            "y": 678,
+            "w": 192,
+            "h": 22
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 147,
+            "y": 682,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "shared-schema-button-with-help",
+          "text": "Edit as Text",
+          "rect": {
+            "x": 1079,
+            "y": 720,
+            "w": 92,
+            "h": 32
+          }
+        },
+        {
+          "tag": "button",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1079,
+            "y": 729,
+            "w": 13,
+            "h": 13
+          }
+        },
+        {
+          "tag": "a",
+          "role": "",
+          "id": "",
+          "cls": "helpicon shared-schema-help-link",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 731,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 151,
+            "y": 880,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 698,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 770,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 858,
+            "y": 768,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 996,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon option-help-icon text-preview-toolbar__preview-row-help",
+          "text": "",
+          "rect": {
+            "x": 1128,
+            "y": 793,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 1140,
+            "y": 793,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 18,
+            "y": 836,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "span",
+          "role": "button",
+          "id": "",
+          "cls": "helpicon",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "svg",
+          "role": "",
+          "id": "",
+          "cls": "[object SVGAnimatedString]",
+          "text": "",
+          "rect": {
+            "x": 83,
+            "y": 886,
+            "w": 16,
+            "h": 16
+          }
+        },
+        {
+          "tag": "div",
+          "role": "tooltip",
+          "id": "",
+          "cls": "tippy-box",
+          "text": "This app converts table data between formats, and lets you edit directly in the grid. Use import/export controls to switch between text formats and grid data. Use column and row controls directly in the grid to shape your table. Load Sample Data",
+          "rect": {
+            "x": 121,
+            "y": 80,
+            "w": 350,
+            "h": 197
+          }
+        }
+      ]
+    }
+  ],
+  "toggleCandidates": [
+    {
+      "i": 27,
+      "visible": true,
+      "text": "",
+      "aria": "",
+      "title": "Toggle schema text mode",
+      "cls": "icon-button",
+      "rect": {
+        "x": 1098,
+        "y": 720,
+        "w": 73,
+        "h": 32
+      }
+    }
+  ],
+  "schemaActions": [
+    {
+      "used": {
+        "i": 27,
+        "visible": true,
+        "text": "",
+        "aria": "",
+        "title": "Toggle schema text mode",
+        "cls": "icon-button",
+        "rect": {
+          "x": 1098,
+          "y": 720,
+          "w": 73,
+          "h": 32
+        }
+      }
+    }
+  ],
+  "postToggle": {
+    "active": {
+      "tag": "button",
+      "text": "Show help"
+    },
+    "textareas": [
+      {
+        "placeholder": "Column Name\nrule\nColumn Name\nrule",
+        "aria": "Schema text",
+        "value": "",
+        "visible": false,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "placeholder": "IF [Column] = ",
+        "aria": "Schema constraints",
+        "value": "",
+        "visible": true,
+        "rect": {
+          "x": 29,
+          "y": 841,
+          "w": 1389,
+          "h": 139
+        }
+      },
+      {
+        "placeholder": "",
+        "aria": "Preview text editor",
+        "value": "",
+        "visible": true,
+        "rect": {
+          "x": 300,
+          "y": 870,
+          "w": 1128,
+          "h": 206
+        }
+      }
+    ]
+  }
+}

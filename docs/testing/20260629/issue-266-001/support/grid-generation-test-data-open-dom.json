@@ -1,0 +1,655 @@
+{
+  "details": [
+    {
+      "i": 0,
+      "open": false,
+      "text": "Instructions "
+    },
+    {
+      "i": 1,
+      "open": true,
+      "text": "Test Data \n Generate\n Grid to Enum Schema\nHow Many?\nNew Table\nAmend Table\nAmend Selected\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)"
+    },
+    {
+      "i": 2,
+      "open": false,
+      "text": "Schema Constraints (0)"
+    },
+    {
+      "i": 3,
+      "open": false,
+      "text": "Managed Stored Schemas (0)"
+    },
+    {
+      "i": 4,
+      "open": false,
+      "text": "Import / Export"
+    },
+    {
+      "i": 5,
+      "open": false,
+      "text": ""
+    },
+    {
+      "i": 6,
+      "open": false,
+      "text": ""
+    }
+  ],
+  "inputs": [
+    {
+      "i": 0,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "Filter...",
+      "aria": null,
+      "label": "Filter:"
+    },
+    {
+      "i": 1,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "value": "on",
+      "placeholder": "",
+      "aria": null,
+      "label": "Unique Column Names"
+    },
+    {
+      "i": 2,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "search",
+      "value": "",
+      "placeholder": "",
+      "aria": "Filter table column"
+    },
+    {
+      "i": 3,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "number",
+      "value": "1",
+      "placeholder": "",
+      "aria": null,
+      "label": "How Many?"
+    },
+    {
+      "i": 4,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "radio",
+      "value": "new-table",
+      "placeholder": "",
+      "aria": null,
+      "label": "New Table"
+    },
+    {
+      "i": 5,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "radio",
+      "value": "amend-table",
+      "placeholder": "",
+      "aria": null,
+      "label": "Amend Table"
+    },
+    {
+      "i": 6,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "radio",
+      "value": "amend-selected",
+      "placeholder": "",
+      "aria": null,
+      "label": "Amend Selected"
+    },
+    {
+      "i": 7,
+      "visible": false,
+      "tag": "INPUT",
+      "type": "file",
+      "value": "",
+      "placeholder": "",
+      "aria": "Load Schema File"
+    },
+    {
+      "i": 8,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "Column Name",
+      "aria": "Column Name"
+    },
+    {
+      "i": 9,
+      "visible": true,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "regex",
+      "aria": "Field type"
+    },
+    {
+      "i": 10,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "Value / Regex",
+      "aria": "Value / Regex"
+    },
+    {
+      "i": 11,
+      "visible": false,
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "value": "",
+      "placeholder": "Column Name\nrule\nColumn Name\nrule",
+      "aria": "Schema text"
+    },
+    {
+      "i": 12,
+      "visible": true,
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "value": "",
+      "placeholder": "IF [Column] = ",
+      "aria": "Schema constraints"
+    },
+    {
+      "i": 13,
+      "visible": true,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "",
+      "aria": "Last Used",
+      "label": ""
+    },
+    {
+      "i": 14,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "radio",
+      "value": "off",
+      "placeholder": "",
+      "aria": null,
+      "label": ""
+    },
+    {
+      "i": 15,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "radio",
+      "value": "on",
+      "placeholder": "",
+      "aria": null,
+      "label": ""
+    },
+    {
+      "i": 16,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "radio",
+      "value": "off",
+      "placeholder": "",
+      "aria": null,
+      "label": ""
+    },
+    {
+      "i": 17,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "radio",
+      "value": "selected",
+      "placeholder": "",
+      "aria": null,
+      "label": ""
+    },
+    {
+      "i": 18,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "",
+      "aria": "Trim input fields CSV",
+      "label": ""
+    },
+    {
+      "i": 19,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "file",
+      "value": "",
+      "placeholder": "",
+      "aria": null,
+      "label": ""
+    },
+    {
+      "i": 20,
+      "visible": true,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "crlf",
+      "aria": "Line endings",
+      "label": ""
+    },
+    {
+      "i": 21,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "value": "on",
+      "placeholder": "",
+      "aria": null,
+      "label": ""
+    },
+    {
+      "i": 22,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "value": "on",
+      "placeholder": "",
+      "aria": null,
+      "label": "Auto Sync"
+    },
+    {
+      "i": 23,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "number",
+      "value": "10",
+      "placeholder": "",
+      "aria": "Preview row count",
+      "label": "Rows"
+    },
+    {
+      "i": 24,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "value": "on",
+      "placeholder": "",
+      "aria": null,
+      "label": "Use Quotes"
+    },
+    {
+      "i": 25,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "value": "on",
+      "placeholder": "",
+      "aria": null,
+      "label": "Use Header"
+    },
+    {
+      "i": 26,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "\"",
+      "placeholder": "",
+      "aria": null,
+      "label": "Quote Char"
+    },
+    {
+      "i": 27,
+      "visible": true,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "\"",
+      "placeholder": "",
+      "aria": null,
+      "label": "Escape Char"
+    },
+    {
+      "i": 28,
+      "visible": true,
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "value": "",
+      "placeholder": "",
+      "aria": "Preview text editor"
+    },
+    {
+      "i": 29,
+      "visible": false,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "",
+      "aria": null
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "visible": true,
+      "text": "🌙",
+      "cls": "theme-toggle-button"
+    },
+    {
+      "i": 1,
+      "visible": true,
+      "text": "Show help",
+      "cls": "helpicon"
+    },
+    {
+      "i": 2,
+      "visible": true,
+      "text": "Copy Instructions To Grid",
+      "cls": "instructions-copy-to-grid-button"
+    },
+    {
+      "i": 3,
+      "visible": true,
+      "text": "Add Row",
+      "cls": ""
+    },
+    {
+      "i": 4,
+      "visible": true,
+      "text": "Add Rows Above",
+      "cls": ""
+    },
+    {
+      "i": 5,
+      "visible": true,
+      "text": "Add Rows Below",
+      "cls": ""
+    },
+    {
+      "i": 6,
+      "visible": true,
+      "text": "Delete Selected Rows",
+      "cls": ""
+    },
+    {
+      "i": 7,
+      "visible": true,
+      "text": "Clear Filters",
+      "cls": ""
+    },
+    {
+      "i": 8,
+      "visible": true,
+      "text": "Clear Sort",
+      "cls": ""
+    },
+    {
+      "i": 9,
+      "visible": true,
+      "text": "Reset Table",
+      "cls": ""
+    },
+    {
+      "i": 10,
+      "visible": true,
+      "text": "Filter column",
+      "cls": "customFilterMenuButton header-icon-button"
+    },
+    {
+      "i": 11,
+      "visible": true,
+      "text": "Sort descending",
+      "cls": "customSortDownLabel header-icon-button"
+    },
+    {
+      "i": 12,
+      "visible": true,
+      "text": "Sort ascending",
+      "cls": "customSortUpLabel header-icon-button"
+    },
+    {
+      "i": 13,
+      "visible": true,
+      "text": "Clear sort",
+      "cls": "customSortRemoveLabel header-icon-button"
+    },
+    {
+      "i": 14,
+      "visible": true,
+      "text": "Add column left",
+      "cls": "customHeaderAddLeftButton header-icon-button"
+    },
+    {
+      "i": 15,
+      "visible": true,
+      "text": "Rename column",
+      "cls": "customHeaderRenameButton header-icon-button"
+    },
+    {
+      "i": 16,
+      "visible": true,
+      "text": "Delete column",
+      "cls": "customHeaderDeleteButton header-icon-button"
+    },
+    {
+      "i": 17,
+      "visible": true,
+      "text": "Duplicate column",
+      "cls": "customHeaderDuplicateButton header-icon-button"
+    },
+    {
+      "i": 18,
+      "visible": true,
+      "text": "Add column right",
+      "cls": "customHeaderAddRightButton header-icon-button"
+    },
+    {
+      "i": 19,
+      "visible": true,
+      "text": "Show generate help",
+      "cls": "helpicon"
+    },
+    {
+      "i": 20,
+      "visible": true,
+      "text": "Generate",
+      "cls": ""
+    },
+    {
+      "i": 21,
+      "visible": false,
+      "text": "Show combination generation help",
+      "cls": "helpicon"
+    },
+    {
+      "i": 22,
+      "visible": false,
+      "text": "Generate Combinations",
+      "cls": ""
+    },
+    {
+      "i": 23,
+      "visible": true,
+      "text": "Show grid to enum schema help",
+      "cls": "helpicon"
+    },
+    {
+      "i": 24,
+      "visible": true,
+      "text": "Grid to Enum Schema",
+      "cls": ""
+    },
+    {
+      "i": 25,
+      "visible": false,
+      "text": "Dismiss message",
+      "cls": ""
+    },
+    {
+      "i": 26,
+      "visible": true,
+      "text": "Show help",
+      "cls": "helpicon"
+    },
+    {
+      "i": 27,
+      "visible": true,
+      "text": "Edit as Text",
+      "cls": "icon-button"
+    },
+    {
+      "i": 28,
+      "visible": true,
+      "text": "Load Schema File",
+      "cls": "icon-button"
+    },
+    {
+      "i": 29,
+      "visible": true,
+      "text": "Save Schema File",
+      "cls": "icon-button"
+    },
+    {
+      "i": 30,
+      "visible": true,
+      "text": "Drag field to reorder",
+      "cls": "icon-button shared-schema-drag-handle"
+    },
+    {
+      "i": 31,
+      "visible": true,
+      "text": "Insert field after this row",
+      "cls": "icon-button"
+    },
+    {
+      "i": 32,
+      "visible": true,
+      "text": "Remove field",
+      "cls": "icon-button"
+    },
+    {
+      "i": 33,
+      "visible": true,
+      "text": "Move up",
+      "cls": "icon-button"
+    },
+    {
+      "i": 34,
+      "visible": true,
+      "text": "Move down",
+      "cls": "icon-button"
+    },
+    {
+      "i": 35,
+      "visible": true,
+      "text": "+ Add Field",
+      "cls": "add-schema-row-button"
+    },
+    {
+      "i": 36,
+      "visible": true,
+      "text": "Save Schema As",
+      "cls": ""
+    },
+    {
+      "i": 37,
+      "visible": true,
+      "text": "Recover Draft",
+      "cls": ""
+    },
+    {
+      "i": 38,
+      "visible": true,
+      "text": "Load last used schema",
+      "cls": ""
+    },
+    {
+      "i": 39,
+      "visible": true,
+      "text": "Clear last used schema",
+      "cls": ""
+    },
+    {
+      "i": 40,
+      "visible": true,
+      "text": "",
+      "cls": ""
+    },
+    {
+      "i": 41,
+      "visible": true,
+      "text": "→",
+      "cls": ""
+    },
+    {
+      "i": 42,
+      "visible": true,
+      "text": "→",
+      "cls": ""
+    },
+    {
+      "i": 43,
+      "visible": true,
+      "text": "Import From Clipboard",
+      "cls": "import-export-import-control__clipboard-button"
+    },
+    {
+      "i": 44,
+      "visible": true,
+      "text": "Download file",
+      "cls": ""
+    },
+    {
+      "i": 45,
+      "visible": true,
+      "text": "Preview",
+      "cls": ""
+    },
+    {
+      "i": 46,
+      "visible": true,
+      "text": "Copy",
+      "cls": "text-preview-toolbar__copy-button"
+    },
+    {
+      "i": 47,
+      "visible": true,
+      "text": "Apply",
+      "cls": "apply-options"
+    },
+    {
+      "i": 48,
+      "visible": false,
+      "text": "OK",
+      "cls": ""
+    },
+    {
+      "i": 49,
+      "visible": false,
+      "text": "Cancel",
+      "cls": ""
+    },
+    {
+      "i": 50,
+      "visible": false,
+      "text": "OK",
+      "cls": ""
+    },
+    {
+      "i": 51,
+      "visible": false,
+      "text": "Cancel",
+      "cls": ""
+    },
+    {
+      "i": 52,
+      "visible": false,
+      "text": "Load Sample Schema",
+      "cls": "testdata-schema-sample-button"
+    },
+    {
+      "i": 53,
+      "visible": false,
+      "text": "Load Sample Data",
+      "cls": "instructions-sample-data-button"
+    }
+  ]
+}

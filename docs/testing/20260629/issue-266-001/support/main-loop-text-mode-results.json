@@ -1,0 +1,250 @@
+{
+  "baseUrl": "https://eviltester.github.io/grid-table-editor/site/app.html",
+  "results": [
+    {
+      "name": "positive-regex-domain-enum",
+      "schema": "code\n[A-C]{2}[0-9]\nqty\nnumber.int(1,3)\nstatus\ndatatype.enum(\"Open\",\"Closed\")",
+      "count": 5,
+      "mode": "New Table",
+      "status": "completed",
+      "screenshot": "screenshots/main-loop-text-positive-regex-domain-enum.png",
+      "info": {
+        "headers": [
+          "code",
+          "qty",
+          "status"
+        ],
+        "rows": [
+          [
+            "CB4",
+            "1",
+            "Closed"
+          ],
+          [
+            "CA2",
+            "1",
+            "Open"
+          ],
+          [
+            "AC0",
+            "3",
+            "Closed"
+          ],
+          [
+            "AB7",
+            "1",
+            "Open"
+          ],
+          [
+            "BC6",
+            "1",
+            "Closed"
+          ]
+        ],
+        "schemaText": "code\nregex([A-C]{2}[0-9])\nqty\nnumber.int(1,3)\nstatus\nenum(\"Open\",\"Closed\")",
+        "totalRowsText": "",
+        "messages": [
+          "AnyWayData\n App \nGenerator\nDocs\nBlog\n🌙\nInstructions \nAdd Row Add Rows Above Add Rows Below Delete Selected Rows Filter:  Clear Filters Clear Sort Reset Table  Unique Column Names\ncode\nqty\nstatus\n\n\nCB41Closed\nCA21Open\nAC03Closed\nAB71Open\nBC61Closed\nTotal rows: 5\nTest Data \n Generate\n Grid to Enum Schema\nGenerate complete. Grid updated.\nHow Many?\nNew Table\nAmend Table\nAmend Selected\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\n→\n→\nImport / Export\n Auto Sync\nPreview\nRows \nCopy\nMarkdown\nCSV\nDelimited\nJSON\nJSONL\nXML\nSQL\nCode\nCode (Unit Test)\nGherkin\nHTML\nASCII\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply"
+        ]
+      }
+    },
+    {
+      "name": "amend-table-adds-city",
+      "schema": "city\nlocation.city()",
+      "count": 3,
+      "mode": "Amend Table",
+      "status": "completed",
+      "screenshot": "screenshots/main-loop-text-amend-table-adds-city.png",
+      "info": {
+        "headers": [
+          "id",
+          "name",
+          "city"
+        ],
+        "rows": [
+          [
+            "1",
+            "Velma",
+            "Evansville"
+          ],
+          [
+            "2",
+            "Olga",
+            "Boise City"
+          ],
+          [
+            "3",
+            "Golden",
+            "Wesley Chapel"
+          ]
+        ],
+        "schemaText": "city\nlocation.city()",
+        "totalRowsText": "",
+        "messages": [
+          "AnyWayData\n App \nGenerator\nDocs\nBlog\n🌙\nInstructions \nAdd Row Add Rows Above Add Rows Below Delete Selected Rows Filter:  Clear Filters Clear Sort Reset Table  Unique Column Names\nid\nname\ncity\n\n\n1VelmaEvansville\n2OlgaBoise City\n3GoldenWesley Chapel\nTotal rows: 3\nTest Data \n Generate\n Grid to Enum Schema\nAmend complete. Grid updated.\nHow Many?\nNew Table\nAmend Table\nAmend Selected\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\n→\n→\nImport / Export\n Auto Sync\nPreview\nRows \nCopy\nMarkdown\nCSV\nDelimited\nJSON\nJSONL\nXML\nSQL\nCode\nCode (Unit Test)\nGherkin\nHTML\nASCII\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply"
+        ]
+      }
+    },
+    {
+      "name": "filter-open-after-generation",
+      "schema": "seq\nautoIncrement.sequence(1,1)\nstatus\ndatatype.enum(\"Open\",\"Closed\")",
+      "count": 8,
+      "mode": "New Table",
+      "status": "completed",
+      "screenshot": "screenshots/main-loop-text-filter-open-after-generation.png",
+      "info": {
+        "headers": [
+          "seq",
+          "status"
+        ],
+        "rows": [
+          [
+            "2",
+            "Open"
+          ],
+          [
+            "4",
+            "Open"
+          ],
+          [
+            "7",
+            "Open"
+          ]
+        ],
+        "schemaText": "seq\nautoIncrement.sequence(1,1)\nstatus\nenum(\"Open\",\"Closed\")",
+        "totalRowsText": "",
+        "messages": [
+          "AnyWayData\n App \nGenerator\nDocs\nBlog\n🌙\nInstructions \nAdd Row Add Rows Above Add Rows Below Delete Selected Rows Filter:  Clear Filters Clear Sort Reset Table  Unique Column Names\nseq\nstatus\n\n\n2Open\n4Open\n7Open\nTotal rows: 8 | Filtered Visible: 3\nTest Data \n Generate\n Grid to Enum Schema\nGenerate complete. Grid updated.\nHow Many?\nNew Table\nAmend Table\nAmend Selected\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\n→\n→\nImport / Export\n Auto Sync\nPreview\nRows \nCopy\nMarkdown\nCSV\nDelimited\nJSON\nJSONL\nXML\nSQL\nCode\nCode (Unit Test)\nGherkin\nHTML\nASCII\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply"
+        ]
+      }
+    },
+    {
+      "name": "sort-after-generation",
+      "schema": "seq\nautoIncrement.sequence(1,1)\nqty\nnumber.int(1,9)",
+      "count": 6,
+      "mode": "New Table",
+      "status": "completed",
+      "screenshot": "screenshots/main-loop-text-sort-after-generation.png",
+      "info": {
+        "headers": [
+          "seq",
+          "qty"
+        ],
+        "rows": [
+          [
+            "1",
+            "9"
+          ],
+          [
+            "2",
+            "1"
+          ],
+          [
+            "3",
+            "4"
+          ],
+          [
+            "4",
+            "8"
+          ],
+          [
+            "5",
+            "4"
+          ],
+          [
+            "6",
+            "5"
+          ]
+        ],
+        "schemaText": "seq\nautoIncrement.sequence(1,1)\nqty\nnumber.int(1,9)",
+        "totalRowsText": "",
+        "messages": [
+          "AnyWayData\n App \nGenerator\nDocs\nBlog\n🌙\nInstructions \nAdd Row Add Rows Above Add Rows Below Delete Selected Rows Filter:  Clear Filters Clear Sort Reset Table  Unique Column Names\nseq\nqty\n\n\n19\n21\n34\n48\n54\n65\nTotal rows: 6\nTest Data \n Generate\n Grid to Enum Schema\nGenerate complete. Grid updated.\nHow Many?\nNew Table\nAmend Table\nAmend Selected\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\n→\n→\nImport / Export\n Auto Sync\nPreview\nRows \nCopy\nMarkdown\nCSV\nDelimited\nJSON\nJSONL\nXML\nSQL\nCode\nCode (Unit Test)\nGherkin\nHTML\nASCII\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply"
+        ]
+      }
+    },
+    {
+      "name": "grid-to-enum-schema",
+      "schema": "status\ndatatype.enum(\"New\",\"Active\",\"Closed\")",
+      "count": 6,
+      "mode": "New Table",
+      "status": "completed",
+      "screenshot": "screenshots/main-loop-text-grid-to-enum-schema.png",
+      "info": {
+        "headers": [
+          "status"
+        ],
+        "rows": [
+          [
+            "Closed"
+          ],
+          [
+            "New"
+          ],
+          [
+            "Active"
+          ],
+          [
+            "Active"
+          ],
+          [
+            "New"
+          ],
+          [
+            "New"
+          ]
+        ],
+        "schemaText": "status\nenum(\"New\",\"Active\",\"Closed\")",
+        "totalRowsText": "",
+        "messages": [
+          "AnyWayData\n App \nGenerator\nDocs\nBlog\n🌙\nInstructions \nAdd Row Add Rows Above Add Rows Below Delete Selected Rows Filter:  Clear Filters Clear Sort Reset Table  Unique Column Names\nstatus\n\n\nClosed\nNew\nActive\nActive\nNew\nNew\nTotal rows: 6\nTest Data \n Generate\n Grid to Enum Schema\nScanning grid for enum schema...\nHow Many?\nNew Table\nAmend Table\nAmend Selected\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\n→\n→\nImport / Export\n Auto Sync\nPreview\nRows \nCopy\nMarkdown\nCSV\nDelimited\nJSON\nJSONL\nXML\nSQL\nCode\nCode (Unit Test)\nGherkin\nHTML\nASCII\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nGrid to Enum Schema\n\n- largest Column has 3 unique values\n\nLimit imported enum(s) to max size of \nBuild Schema\nCancel"
+        ]
+      }
+    },
+    {
+      "name": "invalid-helper-message",
+      "schema": "helper\nhelpers.arrayElement()",
+      "count": 2,
+      "mode": "New Table",
+      "status": "completed",
+      "screenshot": "screenshots/main-loop-text-invalid-helper-message.png",
+      "info": {
+        "headers": [
+          "~rename-me"
+        ],
+        "rows": [],
+        "schemaText": "helper\nhelpers.arrayElement()",
+        "totalRowsText": "",
+        "messages": [
+          "AnyWayData\n App \nGenerator\nDocs\nBlog\n🌙\nInstructions \nAdd Row Add Rows Above Add Rows Below Delete Selected Rows Filter:  Clear Filters Clear Sort Reset Table  Unique Column Names\n~rename-me\n\n\nTotal rows: 0\nTest Data \n Generate\n Grid to Enum Schema\nSchema validation failed. Grid unchanged.\nHow Many?\nNew Table\nAmend Table\nAmend Selected\nhelper failed faker validation - Invalid Faker API Call helpers.arrayElement requires an array argument, e.g. helpers.arrayElement([\"A\", \"B\", \"C\"]).\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\n→\n→\nImport / Export\n Auto Sync\nPreview\nRows \nCopy\nMarkdown\nCSV\nDelimited\nJSON\nJSONL\nXML\nSQL\nCode\nCode (Unit Test)\nGherkin\nHTML\nASCII\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply"
+        ]
+      }
+    },
+    {
+      "name": "invalid-auto-sequence-step-zero",
+      "schema": "id\nautoIncrement.sequence(1,0)",
+      "count": 2,
+      "mode": "New Table",
+      "status": "completed",
+      "screenshot": "screenshots/main-loop-text-invalid-auto-sequence-step-zero.png",
+      "info": {
+        "headers": [
+          "id"
+        ],
+        "rows": [
+          [
+            "**ERROR**"
+          ],
+          [
+            "**ERROR**"
+          ]
+        ],
+        "schemaText": "id\nautoIncrement.sequence(1,0)",
+        "totalRowsText": "",
+        "messages": [
+          "AnyWayData\n App \nGenerator\nDocs\nBlog\n🌙\nInstructions \nAdd Row Add Rows Above Add Rows Below Delete Selected Rows Filter:  Clear Filters Clear Sort Reset Table  Unique Column Names\nid\n\n\n**ERROR**\n**ERROR**\nTotal rows: 2\nTest Data \n Generate\n Grid to Enum Schema\nGenerate complete. Grid updated.\nHow Many?\nNew Table\nAmend Table\nAmend Selected\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\n→\n→\nImport / Export\n Auto Sync\nPreview\nRows \nCopy\nMarkdown\nCSV\nDelimited\nJSON\nJSONL\nXML\nSQL\nCode\nCode (Unit Test)\nGherkin\nHTML\nASCII\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply"
+        ]
+      }
+    }
+  ]
+}

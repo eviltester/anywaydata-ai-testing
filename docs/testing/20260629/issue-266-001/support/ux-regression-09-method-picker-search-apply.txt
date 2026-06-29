@@ -1,0 +1,14 @@
+{
+  "activeAfterSearch": {
+    "tag": "INPUT",
+    "value": "firstName",
+    "text": "Filter methods",
+    "cls": "method-picker-search"
+  },
+  "listAfterSearch": "Select schema method\n×\nAll\nCore\nairline\nairplane\nairport\nanimal\nautoIncrement\nbook\nchemicalElement\ncolor\ncommerce\ncompany\ndatabase\ndatatype\ndate\nfinance\nfood\ngit\nhacker\nimage\ninternet\nlanguage\nliteral\nlocation\nlorem\nmusic\nnumber\nperson\nphone\nstring\nsystem\nunit\nvehicle\nword\nFaker\nRecently used\nhelpers.fake\nInterpolates faker template placeholders inside a string and returns the rendered result.\nfaker\nhelpers.fake\n\nInterpolates faker template placeholders inside a string and returns the rendered result.\n\nSchema: faker.helpers.fake()\n\nParameter Details\nName\tDetails\npattern\tTemplate string containing faker placeholders such as {{person.firstName}} or {{location.city}}.\nParameter Types\nName\tType\tReq\npattern\tstring\trequired\nUsage Examples\n\nShows helpers.fake in use.\n\nCommand: helpers.fake\n\nParams field: (\"Hi, my name is {{person.firstName}} {{person.lastName}}!\")\n\nFull call: helpers.fake(\"Hi, my name is {{person.firstName}} {{person.lastName}}!\")\n\nReturns: Hi, my name is Aaliyah Bosco!\n\nOpen documentation\n\nCancel\nApply",
+  "selectedLabel": "no firstName result located",
+  "detailSelected": "Select schema method\n×\nAll\nCore\nairline\nairplane\nairport\nanimal\nautoIncrement\nbook\nchemicalElement\ncolor\ncommerce\ncompany\ndatabase\ndatatype\ndate\nfinance\nfood\ngit\nhacker\nimage\ninternet\nlanguage\nliteral\nlocation\nlorem\nmusic\nnumber\nperson\nphone\nstring\nsystem\nunit\nvehicle\nword\nFaker\nRecently used\nhelpers.fake\nInterpolates faker template placeholders inside a string and returns the rendered result.\nfaker\nhelpers.fake\n\nInterpolates faker template placeholders inside a string and returns the rendered result.\n\nSchema: faker.helpers.fake()\n\nParameter Details\nName\tDetails\npattern\tTemplate string containing faker placeholders such as {{person.firstName}} or {{location.city}}.\nParameter Types\nName\tType\tReq\npattern\tstring\trequired\nUsage Examples\n\nShows helpers.fake in use.\n\nCommand: helpers.fake\n\nParams field: (\"Hi, my name is {{person.firstName}} {{person.lastName}}!\")\n\nFull call: helpers.fake(\"Hi, my name is {{person.firstName}} {{person.lastName}}!\")\n\nReturns: Hi, my name is Aaliyah Bosco!\n\nOpen documentation\n\nCancel\nApply",
+  "selectedBtnText2": "helpers.fake",
+  "paramsVal": "",
+  "previewText": ""
+}

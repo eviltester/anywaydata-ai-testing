@@ -1,0 +1,748 @@
+[
+  {
+    "id": "domain-quick-multi",
+    "category": "domain quick examples",
+    "docs": "domain/domain-test-data",
+    "schema": "FirstName\nperson.firstName()\nLastName\nperson.lastName()\nEmail\ninternet.email()\nAddress\nlocation.streetAddress()",
+    "output": "\"FirstName\",\"LastName\",\"Email\",\"Address\"\n\"Charlotte\",\"Luettgen\",\"Glenn81@hotmail.com\",\"1173 Bartoletti-Dach Row\"\n\"Helen\",\"Anderson\",\"Tyrone.Little52@hotmail.com\",\"40378 Goodwin Ridge\"\n\"Alyssa\",\"Dibbert\",\"Cornelius70@gmail.com\",\"7258 Maureen Greens\"\n\"Sue\",\"Spinka\",\"Rigoberto.Nikolaus25@hotmail.com\",\"44617 Treva Plaza\"\n\"Madonna\",\"Koepp\",\"Eldred.Cummerata97@hotmail.com\",\"157 Max Mews\"\n\"Jerry\",\"Zboncak-Flatley\",\"Santiago.Stehr@hotmail.com\",\"8604 Albany Road\"\n\"Einar\",\"Predovic\",\"Janae10@gmail.com\",\"23794 The Laurels\"\n\"Cristina\",\"Abshire\",\"Belle_Marks55@hotmail.com\",\"874 Susie Alley\"\n\"Lemuel\",\"Morar\",\"Orlando12@gmail.com\",\"981 Davis Street\"\n\"Vera\",\"Blick\",\"Kamryn_Kerluke34@gmail.com\",\"2597 Adolph Groves\"",
+    "rows": [
+      [
+        "FirstName",
+        "LastName",
+        "Email",
+        "Address"
+      ],
+      [
+        "Charlotte",
+        "Luettgen",
+        "Glenn81@hotmail.com",
+        "1173 Bartoletti-Dach Row"
+      ],
+      [
+        "Helen",
+        "Anderson",
+        "Tyrone.Little52@hotmail.com",
+        "40378 Goodwin Ridge"
+      ],
+      [
+        "Alyssa",
+        "Dibbert",
+        "Cornelius70@gmail.com",
+        "7258 Maureen Greens"
+      ],
+      [
+        "Sue",
+        "Spinka",
+        "Rigoberto.Nikolaus25@hotmail.com",
+        "44617 Treva Plaza"
+      ],
+      [
+        "Madonna",
+        "Koepp",
+        "Eldred.Cummerata97@hotmail.com",
+        "157 Max Mews"
+      ],
+      [
+        "Jerry",
+        "Zboncak-Flatley",
+        "Santiago.Stehr@hotmail.com",
+        "8604 Albany Road"
+      ],
+      [
+        "Einar",
+        "Predovic",
+        "Janae10@gmail.com",
+        "23794 The Laurels"
+      ],
+      [
+        "Cristina",
+        "Abshire",
+        "Belle_Marks55@hotmail.com",
+        "874 Susie Alley"
+      ],
+      [
+        "Lemuel",
+        "Morar",
+        "Orlando12@gmail.com",
+        "981 Davis Street"
+      ],
+      [
+        "Vera",
+        "Blick",
+        "Kamryn_Kerluke34@gmail.com",
+        "2597 Adolph Groves"
+      ]
+    ],
+    "lineCount": 11,
+    "tableRows": [
+      "CharlotteLuettgenGlenn81@hotmail.com1173 Bartoletti-Dach Row",
+      "HelenAndersonTyrone.Little52@hotmail.com40378 Goodwin Ridge",
+      "AlyssaDibbertCornelius70@gmail.com7258 Maureen Greens",
+      "SueSpinkaRigoberto.Nikolaus25@hotmail.com44617 Treva Plaza",
+      "MadonnaKoeppEldred.Cummerata97@hotmail.com157 Max Mews",
+      "JerryZboncak-FlatleySantiago.Stehr@hotmail.com8604 Albany Road",
+      "EinarPredovicJanae10@gmail.com23794 The Laurels",
+      "CristinaAbshireBelle_Marks55@hotmail.com874 Susie Alley",
+      "LemuelMorarOrlando12@gmail.com981 Davis Street",
+      "VeraBlickKamryn_Kerluke34@gmail.com2597 Adolph Groves"
+    ],
+    "bodyTail": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nFirstName\nLastName\nEmail\nAddress\n\n\nCharlotteLuettgenGlenn81@hotmail.com1173 Bartoletti-Dach Row\nHelenAndersonTyrone.Little52@hotmail.com40378 Goodwin Ridge\nAlyssaDibbertCornelius70@gmail.com7258 Maureen Greens\nSueSpinkaRigoberto.Nikolaus25@hotmail.com44617 Treva Plaza\nMadonnaKoeppEldred.Cummerata97@hotmail.com157 Max Mews\nJerryZboncak-FlatleySantiago.Stehr@hotmail.com8604 Albany Road\nEinarPredovicJanae10@gmail.com23794 The Laurels\nCristinaAbshireBelle_Marks55@hotmail.com874 Susie Alley\nLemuelMorarOrlando12@gmail.com981 Davis Street\nVeraBlickKamryn_Kerluke34@gmail.com2597 Adolph Groves"
+  },
+  {
+    "id": "domain-validators-constrained",
+    "category": "validators constrained params",
+    "docs": "domain/domain-test-data + faker-test-data",
+    "schema": "Method\ninternet.httpMethod(commonOnly=true)\nDirection\nlocation.direction(abbreviated=true)\nNum\nnumber.int(min=32, max=47)",
+    "output": "\"Method\",\"Direction\",\"Num\"\n\"POST\",\"N\",\"40\"\n\"DELETE\",\"N\",\"47\"\n\"GET\",\"E\",\"35\"\n\"DELETE\",\"SW\",\"35\"\n\"HEAD\",\"NW\",\"33\"\n\"POST\",\"NW\",\"46\"\n\"HEAD\",\"S\",\"35\"\n\"HEAD\",\"SW\",\"41\"\n\"POST\",\"NW\",\"33\"\n\"GET\",\"S\",\"42\"",
+    "rows": [
+      [
+        "Method",
+        "Direction",
+        "Num"
+      ],
+      [
+        "POST",
+        "N",
+        "40"
+      ],
+      [
+        "DELETE",
+        "N",
+        "47"
+      ],
+      [
+        "GET",
+        "E",
+        "35"
+      ],
+      [
+        "DELETE",
+        "SW",
+        "35"
+      ],
+      [
+        "HEAD",
+        "NW",
+        "33"
+      ],
+      [
+        "POST",
+        "NW",
+        "46"
+      ],
+      [
+        "HEAD",
+        "S",
+        "35"
+      ],
+      [
+        "HEAD",
+        "SW",
+        "41"
+      ],
+      [
+        "POST",
+        "NW",
+        "33"
+      ],
+      [
+        "GET",
+        "S",
+        "42"
+      ]
+    ],
+    "lineCount": 11,
+    "tableRows": [
+      "POSTN40",
+      "DELETEN47",
+      "GETE35",
+      "DELETESW35",
+      "HEADNW33",
+      "POSTNW46",
+      "HEADS35",
+      "HEADSW41",
+      "POSTNW33",
+      "GETS42"
+    ],
+    "bodyTail": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nMethod\nDirection\nNum\n\n\nPOSTN40\nDELETEN47\nGETE35\nDELETESW35\nHEADNW33\nPOSTNW46\nHEADS35\nHEADSW41\nPOSTNW33\nGETS42"
+  },
+  {
+    "id": "domain-date-finance-structured",
+    "category": "structured params",
+    "docs": "domain/domain-test-data",
+    "schema": "Date\ndate.between(from=1577836800000, to=1659312000000)\nIBAN\nfinance.iban(formatted=true, countryCode=\"GB\")\nIBANDE\nfinance.iban(formatted=false, countryCode=\"DE\")",
+    "output": "\"Date\",\"IBAN\",\"IBANDE\"\n\"2020-09-13T05:16:40.471Z\",\"GB52 QWYC 0065 3201 1020 09\",\"DE16900700690020074005\"\n\"2020-12-19T17:31:23.991Z\",\"GB70 UPPM 8067 4358 3803 08\",\"DE17400505307973782131\"\n\"2022-04-27T22:15:23.031Z\",\"GB82 SIQK 0051 3900 4004 80\",\"DE95018847475008005857\"\n\"2021-09-11T16:21:52.757Z\",\"GB89 MSPK 6011 3686 1913 02\",\"DE85310400144608835480\"\n\"2022-03-16T22:03:13.573Z\",\"GB56 ZIBT 0036 0935 0063 80\",\"DE80143002890604005760\"\n\"2022-06-25T13:41:46.320Z\",\"GB98 QCMY 7055 2708 6108 38\",\"DE34044874230020066082\"\n\"2020-07-27T16:18:15.241Z\",\"GB23 GRUY 0906 1008 3506 80\",\"DE77000451860075082023\"\n\"2021-08-21T14:27:43.676Z\",\"GB90 LNGJ 3367 8500 6650 60\",\"DE83104080417068900616\"\n\"2020-01-26T14:38:41.529Z\",\"GB08 HOQK 0010 0892 7955 12\",\"DE56700720088006557061\"\n\"2021-06-04T17:39:04.183Z\",\"GB17 IRWM 9001 2050 0400 49\",\"DE34348750033062005093\"",
+    "rows": [
+      [
+        "Date",
+        "IBAN",
+        "IBANDE"
+      ],
+      [
+        "2020-09-13T05:16:40.471Z",
+        "GB52 QWYC 0065 3201 1020 09",
+        "DE16900700690020074005"
+      ],
+      [
+        "2020-12-19T17:31:23.991Z",
+        "GB70 UPPM 8067 4358 3803 08",
+        "DE17400505307973782131"
+      ],
+      [
+        "2022-04-27T22:15:23.031Z",
+        "GB82 SIQK 0051 3900 4004 80",
+        "DE95018847475008005857"
+      ],
+      [
+        "2021-09-11T16:21:52.757Z",
+        "GB89 MSPK 6011 3686 1913 02",
+        "DE85310400144608835480"
+      ],
+      [
+        "2022-03-16T22:03:13.573Z",
+        "GB56 ZIBT 0036 0935 0063 80",
+        "DE80143002890604005760"
+      ],
+      [
+        "2022-06-25T13:41:46.320Z",
+        "GB98 QCMY 7055 2708 6108 38",
+        "DE34044874230020066082"
+      ],
+      [
+        "2020-07-27T16:18:15.241Z",
+        "GB23 GRUY 0906 1008 3506 80",
+        "DE77000451860075082023"
+      ],
+      [
+        "2021-08-21T14:27:43.676Z",
+        "GB90 LNGJ 3367 8500 6650 60",
+        "DE83104080417068900616"
+      ],
+      [
+        "2020-01-26T14:38:41.529Z",
+        "GB08 HOQK 0010 0892 7955 12",
+        "DE56700720088006557061"
+      ],
+      [
+        "2021-06-04T17:39:04.183Z",
+        "GB17 IRWM 9001 2050 0400 49",
+        "DE34348750033062005093"
+      ]
+    ],
+    "lineCount": 11,
+    "tableRows": [
+      "2020-09-13T05:16:40.471ZGB52 QWYC 0065 3201 1020 09DE16900700690020074005",
+      "2020-12-19T17:31:23.991ZGB70 UPPM 8067 4358 3803 08DE17400505307973782131",
+      "2022-04-27T22:15:23.031ZGB82 SIQK 0051 3900 4004 80DE95018847475008005857",
+      "2021-09-11T16:21:52.757ZGB89 MSPK 6011 3686 1913 02DE85310400144608835480",
+      "2022-03-16T22:03:13.573ZGB56 ZIBT 0036 0935 0063 80DE80143002890604005760",
+      "2022-06-25T13:41:46.320ZGB98 QCMY 7055 2708 6108 38DE34044874230020066082",
+      "2020-07-27T16:18:15.241ZGB23 GRUY 0906 1008 3506 80DE77000451860075082023",
+      "2021-08-21T14:27:43.676ZGB90 LNGJ 3367 8500 6650 60DE83104080417068900616",
+      "2020-01-26T14:38:41.529ZGB08 HOQK 0010 0892 7955 12DE56700720088006557061",
+      "2021-06-04T17:39:04.183ZGB17 IRWM 9001 2050 0400 49DE34348750033062005093"
+    ],
+    "bodyTail": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nDate\nIBAN\nIBANDE\n\n\n2020-09-13T05:16:40.471ZGB52 QWYC 0065 3201 1020 09DE16900700690020074005\n2020-12-19T17:31:23.991ZGB70 UPPM 8067 4358 3803 08DE17400505307973782131\n2022-04-27T22:15:23.031ZGB82 SIQK 0051 3900 4004 80DE95018847475008005857\n2021-09-11T16:21:52.757ZGB89 MSPK 6011 3686 1913 02DE85310400144608835480\n2022-03-16T22:03:13.573ZGB56 ZIBT 0036 0935 0063 80DE80143002890604005760\n2022-06-25T13:41:46.320ZGB98 QCMY 7055 2708 6108 38DE34044874230020066082\n2020-07-27T16:18:15.241ZGB23 GRUY 0906 1008 3506 80DE77000451860075082023\n2021-08-21T14:27:43.676ZGB90 LNGJ 3367 8500 6650 60DE83104080417068900616\n2020-01-26T14:38:41.529ZGB08 HOQK 0010 0892 7955 12DE56700720088006557061\n2021-06-04T17:39:04.183ZGB17 IRWM 9001 2050 0400 49DE34348750033062005093"
+  },
+  {
+    "id": "faker-helpers-structured",
+    "category": "faker helper structured params",
+    "docs": "faker-test-data",
+    "schema": "Sentence\nhelpers.mustache(\"Hello {{name}}\", { name: \"Ada\" })\nFakeSentence\nhelpers.fake(\"Hi, my name is {{person.firstName}} {{person.lastName}}!\")",
+    "output": "\"Sentence\",\"FakeSentence\"\n\"Hello Ada\",\"Hi, my name is Lana Feest!\"\n\"Hello Ada\",\"Hi, my name is Stacy Kautzer!\"\n\"Hello Ada\",\"Hi, my name is Okey Oberbrunner!\"\n\"Hello Ada\",\"Hi, my name is Lukas Greenholt!\"\n\"Hello Ada\",\"Hi, my name is Carleton Dickinson!\"\n\"Hello Ada\",\"Hi, my name is Jenny Koch!\"\n\"Hello Ada\",\"Hi, my name is Mercedes Marks!\"\n\"Hello Ada\",\"Hi, my name is Cary Strosin!\"\n\"Hello Ada\",\"Hi, my name is Brian Gutkowski-Wisoky!\"\n\"Hello Ada\",\"Hi, my name is Daphnee Schinner!\"",
+    "rows": [
+      [
+        "Sentence",
+        "FakeSentence"
+      ],
+      [
+        "Hello Ada",
+        "Hi, my name is Lana Feest!"
+      ],
+      [
+        "Hello Ada",
+        "Hi, my name is Stacy Kautzer!"
+      ],
+      [
+        "Hello Ada",
+        "Hi, my name is Okey Oberbrunner!"
+      ],
+      [
+        "Hello Ada",
+        "Hi, my name is Lukas Greenholt!"
+      ],
+      [
+        "Hello Ada",
+        "Hi, my name is Carleton Dickinson!"
+      ],
+      [
+        "Hello Ada",
+        "Hi, my name is Jenny Koch!"
+      ],
+      [
+        "Hello Ada",
+        "Hi, my name is Mercedes Marks!"
+      ],
+      [
+        "Hello Ada",
+        "Hi, my name is Cary Strosin!"
+      ],
+      [
+        "Hello Ada",
+        "Hi, my name is Brian Gutkowski-Wisoky!"
+      ],
+      [
+        "Hello Ada",
+        "Hi, my name is Daphnee Schinner!"
+      ]
+    ],
+    "lineCount": 11,
+    "tableRows": [
+      "Hello AdaHi, my name is Lana Feest!",
+      "Hello AdaHi, my name is Stacy Kautzer!",
+      "Hello AdaHi, my name is Okey Oberbrunner!",
+      "Hello AdaHi, my name is Lukas Greenholt!",
+      "Hello AdaHi, my name is Carleton Dickinson!",
+      "Hello AdaHi, my name is Jenny Koch!",
+      "Hello AdaHi, my name is Mercedes Marks!",
+      "Hello AdaHi, my name is Cary Strosin!",
+      "Hello AdaHi, my name is Brian Gutkowski-Wisoky!",
+      "Hello AdaHi, my name is Daphnee Schinner!"
+    ],
+    "bodyTail": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nSentence\nFakeSentence\n\n\nHello AdaHi, my name is Lana Feest!\nHello AdaHi, my name is Stacy Kautzer!\nHello AdaHi, my name is Okey Oberbrunner!\nHello AdaHi, my name is Lukas Greenholt!\nHello AdaHi, my name is Carleton Dickinson!\nHello AdaHi, my name is Jenny Koch!\nHello AdaHi, my name is Mercedes Marks!\nHello AdaHi, my name is Cary Strosin!\nHello AdaHi, my name is Brian Gutkowski-Wisoky!\nHello AdaHi, my name is Daphnee Schinner!"
+  },
+  {
+    "id": "auto-increment-sequence",
+    "category": "new/helper sequence",
+    "docs": "auto-increment-sequences",
+    "schema": "Id\nautoIncrement.sequence()\nBuild\nautoIncrement.sequence(start=10, step=5)\nFilename\nautoIncrement.sequence(start=1, step=5, prefix=\"filename\", suffix=\".txt\", zeropadding=3)",
+    "output": "\"Id\",\"Build\",\"Filename\"\n\"1\",\"10\",\"filename001.txt\"\n\"2\",\"15\",\"filename006.txt\"\n\"3\",\"20\",\"filename011.txt\"\n\"4\",\"25\",\"filename016.txt\"\n\"5\",\"30\",\"filename021.txt\"\n\"6\",\"35\",\"filename026.txt\"\n\"7\",\"40\",\"filename031.txt\"\n\"8\",\"45\",\"filename036.txt\"\n\"9\",\"50\",\"filename041.txt\"\n\"10\",\"55\",\"filename046.txt\"",
+    "rows": [
+      [
+        "Id",
+        "Build",
+        "Filename"
+      ],
+      [
+        "1",
+        "10",
+        "filename001.txt"
+      ],
+      [
+        "2",
+        "15",
+        "filename006.txt"
+      ],
+      [
+        "3",
+        "20",
+        "filename011.txt"
+      ],
+      [
+        "4",
+        "25",
+        "filename016.txt"
+      ],
+      [
+        "5",
+        "30",
+        "filename021.txt"
+      ],
+      [
+        "6",
+        "35",
+        "filename026.txt"
+      ],
+      [
+        "7",
+        "40",
+        "filename031.txt"
+      ],
+      [
+        "8",
+        "45",
+        "filename036.txt"
+      ],
+      [
+        "9",
+        "50",
+        "filename041.txt"
+      ],
+      [
+        "10",
+        "55",
+        "filename046.txt"
+      ]
+    ],
+    "lineCount": 11,
+    "tableRows": [
+      "110filename001.txt",
+      "215filename006.txt",
+      "320filename011.txt",
+      "425filename016.txt",
+      "530filename021.txt",
+      "635filename026.txt",
+      "740filename031.txt",
+      "845filename036.txt",
+      "950filename041.txt",
+      "1055filename046.txt"
+    ],
+    "bodyTail": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nId\nBuild\nFilename\n\n\n110filename001.txt\n215filename006.txt\n320filename011.txt\n425filename016.txt\n530filename021.txt\n635filename026.txt\n740filename031.txt\n845filename036.txt\n950filename041.txt\n1055filename046.txt"
+  },
+  {
+    "id": "string-counterstrings",
+    "category": "new/helper string",
+    "docs": "counterstrings",
+    "schema": "Counter15\nstring.counterString(15)\nCounterRange\nstring.counterString(5, 12)\nCounterPipe\nstring.counterString(5, 12, delimiter=\"|\")",
+    "output": "\"Counter15\",\"CounterRange\",\"CounterPipe\"\n\"*3*5*7*9*12*15*\",\"*3*5*7*\",\"2|4|6|\"\n\"*3*5*7*9*12*15*\",\"*3*5*7*9*12*\",\"|3|5|7|\"\n\"*3*5*7*9*12*15*\",\"2*4*6*8*\",\"|3|5|\"\n\"*3*5*7*9*12*15*\",\"*3*5*\",\"2|4|6|8|\"\n\"*3*5*7*9*12*15*\",\"*3*5*7*10*\",\"2|4|6|8|\"\n\"*3*5*7*9*12*15*\",\"2*4*6*\",\"2|4|6|8|11|\"\n\"*3*5*7*9*12*15*\",\"*3*5*7*9*\",\"|3|5|7|\"\n\"*3*5*7*9*12*15*\",\"*3*5*\",\"2|4|6|\"\n\"*3*5*7*9*12*15*\",\"2*4*6*8*11*\",\"|3|5|7|\"\n\"*3*5*7*9*12*15*\",\"2*4*6*8*11*\",\"2|4|6|\"",
+    "rows": [
+      [
+        "Counter15",
+        "CounterRange",
+        "CounterPipe"
+      ],
+      [
+        "*3*5*7*9*12*15*",
+        "*3*5*7*",
+        "2|4|6|"
+      ],
+      [
+        "*3*5*7*9*12*15*",
+        "*3*5*7*9*12*",
+        "|3|5|7|"
+      ],
+      [
+        "*3*5*7*9*12*15*",
+        "2*4*6*8*",
+        "|3|5|"
+      ],
+      [
+        "*3*5*7*9*12*15*",
+        "*3*5*",
+        "2|4|6|8|"
+      ],
+      [
+        "*3*5*7*9*12*15*",
+        "*3*5*7*10*",
+        "2|4|6|8|"
+      ],
+      [
+        "*3*5*7*9*12*15*",
+        "2*4*6*",
+        "2|4|6|8|11|"
+      ],
+      [
+        "*3*5*7*9*12*15*",
+        "*3*5*7*9*",
+        "|3|5|7|"
+      ],
+      [
+        "*3*5*7*9*12*15*",
+        "*3*5*",
+        "2|4|6|"
+      ],
+      [
+        "*3*5*7*9*12*15*",
+        "2*4*6*8*11*",
+        "|3|5|7|"
+      ],
+      [
+        "*3*5*7*9*12*15*",
+        "2*4*6*8*11*",
+        "2|4|6|"
+      ]
+    ],
+    "lineCount": 11,
+    "tableRows": [
+      "*3*5*7*9*12*15**3*5*7*2|4|6|",
+      "*3*5*7*9*12*15**3*5*7*9*12*|3|5|7|",
+      "*3*5*7*9*12*15*2*4*6*8*|3|5|",
+      "*3*5*7*9*12*15**3*5*2|4|6|8|",
+      "*3*5*7*9*12*15**3*5*7*10*2|4|6|8|",
+      "*3*5*7*9*12*15*2*4*6*2|4|6|8|11|",
+      "*3*5*7*9*12*15**3*5*7*9*|3|5|7|",
+      "*3*5*7*9*12*15**3*5*2|4|6|",
+      "*3*5*7*9*12*15*2*4*6*8*11*|3|5|7|",
+      "*3*5*7*9*12*15*2*4*6*8*11*2|4|6|"
+    ],
+    "bodyTail": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nCounter15\nCounterRange\nCounterPipe\n\n\n*3*5*7*9*12*15**3*5*7*2|4|6|\n*3*5*7*9*12*15**3*5*7*9*12*|3|5|7|\n*3*5*7*9*12*15*2*4*6*8*|3|5|\n*3*5*7*9*12*15**3*5*2|4|6|8|\n*3*5*7*9*12*15**3*5*7*10*2|4|6|8|\n*3*5*7*9*12*15*2*4*6*2|4|6|8|11|\n*3*5*7*9*12*15**3*5*7*9*|3|5|7|\n*3*5*7*9*12*15**3*5*2|4|6|\n*3*5*7*9*12*15*2*4*6*8*11*|3|5|7|\n*3*5*7*9*12*15*2*4*6*8*11*2|4|6|"
+  },
+  {
+    "id": "datatype-enum-variants",
+    "category": "enum/constrained syntax",
+    "docs": "Schema-Definition + pairwise-testing",
+    "schema": "Status\nenum(\"Open\",\"In Progress\",\"Closed\")\nPriority\ndatatype.enum(csv=\"high,medium,low\")\nLegacy\nhigh,medium,low",
+    "output": "\"Status\",\"Priority\",\"Legacy\"\n\"Open\",\"high\",\"medium\"\n\"Closed\",\"high\",\"low\"\n\"Closed\",\"medium\",\"high\"\n\"In Progress\",\"low\",\"low\"\n\"Open\",\"medium\",\"medium\"\n\"Closed\",\"medium\",\"medium\"\n\"Open\",\"medium\",\"low\"\n\"In Progress\",\"low\",\"medium\"\n\"In Progress\",\"medium\",\"medium\"\n\"Open\",\"low\",\"high\"",
+    "rows": [
+      [
+        "Status",
+        "Priority",
+        "Legacy"
+      ],
+      [
+        "Open",
+        "high",
+        "medium"
+      ],
+      [
+        "Closed",
+        "high",
+        "low"
+      ],
+      [
+        "Closed",
+        "medium",
+        "high"
+      ],
+      [
+        "In Progress",
+        "low",
+        "low"
+      ],
+      [
+        "Open",
+        "medium",
+        "medium"
+      ],
+      [
+        "Closed",
+        "medium",
+        "medium"
+      ],
+      [
+        "Open",
+        "medium",
+        "low"
+      ],
+      [
+        "In Progress",
+        "low",
+        "medium"
+      ],
+      [
+        "In Progress",
+        "medium",
+        "medium"
+      ],
+      [
+        "Open",
+        "low",
+        "high"
+      ]
+    ],
+    "lineCount": 11,
+    "tableRows": [
+      "Openhighmedium",
+      "Closedhighlow",
+      "Closedmediumhigh",
+      "In Progresslowlow",
+      "Openmediummedium",
+      "Closedmediummedium",
+      "Openmediumlow",
+      "In Progresslowmedium",
+      "In Progressmediummedium",
+      "Openlowhigh"
+    ],
+    "bodyTail": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\n \n Generate Combinations\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nStatus\nPriority\nLegacy\n\n\nOpenhighmedium\nClosedhighlow\nClosedmediumhigh\nIn Progresslowlow\nOpenmediummedium\nClosedmediummedium\nOpenmediumlow\nIn Progresslowmedium\nIn Progressmediummedium\nOpenlowhigh"
+  },
+  {
+    "id": "domain-newer-families",
+    "category": "new domain families sample",
+    "docs": "domain/domain-test-data command picker",
+    "schema": "Airline\nairline.name()\nBook\nbook.title()\nFood\nfood.dish()\nMusic\nmusic.genre()\nVehicle\nvehicle.vin()",
+    "output": "\"Airline\",\"Book\",\"Food\",\"Music\",\"Vehicle\"\n\"Air India\",\"The Three Musketeers\",\"Meatballs With Sauce\",\"Easy Listening\",\"9622455632WX57013\"\n\"Alitalia\",\"The Problems of Philosophy\",\"Rose Baie-spiced Potatoes Bowl\",\"Ethio-jazz\",\"F5VC9333JGK843253\"\n\"AirAsia X\",\"Cranford\",\"Calamari-infused Ostrich\",\"Alt-Rock\",\"ZNDR8J19XPB664943\"\n\"Etihad Airways\",\"His Dark Materials\",\"Jerk-rubbed Crocodile Salad\",\"New Wave\",\"N0B8SXD2WFST67308\"\n\"SpiceJet\",\"Nightmare Abbey\",\"Tender Peas Curry\",\"Club\",\"SGVVXBEY87BA68900\"\n\"Air India\",\"A Wrinkle in Time\",\"Nectarine-infused Rabbit Roast\",\"Proto-punk\",\"NPSHD1TEG8KM33016\"\n\"Thai Airways\",\"A Tale of Two Cities\",\"Moist Aubergine And Rhubarb Salad\",\"Ethio-jazz\",\"2DJFS0X1T9NY64582\"\n\"KLM Royal Dutch Airlines\",\"The Sleepwalkers\",\"Raspberry-infused Rabbit\",\"Soundtrack\",\"4EF5BRX5S1LA47890\"\n\"SkyWest Airlines\",\"Clarissa\",\"Anise Star-spiced Cos Lettuce Bowl\",\"Trance\",\"K6NS2RV0XMJE71677\"\n\"Virgin Australia\",\"Anna Karenina\",\"Baking Soda-infused Emu\",\"Rocksteady\",\"26MJHM2Z95UV78242\"",
+    "rows": [
+      [
+        "Airline",
+        "Book",
+        "Food",
+        "Music",
+        "Vehicle"
+      ],
+      [
+        "Air India",
+        "The Three Musketeers",
+        "Meatballs With Sauce",
+        "Easy Listening",
+        "9622455632WX57013"
+      ],
+      [
+        "Alitalia",
+        "The Problems of Philosophy",
+        "Rose Baie-spiced Potatoes Bowl",
+        "Ethio-jazz",
+        "F5VC9333JGK843253"
+      ],
+      [
+        "AirAsia X",
+        "Cranford",
+        "Calamari-infused Ostrich",
+        "Alt-Rock",
+        "ZNDR8J19XPB664943"
+      ],
+      [
+        "Etihad Airways",
+        "His Dark Materials",
+        "Jerk-rubbed Crocodile Salad",
+        "New Wave",
+        "N0B8SXD2WFST67308"
+      ],
+      [
+        "SpiceJet",
+        "Nightmare Abbey",
+        "Tender Peas Curry",
+        "Club",
+        "SGVVXBEY87BA68900"
+      ],
+      [
+        "Air India",
+        "A Wrinkle in Time",
+        "Nectarine-infused Rabbit Roast",
+        "Proto-punk",
+        "NPSHD1TEG8KM33016"
+      ],
+      [
+        "Thai Airways",
+        "A Tale of Two Cities",
+        "Moist Aubergine And Rhubarb Salad",
+        "Ethio-jazz",
+        "2DJFS0X1T9NY64582"
+      ],
+      [
+        "KLM Royal Dutch Airlines",
+        "The Sleepwalkers",
+        "Raspberry-infused Rabbit",
+        "Soundtrack",
+        "4EF5BRX5S1LA47890"
+      ],
+      [
+        "SkyWest Airlines",
+        "Clarissa",
+        "Anise Star-spiced Cos Lettuce Bowl",
+        "Trance",
+        "K6NS2RV0XMJE71677"
+      ],
+      [
+        "Virgin Australia",
+        "Anna Karenina",
+        "Baking Soda-infused Emu",
+        "Rocksteady",
+        "26MJHM2Z95UV78242"
+      ]
+    ],
+    "lineCount": 11,
+    "tableRows": [
+      "Air IndiaThe Three MusketeersMeatballs With SauceEasy Listening9622455632WX57013",
+      "AlitaliaThe Problems of PhilosophyRose Baie-spiced Potatoes BowlEthio-jazzF5VC9333JGK843253",
+      "AirAsia XCranfordCalamari-infused OstrichAlt-RockZNDR8J19XPB664943",
+      "Etihad AirwaysHis Dark MaterialsJerk-rubbed Crocodile SaladNew WaveN0B8SXD2WFST67308",
+      "SpiceJetNightmare AbbeyTender Peas CurryClubSGVVXBEY87BA68900",
+      "Air IndiaA Wrinkle in TimeNectarine-infused Rabbit RoastProto-punkNPSHD1TEG8KM33016",
+      "Thai AirwaysA Tale of Two CitiesMoist Aubergine And Rhubarb SaladEthio-jazz2DJFS0X1T9NY64582",
+      "KLM Royal Dutch AirlinesThe SleepwalkersRaspberry-infused RabbitSoundtrack4EF5BRX5S1LA47890",
+      "SkyWest AirlinesClarissaAnise Star-spiced Cos Lettuce BowlTranceK6NS2RV0XMJE71677",
+      "Virgin AustraliaAnna KareninaBaking Soda-infused EmuRocksteady26MJHM2Z95UV78242"
+    ],
+    "bodyTail": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nAirline\nBook\nFood\nMusic\nVehicle\n\n\nAir IndiaThe Three MusketeersMeatballs With SauceEasy Listening9622455632WX57013\nAlitaliaThe Problems of PhilosophyRose Baie-spiced Potatoes BowlEthio-jazzF5VC9333JGK843253\nAirAsia XCranfordCalamari-infused OstrichAlt-RockZNDR8J19XPB664943\nEtihad AirwaysHis Dark MaterialsJerk-rubbed Crocodile SaladNew WaveN0B8SXD2WFST67308\nSpiceJetNightmare AbbeyTender Peas CurryClubSGVVXBEY87BA68900\nAir IndiaA Wrinkle in TimeNectarine-infused Rabbit RoastProto-punkNPSHD1TEG8KM33016\nThai AirwaysA Tale of Two CitiesMoist Aubergine And Rhubarb SaladEthio-jazz2DJFS0X1T9NY64582\nKLM Royal Dutch AirlinesThe SleepwalkersRaspberry-infused RabbitSoundtrack4EF5BRX5S1LA47890\nSkyWest AirlinesClarissaAnise Star-spiced Cos Lettuce BowlTranceK6NS2RV0XMJE71677\nVirgin AustraliaAnna KareninaBaking Soda-infused EmuRocksteady26MJHM2Z95UV78242"
+  },
+  {
+    "id": "literal-regex-baseline",
+    "category": "baseline literal regex",
+    "docs": "literal-test-data + regex-test-data",
+    "schema": "Environment\nUAT\nCode\n[A-Z ]{3,12}\nDigits\n[\\d]{2,11}",
+    "output": "\"Environment\",\"Code\",\"Digits\"\n\"UAT\",\"LNXXNEFHA\",\"21\"\n\"UAT\",\"CVZTMOGSSG\",\"1899983\"\n\"UAT\",\"NLCTGJ\",\"2139\"\n\"UAT\",\"I RFYK\",\"9342\"\n\"UAT\",\"GEZR\",\"70521856332\"\n\"UAT\",\"C CKBQYQ\",\"92\"\n\"UAT\",\"REYBYNAES\",\"757\"\n\"UAT\",\"BDADQIMUV\",\"963529050\"\n\"UAT\",\"CDMTXT\",\"26261\"\n\"UAT\",\"HEHSH  HC\",\"88169634\"",
+    "rows": [
+      [
+        "Environment",
+        "Code",
+        "Digits"
+      ],
+      [
+        "UAT",
+        "LNXXNEFHA",
+        "21"
+      ],
+      [
+        "UAT",
+        "CVZTMOGSSG",
+        "1899983"
+      ],
+      [
+        "UAT",
+        "NLCTGJ",
+        "2139"
+      ],
+      [
+        "UAT",
+        "I RFYK",
+        "9342"
+      ],
+      [
+        "UAT",
+        "GEZR",
+        "70521856332"
+      ],
+      [
+        "UAT",
+        "C CKBQYQ",
+        "92"
+      ],
+      [
+        "UAT",
+        "REYBYNAES",
+        "757"
+      ],
+      [
+        "UAT",
+        "BDADQIMUV",
+        "963529050"
+      ],
+      [
+        "UAT",
+        "CDMTXT",
+        "26261"
+      ],
+      [
+        "UAT",
+        "HEHSH  HC",
+        "88169634"
+      ]
+    ],
+    "lineCount": 11,
+    "tableRows": [
+      "UATLNXXNEFHA21",
+      "UATCVZTMOGSSG1899983",
+      "UATNLCTGJ2139",
+      "UATI RFYK9342",
+      "UATGEZR70521856332",
+      "UATC CKBQYQ92",
+      "UATREYBYNAES757",
+      "UATBDADQIMUV963529050",
+      "UATCDMTXT26261",
+      "UATHEHSH HC88169634"
+    ],
+    "bodyTail": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nEnvironment\nCode\nDigits\n\n\nUATLNXXNEFHA21\nUATCVZTMOGSSG1899983\nUATNLCTGJ2139\nUATI RFYK9342\nUATGEZR70521856332\nUATC CKBQYQ92\nUATREYBYNAES757\nUATBDADQIMUV963529050\nUATCDMTXT26261\nUATHEHSH HC88169634"
+  },
+  {
+    "id": "removed-image-url-loremflickr",
+    "category": "removed/deprecated probe",
+    "docs": "not visible in picker; prior removed command risk",
+    "schema": "Image\nimage.urlLoremFlickr()\nStillWorks\ninternet.email()",
+    "output": "",
+    "rows": [],
+    "lineCount": 0,
+    "tableRows": [],
+    "bodyTail": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nImage failed domain validation - Unknown keyword: image.urlLoremFlickr\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~rename-me\n\n"
+  },
+  {
+    "id": "unknown-command-probe",
+    "category": "unknown command validator probe",
+    "docs": "negative oracle",
+    "schema": "Mystery\nnotAReal.domainCommand(foo=true)\nStillWorks\ninternet.email()",
+    "output": "",
+    "rows": [],
+    "lineCount": 0,
+    "tableRows": [],
+    "bodyTail": "AnyWayData\nApp\n Generator \nDocs\nBlog\n🌙\nSkip to main content\nData Generator\nData Generator Instructions \nSchema\nMystery failed domain validation - Unknown keyword: notAReal.domainCommand\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~rename-me\n\n"
+  }
+]

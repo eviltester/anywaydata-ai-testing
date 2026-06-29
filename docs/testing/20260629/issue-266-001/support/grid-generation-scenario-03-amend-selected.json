@@ -1,0 +1,190 @@
+{
+  "before": {
+    "label": "after selecting visible row index 1",
+    "headers": [
+      {
+        "field": "column1",
+        "title": "CaseId"
+      },
+      {
+        "field": "column2",
+        "title": "Status"
+      },
+      {
+        "field": "column3",
+        "title": "Priority"
+      }
+    ],
+    "rows": [
+      {
+        "index": 0,
+        "selected": false,
+        "visible": true,
+        "text": "TC-49pendingP2",
+        "cells": [
+          {
+            "field": "column1",
+            "text": "TC-49"
+          },
+          {
+            "field": "column2",
+            "text": "pending"
+          },
+          {
+            "field": "column3",
+            "text": "P2"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "selected": true,
+        "visible": true,
+        "text": "TC-80P3",
+        "cells": [
+          {
+            "field": "column1",
+            "text": "TC-80"
+          },
+          {
+            "field": "column2",
+            "text": ""
+          },
+          {
+            "field": "column3",
+            "text": "P3"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "selected": false,
+        "visible": true,
+        "text": "TC-22blockedP2",
+        "cells": [
+          {
+            "field": "column1",
+            "text": "TC-22"
+          },
+          {
+            "field": "column2",
+            "text": "blocked"
+          },
+          {
+            "field": "column3",
+            "text": "P2"
+          }
+        ]
+      }
+    ],
+    "rowCountLabel": "Total rows: 3",
+    "mode": [
+      {
+        "value": "new-table",
+        "checked": false
+      },
+      {
+        "value": "amend-table",
+        "checked": true
+      },
+      {
+        "value": "amend-selected",
+        "checked": false
+      }
+    ]
+  },
+  "after": {
+    "label": "after amend-selected selected row with How Many=10",
+    "headers": [
+      {
+        "field": "column1",
+        "title": "CaseId"
+      },
+      {
+        "field": "column2",
+        "title": "Status"
+      },
+      {
+        "field": "column3",
+        "title": "Priority"
+      }
+    ],
+    "rows": [
+      {
+        "index": 0,
+        "selected": false,
+        "visible": true,
+        "text": "TC-49pendingP2",
+        "cells": [
+          {
+            "field": "column1",
+            "text": "TC-49"
+          },
+          {
+            "field": "column2",
+            "text": "pending"
+          },
+          {
+            "field": "column3",
+            "text": "P2"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "selected": true,
+        "visible": true,
+        "text": "TC-35blockedP2",
+        "cells": [
+          {
+            "field": "column1",
+            "text": "TC-35"
+          },
+          {
+            "field": "column2",
+            "text": "blocked"
+          },
+          {
+            "field": "column3",
+            "text": "P2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "selected": false,
+        "visible": true,
+        "text": "TC-22blockedP2",
+        "cells": [
+          {
+            "field": "column1",
+            "text": "TC-22"
+          },
+          {
+            "field": "column2",
+            "text": "blocked"
+          },
+          {
+            "field": "column3",
+            "text": "P2"
+          }
+        ]
+      }
+    ],
+    "rowCountLabel": "Total rows: 3",
+    "mode": [
+      {
+        "value": "new-table",
+        "checked": false
+      },
+      {
+        "value": "amend-table",
+        "checked": false
+      },
+      {
+        "value": "amend-selected",
+        "checked": true
+      }
+    ]
+  }
+}

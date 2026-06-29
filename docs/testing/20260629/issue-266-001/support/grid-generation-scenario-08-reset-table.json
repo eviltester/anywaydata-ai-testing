@@ -1,0 +1,125 @@
+{
+  "before": {
+    "label": "before Reset Table after generated enum schema data",
+    "headers": [
+      {
+        "field": "column1",
+        "title": "Dup"
+      },
+      {
+        "field": "column2",
+        "title": "Dup"
+      }
+    ],
+    "rows": [
+      {
+        "index": 0,
+        "selected": false,
+        "visible": true,
+        "text": "A2",
+        "cells": [
+          {
+            "field": "column1",
+            "text": "A"
+          },
+          {
+            "field": "column2",
+            "text": "2"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "selected": false,
+        "visible": true,
+        "text": "C2",
+        "cells": [
+          {
+            "field": "column1",
+            "text": "C"
+          },
+          {
+            "field": "column2",
+            "text": "2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "selected": false,
+        "visible": true,
+        "text": "C2",
+        "cells": [
+          {
+            "field": "column1",
+            "text": "C"
+          },
+          {
+            "field": "column2",
+            "text": "2"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "selected": false,
+        "visible": true,
+        "text": "C2",
+        "cells": [
+          {
+            "field": "column1",
+            "text": "C"
+          },
+          {
+            "field": "column2",
+            "text": "2"
+          }
+        ]
+      }
+    ],
+    "rowCountLabel": "Total rows: 4",
+    "mode": [
+      {
+        "value": "new-table",
+        "checked": true
+      },
+      {
+        "value": "amend-table",
+        "checked": false
+      },
+      {
+        "value": "amend-selected",
+        "checked": false
+      }
+    ]
+  },
+  "modal": {
+    "confirmText": "Reset Table\n\nAre you sure you want to reset the table and all data?\n\nOK\nCancel",
+    "confirmVisible": true
+  },
+  "after": {
+    "label": "after Reset Table confirmed",
+    "headers": [
+      {
+        "field": "column1",
+        "title": "~rename-me"
+      }
+    ],
+    "rows": [],
+    "rowCountLabel": "Total rows: 0",
+    "mode": [
+      {
+        "value": "new-table",
+        "checked": true
+      },
+      {
+        "value": "amend-table",
+        "checked": false
+      },
+      {
+        "value": "amend-selected",
+        "checked": false
+      }
+    ]
+  }
+}

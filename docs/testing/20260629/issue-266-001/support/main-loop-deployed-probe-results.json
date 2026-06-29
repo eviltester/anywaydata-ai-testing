@@ -1,0 +1,99 @@
+{
+  "baseUrl": "https://eviltester.github.io/grid-table-editor/site/app.html",
+  "results": [
+    {
+      "name": "regex-domain-enum-new-table",
+      "status": "completed",
+      "observations": [
+        {
+          "headers": [
+            "~rename-me"
+          ],
+          "rows": [],
+          "status": "",
+          "errors": []
+        }
+      ],
+      "screenshots": [
+        "screenshots/main-loop-regex-domain-enum-new-table.png"
+      ]
+    },
+    {
+      "name": "amend-table-preserves-adds-columns",
+      "status": "error",
+      "observations": [],
+      "screenshots": [],
+      "error": "locator.selectOption: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('select.shared-schema-command-picker-shadow-select').last()\u001b[22m\n\u001b[2m    - locator resolved to <select tabindex=\"-1\" aria-hidden=\"true\" data-field=\"command\" class=\"shared-schema-command-picker-shadow-select\">…</select>\u001b[22m\n\u001b[2m  - attempting select option action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    10 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m       - did not find some options\u001b[22m\n\u001b[2m     - retrying select option action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at setRow (D:\\github\\anywaydata-ai-testing\\docs\\testing\\20260629\\issue-266-001\\support\\main-loop-deployed-probe.mjs:55:84)\n    at async fillSchema (D:\\github\\anywaydata-ai-testing\\docs\\testing\\20260629\\issue-266-001\\support\\main-loop-deployed-probe.mjs:65:5)\n    at async file:///D:/github/anywaydata-ai-testing/docs/testing/20260629/issue-266-001/support/main-loop-deployed-probe.mjs:144:5\n    at async scenario (D:\\github\\anywaydata-ai-testing\\docs\\testing\\20260629\\issue-266-001\\support\\main-loop-deployed-probe.mjs:96:5)\n    at async main (D:\\github\\anywaydata-ai-testing\\docs\\testing\\20260629\\issue-266-001\\support\\main-loop-deployed-probe.mjs:142:16)"
+    },
+    {
+      "name": "filter-sort-after-generation",
+      "status": "completed",
+      "observations": [
+        {
+          "filtered": {
+            "headers": [
+              "~rename-me"
+            ],
+            "rows": [],
+            "status": "",
+            "errors": []
+          },
+          "sorted": {
+            "headers": [
+              "~rename-me"
+            ],
+            "rows": [],
+            "status": "",
+            "errors": []
+          }
+        }
+      ],
+      "screenshots": [
+        "screenshots/main-loop-filter-sort-after-generation.png"
+      ]
+    },
+    {
+      "name": "grid-to-enum-schema-from-grid",
+      "status": "error",
+      "observations": [],
+      "screenshots": [],
+      "error": "locator.click: Error: strict mode violation: getByRole('button', { name: 'Grid to Enum Schema' }) resolved to 2 elements:\n    1) <button tabindex=\"0\" type=\"button\" class=\"helpicon\" aria-expanded=\"false\" data-help-role=\"help-icon\" data-help=\"inline-population-action-help\" aria-label=\"Show grid to enum schema help\" data-help-text=\"↵  <p>Scan the current grid and build an enum-only schema from the visible column values.</p>↵\">…</button> aka getByRole('button', { name: 'Show grid to enum schema help' })\n    2) <button aria-busy=\"false\" aria-disabled=\"false\" title=\"Grid to Enum Schema\" aria-label=\"Grid to Enum Schema\" data-role=\"generate-schema-button\">…</button> aka getByRole('button', { name: 'Grid to Enum Schema', exact: true })\n\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Grid to Enum Schema' })\u001b[22m\n\n    at D:\\github\\anywaydata-ai-testing\\docs\\testing\\20260629\\issue-266-001\\support\\main-loop-deployed-probe.mjs:186:69\n    at async scenario (D:\\github\\anywaydata-ai-testing\\docs\\testing\\20260629\\issue-266-001\\support\\main-loop-deployed-probe.mjs:96:5)\n    at async main (D:\\github\\anywaydata-ai-testing\\docs\\testing\\20260629\\issue-266-001\\support\\main-loop-deployed-probe.mjs:179:16)"
+    },
+    {
+      "name": "invalid-command-feedback",
+      "status": "completed",
+      "observations": [
+        {
+          "info": {
+            "headers": [
+              "~rename-me"
+            ],
+            "rows": [],
+            "status": "",
+            "errors": []
+          },
+          "textSnippets": [
+            " Grid to Enum Schema",
+            "Schema validation failed. Grid unchanged.",
+            "Row 1: column name is required. Row 2: invalid faker params - Invalid Faker API Call helpers.arrayElement requires an array argument, e.g. helpers.arrayElement([\"A\", \"B\", \"C\"]).",
+            "Load Schema File",
+            "Save Schema File",
+            "datatype.enum",
+            "datatype.boolean",
+            "datatype.enum",
+            "helpers.arrayElement",
+            "helpers.arrayElement",
+            "helpers.arrayElements",
+            "helpers.weightedArrayElement",
+            "Row 2: invalid faker params - Invalid Faker API Call helpers.arrayElement requires an array argument, e.g. helpers.arrayElement([\"A\", \"B\", \"C\"]).",
+            "Schema Constraints (0)",
+            "Managed Stored Schemas (0)"
+          ]
+        }
+      ],
+      "screenshots": [
+        "screenshots/main-loop-invalid-command-feedback.png"
+      ]
+    }
+  ]
+}
