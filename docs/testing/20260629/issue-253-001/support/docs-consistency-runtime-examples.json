@@ -1,0 +1,106 @@
+[
+  {
+    "name": "docs faker mustache exact",
+    "result": {
+      "url": "https://eviltester.github.io/grid-table-editor/site/generator.html",
+      "spec": "Sentence\nhelpers.mustache(\"Hello {{name}}\", { name: \"Ada\" })",
+      "body": "AnyWayData App Generator Docs Blog 🌙 Skip to main content Data Generator Data Generator Instructions Schema Edit as Schema Load Schema File Save Schema File Managed Stored Schemas (0) Generate Data and Options Generate Rows Output Format CSV JSON JSONL XML SQL MARKDOWN DSV HTML GHERKIN ASCIITABLE C# Java JavaScript Kotlin Perl PHP Python Ruby TypeScript JUnit4 JUnit5 JUnit6 TestNG PyTest unittest nose2 Jest Vitest Mocha xUnit NUnit MSTest RSpec Minitest PHPUnit Pest Kotest JUnit5 Kotlin Spek Test::More Test2::Suite Generate Data Settings Options Use Quotes Use Header Quote Char Escape Char Apply Preview Preview Items Count Preview Output Preview Data Table Preview Sentence Hello Ada Hello Ada Hello Ada Hello Ada Hello Ada Hello Ada Hello Ada Hello Ada Hello Ada Hello Ada",
+      "textareas": [
+        {
+          "i": 0,
+          "visible": true,
+          "value": "Sentence\nhelpers.mustache(\"Hello {{name}}\", { name: \"Ada\" })"
+        },
+        {
+          "i": 1,
+          "visible": false,
+          "value": ""
+        },
+        {
+          "i": 2,
+          "visible": true,
+          "value": "\"Sentence\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\""
+        }
+      ],
+      "invalidBits": []
+    }
+  },
+  {
+    "name": "docs faker uniqueArray this.word.sample exact",
+    "result": {
+      "url": "https://eviltester.github.io/grid-table-editor/generator.html",
+      "spec": "Words\nhelpers.uniqueArray(this.word.sample, 5)",
+      "body": "Skip to main content Data Generator Data Generator Instructions Schema Words failed faker validation - Invalid Faker API Call Unsafe faker rule syntax detected: requires complex argument parsing Edit as Schema Load Schema File Save Schema File Managed Stored Schemas (0) Generate Data and Options Generate Rows Output Format CSV JSON JSONL XML SQL MARKDOWN DSV HTML GHERKIN ASCIITABLE C# Java JavaScript Kotlin Perl PHP Python Ruby TypeScript JUnit4 JUnit5 JUnit6 TestNG PyTest unittest nose2 Jest Vitest Mocha xUnit NUnit MSTest RSpec Minitest PHPUnit Pest Kotest JUnit5 Kotlin Spek Test::More Test2::Suite Generate Data Settings Options Use Quotes Use Header Quote Char Escape Char Apply Preview Preview Items Count Preview Output Preview Data Table Preview ~rename-me",
+      "textareas": [
+        {
+          "i": 0,
+          "visible": true,
+          "value": "Words\nhelpers.uniqueArray(this.word.sample, 5)"
+        },
+        {
+          "i": 1,
+          "visible": false,
+          "value": ""
+        },
+        {
+          "i": 2,
+          "visible": true,
+          "value": ""
+        }
+      ],
+      "invalidBits": []
+    }
+  },
+  {
+    "name": "runtime faker uniqueArray faker.word.sample alternative",
+    "result": {
+      "url": "https://eviltester.github.io/grid-table-editor/generator.html",
+      "spec": "Words\nhelpers.uniqueArray(faker.word.sample, 5)",
+      "body": "Skip to main content Data Generator Data Generator Instructions Schema Edit as Schema Load Schema File Save Schema File Managed Stored Schemas (0) Generate Data and Options Generate Rows Output Format CSV JSON JSONL XML SQL MARKDOWN DSV HTML GHERKIN ASCIITABLE C# Java JavaScript Kotlin Perl PHP Python Ruby TypeScript JUnit4 JUnit5 JUnit6 TestNG PyTest unittest nose2 Jest Vitest Mocha xUnit NUnit MSTest RSpec Minitest PHPUnit Pest Kotest JUnit5 Kotlin Spek Test::More Test2::Suite Generate Data Settings Options Use Quotes Use Header Quote Char Escape Char Apply Preview Preview Items Count Preview Output Preview Data Table Preview Words [\"besides\",\"boastfully\",\"shush\",\"though\",\"that\"] [\"uh-huh\",\"bitterly\",\"unimpressively\",\"undergo\",\"overdub\"] [\"yahoo\",\"slight\",\"funny\",\"suffice\",\"brown\"] [\"clavicle\",\"optimistically\",\"pneumonia\",\"wisely\",\"straw\"] [\"times\",\"baggy\",\"who\",\"clear-cut\",\"truthfully\"] [\"ew\",\"spark\",\"phooey\",\"knowledgeable\",\"minus\"] [\"commodity\",\"yahoo\",\"lest\",\"um\",\"scent\"] [\"an\",\"aw\",\"submitter\",\"too\",\"embed\"] [\"surprise\",\"fen\",\"upward\",\"heartfelt\",\"till\"] [\"at\",\"probe\",\"confirm\",\"across\",\"why\"]",
+      "textareas": [
+        {
+          "i": 0,
+          "visible": true,
+          "value": "Words\nhelpers.uniqueArray(faker.word.sample, 5)"
+        },
+        {
+          "i": 1,
+          "visible": false,
+          "value": ""
+        },
+        {
+          "i": 2,
+          "visible": true,
+          "value": "\"Words\"\n\"[\"\"besides\"\",\"\"boastfully\"\",\"\"shush\"\",\"\"though\"\",\"\"that\"\"]\"\n\"[\"\"uh-huh\"\",\"\"bitterly\"\",\"\"unimpressively\"\",\"\"undergo\"\",\"\"overdub\"\"]\"\n\"[\"\"yahoo\"\",\"\"slight\"\",\"\"funny\"\",\"\"suffice\"\",\"\"brown\"\"]\"\n\"[\"\"clavicle\"\",\"\"optimistically\"\",\"\"pneumonia\"\",\"\"wisely\"\",\"\"straw\"\"]\"\n\"[\"\"times\"\",\"\"baggy\"\",\"\"who\"\",\"\"clear-cut\"\",\"\"truthfully\"\"]\"\n\"[\"\"ew\"\",\"\"spark\"\",\"\"phooey\"\",\"\"knowledgeable\"\",\"\"minus\"\"]\"\n\"[\"\"commodity\"\",\"\"yahoo\"\",\"\"lest\"\",\"\"um\"\",\"\"scent\"\"]\"\n\"[\"\"an\"\",\"\"aw\"\",\"\"submitter\"\",\"\"too\"\",\"\"embed\"\"]\"\n\"[\"\"surprise\"\",\"\"fen\"\",\"\"upward\"\",\"\"heartfelt\"\",\"\"till\"\"]\"\n\"[\"\"at\"\",\"\"probe\"\",\"\"confirm\"\",\"\"across\"\",\"\"why\"\"]\""
+        }
+      ],
+      "invalidBits": []
+    }
+  },
+  {
+    "name": "domain docs number.int valid",
+    "result": {
+      "url": "https://eviltester.github.io/grid-table-editor/generator.html",
+      "spec": "Num\nnumber.int(min=32, max=47)",
+      "body": "Skip to main content Data Generator Data Generator Instructions Schema Edit as Schema Load Schema File Save Schema File Managed Stored Schemas (0) Generate Data and Options Generate Rows Output Format CSV JSON JSONL XML SQL MARKDOWN DSV HTML GHERKIN ASCIITABLE C# Java JavaScript Kotlin Perl PHP Python Ruby TypeScript JUnit4 JUnit5 JUnit6 TestNG PyTest unittest nose2 Jest Vitest Mocha xUnit NUnit MSTest RSpec Minitest PHPUnit Pest Kotest JUnit5 Kotlin Spek Test::More Test2::Suite Generate Data Settings Options Use Quotes Use Header Quote Char Escape Char Apply Preview Preview Items Count Preview Output Preview Data Table Preview Num 34 44 36 33 36 41 46 47 33 42",
+      "textareas": [
+        {
+          "i": 0,
+          "visible": true,
+          "value": "Num\nnumber.int(min=32, max=47)"
+        },
+        {
+          "i": 1,
+          "visible": false,
+          "value": ""
+        },
+        {
+          "i": 2,
+          "visible": true,
+          "value": "\"Num\"\n\"34\"\n\"44\"\n\"36\"\n\"33\"\n\"36\"\n\"41\"\n\"46\"\n\"47\"\n\"33\"\n\"42\""
+        }
+      ],
+      "invalidBits": []
+    }
+  }
+]

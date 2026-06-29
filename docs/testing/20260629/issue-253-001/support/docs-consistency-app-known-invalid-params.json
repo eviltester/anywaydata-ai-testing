@@ -1,0 +1,267 @@
+{
+  "body": "Instructions Add Row Add Rows Above Add Rows Below Delete Selected Rows Filter: Clear Filters Clear Sort Reset Table Unique Column Names ~rename-me Total rows: 0 Test Data Generate Grid to Enum Schema How Many? New Table Amend Table Amend Selected Edit as Text Load Schema File Save Schema File enum literal regex domain faker number.int Select domain command airline.aircraftType airline.flightNumber airline.iataCode airline.name airline.recordLocator airline.seat airplane.iataTypeCode airplane.name airport.iataCode airport.name animal.bear animal.bird animal.cat animal.cetacean animal.cow animal.crocodilia animal.dog animal.fish animal.horse animal.insect animal.lion animal.petName animal.rabbit animal.rodent animal.snake animal.type autoIncrement.sequence autoIncrement.timestamp book.author book.format book.genre book.publisher book.series book.title chemicalElement.atomicNumber chemicalElement.name chemicalElement.symbol color.cmyk color.colorByCSSColorSpace color.cssSupportedFunction color.cssSupportedSpace color.hsl color.human color.hwb color.lab color.lch color.rgb color.space commerce.department commerce.isbn commerce.price commerce.product commerce.productAdjective commerce.productDescription commerce.productMaterial commerce.productName commerce.upc company.buzzAdjective company.buzzNoun company.buzzPhrase company.buzzVerb company.catchPhrase company.catchPhraseAdjective company.catchPhraseDescriptor company.catchPhraseNoun company.name database.collation database.column database.engine database.mongodbObjectId database.type datatype.boolean datatype.enum date.anytime date.between date.birthdate date.future date.month date.past date.recent date.soon date.timeZone date.weekday finance.accountName finance.accountNumber finance.amount finance.bic finance.bitcoinAddress finance.creditCardCVV finance.creditCardIssuer finance.creditCardNumber finance.currencyCode finance.currencyName finance.currencyNumericCode finance.currencySymbol finance.ethereumAddress finance.iban finance.litecoinAddress finance.pin finance.routingNumber finance.transactionDescription finance.transactionType food.adjective food.description food.dish food.ethnicCategory food.fruit food.ingredient food.meat food.spice food.vegetable git.branch git.commitDate git.commitEntry git.commitMessage git.commitSha hacker.abbreviation hacker.adjective hacker.ingverb hacker.noun hacker.phrase hacker.verb image.avatar image.avatarGitHub image.dataUri image.personPortrait image.url image.urlPicsumPhotos internet.displayName internet.domainName internet.domainSuffix internet.domainWord internet.email internet.emoji internet.exampleEmail internet.httpMethod internet.httpStatusCode internet.ip internet.ipv4 internet.ipv6 internet.jwt internet.jwtAlgorithm internet.mac internet.password internet.port internet.protocol internet.url internet.userAgent internet.username language.alpha2 language.alpha3 language.name literal.value location.buildingNumber location.cardinalDirection location.city location.continent location.country location.countryCode location.county location.direction location.latitude location.longitude location.ordinalDirection location.secondaryAddress location.state location.street location.streetAddress location.timeZone location.zipCode lorem.lines lorem.paragraph lorem.paragraphs lorem.sentence lorem.sentences lorem.slug lorem.text lorem.word lorem.words music.album music.artist music.genre music.songName number.bigInt number.binary number.float number.hex number.int number.octal number.romanNumeral person.bio person.firstName person.fullName person.gender person.jobArea person.jobDescriptor person.jobTitle person.jobType person.lastName person.middleName person.prefix person.sex person.sexType person.suffix person.zodiacSign phone.imei phone.number string.alpha string.alphanumeric string.binary string.counterString string.fromCharacters string.hexadecimal string.nanoid string.numeric string.octal string.sample string.symbol string.ulid string.uuid system.commonFileExt system.commonFileName system.commonFileType system.cron system.directoryPath system.fileExt system.fileName system.filePath system.fileType system.mimeType system.networkInterface system.semver unit.name unit.symbol vehicle.bicycle vehicle.color vehicle.fuel vehicle.manufacturer vehicle.model vehicle.type vehicle.vehicle vehicle.vin vehicle.vrm word.adjective word.adverb word.conjunction word.interjection word.noun word.preposition word.sample word.verb word.words Row 1: invalid domain params - Invalid keyword arguments: duplicate named argument \"min\" Schema Constraints (0) + Add Field Managed Stored Schemas (0) → → Import / Export Auto Sync Preview Rows Copy Markdown CSV Delimited JSON JSONL XML SQL Code Code (Unit Test) Gherkin HTML ASCII Options Use Quotes Use Header Quote Char Escape Char Apply",
+  "visibleInputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Filter...",
+      "value": "",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "placeholder": null,
+      "value": "on",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 2,
+      "tag": "INPUT",
+      "type": "search",
+      "placeholder": "",
+      "value": "",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 3,
+      "tag": "INPUT",
+      "type": "number",
+      "placeholder": null,
+      "value": "1",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "type": "radio",
+      "placeholder": null,
+      "value": "new-table",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "radio",
+      "placeholder": null,
+      "value": "amend-table",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 6,
+      "tag": "INPUT",
+      "type": "radio",
+      "placeholder": null,
+      "value": "amend-selected",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 8,
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Column Name",
+      "value": "Num",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 9,
+      "tag": "SELECT",
+      "type": null,
+      "placeholder": null,
+      "value": "domain",
+      "text": "enum literal regex domain faker",
+      "visible": true
+    },
+    {
+      "i": 10,
+      "tag": "SELECT",
+      "type": null,
+      "placeholder": null,
+      "value": "number.int",
+      "text": "Select domain command airline.aircraftType airline.flightNumber airline.iataCode airline.name airline.recordLocator airline.seat airplane.iataTypeCode airplane.name airport.iataCode airport.name animal.bear animal.bird animal.cat animal.cetacean animal.cow animal.crocodilia animal.dog animal.fish animal.horse animal.insect animal.lion animal.petName animal.rabbit animal.rodent animal.snake animal.type autoIncrement.sequence autoIncrement.timestamp book.author book.format book.genre book.publisher book.series book.title chemicalElement.atomicNumber chemicalElement.name chemicalElement.symbol color.cmyk color.colorByCSSColorSpace color.cssSupportedFunction color.cssSupportedSpace color.hsl color.human color.hwb color.lab color.lch color.rgb color.space commerce.department commerce.isbn commerce.price commerce.product commerce.productAdjective commerce.productDescription commerce.productMaterial commerce.productName commerce.upc company.buzzAdjective company.buzzNoun company.buzzPhrase company.buzzVerb company.catchPhrase company.catchPhraseAdjective company.catchPhraseDescriptor company.catchPhraseNoun company.name database.collation database.column database.engine database.mongodbObjectId database.type datatype.boolean datatype.enum date.anytime date.between date.birthdate date.future date.month date.past date.recent date.soon date.timeZone date.weekday finance.accountName finance.accountNumber finance.amount finance.bic finance.bitcoinAddress finance.creditCardCVV finance.creditCardIssuer finance.creditCardNumber finance.currencyCode finance.currencyName finance.currencyNumericCode finance.currencySymbol finance.ethereumAddress finance.iban finance.litecoinAddress finance.pin finance.routingNumber finance.transactionDescription finance.transactionType food.adjective food.description food.dish food.ethnicCategory food.fruit food.ingredient food.meat food.spice food.vegetable git.branch git.commitDate git.commitEntry git.commitMessage git.commitSha hacker.abbreviation hacker.adjective hacker.ingverb hacker.noun hacker.phrase hacker.verb image.avatar image.avatarGitHub image.dataUri image.personPortrait image.url image.urlPicsumPhotos internet.displayName internet.domainName internet.domainSuffix internet.domainWord internet.email internet.emoji internet.exampleEmail internet.httpMethod internet.httpStatusCode internet.ip internet.ipv4 internet.ipv6 internet.jwt internet.jwtAlgorithm internet.mac internet.password internet.port internet.protocol internet.url internet.userAgent internet.username language.alpha2 language.alpha3 language.name literal.value location.buildingNumber location.cardinalDirection location.city location.continent location.country location.countryCode location.county location.direction location.latitude location.longitude location.ordinalDirection location.secondaryAddress location.state location.street location.streetAddress location.timeZone location.zipCode lorem.lines lorem.paragraph lorem.paragraphs lorem.sentence lorem.sentences lorem.slug lorem.text lorem.word lorem.words music.album music.artist music.genre music.songName number.bigInt number.binary number.float number.hex number.int number.octal number.romanNumeral person.bio person.firstName person.fullName person.gender person.jobArea person.jobDescriptor person.jobTitle person.jobType person.lastName person.middleName person.prefix person.sex person.sexType person.suffix person.zodiacSign phone.imei phone.number string.alpha string.alphanumeric string.binary string.counterString string.fromCharacters string.hexadecimal string.nanoid string.numeric string.octal string.sample string.symbol string.ulid string.uuid system.commonFileExt system.commonFileName system.commonFileType system.cron system.directoryPath system.fileExt system.fileName system.filePath system.fileType system.mimeType system.networkInterface system.semver unit.name unit.symbol vehicle.bicycle vehicle.color vehicle.fuel vehicle.manufacturer vehicle.model vehicle.type vehicle.vehicle vehicle.vin vehicle.vrm word.adjective word.adverb word.conjunction word.interjection word.noun word.preposition word.sample word.verb word.words",
+      "visible": true
+    },
+    {
+      "i": 11,
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Params e.g. (10)",
+      "value": "(min=1, min=2, max=3)",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 12,
+      "tag": "TEXTAREA",
+      "type": null,
+      "placeholder": "Column Name\nrule\nColumn Name\nrule",
+      "value": "Num\nnumber.int(min=1, min=2, max=3)",
+      "text": "",
+      "visible": false
+    },
+    {
+      "i": 13,
+      "tag": "TEXTAREA",
+      "type": null,
+      "placeholder": "IF [Column] = ",
+      "value": "",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 14,
+      "tag": "SELECT",
+      "type": null,
+      "placeholder": null,
+      "value": "",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 15,
+      "tag": "INPUT",
+      "type": "radio",
+      "placeholder": null,
+      "value": "off",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 16,
+      "tag": "INPUT",
+      "type": "radio",
+      "placeholder": null,
+      "value": "on",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 17,
+      "tag": "INPUT",
+      "type": "radio",
+      "placeholder": null,
+      "value": "off",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 18,
+      "tag": "INPUT",
+      "type": "radio",
+      "placeholder": null,
+      "value": "selected",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 19,
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": null,
+      "value": "",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 20,
+      "tag": "INPUT",
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 21,
+      "tag": "SELECT",
+      "type": null,
+      "placeholder": null,
+      "value": "crlf",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 22,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "placeholder": null,
+      "value": "on",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 23,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "placeholder": null,
+      "value": "on",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 24,
+      "tag": "INPUT",
+      "type": "number",
+      "placeholder": null,
+      "value": "10",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 25,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "placeholder": null,
+      "value": "on",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 26,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "placeholder": null,
+      "value": "on",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 27,
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": null,
+      "value": "\"",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 28,
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": null,
+      "value": "\"",
+      "text": "",
+      "visible": true
+    },
+    {
+      "i": 29,
+      "tag": "TEXTAREA",
+      "type": null,
+      "placeholder": null,
+      "value": "",
+      "text": "",
+      "visible": true
+    }
+  ],
+  "dialogs": []
+}

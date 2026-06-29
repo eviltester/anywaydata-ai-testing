@@ -1,0 +1,5 @@
+const { chromium } = require('playwright');
+const fs = require('fs');
+const path = require('path');
+const outDir='docs/testing/20260629/issue-253-001';
+(async()=>{const browser=await chromium.launch({headless:true}); const page=await browser.newPage({viewport:{width:1366,height:900}}); await page.goto('https://eviltester.github.io/grid-table-editor/site/app.html',{waitUntil:'domcontentloaded'}); await page.waitForTimeout(5000); const info=await page.evaluate(()=>({title:document.title, body:document.body.innerText.slice(0,3000), buttons:[...document.querySelectorAll('button')].map((b,i)=>({i,text:b.innerText, aria:b.getAttribute('aria-label'), role:b.getAttribute('data-role'), disabled:b.disabled})).slice(0,80), inputs:[...document.querySelectorAll('input,textarea,select')].map((el,i)=>({i,tag:el.tagName,type:el.type,aria:el.getAttribute('aria-label'), value:el.value.slice(0,80), role:el.getAttribute('data-role')})).slice(0,80)})); fs.writeFileSync(path.join(outDir,'support','app-dom-loop3-scout.json'),JSON.stringify(info,null,2)); await browser.close();})();

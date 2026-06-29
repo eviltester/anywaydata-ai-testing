@@ -1,0 +1,16 @@
+{
+  "app": {
+    "url": "https://eviltester.github.io/grid-table-editor/site/app.html",
+    "title": "Test Data Generator and Table Editor for Markdown, CSV, JSON, Gherkin and HTML - AnyWayData",
+    "text": "AnyWayData\n App \nGenerator\nDocs\nBlog\n🌙\nInstructions \nAdd Row Add Rows Above Add Rows Below Delete Selected Rows Filter:  Clear Filters Clear Sort Reset Table  Unique Column Names\n~rename-me\n\n\nTotal rows: 0\nTest Data \n→\n→\nImport / Export\n Auto Sync\nPreview\nRows \nCopy\nMarkdown\nCSV\nDelimited\nJSON\nJSONL\nXML\nSQL\nCode\nCode (Unit Test)\nGherkin\nHTML\nASCII\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply",
+    "styled": 5,
+    "scripts": 3
+  },
+  "docs": {
+    "url": "https://eviltester.github.io/grid-table-editor/site/docs/category/generating-data/",
+    "title": "Generating Data | AnyWayData - Data Table Editor & Generator",
+    "text": "Skip to main content\nAnyWayData\nApp\nDocs\nBlog\nGitHub\nDocs\nDocumentation\nAbout\nEditing Data\nEditable Data Grid\nImport From File\nText Editing\nExporting Data\nData Formats\nGenerating Data\nTest Data Generation\nData Grid Editable\nGenerate to File\nSchema Definition\nRegex Based Data\nLiteral Data\nPairwise Testing\nN-Wise Testing\nDomain Test Data\nFaker Based Data\nCounterstrings\nAuto Increment Sequences\nMisc\nRelated Tools\nVideo Tutorials\nFaker Test Data\nInterfaces & Deployment\nOverview\nWeb UI\nREST API\nMCP\nCLI (Node and Bun)\nDocsGenerating Data\nGenerating Data\n\nThe Data can be populated with randomly generated data using a data set definition with field types from Faker, Regular Expressions, or pairwise combinatorial testing for enum parameters.\n\n📄️\nTest Data Generation\n\nOverview of test-data generation workflows in app.html and generator.html.\n\n📄️\nData Grid Editable\n\nUse app.html for interactive, grid-first test-data editing and generation.\n\n📄️\nGenerate to File\n\nUse generator.html for schema-first data generation with output preview and direct file download.\n\n📄️\nSchema Definition\n\nFull reference for schema text format, field rules, and IF ... THEN schema constraints.\n\n📄️\nRegex Based Data\n\nGenerate data from Regex\n\n📄️\nLiteral Data\n\nGenerate static test data values using the Literal data option. Literal values are fixed text and are repeated for every generated row.\n\n📄️\nPairwise Testing\n\nGenerate efficient test data combinations using pairwise combinatorial testing\n\n📄️\nN-Wise Testing\n\nGenerate n-wise combinatorial test data from enum columns, compare generation strategies, and choose a strategy based on coverage strength and row count.\n\n🗃\nDomain Test Data\n\n28 items\n\n🗃\nFaker Based Data\n\n1 item\n\n📄️\nCounterstrings\n\nUse counterstrings to test length limits, truncation, and boundary handling.\n\n📄️\nAuto Increment Sequences\n\nGenerate sequential values that only advance when a row is accepted.\n\nPrevious\nXML Options\nNext\nTest Data Generation\nDocs\nTutorial\nPrivacy Policy\nAbout\nContact\nCommunity\nTwitter\nMore\nBlog\nGitHub\nCopyright © 2026 Compendium Developments Ltd. Built with Docusaurus.",
+    "styled": 2,
+    "scripts": 6
+  }
+}

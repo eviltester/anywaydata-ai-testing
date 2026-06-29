@@ -1,0 +1,626 @@
+{
+  "title": "Test Data Generator and Table Editor for Markdown, CSV, JSON, Gherkin and HTML - AnyWayData",
+  "body": "AnyWayData\n App \nGenerator\nDocs\nBlog\n🌙\nInstructions \nAdd Row Add Rows Above Add Rows Below Delete Selected Rows Filter:  Clear Filters Clear Sort Reset Table  Unique Column Names\n~rename-me\n\n\nTotal rows: 0\nTest Data \n→\n→\nImport / Export\n Auto Sync\nPreview\nRows \nCopy\nMarkdown\nCSV\nDelimited\nJSON\nJSONL\nXML\nSQL\nCode\nCode (Unit Test)\nGherkin\nHTML\nASCII\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply",
+  "buttons": [
+    {
+      "i": 0,
+      "text": "🌙",
+      "aria": "Switch to dark theme",
+      "role": "theme-toggle-button",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": "Show help",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "",
+      "aria": "Copy Instructions To Grid",
+      "role": "instructions-action-button",
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "text": "Add Row",
+      "aria": null,
+      "role": "add-row-button",
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "Add Rows Above",
+      "aria": null,
+      "role": "add-rows-above-button",
+      "disabled": false
+    },
+    {
+      "i": 5,
+      "text": "Add Rows Below",
+      "aria": null,
+      "role": "add-rows-below-button",
+      "disabled": false
+    },
+    {
+      "i": 6,
+      "text": "Delete Selected Rows",
+      "aria": null,
+      "role": "delete-selected-rows-button",
+      "disabled": false
+    },
+    {
+      "i": 7,
+      "text": "Clear Filters",
+      "aria": null,
+      "role": "clear-filters-button",
+      "disabled": false
+    },
+    {
+      "i": 8,
+      "text": "Clear Sort",
+      "aria": null,
+      "role": "clear-sort-button",
+      "disabled": false
+    },
+    {
+      "i": 9,
+      "text": "Reset Table",
+      "aria": null,
+      "role": "clear-table-button",
+      "disabled": false
+    },
+    {
+      "i": 10,
+      "text": "",
+      "aria": "Filter column",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 11,
+      "text": "",
+      "aria": "Sort descending",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 12,
+      "text": "",
+      "aria": "Sort ascending",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 13,
+      "text": "",
+      "aria": "Clear sort",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 14,
+      "text": "",
+      "aria": "Add column left",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 15,
+      "text": "",
+      "aria": "Rename column",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 16,
+      "text": "",
+      "aria": "Delete column",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 17,
+      "text": "",
+      "aria": "Duplicate column",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 18,
+      "text": "",
+      "aria": "Add column right",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 19,
+      "text": "",
+      "aria": "Show generate help",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 20,
+      "text": "",
+      "aria": "Generate",
+      "role": "generate-button",
+      "disabled": false
+    },
+    {
+      "i": 21,
+      "text": "",
+      "aria": "Show combination generation help",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 22,
+      "text": "",
+      "aria": "Generate Combinations",
+      "role": "generate-pairwise-button",
+      "disabled": false
+    },
+    {
+      "i": 23,
+      "text": "",
+      "aria": "Show grid to enum schema help",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 24,
+      "text": "",
+      "aria": "Grid to Enum Schema",
+      "role": "generate-schema-button",
+      "disabled": false
+    },
+    {
+      "i": 25,
+      "text": "",
+      "aria": "Dismiss message",
+      "role": "dismiss-button",
+      "disabled": false
+    },
+    {
+      "i": 26,
+      "text": "",
+      "aria": "Show help",
+      "role": "schema-mode-help",
+      "disabled": false
+    },
+    {
+      "i": 27,
+      "text": "",
+      "aria": null,
+      "role": "schema-mode-toggle",
+      "disabled": false
+    },
+    {
+      "i": 28,
+      "text": "",
+      "aria": null,
+      "role": "schema-load-file-button",
+      "disabled": false
+    },
+    {
+      "i": 29,
+      "text": "",
+      "aria": null,
+      "role": "schema-save-file-button",
+      "disabled": false
+    },
+    {
+      "i": 30,
+      "text": "",
+      "aria": "Drag field to reorder",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 31,
+      "text": "",
+      "aria": "Insert field after this row",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 32,
+      "text": "",
+      "aria": "Remove field",
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 33,
+      "text": "",
+      "aria": "Move up",
+      "role": null,
+      "disabled": true
+    },
+    {
+      "i": 34,
+      "text": "",
+      "aria": "Move down",
+      "role": null,
+      "disabled": true
+    },
+    {
+      "i": 35,
+      "text": "",
+      "aria": null,
+      "role": "schema-add-field",
+      "disabled": false
+    },
+    {
+      "i": 36,
+      "text": "",
+      "aria": "Save Schema As",
+      "role": "stored-schemas-save-as",
+      "disabled": true
+    },
+    {
+      "i": 37,
+      "text": "",
+      "aria": "Recover Draft",
+      "role": "stored-schemas-recover-draft",
+      "disabled": true
+    },
+    {
+      "i": 38,
+      "text": "",
+      "aria": "Load last used schema",
+      "role": "stored-schemas-load-last-used",
+      "disabled": true
+    },
+    {
+      "i": 39,
+      "text": "",
+      "aria": "Clear last used schema",
+      "role": "stored-schemas-clear-last-used",
+      "disabled": true
+    },
+    {
+      "i": 40,
+      "text": "",
+      "aria": null,
+      "role": "stored-schemas-open-saved-dialog",
+      "disabled": true
+    },
+    {
+      "i": 41,
+      "text": "→",
+      "aria": "Set Text From Grid",
+      "role": "set-text-from-grid-button",
+      "disabled": false
+    },
+    {
+      "i": 42,
+      "text": "→",
+      "aria": "Set Grid From Text",
+      "role": "set-grid-from-text-button",
+      "disabled": true
+    },
+    {
+      "i": 43,
+      "text": "",
+      "aria": "Import From Clipboard",
+      "role": "clipboard-import-button",
+      "disabled": false
+    },
+    {
+      "i": 44,
+      "text": "",
+      "aria": "Download file",
+      "role": "download-button",
+      "disabled": false
+    },
+    {
+      "i": 45,
+      "text": "Preview",
+      "aria": null,
+      "role": "preview-edit-mode-button",
+      "disabled": false
+    },
+    {
+      "i": 46,
+      "text": "Copy",
+      "aria": null,
+      "role": "copy-text-button",
+      "disabled": false
+    },
+    {
+      "i": 47,
+      "text": "Apply",
+      "aria": null,
+      "role": "apply-options-button",
+      "disabled": true
+    },
+    {
+      "i": 48,
+      "text": "OK",
+      "aria": null,
+      "role": "confirm-dialog-ok",
+      "disabled": false
+    },
+    {
+      "i": 49,
+      "text": "Cancel",
+      "aria": null,
+      "role": "confirm-dialog-cancel",
+      "disabled": false
+    },
+    {
+      "i": 50,
+      "text": "OK",
+      "aria": null,
+      "role": "text-input-dialog-ok",
+      "disabled": false
+    },
+    {
+      "i": 51,
+      "text": "Cancel",
+      "aria": null,
+      "role": "text-input-dialog-cancel",
+      "disabled": false
+    },
+    {
+      "i": 52,
+      "text": "Load Sample Schema",
+      "aria": null,
+      "role": null,
+      "disabled": false
+    },
+    {
+      "i": 53,
+      "text": "Load Sample Data",
+      "aria": null,
+      "role": "instructions-action-button",
+      "disabled": false
+    }
+  ],
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "aria": null,
+      "value": "",
+      "role": "filter-text-input"
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "aria": null,
+      "value": "on",
+      "role": "unique-column-names-checkbox"
+    },
+    {
+      "i": 2,
+      "tag": "INPUT",
+      "type": "search",
+      "aria": "Filter table column",
+      "value": "",
+      "role": null
+    },
+    {
+      "i": 3,
+      "tag": "INPUT",
+      "type": "number",
+      "aria": null,
+      "value": "1",
+      "role": "input"
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "type": "radio",
+      "aria": null,
+      "value": "new-table",
+      "role": null
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "radio",
+      "aria": null,
+      "value": "amend-table",
+      "role": null
+    },
+    {
+      "i": 6,
+      "tag": "INPUT",
+      "type": "radio",
+      "aria": null,
+      "value": "amend-selected",
+      "role": null
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "type": "file",
+      "aria": "Load Schema File",
+      "value": "",
+      "role": "schema-file-input"
+    },
+    {
+      "i": 8,
+      "tag": "INPUT",
+      "type": "text",
+      "aria": "Column Name",
+      "value": "",
+      "role": null
+    },
+    {
+      "i": 9,
+      "tag": "SELECT",
+      "type": "select-one",
+      "aria": "Field type",
+      "value": "regex",
+      "role": null
+    },
+    {
+      "i": 10,
+      "tag": "INPUT",
+      "type": "text",
+      "aria": "Value / Regex",
+      "value": "",
+      "role": null
+    },
+    {
+      "i": 11,
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "aria": "Schema text",
+      "value": "",
+      "role": "schema-textbox"
+    },
+    {
+      "i": 12,
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "aria": "Schema constraints",
+      "value": "",
+      "role": "schema-constraints-textbox"
+    },
+    {
+      "i": 13,
+      "tag": "SELECT",
+      "type": "select-one",
+      "aria": "Last Used",
+      "value": "",
+      "role": "stored-schemas-last-used-select"
+    },
+    {
+      "i": 14,
+      "tag": "INPUT",
+      "type": "radio",
+      "aria": null,
+      "value": "off",
+      "role": "trim-input-off-radio"
+    },
+    {
+      "i": 15,
+      "tag": "INPUT",
+      "type": "radio",
+      "aria": null,
+      "value": "on",
+      "role": "trim-input-on-radio"
+    },
+    {
+      "i": 16,
+      "tag": "INPUT",
+      "type": "radio",
+      "aria": null,
+      "value": "off",
+      "role": "trim-input-fields-off-radio"
+    },
+    {
+      "i": 17,
+      "tag": "INPUT",
+      "type": "radio",
+      "aria": null,
+      "value": "selected",
+      "role": "trim-input-fields-selected-radio"
+    },
+    {
+      "i": 18,
+      "tag": "INPUT",
+      "type": "text",
+      "aria": "Trim input fields CSV",
+      "value": "",
+      "role": "trim-input-fields-text"
+    },
+    {
+      "i": 19,
+      "tag": "INPUT",
+      "type": "file",
+      "aria": null,
+      "value": "",
+      "role": "file-input"
+    },
+    {
+      "i": 20,
+      "tag": "SELECT",
+      "type": "select-one",
+      "aria": "Line endings",
+      "value": "crlf",
+      "role": "line-ending-select"
+    },
+    {
+      "i": 21,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "aria": null,
+      "value": "on",
+      "role": "include-bom-checkbox"
+    },
+    {
+      "i": 22,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "aria": null,
+      "value": "on",
+      "role": "auto-preview-checkbox"
+    },
+    {
+      "i": 23,
+      "tag": "INPUT",
+      "type": "number",
+      "aria": "Preview row count",
+      "value": "10",
+      "role": "input"
+    },
+    {
+      "i": 24,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "aria": null,
+      "value": "on",
+      "role": null
+    },
+    {
+      "i": 25,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "aria": null,
+      "value": "on",
+      "role": null
+    },
+    {
+      "i": 26,
+      "tag": "INPUT",
+      "type": "text",
+      "aria": null,
+      "value": "\"",
+      "role": null
+    },
+    {
+      "i": 27,
+      "tag": "INPUT",
+      "type": "text",
+      "aria": null,
+      "value": "\"",
+      "role": null
+    },
+    {
+      "i": 28,
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "aria": "Preview text editor",
+      "value": "",
+      "role": "preview-text-editor"
+    },
+    {
+      "i": 29,
+      "tag": "INPUT",
+      "type": "text",
+      "aria": null,
+      "value": "",
+      "role": "text-input-dialog-field"
+    }
+  ]
+}

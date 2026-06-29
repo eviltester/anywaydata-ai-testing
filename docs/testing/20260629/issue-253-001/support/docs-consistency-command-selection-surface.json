@@ -1,0 +1,270 @@
+{
+  "selects": [
+    {
+      "i": 0,
+      "value": "domain",
+      "visible": true,
+      "optionCount": 5,
+      "sampleOptions": [
+        "enum",
+        "literal",
+        "regex",
+        "domain",
+        "faker"
+      ]
+    },
+    {
+      "i": 1,
+      "value": "number.int",
+      "visible": true,
+      "optionCount": 253,
+      "sampleOptions": [
+        "Select domain command",
+        "airline.aircraftType",
+        "airline.flightNumber",
+        "airline.iataCode",
+        "airline.name",
+        "airline.recordLocator",
+        "airline.seat",
+        "airplane.iataTypeCode"
+      ]
+    },
+    {
+      "i": 2,
+      "value": "",
+      "visible": true,
+      "optionCount": 1,
+      "sampleOptions": [
+        "No last used schemas"
+      ]
+    },
+    {
+      "i": 3,
+      "value": "csv",
+      "visible": true,
+      "optionCount": 41,
+      "sampleOptions": [
+        "CSV",
+        "JSON",
+        "JSONL",
+        "XML",
+        "SQL",
+        "MARKDOWN",
+        "DSV",
+        "HTML"
+      ]
+    },
+    {
+      "i": 4,
+      "value": "crlf",
+      "visible": true,
+      "optionCount": 2,
+      "sampleOptions": [
+        "Unix (LF)",
+        "Windows (CR/LF)"
+      ]
+    }
+  ],
+  "visibleButtons": [
+    {
+      "i": 0,
+      "text": "🌙",
+      "aria": "Switch to dark theme",
+      "title": "Switch to dark theme",
+      "cls": "theme-toggle-button",
+      "visible": true
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": "Show help",
+      "title": null,
+      "cls": "helpicon",
+      "visible": true
+    },
+    {
+      "i": 3,
+      "text": "",
+      "aria": "Show help",
+      "title": null,
+      "cls": "helpicon",
+      "visible": true
+    },
+    {
+      "i": 4,
+      "text": "Edit as Text",
+      "aria": null,
+      "title": "Toggle schema text mode",
+      "cls": "icon-button",
+      "visible": true
+    },
+    {
+      "i": 5,
+      "text": "Load Schema File",
+      "aria": null,
+      "title": null,
+      "cls": "icon-button",
+      "visible": true
+    },
+    {
+      "i": 6,
+      "text": "Save Schema File",
+      "aria": null,
+      "title": null,
+      "cls": "icon-button",
+      "visible": true
+    },
+    {
+      "i": 7,
+      "text": "",
+      "aria": "Drag field to reorder",
+      "title": "Drag field to reorder",
+      "cls": "icon-button shared-schema-drag-handle",
+      "visible": true
+    },
+    {
+      "i": 8,
+      "text": "",
+      "aria": "Insert field after this row",
+      "title": "Add field",
+      "cls": "icon-button",
+      "visible": true
+    },
+    {
+      "i": 9,
+      "text": "",
+      "aria": "Remove field",
+      "title": "Remove field",
+      "cls": "icon-button",
+      "visible": true
+    },
+    {
+      "i": 10,
+      "text": "",
+      "aria": "Move up",
+      "title": "Move up",
+      "cls": "icon-button",
+      "visible": true
+    },
+    {
+      "i": 11,
+      "text": "",
+      "aria": "Move down",
+      "title": "Move down",
+      "cls": "icon-button",
+      "visible": true
+    },
+    {
+      "i": 12,
+      "text": "number.int",
+      "aria": null,
+      "title": null,
+      "cls": "shared-schema-command-picker-button ",
+      "visible": true
+    },
+    {
+      "i": 13,
+      "text": "",
+      "aria": "Edit params for number.int",
+      "title": "Edit params in dialog",
+      "cls": "icon-button shared-schema-params-button",
+      "visible": true
+    },
+    {
+      "i": 14,
+      "text": "+ Add Field",
+      "aria": null,
+      "title": null,
+      "cls": "",
+      "visible": true
+    },
+    {
+      "i": 15,
+      "text": "",
+      "aria": "Save Schema As",
+      "title": "Save Schema As",
+      "cls": "",
+      "visible": true
+    },
+    {
+      "i": 16,
+      "text": "",
+      "aria": "Recover Draft",
+      "title": "Recover Draft",
+      "cls": "",
+      "visible": true
+    },
+    {
+      "i": 17,
+      "text": "",
+      "aria": "Load last used schema",
+      "title": "Load last used schema",
+      "cls": "",
+      "visible": true
+    },
+    {
+      "i": 18,
+      "text": "",
+      "aria": "Clear last used schema",
+      "title": "Clear last used schema",
+      "cls": "",
+      "visible": true
+    },
+    {
+      "i": 19,
+      "text": "",
+      "aria": null,
+      "title": null,
+      "cls": "",
+      "visible": true
+    },
+    {
+      "i": 20,
+      "text": "",
+      "aria": "Show file generation help",
+      "title": null,
+      "cls": "helpicon",
+      "visible": true
+    },
+    {
+      "i": 21,
+      "text": "Generate Data",
+      "aria": "Generate Data",
+      "title": "Generate Data",
+      "cls": "",
+      "visible": true
+    },
+    {
+      "i": 24,
+      "text": "Apply",
+      "aria": null,
+      "title": null,
+      "cls": "apply-options",
+      "visible": true
+    },
+    {
+      "i": 26,
+      "text": "",
+      "aria": "Show preview help",
+      "title": null,
+      "cls": "helpicon",
+      "visible": true
+    },
+    {
+      "i": 27,
+      "text": "Preview",
+      "aria": null,
+      "title": null,
+      "cls": "",
+      "visible": true
+    }
+  ],
+  "bodyMatches": [
+    "number.int",
+    "example",
+    "number.int",
+    "Min"
+  ],
+  "rowText": "AnyWayData App Generator Docs Blog 🌙 Skip to main content Data Generator Data Generator Instructions Schema Edit as Text Load Schema File Save Schema File enum literal regex domain faker number.int Select domain command airline.aircraftType airline.flightNumber airline.iataCode airline.name airline.recordLocator airline.seat airplane.iataTypeCode airplane.name airport.iataCode airport.name animal.bear animal.bird animal.cat animal.cetacean animal.cow animal.crocodilia animal.dog animal.fish animal.horse animal.insect animal.lion animal.petName animal.rabbit animal.rodent animal.snake animal.type autoIncrement.sequence autoIncrement.timestamp book.author book.format book.genre book.publisher book.series book.title chemicalElement.atomicNumber chemicalElement.name chemicalElement.symbol color.cmyk color.colorByCSSColorSpace color.cssSupportedFunction color.cssSupportedSpace color.hsl color.human color.hwb color.lab color.lch color.rgb color.space commerce.department commerce.isbn commerce.price commerce.product commerce.productAdjective commerce.productDescription commerce.productMaterial commerce.productName commerce.upc company.buzzAdjective company.buzzNoun company.buzzPhrase company.buzzVerb company.catchPhrase company.catchPhraseAdjective company.catchPhraseDescriptor company.catchPhraseNoun company.name database.collation database.column database.engine database.mongodbObjectId database.type datatype.boolean datatype.enum date.anytime date.between date.birthdate date.future date.month date.past date.recent date.soon date.timeZone date.weekday finance.accountName finance.accountNumber finance.amount finance.bic finance.bitcoinAddress finance.creditCardCVV finance.creditCardIssuer finance.creditCardNumber finance.currencyCode finance.currencyName finance.currencyNumericCode finance.currencySymbol finance.ethereumAddress finance.iban finance.litecoinAddress finance.pin finance.routingNumber finance.transactionDescription finance.transactionType food.adjective food",
+  "htmlSample": "<body class=\"theme-light\">\n    <div class=\"header\" data-role=\"theme-toggle-host\">\n      <div class=\"pageheading\"><a href=\"/grid-table-editor/\">AnyWayData</a></div>\n      <div class=\"mainmenu\"><a href=\"/grid-table-editor/app.html\">App</a></div>\n      <div class=\"mainmenu\">&nbsp;Generator&nbsp;</div>\n      <div class=\"mainmenu\"><a href=\"/grid-table-editor/site/docs/intro\">Docs</a></div>\n      <div class=\"mainmenu\"><a href=\"/grid-table-editor/site/blog\">Blog</a></div>\n    <div class=\"theme-toggle-container\" data-role=\"theme-toggle-container\" data-owner=\"theme-toggle-component\"><button type=\"button\" class=\"theme-toggle-button\" data-role=\"theme-toggle-button\" aria-label=\"Switch to dark theme\" title=\"Switch to dark theme\">🌙</button></div></div>\n\n    <div id=\"generator-page-root\">\n      <a class=\"skip-link\" href=\"#generator-main-content\">Skip to main content</a>\n      <main id=\"generator-main-content\" class=\"main-app\" aria-labelledby=\"generator-page-title\">\n        <h1 id=\"generator-page-title\" class=\"visually-hidden\">Data Generator</h1>\n        <div id=\"generator-instructions\">\n      <div class=\"instructions\">\n        <details>\n          <summary>\n            Data Generator Instructions\n            <button type=\"button\" data-help=\"shared-generator-screen-overview\" data-help-role=\"help-icon\" class=\"helpicon\" tabindex=\"0\" aria-label=\"Show help\" aria-expanded=\"false\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"app-icon helpicon-svg\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"></path><path d=\"M12 17h.01\"></path></svg></button>\n          </summary>\n          <ul><li>Define schema rows with column name, source type, and rule details.</li><li>Use + and - to add or remove rows and arrows to reorder.</li><li>Use Preview to generate a sample set into the table.</li><li>Use Generate Data to download file output in the selected format.</li><li>If your schema contains at least two enums then you can Generate Combinations with n-wise coverage.</li><li>Click between \"Edit as Text\" and \"Edit as Schema\" to use the edit view that works best for you.</li><li>Preview and Generate row counts are independent.</li></ul>\n          \n          \n        </details>\n      </div>\n    <div data-role=\"inline-help-items\" style=\"display: none;\"><div data-name=\"import-export-controls\">\n      <p>Using the import and export controls you can:</p>\n      <ul>\n        <li>\"Set Text From Grid\"<br> to refresh the text box for the chosen output format.</li>\n        <li>\"Set Grid From Text\"<br> to <a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/text-editing\" target=\"anywaydatadocs\">import the text box content</a> into the grid.</li>\n        <li>\"Choose File\"<br> to <a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import a text file</a> of the chosen format.</li>\n        <li>\"Download File\"<br> to <a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/exporting-data\" target=\"anywaydatadocs\">export the Data Grid</a> items in the chosen format.</li>\n        <li>\"Drag and Drop File\"<br> to <a class=\"helplink\" href=\"https://eviltester.github.io/grid-table-editor/site/docs/editing-data/import-from-file\" target=\"anywaydatadocs\">import the file</a> contents using the currently chosen format.</li>\n      </ul>\n      <p>The options shown depend on the output type, some types are not supported for input and so only the output options will be shown.</p>\n    </div><div data-name=\"import-export-grid-preview-sync\">\n      <p>Use the Grid/Preview Sync controls to keep the text preview and grid aligned for the selected output format.</p>\n      <ul>\n        <li>\"Set Text From Grid\"<br> refreshes the t"
+}

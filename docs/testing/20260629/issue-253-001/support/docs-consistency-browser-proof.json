@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/",
+    "title": "AnyWayData - Data Table Editor & Generator",
+    "h1": "AnyWayData - Data Table Editor & Generator"
+  },
+  {
+    "url": "https://eviltester.github.io/grid-table-editor/site/app.html",
+    "title": "Test Data Generator and Table Editor for Markdown, CSV, JSON, Gherkin and HTML - AnyWayData",
+    "visibleTextSample": "AnyWayData\n App \nGenerator\nDocs\nBlog\n🌙\nInstructions \nAdd Row Add Rows Above Add Rows Below Delete Selected Rows Filter:  Clear Filters Clear Sort Reset Table  Unique Column Names\n~rename-me\n\n\nTotal rows: 0\nTest Data \n→\n→\nImport / Export\n Auto Sync\nPreview\nRows \nCopy\nMarkdown\nCSV\nDelimited\nJSON\nJSONL\nXML\nSQL\nCode\nCode (Unit Test)\nGherkin\nHTML\nASCII\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply"
+  },
+  {
+    "afterClick": "Add Row",
+    "url": "https://eviltester.github.io/grid-table-editor/site/app.html",
+    "textHasTotalRows1": true
+  }
+]

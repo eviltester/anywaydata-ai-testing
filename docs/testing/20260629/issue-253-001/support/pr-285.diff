@@ -1,0 +1,583 @@
+diff --git a/apps/web/src/tests/browser/app/functional/test-data/text-schema-grid-sync.spec.js b/apps/web/src/tests/browser/app/functional/test-data/text-schema-grid-sync.spec.js
+index 04c9cc0b..cd905e11 100644
+--- a/apps/web/src/tests/browser/app/functional/test-data/text-schema-grid-sync.spec.js
++++ b/apps/web/src/tests/browser/app/functional/test-data/text-schema-grid-sync.spec.js
+@@ -153,7 +153,7 @@ test.describe('7. Test Data Generation', () => {
+     expectNoPageErrors(pageErrors);
+   });
+ 
+-  test('domain rows with invalid params show a schema error after text mode round-trip in the app editor', async ({
++  test('domain rows with invalid params switch back to schema mode with row validation in the app editor', async ({
+     page,
+   }) => {
+     const { appPage, pageErrors } = await openApp(page);
+@@ -170,10 +170,11 @@ test.describe('7. Test Data Generation', () => {
+     await appPage.testDataPanel.setSchemaTextMode(true);
+     await appPage.testDataPanel.schemaEditor.modeToggleButton.click();
+ 
++    await expect.poll(async () => appPage.testDataPanel.isRowEditorMode()).toBe(true);
++    await expect.poll(async () => appPage.testDataPanel.getSchemaErrorText()).toBe('');
+     await expect
+-      .poll(async () => appPage.testDataPanel.getSchemaErrorText())
+-      .toContain('Name failed domain validation');
+-    await expect.poll(async () => appPage.testDataPanel.isRowEditorMode()).toBe(false);
++      .poll(async () => await appPage.testDataPanel.getSchemaValidationMessage(0).textContent(), { timeout: 2500 })
++      .toContain('invalid domain params');
+ 
+     expectNoPageErrors(pageErrors);
+   });
+diff --git a/apps/web/src/tests/browser/generator/functional/schema-edit.spec.js b/apps/web/src/tests/browser/generator/functional/schema-edit.spec.js
+index b8637125..f9d93d5a 100644
+--- a/apps/web/src/tests/browser/generator/functional/schema-edit.spec.js
++++ b/apps/web/src/tests/browser/generator/functional/schema-edit.spec.js
+@@ -345,7 +345,7 @@ test.describe('Generator Schema Editing', () => {
+     expectNoPageErrors(pageErrors);
+   });
+ 
+-  test('domain rows with invalid params show a schema error after text mode round-trip in the generator editor', async ({
++  test('domain rows with invalid params switch back to schema mode with row validation in the generator editor', async ({
+     page,
+   }) => {
+     const { generatorPage, pageErrors } = await openGenerator(page);
+@@ -358,8 +358,12 @@ test.describe('Generator Schema Editing', () => {
+     await generatorPage.schema.setTextMode(true);
+     await generatorPage.schema.modeToggleButton.click();
+ 
+-    await expect(generatorPage.schema.errorStatus).toContainText('Name failed domain validation');
+-    await expect.poll(async () => generatorPage.schema.editor.isRowEditorMode()).toBe(false);
++    await expect.poll(async () => generatorPage.schema.editor.isRowEditorMode()).toBe(true);
++    await expect(generatorPage.schema.errorStatus).toHaveText('');
++    await expect(generatorPage.schema.row(0).locator('.shared-schema-row-validation')).toContainText(
++      'invalid domain params',
++      { timeout: 2500 }
++    );
+ 
+     expectNoPageErrors(pageErrors);
+   });
+diff --git a/packages/core-ui/js/gui_components/data-grid-editor/tabulator/gridExtension-tabulator.js b/packages/core-ui/js/gui_components/data-grid-editor/tabulator/gridExtension-tabulator.js
+index f2611d8a..dc27c7bf 100644
+--- a/packages/core-ui/js/gui_components/data-grid-editor/tabulator/gridExtension-tabulator.js
++++ b/packages/core-ui/js/gui_components/data-grid-editor/tabulator/gridExtension-tabulator.js
+@@ -744,10 +744,13 @@ class GridExtensionTabulator {
+   }
+ 
+   _setBulkData(rows) {
+-    if (typeof this.tabulator.replaceData === 'function') {
+-      return this.tabulator.replaceData(rows);
+-    }
+-    return this.tabulator.setData(rows);
++    const setResult =
++      typeof this.tabulator.replaceData === 'function'
++        ? this.tabulator.replaceData(rows)
++        : this.tabulator.setData(rows);
++    return Promise.resolve(setResult).then(() => {
++      this._reapplyActiveFiltersAfterBulkMutation();
++    });
+   }
+ 
+   async _autoFitFirstColumn() {
+@@ -1067,12 +1070,26 @@ class GridExtensionTabulator {
+   _refreshTableAfterBulkMutation() {
+     if (typeof this.tabulator.refreshData === 'function') {
+       this.tabulator.refreshData();
++      this._reapplyActiveFiltersAfterBulkMutation();
+       return;
+     }
+ 
+     if (typeof this.tabulator.redraw === 'function') {
+       this.tabulator.redraw(true);
+     }
++    this._reapplyActiveFiltersAfterBulkMutation();
++  }
++
++  _reapplyActiveFiltersAfterBulkMutation() {
++    if (typeof this.tabulator.refreshFilter === 'function') {
++      this.tabulator.refreshFilter();
++      return;
++    }
++
++    const activeGlobalFilter = String(this.tabUtils?.getActiveGlobalFilterQuery?.() || '').trim();
++    if (activeGlobalFilter.length > 0) {
++      this.tabUtils.filterAcrossAllColumns(activeGlobalFilter);
++    }
+   }
+ 
+   onGridChanged(callback) {
+diff --git a/packages/core-ui/js/gui_components/shared/test-data/schema/shared-schema-editor-controller.js b/packages/core-ui/js/gui_components/shared/test-data/schema/shared-schema-editor-controller.js
+index cfb59e7d..0df93e66 100644
+--- a/packages/core-ui/js/gui_components/shared/test-data/schema/shared-schema-editor-controller.js
++++ b/packages/core-ui/js/gui_components/shared/test-data/schema/shared-schema-editor-controller.js
+@@ -20,7 +20,7 @@ import {
+ import { applySchemaCommandSelection } from './schema-row-mapper.js';
+ import { schemaRowsToSpecWithTokens } from './schema-editor-core.js';
+ import { schemaErrorsToText } from './schema-error-text.js';
+-import { getSchemaRowSemanticValidationIssues } from './schema-row-validation.js';
++import { getSchemaRowSemanticValidationIssues, getStaticSchemaRowValidationIssues } from './schema-row-validation.js';
+ import { captureActiveFieldState, restoreActiveFieldState } from './schema-focus-state.js';
+ import { getDefaultDocumentObj, resolveWindowObj } from '../../dom/default-objects.js';
+ import { createConfirmDialogService } from '../../dialog-services/confirm-dialog-service.js';
+@@ -424,31 +424,73 @@ function createSharedSchemaEditorController({
+     parsed.errors.length > 0 &&
+     parsed.errors.every((error) => error?.code === 'compiler_validation_error');
+ 
+-  const getInvalidSchemaRowIndexes = (parsed) => {
++  const SCHEMA_UI_BLOCKING_ROW_ERROR_CODES = new Set([
++    'missing_domain_command',
++    'unknown_domain_command',
++    'helpers_not_supported_in_domain',
++    'missing_faker_command',
++    'unknown_faker_command',
++    'forbidden_faker_command',
++  ]);
++
++  const getSchemaErrorRowIndex = (parsed, error) => {
+     const rows = Array.isArray(parsed?.rows) ? parsed.rows : [];
++    const column = String(error?.column ?? '').trim();
++    if (column.length > 0) {
++      const columnIndex = rows.findIndex((row) => String(row?.name ?? '').trim() === column);
++      if (columnIndex >= 0) {
++        return columnIndex;
++      }
++    }
++
++    const line = Number(error?.line);
++    if (Number.isInteger(line)) {
++      const ruleIndex = (Array.isArray(parsed?.tokens) ? parsed.tokens : [])
++        .filter((token) => token?.kind === 'rule')
++        .findIndex((token) => token?.line === line || token?.ruleLine === line || token?.headerLine === line);
++      if (ruleIndex >= 0 && ruleIndex < rows.length) {
++        return ruleIndex;
++      }
++    }
++
++    return -1;
++  };
++
++  const getInvalidSchemaRowIndexes = (parsed) => {
+     const invalidIndexes = new Set();
+     (Array.isArray(parsed?.errors) ? parsed.errors : []).forEach((error) => {
+-      const column = String(error?.column ?? '').trim();
+-      if (column.length > 0) {
+-        rows.forEach((row, index) => {
+-          if (String(row?.name ?? '').trim() === column) {
+-            invalidIndexes.add(index);
+-          }
+-        });
+-      }
+-      const line = Number(error?.line);
+-      if (Number.isInteger(line)) {
+-        const ruleIndex = (Array.isArray(parsed?.tokens) ? parsed.tokens : [])
+-          .filter((token) => token?.kind === 'rule')
+-          .findIndex((token) => token?.line === line || token?.ruleLine === line || token?.headerLine === line);
+-        if (ruleIndex >= 0 && ruleIndex < rows.length) {
+-          invalidIndexes.add(ruleIndex);
+-        }
++      const rowIndex = getSchemaErrorRowIndex(parsed, error);
++      if (rowIndex >= 0) {
++        invalidIndexes.add(rowIndex);
+       }
+     });
+     return invalidIndexes;
+   };
+ 
++  const isSchemaRowEditableForCompilerValidationError = (row, rowIndex) => {
++    const sourceType = normaliseSourceType(row?.sourceType);
++    if (sourceType !== SOURCE_TYPE_DOMAIN && sourceType !== SOURCE_TYPE_FAKER) {
++      return false;
++    }
++    return !getStaticSchemaRowValidationIssues(row, rowIndex).some((issue) =>
++      SCHEMA_UI_BLOCKING_ROW_ERROR_CODES.has(issue?.code)
++    );
++  };
++
++  const canEditCompilerValidationErrorsInSchemaRows = (parsed) => {
++    if (!canRecoverSchemaDefinitionErrorsAsLiterals(parsed)) {
++      return false;
++    }
++
++    return parsed.errors.every((error) => {
++      const rowIndex = getSchemaErrorRowIndex(parsed, error);
++      if (rowIndex < 0) {
++        return false;
++      }
++      return isSchemaRowEditableForCompilerValidationError(parsed.rows[rowIndex], rowIndex);
++    });
++  };
++
+   const convertInvalidSchemaRowsToLiterals = (parsed) => {
+     const rows = Array.isArray(parsed?.rows) ? parsed.rows : [];
+     const ruleTokens = (Array.isArray(parsed?.tokens) ? parsed.tokens : []).filter((token) => token?.kind === 'rule');
+@@ -592,6 +634,13 @@ function createSharedSchemaEditorController({
+     if (session.getTextMode()) {
+       const parsed = syncFromText({ showErrors: true });
+       if (parsed?.errors?.length > 0) {
++        if (canEditCompilerValidationErrorsInSchemaRows(parsed)) {
++          clearSchemaError();
++          session.setTextMode(false);
++          updateModeView();
++          applySemanticValidationForAllRows();
++          return { rows: session.getRows(), errors: parsed.errors, tokens: session.getTokens() };
++        }
+         if (!canRecoverSchemaDefinitionErrorsAsLiterals(parsed)) {
+           return parsed;
+         }
+diff --git a/packages/core-ui/src/tests/grid/tabulator-duplicate-column-copy.test.js b/packages/core-ui/src/tests/grid/tabulator-duplicate-column-copy.test.js
+index a4a592ba..87e51284 100644
+--- a/packages/core-ui/src/tests/grid/tabulator-duplicate-column-copy.test.js
++++ b/packages/core-ui/src/tests/grid/tabulator-duplicate-column-copy.test.js
+@@ -46,6 +46,47 @@ function createTabulatorStub() {
+   };
+ }
+ 
++function createGenericDataTable({ headers, rows }) {
++  return {
++    getColumnCount: () => headers.length,
++    getHeaders: () => headers,
++    getRowCount: () => rows.length,
++    getRowAsObjectUsingHeadings: (rowIndex, fieldNames) =>
++      Object.fromEntries(fieldNames.map((fieldName, index) => [fieldName, rows[rowIndex][index]])),
++  };
++}
++
++function addFilterSupport(tabulator) {
++  tabulator._filterPredicate = null;
++  tabulator._activeRows = tabulator._rowData;
++  tabulator.setFilter = jest.fn((predicate) => {
++    tabulator._filterPredicate = predicate;
++    tabulator.refreshFilter();
++  });
++  tabulator.clearFilter = jest.fn(() => {
++    tabulator._filterPredicate = null;
++    tabulator._activeRows = tabulator._rowData;
++  });
++  tabulator.refreshFilter = jest.fn(() => {
++    tabulator._activeRows =
++      typeof tabulator._filterPredicate === 'function'
++        ? tabulator._rowData.filter((row) => tabulator._filterPredicate(row))
++        : tabulator._rowData;
++  });
++  tabulator.getData = jest.fn((mode) => {
++    if (mode === 'active') {
++      return tabulator._activeRows;
++    }
++    return tabulator._rowData.map((row) => ({ ...row }));
++  });
++  tabulator.getDataCount = jest.fn((mode) => {
++    if (mode === 'active') {
++      return tabulator._activeRows.length;
++    }
++    return tabulator._rowData.length;
++  });
++}
++
+ describe('GridExtensionTabulator duplicate column', () => {
+   test('tabulator helper returns the underlying addData result for row insertion helpers', () => {
+     const addDataResult = Promise.resolve('row-added');
+@@ -175,4 +216,54 @@ describe('GridExtensionTabulator duplicate column', () => {
+ 
+     expect(gridChanged).toHaveBeenCalledTimes(1);
+   });
++
++  test('setGridFromGenericDataTable refreshes active filters after replacing data', async () => {
++    const tabulator = createTabulatorStub();
++    tabulator.setColumns = jest.fn((columns) => {
++      tabulator._columnDefinitions = columns;
++    });
++    tabulator.setData = jest.fn((rows) => {
++      tabulator._rowData = rows;
++    });
++    addFilterSupport(tabulator);
++    tabulator.getColumn = jest.fn(() => createColumnComponent(tabulator._columnDefinitions[0]));
++    const extension = new GridExtensionTabulator(tabulator);
++
++    extension.filterText('200');
++    expect(tabulator.getData('active')).toEqual([]);
++
++    await extension.setGridFromGenericDataTable(
++      createGenericDataTable({
++        headers: ['CaseId'],
++        rows: [['100'], ['200']],
++      })
++    );
++
++    expect(tabulator.refreshFilter).toHaveBeenCalledTimes(2);
++    expect(tabulator.getData('active')).toEqual([{ column1: '200' }]);
++  });
++
++  test('applyGeneratedSchemaAmend refreshes active filters after mutating visible rows', async () => {
++    const tabulator = createTabulatorStub();
++    tabulator._columnDefinitions = [{ title: 'CaseId', field: 'column1' }];
++    tabulator._rowData = [{ column1: '2' }, { column1: '3' }];
++    tabulator.refreshData = jest.fn();
++    addFilterSupport(tabulator);
++    const extension = new GridExtensionTabulator(tabulator);
++
++    extension.filterText('2');
++    expect(tabulator.getData('active')).toEqual([{ column1: '2' }]);
++
++    await extension.applyGeneratedSchemaAmend({
++      mode: 'amend-table',
++      desiredRowCount: 1,
++      schemaHeaders: ['CaseId'],
++      generateRow: () => ['100'],
++    });
++
++    expect(tabulator._rowData).toEqual([{ column1: '100' }, { column1: '3' }]);
++    expect(tabulator.getData('active')).toEqual([]);
++    expect(tabulator.refreshData).toHaveBeenCalledTimes(1);
++    expect(tabulator.refreshFilter).toHaveBeenCalledTimes(2);
++  });
+ });
+diff --git a/packages/core-ui/src/tests/shared/shared-schema-editor-controller.test.js b/packages/core-ui/src/tests/shared/shared-schema-editor-controller.test.js
+index 91563311..e34ad29e 100644
+--- a/packages/core-ui/src/tests/shared/shared-schema-editor-controller.test.js
++++ b/packages/core-ui/src/tests/shared/shared-schema-editor-controller.test.js
+@@ -1,7 +1,9 @@
+ import { jest } from '@jest/globals';
+ import { JSDOM } from 'jsdom';
+ import { fireEvent, within } from '@testing-library/dom';
+-import { dataRulesToSchemaText } from '@anywaydata/core/data_generation/schema-rules-adapter.js';
++import { faker } from '@faker-js/faker';
++import RandExp from 'randexp';
++import { dataRulesToSchemaText, schemaTextToDataRules } from '@anywaydata/core/data_generation/schema-rules-adapter.js';
+ import * as schemaControllerExports from '../../../js/gui_components/shared/test-data/schema/schema-controller.js';
+ import * as schemaEditorCoreExports from '../../../js/gui_components/shared/test-data/schema/schema-editor-core.js';
+ import { createSharedSchemaEditorController } from '../../../js/gui_components/shared/test-data/schema/shared-schema-editor-controller.js';
+@@ -553,6 +555,138 @@ describe('createSharedSchemaEditorController', () => {
+     expect(root.querySelector('[data-role="schema-error"]')?.textContent || '').toBe('');
+   });
+ 
++  test('switches from text to schema rows without literal conversion when a known command has invalid params', async () => {
++    const root = createRoot(dom.window.document);
++    const requestConfirm = jest.fn(() => Promise.resolve(true));
++    const controller = createSharedSchemaEditorController({
++      documentObj: dom.window.document,
++      rootElement: root,
++      requestConfirm,
++      faker,
++      RandExp,
++      createBlankRow: () => ({
++        id: 'blank',
++        name: '',
++        sourceType: 'domain',
++        command: '',
++        value: '',
++        params: '',
++        semanticValidationIssues: [],
++      }),
++      mapRuleToRow: (rule) => {
++        const ruleSpec = String(rule?.ruleSpec ?? '');
++        const openParenIndex = ruleSpec.indexOf('(');
++        return {
++          id: rule.name,
++          name: rule.name,
++          sourceType: rule.type,
++          command: openParenIndex > 0 ? ruleSpec.slice(0, openParenIndex) : ruleSpec,
++          value: '',
++          params: openParenIndex > 0 ? ruleSpec.slice(openParenIndex) : '',
++          semanticValidationIssues: [],
++        };
++      },
++      schemaTextToDataRules,
++      dataRulesToSchemaText,
++      validateSchemaRows: jest.fn((rows) => ({ rows, errors: [] })),
++      updatePairwiseButtonVisibility: jest.fn(),
++      updateHelpHints: jest.fn(),
++    });
++
++    controller.init();
++    controller.setTextMode(true);
++    root.querySelector('[data-role="schema-textbox"]').value = 'Num\nnumber.int(min=1, min=2, max=3)';
++
++    const result = await controller.toggleMode();
++
++    expect(requestConfirm).not.toHaveBeenCalled();
++    expect(result.errors).toEqual([
++      expect.objectContaining({
++        code: 'compiler_validation_error',
++        column: 'Num',
++        message: expect.stringContaining('duplicate named argument "min"'),
++      }),
++    ]);
++    expect(controller.getState().isTextMode).toBe(false);
++    expect(controller.getState().rows).toEqual([
++      expect.objectContaining({
++        name: 'Num',
++        sourceType: 'domain',
++        command: 'number.int',
++        params: '(min=1, min=2, max=3)',
++        semanticValidationIssues: [
++          expect.objectContaining({
++            field: 'params',
++            message: expect.stringContaining('duplicate named argument "min"'),
++          }),
++        ],
++      }),
++    ]);
++    expect(root.querySelector('[data-role="schema-error"]')?.textContent || '').toBe('');
++  });
++
++  test('keeps text mode when compiler validation includes an unmatched error', async () => {
++    const root = createRoot(dom.window.document);
++    const requestConfirm = jest.fn(() => Promise.resolve(false));
++    const onSchemaError = jest.fn();
++    const schemaTextToDataRules = jest.fn(() => ({
++      dataRules: [{ name: 'Num', ruleSpec: 'number.int(min=1, min=2)', type: 'domain' }],
++      errors: [
++        {
++          code: 'compiler_validation_error',
++          column: 'Num',
++          message: 'Num failed domain validation - Invalid keyword arguments: duplicate named argument "min"',
++        },
++        {
++          code: 'compiler_validation_error',
++          message: 'Constraint validation failed without a row anchor',
++        },
++      ],
++      schemaTokens: [{ kind: 'rule', name: 'Num', rule: 'number.int(min=1, min=2)', ruleLine: 2 }],
++      constraints: [],
++    }));
++    const controller = createSharedSchemaEditorController({
++      documentObj: dom.window.document,
++      rootElement: root,
++      requestConfirm,
++      createBlankRow: () => ({
++        id: 'blank',
++        name: '',
++        sourceType: 'domain',
++        command: '',
++        value: '',
++        params: '',
++        semanticValidationIssues: [],
++      }),
++      mapRuleToRow: (rule) => ({
++        id: rule.name,
++        name: rule.name,
++        sourceType: rule.type,
++        command: 'number.int',
++        value: '',
++        params: '(min=1, min=2)',
++        semanticValidationIssues: [],
++      }),
++      schemaTextToDataRules,
++      dataRulesToSchemaText,
++      onSchemaError,
++      validateSchemaRows: jest.fn((rows) => ({ rows, errors: [] })),
++      updatePairwiseButtonVisibility: jest.fn(),
++      updateHelpHints: jest.fn(),
++    });
++
++    controller.init();
++    controller.setTextMode(true);
++    root.querySelector('[data-role="schema-textbox"]').value = 'Num\nnumber.int(min=1, min=2)';
++
++    const result = await controller.toggleMode();
++
++    expect(requestConfirm).toHaveBeenCalledTimes(1);
++    expect(result.errors).toHaveLength(2);
++    expect(controller.getState().isTextMode).toBe(true);
++    expect(onSchemaError).toHaveBeenLastCalledWith(expect.stringContaining('Constraint validation failed'));
++  });
++
+   test('stays in text mode when invalid text definition literal conversion is declined', async () => {
+     const root = createRoot(dom.window.document);
+     const requestConfirm = jest.fn(() => Promise.resolve(false));
+diff --git a/packages/core/js/keywords/domain/autoincrement/sequence-keyword-definition.js b/packages/core/js/keywords/domain/autoincrement/sequence-keyword-definition.js
+index 221e8b18..638e17ea 100644
+--- a/packages/core/js/keywords/domain/autoincrement/sequence-keyword-definition.js
++++ b/packages/core/js/keywords/domain/autoincrement/sequence-keyword-definition.js
+@@ -1,5 +1,25 @@
+ import { validateStringOrNumberValue } from '../../../command-help/command-help-validators.js';
+ 
++function validateAutoIncrementSequenceArgs(_args = [], context = {}) {
++  const argsByName = context?.argsByName || {};
++
++  if (argsByName.step === 0) {
++    return {
++      ok: false,
++      error: 'Invalid keyword arguments: argument "step" must be a non-zero integer',
++    };
++  }
++
++  if (typeof argsByName.zeropadding !== 'undefined' && argsByName.zeropadding < 0) {
++    return {
++      ok: false,
++      error: 'Invalid keyword arguments: argument "zeropadding" must be greater than or equal to 0',
++    };
++  }
++
++  return { ok: true };
++}
++
+ const AUTO_INCREMENT_SEQUENCE_KEYWORD_DEFINITION = {
+   keyword: 'autoIncrement.sequence',
+   delegate: {
+@@ -12,6 +32,7 @@ const AUTO_INCREMENT_SEQUENCE_KEYWORD_DEFINITION = {
+     docsUrl: 'https://anywaydata.com/docs/test-data/auto-increment-sequences',
+     fakerDocsUrl: '',
+     validator: validateStringOrNumberValue,
++    argsValidator: validateAutoIncrementSequenceArgs,
+     returnType: 'string|number',
+     usageExamples: [
+       {
+diff --git a/packages/core/src/tests/core-api/generateFromTextSpec.test.js b/packages/core/src/tests/core-api/generateFromTextSpec.test.js
+index e9e8501f..876195a2 100644
+--- a/packages/core/src/tests/core-api/generateFromTextSpec.test.js
++++ b/packages/core/src/tests/core-api/generateFromTextSpec.test.js
+@@ -437,6 +437,16 @@ test.each([
+     textSpec: 'Number\nnumber.int(min=1,max=10,multipleOf=0)',
+     message: 'argument "multipleOf" must be greater than 0',
+   },
++  {
++    label: 'autoIncrement.sequence step zero',
++    textSpec: 'Sequence\nautoIncrement.sequence(start=1,step=0)',
++    message: 'argument "step" must be a non-zero integer',
++  },
++  {
++    label: 'autoIncrement.sequence negative zeropadding',
++    textSpec: 'Sequence\nautoIncrement.sequence(start=1,step=1,zeropadding=-1)',
++    message: 'argument "zeropadding" must be greater than or equal to 0',
++  },
+   {
+     label: 'date.recent negative days',
+     textSpec: 'Date\ndate.recent(days=-7)',
+diff --git a/packages/core/src/tests/data_generation/keywords/domain/autoincrement/sequence-exec.test.js b/packages/core/src/tests/data_generation/keywords/domain/autoincrement/sequence-exec.test.js
+index de728159..ea7e147f 100644
+--- a/packages/core/src/tests/data_generation/keywords/domain/autoincrement/sequence-exec.test.js
++++ b/packages/core/src/tests/data_generation/keywords/domain/autoincrement/sequence-exec.test.js
+@@ -29,6 +29,6 @@ describe('autoIncrement.sequence domain keyword execution', () => {
+   test('surfaces helper validation errors through the domain keyword interface', () => {
+     expect(() =>
+       executeDomainKeyword('autoIncrement.sequence', { faker, args: [1, 0], autoIncrementState: {} })
+-    ).toThrow('Invalid argument for step: expected a non-zero integer.');
++    ).toThrow('Invalid keyword arguments: argument "step" must be a non-zero integer');
+   });
+ });
+diff --git a/packages/core/src/tests/data_generation/unit/domain/domainKeywords.test.js b/packages/core/src/tests/data_generation/unit/domain/domainKeywords.test.js
+index abb6351d..e8ad3ac1 100644
+--- a/packages/core/src/tests/data_generation/unit/domain/domainKeywords.test.js
++++ b/packages/core/src/tests/data_generation/unit/domain/domainKeywords.test.js
+@@ -481,6 +481,23 @@ describe('domain keyword arg validation', () => {
+     });
+   });
+ 
++  test('rejects invalid autoIncrement.sequence parameters before generation', () => {
++    const keyword = getDomainKeywordByAlias('autoIncrement.sequence');
++
++    expect(validateDomainKeywordArgs(keyword, [1, 0])).toEqual({
++      ok: false,
++      error: 'Invalid keyword arguments: argument "step" must be a non-zero integer',
++    });
++    expect(validateDomainKeywordArgs(keyword, [1, -0])).toEqual({
++      ok: false,
++      error: 'Invalid keyword arguments: argument "step" must be a non-zero integer',
++    });
++    expect(validateDomainKeywordArgs(keyword, [1, 1, '', '', -1])).toEqual({
++      ok: false,
++      error: 'Invalid keyword arguments: argument "zeropadding" must be greater than or equal to 0',
++    });
++  });
++
+   test('rejects datatype.boolean probability outside documented range', () => {
+     const keyword = getDomainKeywordByAlias('datatype.boolean');
+ 

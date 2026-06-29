@@ -1,0 +1,540 @@
+[
+  {
+    "id": "switch-known-autoincrement-step-zero",
+    "schema": "Seq\nautoIncrement.sequence(step=0)",
+    "observed": {
+      "errorLines": [
+        "literal",
+        "literal.value",
+        "Row 1: invalid domain params - Invalid keyword arguments: argument \"step\" must be a non-zero integer"
+      ],
+      "inputs": [
+        {
+          "display": "none",
+          "label": "Load Schema File",
+          "tag": "INPUT",
+          "value": ""
+        },
+        {
+          "display": "block",
+          "label": "Column Name",
+          "tag": "INPUT",
+          "value": "Seq"
+        },
+        {
+          "display": "block",
+          "label": "Field type",
+          "tag": "SELECT",
+          "value": "domain"
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "SELECT",
+          "value": "autoIncrement.sequence"
+        },
+        {
+          "display": "block",
+          "label": "Params",
+          "tag": "INPUT",
+          "value": "(step=0)"
+        },
+        {
+          "display": "inline-block",
+          "label": "Schema text",
+          "tag": "TEXTAREA",
+          "value": "Seq\nautoIncrement.sequence(step=0)"
+        },
+        {
+          "display": "inline-block",
+          "label": "Schema constraints",
+          "tag": "TEXTAREA",
+          "value": ""
+        },
+        {
+          "display": "inline-block",
+          "label": "Last Used",
+          "tag": "SELECT",
+          "value": "stored-schema-1782767459316-fjv9hpx6"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "1000"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "SELECT",
+          "value": "csv"
+        },
+        {
+          "display": "block",
+          "label": "Line endings",
+          "tag": "SELECT",
+          "value": "crlf"
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "on"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "on"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "on"
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "\""
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "\""
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "10"
+        },
+        {
+          "display": "block",
+          "label": "Output Preview",
+          "tag": "TEXTAREA",
+          "value": ""
+        },
+        {
+          "display": "inline-block",
+          "label": "Filter preview column",
+          "tag": "INPUT",
+          "value": ""
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": ""
+        }
+      ],
+      "rowMode": false
+    },
+    "screenshot": "screenshots/command-coverage-switch-known-autoincrement-step-zero.png"
+  },
+  {
+    "id": "switch-known-autoincrement-negative-padding",
+    "schema": "Seq\nautoIncrement.sequence(zeropadding=-1)",
+    "observed": {
+      "errorLines": [
+        "Seq failed domain validation - Invalid keyword arguments: argument \"zeropadding\" must be greater than or equal to 0"
+      ],
+      "inputs": [
+        {
+          "display": "none",
+          "label": "Load Schema File",
+          "tag": "INPUT",
+          "value": ""
+        },
+        {
+          "display": "block",
+          "label": "Column Name",
+          "tag": "INPUT",
+          "value": "Seq"
+        },
+        {
+          "display": "block",
+          "label": "Field type",
+          "tag": "SELECT",
+          "value": "domain"
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "SELECT",
+          "value": "autoIncrement.sequence"
+        },
+        {
+          "display": "block",
+          "label": "Params",
+          "tag": "INPUT",
+          "value": "(zeropadding=-1)"
+        },
+        {
+          "display": "inline-block",
+          "label": "Schema text",
+          "tag": "TEXTAREA",
+          "value": "Seq\nautoIncrement.sequence(zeropadding=-1)"
+        },
+        {
+          "display": "inline-block",
+          "label": "Schema constraints",
+          "tag": "TEXTAREA",
+          "value": ""
+        },
+        {
+          "display": "inline-block",
+          "label": "Last Used",
+          "tag": "SELECT",
+          "value": "stored-schema-1782767459316-fjv9hpx6"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "1000"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "SELECT",
+          "value": "csv"
+        },
+        {
+          "display": "block",
+          "label": "Line endings",
+          "tag": "SELECT",
+          "value": "crlf"
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "on"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "on"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "on"
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "\""
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "\""
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "10"
+        },
+        {
+          "display": "block",
+          "label": "Output Preview",
+          "tag": "TEXTAREA",
+          "value": ""
+        },
+        {
+          "display": "inline-block",
+          "label": "Filter preview column",
+          "tag": "INPUT",
+          "value": ""
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": ""
+        }
+      ],
+      "rowMode": false
+    },
+    "screenshot": "screenshots/command-coverage-switch-known-autoincrement-negative-padding.png"
+  },
+  {
+    "id": "switch-unknown-command",
+    "schema": "Mystery\nunknown.command(foo=1)",
+    "observed": {
+      "errorLines": [
+        "Mystery failed domain validation - Unknown keyword: unknown.command",
+        "Convert invalid definitions?",
+        "Syntax errors are present that can not be edited in Schema UI. Allow editing by converting invalid definitions to literal?"
+      ],
+      "inputs": [
+        {
+          "display": "none",
+          "label": "Load Schema File",
+          "tag": "INPUT",
+          "value": ""
+        },
+        {
+          "display": "block",
+          "label": "Column Name",
+          "tag": "INPUT",
+          "value": "Mystery"
+        },
+        {
+          "display": "block",
+          "label": "Field type",
+          "tag": "SELECT",
+          "value": "domain"
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "SELECT",
+          "value": ""
+        },
+        {
+          "display": "block",
+          "label": "Params",
+          "tag": "INPUT",
+          "value": "(foo=1)"
+        },
+        {
+          "display": "inline-block",
+          "label": "Schema text",
+          "tag": "TEXTAREA",
+          "value": "Mystery\nunknown.command(foo=1)"
+        },
+        {
+          "display": "inline-block",
+          "label": "Schema constraints",
+          "tag": "TEXTAREA",
+          "value": ""
+        },
+        {
+          "display": "inline-block",
+          "label": "Last Used",
+          "tag": "SELECT",
+          "value": "stored-schema-1782767459316-fjv9hpx6"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "1000"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "SELECT",
+          "value": "csv"
+        },
+        {
+          "display": "block",
+          "label": "Line endings",
+          "tag": "SELECT",
+          "value": "crlf"
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "on"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "on"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "on"
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "\""
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "\""
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "10"
+        },
+        {
+          "display": "block",
+          "label": "Output Preview",
+          "tag": "TEXTAREA",
+          "value": ""
+        },
+        {
+          "display": "inline-block",
+          "label": "Filter preview column",
+          "tag": "INPUT",
+          "value": ""
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": ""
+        }
+      ],
+      "rowMode": false
+    },
+    "screenshot": "screenshots/command-coverage-switch-unknown-command.png"
+  },
+  {
+    "id": "switch-known-domain-duplicate-param",
+    "schema": "Num\nnumber.int(min=1, min=2, max=3)",
+    "observed": {
+      "errorLines": [
+        "literal",
+        "literal.value",
+        "Row 1: invalid domain params - Invalid keyword arguments: duplicate named argument \"min\""
+      ],
+      "inputs": [
+        {
+          "display": "none",
+          "label": "Load Schema File",
+          "tag": "INPUT",
+          "value": ""
+        },
+        {
+          "display": "block",
+          "label": "Column Name",
+          "tag": "INPUT",
+          "value": "Num"
+        },
+        {
+          "display": "block",
+          "label": "Field type",
+          "tag": "SELECT",
+          "value": "domain"
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "SELECT",
+          "value": "number.int"
+        },
+        {
+          "display": "block",
+          "label": "Params",
+          "tag": "INPUT",
+          "value": "(min=1, min=2, max=3)"
+        },
+        {
+          "display": "inline-block",
+          "label": "Schema text",
+          "tag": "TEXTAREA",
+          "value": "Num\nnumber.int(min=1, min=2, max=3)"
+        },
+        {
+          "display": "inline-block",
+          "label": "Schema constraints",
+          "tag": "TEXTAREA",
+          "value": ""
+        },
+        {
+          "display": "inline-block",
+          "label": "Last Used",
+          "tag": "SELECT",
+          "value": "stored-schema-1782767459316-fjv9hpx6"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "1000"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "SELECT",
+          "value": "csv"
+        },
+        {
+          "display": "block",
+          "label": "Line endings",
+          "tag": "SELECT",
+          "value": "crlf"
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "on"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "on"
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "on"
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "\""
+        },
+        {
+          "display": "block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "\""
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": "10"
+        },
+        {
+          "display": "block",
+          "label": "Output Preview",
+          "tag": "TEXTAREA",
+          "value": ""
+        },
+        {
+          "display": "inline-block",
+          "label": "Filter preview column",
+          "tag": "INPUT",
+          "value": ""
+        },
+        {
+          "display": "inline-block",
+          "label": null,
+          "tag": "INPUT",
+          "value": ""
+        }
+      ],
+      "rowMode": false
+    },
+    "screenshot": "screenshots/command-coverage-switch-known-domain-duplicate-param.png"
+  }
+]

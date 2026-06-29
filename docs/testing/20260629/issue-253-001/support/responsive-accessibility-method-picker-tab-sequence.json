@@ -1,0 +1,257 @@
+[
+  {
+    "step": "initial",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  },
+  {
+    "step": "Tab 1",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  },
+  {
+    "step": "Tab 2",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  },
+  {
+    "step": "Tab 3",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  },
+  {
+    "step": "Tab 4",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  },
+  {
+    "step": "Tab 5",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  },
+  {
+    "step": "Tab 6",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  },
+  {
+    "step": "Tab 7",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  },
+  {
+    "step": "Tab 8",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  },
+  {
+    "step": "Tab 9",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  },
+  {
+    "step": "Tab 10",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  },
+  {
+    "step": "Tab 11",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  },
+  {
+    "step": "Tab 12",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  },
+  {
+    "step": "Tab 13",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  },
+  {
+    "step": "Tab 14",
+    "active": {
+      "cls": "method-picker-search",
+      "id": "",
+      "inDialog": true,
+      "name": "Filter methods",
+      "rect": {
+        "h": 37,
+        "w": 316,
+        "x": 37,
+        "y": 89
+      },
+      "role": null,
+      "tag": "INPUT"
+    }
+  }
+]

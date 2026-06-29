@@ -1,0 +1,348 @@
+{
+  "schemaTabDesktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "seq": [
+      {
+        "step": "initial",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 377,
+            "x": 218,
+            "y": 179
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 1",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 377,
+            "x": 218,
+            "y": 179
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 2",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 377,
+            "x": 218,
+            "y": 179
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 3",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 377,
+            "x": 218,
+            "y": 179
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 4",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 377,
+            "x": 218,
+            "y": 179
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 5",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 377,
+            "x": 218,
+            "y": 179
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 6",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 377,
+            "x": 218,
+            "y": 179
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 7",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 377,
+            "x": 218,
+            "y": 179
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 8",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 377,
+            "x": 218,
+            "y": 179
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 9",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 377,
+            "x": 218,
+            "y": 179
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 10",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 377,
+            "x": 218,
+            "y": 179
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      }
+    ]
+  },
+  "schemaTabMobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "seq": [
+      {
+        "step": "initial",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 305,
+            "x": 39,
+            "y": 279
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 1",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 305,
+            "x": 39,
+            "y": 279
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 2",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 305,
+            "x": 39,
+            "y": 279
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 3",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 305,
+            "x": 39,
+            "y": 279
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 4",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 305,
+            "x": 39,
+            "y": 279
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 5",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 305,
+            "x": 39,
+            "y": 279
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 6",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 305,
+            "x": 39,
+            "y": 279
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 7",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 305,
+            "x": 39,
+            "y": 279
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 8",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 305,
+            "x": 39,
+            "y": 279
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 9",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 305,
+            "x": 39,
+            "y": 279
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      },
+      {
+        "step": "Tab 10",
+        "active": {
+          "cls": "",
+          "name": "Column Name",
+          "rect": {
+            "h": 21,
+            "w": 305,
+            "x": 39,
+            "y": 279
+          },
+          "role": null,
+          "tag": "INPUT"
+        }
+      }
+    ]
+  }
+}

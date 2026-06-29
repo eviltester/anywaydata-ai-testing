@@ -1,0 +1,189 @@
+[
+  {
+    "id": "L2-01",
+    "title": "Duplicate params on autoIncrement.sequence",
+    "class": "execute-now",
+    "schema": "Seq\nautoIncrement.sequence(step=1, step=2)",
+    "expect": "known invalid row validation",
+    "dialogs": [],
+    "statusTexts": [
+      "Row 1: invalid domain params - Invalid keyword arguments: duplicate named argument \"step\""
+    ],
+    "modeAfter": "schema",
+    "buttonText": "Edit as Text",
+    "output": {},
+    "screenshot": "screenshots/main-loop2-l2-01.png",
+    "error": null,
+    "bodyExcerpt": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nautoIncrement.sequence\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjective\ncompany.buzzNoun\ncompany.buzzPhrase\ncompany.buzzVerb\ncompany.cat"
+  },
+  {
+    "id": "L2-02",
+    "title": "Duplicate params on location cardinal direction",
+    "class": "execute-now",
+    "schema": "Dir\nlocation.cardinalDirection(abbreviated=true, abbreviated=false)",
+    "expect": "known invalid row validation",
+    "dialogs": [],
+    "statusTexts": [
+      "Row 1: invalid domain params - Invalid keyword arguments: duplicate named argument \"abbreviated\""
+    ],
+    "modeAfter": "schema",
+    "buttonText": "Edit as Text",
+    "output": {},
+    "screenshot": "screenshots/main-loop2-l2-02.png",
+    "error": null,
+    "bodyExcerpt": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nlocation.cardinalDirection\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjective\ncompany.buzzNoun\ncompany.buzzPhrase\ncompany.buzzVerb\ncompany"
+  },
+  {
+    "id": "L2-03",
+    "title": "Malformed quote in number.int",
+    "class": "execute-now",
+    "schema": "Age\nnumber.int(min=\"1, max=3)",
+    "expect": "known invalid or clear syntax feedback",
+    "dialogs": [],
+    "statusTexts": [
+      "Row 1: invalid faker params - Invalid Faker API Call Unsafe faker rule syntax detected: requires complex argument parsing"
+    ],
+    "modeAfter": "schema",
+    "buttonText": "Edit as Text",
+    "output": {},
+    "screenshot": "screenshots/main-loop2-l2-03.png",
+    "error": null,
+    "bodyExcerpt": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nnumber.int\nSelect faker command\nhelpers.arrayElement\nhelpers.arrayElements\nhelpers.fake\nhelpers.fromRegExp\nhelpers.maybe\nhelpers.multiple\nhelpers.mustache\nhelpers.rangeToNumber\nhelpers.replaceCreditCardSymbols\nhelpers.replaceSymbols\nhelpers.shuffle\nhelpers.slugify\nhelpers.uniqueArray\nhelpers.weightedArrayElement\nRow 1: invalid faker params - Invalid Faker API Call Unsafe faker rule syntax detected: requires complex argument parsing\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n"
+  },
+  {
+    "id": "L2-04",
+    "title": "String structured param valid characters array",
+    "class": "execute-now",
+    "schema": "Token\nstring.fromCharacters(characters=[\"A\",\"B\"], length=4)",
+    "expect": "valid structured params generate",
+    "dialogs": [],
+    "statusTexts": [],
+    "modeAfter": "schema",
+    "buttonText": "Edit as Text",
+    "output": {
+      "CSV": "\"Token\"\n\"AAAA\"\n\"BABA\"\n\"ABAB\"\n\"BBAA\"\n\"BAAA\"\n\"ABAA\"\n\"BBBB\"\n\"BBAB\"\n\"AAAA\"\n\"BBBA\""
+    },
+    "screenshot": "screenshots/main-loop2-l2-04.png",
+    "error": null,
+    "bodyExcerpt": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nstring.fromCharacters\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjective\ncompany.buzzNoun\ncompany.buzzPhrase\ncompany.buzzVerb\ncompany.catc"
+  },
+  {
+    "id": "L2-05",
+    "title": "String structured param malformed quoted array",
+    "class": "execute-now",
+    "schema": "Token\nstring.fromCharacters(characters=[\"A\",\"B], length=4)",
+    "expect": "known invalid clear feedback",
+    "dialogs": [],
+    "statusTexts": [],
+    "modeAfter": null,
+    "buttonText": null,
+    "output": {},
+    "screenshot": null,
+    "error": "page.goto: net::ERR_CONNECTION_RESET at https://eviltester.github.io/grid-table-editor/generator.html\nCall log:\n\u001b[2m  - navigating to \"https://eviltester.github.io/grid-table-editor/generator.html\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "id": "L2-06",
+    "title": "Faker helper mustache from docs",
+    "class": "execute-now",
+    "schema": "Greeting\nhelpers.mustache(\"Hello {{name}}\", { name: \"Ada\" })",
+    "expect": "docs helper example works or clear support boundary",
+    "dialogs": [],
+    "statusTexts": [],
+    "modeAfter": "schema",
+    "buttonText": "Edit as Text",
+    "output": {
+      "CSV": "\"Greeting\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\"\n\"Hello Ada\""
+    },
+    "screenshot": "screenshots/main-loop2-l2-06.png",
+    "error": null,
+    "bodyExcerpt": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nhelpers.mustache\nSelect faker command\nhelpers.arrayElement\nhelpers.arrayElements\nhelpers.fake\nhelpers.fromRegExp\nhelpers.maybe\nhelpers.multiple\nhelpers.mustache\nhelpers.rangeToNumber\nhelpers.replaceCreditCardSymbols\nhelpers.replaceSymbols\nhelpers.shuffle\nhelpers.slugify\nhelpers.uniqueArray\nhelpers.weightedArrayElement\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nGreeting\n\n\nHello Ada\nHello Ada\nHello Ada\nHello Ada\nHello Ada\nHello Ada\nHello Ada\nHello Ada\nHello Ada\nHello Ada"
+  },
+  {
+    "id": "L2-07",
+    "title": "Faker helper fake from docs",
+    "class": "execute-now",
+    "schema": "Greeting\nhelpers.fake(\"Hi, my name is {{person.firstName}} {{person.lastName}}!\")",
+    "expect": "docs helper example works",
+    "dialogs": [],
+    "statusTexts": [],
+    "modeAfter": "schema",
+    "buttonText": "Edit as Text",
+    "output": {
+      "CSV": "\"Greeting\"\n\"Hi, my name is Osbaldo Lueilwitz!\"\n\"Hi, my name is Sigurd Fay!\"\n\"Hi, my name is Dixie Schimmel!\"\n\"Hi, my name is Traci Volkman!\"\n\"Hi, my name is Leanna Fritsch!\"\n\"Hi, my name is Everett Erdman!\"\n\"Hi, my name is Dahlia Gorczany!\"\n\"Hi, my name is Magnus Lebsack!\"\n\"Hi, my name is Lyle Fisher-Hauck!\"\n\"Hi, my name is Vicky Schaden!\""
+    },
+    "screenshot": "screenshots/main-loop2-l2-07.png",
+    "error": null,
+    "bodyExcerpt": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nhelpers.fake\nSelect faker command\nhelpers.arrayElement\nhelpers.arrayElements\nhelpers.fake\nhelpers.fromRegExp\nhelpers.maybe\nhelpers.multiple\nhelpers.mustache\nhelpers.rangeToNumber\nhelpers.replaceCreditCardSymbols\nhelpers.replaceSymbols\nhelpers.shuffle\nhelpers.slugify\nhelpers.uniqueArray\nhelpers.weightedArrayElement\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nGreeting\n\n\nHi, my name is Osbaldo Lueilwitz!\nHi, my name is Sigurd Fay!\nHi, my name is Dixie Schimmel!\nHi, my name is Traci Volkman!\nHi, my name is Leanna Fritsch!\nH"
+  },
+  {
+    "id": "L2-08",
+    "title": "person.fullName command-like docs example",
+    "class": "execute-now",
+    "schema": "Name\nperson.fullName()",
+    "expect": "known faker/domain command accepted",
+    "dialogs": [],
+    "statusTexts": [],
+    "modeAfter": "schema",
+    "buttonText": "Edit as Text",
+    "output": {
+      "CSV": "\"Name\"\n\"Erma Brown\"\n\"Kari Trantow\"\n\"Blair Lubowitz\"\n\"Camille Heller\"\n\"Craig O'Hara\"\n\"Dr. Shanon Bartell\"\n\"Penny Rowe\"\n\"Marian Emmerich\"\n\"Abraham Gleichner\"\n\"Modesto Okuneva\""
+    },
+    "screenshot": "screenshots/main-loop2-l2-08.png",
+    "error": null,
+    "bodyExcerpt": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nperson.fullName\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjective\ncompany.buzzNoun\ncompany.buzzPhrase\ncompany.buzzVerb\ncompany.catchPhras"
+  },
+  {
+    "id": "L2-09",
+    "title": "Unknown command-like docs boundary",
+    "class": "execute-now",
+    "schema": "Name\nperson.notACommand()",
+    "expect": "unknown command prompt, not regex fallback",
+    "dialogs": [],
+    "statusTexts": [
+      "Name failed domain validation - Unknown keyword: person.notACommand",
+      "Row 1: unknown domain command \"person.notACommand\"."
+    ],
+    "modeAfter": "text",
+    "buttonText": "Edit as Schema",
+    "output": {},
+    "screenshot": "screenshots/main-loop2-l2-09.png",
+    "error": null,
+    "bodyExcerpt": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nName failed domain validation - Unknown keyword: person.notACommand\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n\nConvert invalid definitions?\n\nSyntax errors are present that can not be edited in Schema UI. Allow editing by converting invalid definitions to literal?\n\nYes\nNo"
+  },
+  {
+    "id": "L2-10",
+    "title": "Output format sweep JSON/Markdown for valid mixed schema",
+    "class": "execute-now",
+    "schema": "Age\nnumber.int(min=1, max=3)\nSeq\nautoIncrement.sequence(start=1, step=1)",
+    "outputFormats": [
+      "JSON",
+      "MARKDOWN"
+    ],
+    "expect": "valid generated data in alternate formats",
+    "dialogs": [],
+    "statusTexts": [],
+    "modeAfter": "schema",
+    "buttonText": "Edit as Text",
+    "output": {
+      "JSON": "[\n\t{\n\t\t\"Age\": 2,\n\t\t\"Seq\": 1\n\t},\n\t{\n\t\t\"Age\": 3,\n\t\t\"Seq\": 2\n\t},\n\t{\n\t\t\"Age\": 3,\n\t\t\"Seq\": 3\n\t},\n\t{\n\t\t\"Age\": 2,\n\t\t\"Seq\": 4\n\t},\n\t{\n\t\t\"Age\": 2,\n\t\t\"Seq\": 5\n\t},\n\t{\n\t\t\"Age\": 3,\n\t\t\"Seq\": 6\n\t},\n\t{\n\t\t\"Age\": 3,\n\t\t\"Seq\": 7\n\t},\n\t{\n\t\t\"Age\": 3,\n\t\t\"Seq\": 8\n\t},\n\t{\n\t\t\"Age\": 1,\n\t\t\"Seq\": 9\n\t},\n\t{\n\t\t\"Age\": 3,\n\t\t\"Seq\": 10\n\t}\n]",
+      "MARKDOWN": "|Age|Seq|\n|-----|-----|\n|2|1|\n|3|2|\n|3|3|\n|2|4|\n|3|5|\n|1|6|\n|2|7|\n|2|8|\n|3|9|\n|2|10|\n"
+    },
+    "screenshot": "screenshots/main-loop2-l2-10.png",
+    "error": null,
+    "bodyExcerpt": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nnumber.int\nSelect domain command\nairline.aircraftType\nairline.flightNumber\nairline.iataCode\nairline.name\nairline.recordLocator\nairline.seat\nairplane.iataTypeCode\nairplane.name\nairport.iataCode\nairport.name\nanimal.bear\nanimal.bird\nanimal.cat\nanimal.cetacean\nanimal.cow\nanimal.crocodilia\nanimal.dog\nanimal.fish\nanimal.horse\nanimal.insect\nanimal.lion\nanimal.petName\nanimal.rabbit\nanimal.rodent\nanimal.snake\nanimal.type\nautoIncrement.sequence\nautoIncrement.timestamp\nbook.author\nbook.format\nbook.genre\nbook.publisher\nbook.series\nbook.title\nchemicalElement.atomicNumber\nchemicalElement.name\nchemicalElement.symbol\ncolor.cmyk\ncolor.colorByCSSColorSpace\ncolor.cssSupportedFunction\ncolor.cssSupportedSpace\ncolor.hsl\ncolor.human\ncolor.hwb\ncolor.lab\ncolor.lch\ncolor.rgb\ncolor.space\ncommerce.department\ncommerce.isbn\ncommerce.price\ncommerce.product\ncommerce.productAdjective\ncommerce.productDescription\ncommerce.productMaterial\ncommerce.productName\ncommerce.upc\ncompany.buzzAdjective\ncompany.buzzNoun\ncompany.buzzPhrase\ncompany.buzzVerb\ncompany.catchPhrase\ncom"
+  },
+  {
+    "id": "L2-11",
+    "title": "Full output-format sweep for all command matrix cases",
+    "class": "defer",
+    "reason": "Large combinatorial sweep; sampled representative alternate formats now.",
+    "result": "deferred"
+  },
+  {
+    "id": "L2-12",
+    "title": "Spec-oracle check for empty arrays in string.fromCharacters",
+    "class": "defer",
+    "reason": "Requires product/source oracle beyond deployed-only evidence.",
+    "result": "deferred"
+  }
+]

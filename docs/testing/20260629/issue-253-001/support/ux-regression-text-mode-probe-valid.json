@@ -1,0 +1,375 @@
+{
+  "page": {
+    "url": "https://eviltester.github.io/grid-table-editor/generator.html",
+    "title": "Data Generator - AnyWayData",
+    "text": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n"
+  },
+  "initial": {
+    "url": "https://eviltester.github.io/grid-table-editor/generator.html",
+    "title": "Data Generator - AnyWayData",
+    "buttons": [
+      {
+        "i": 1,
+        "text": "",
+        "aria": "Show help",
+        "visible": true
+      },
+      {
+        "i": 3,
+        "text": "",
+        "aria": "Show help",
+        "visible": true
+      },
+      {
+        "i": 4,
+        "text": "Edit as Text",
+        "aria": null,
+        "visible": true
+      },
+      {
+        "i": 5,
+        "text": "Load Schema File",
+        "aria": null,
+        "visible": true
+      },
+      {
+        "i": 6,
+        "text": "Save Schema File",
+        "aria": null,
+        "visible": true
+      },
+      {
+        "i": 7,
+        "text": "",
+        "aria": "Drag field to reorder",
+        "visible": true
+      },
+      {
+        "i": 8,
+        "text": "",
+        "aria": "Insert field after this row",
+        "visible": true
+      },
+      {
+        "i": 9,
+        "text": "",
+        "aria": "Remove field",
+        "visible": true
+      },
+      {
+        "i": 10,
+        "text": "",
+        "aria": "Move up",
+        "visible": true
+      },
+      {
+        "i": 11,
+        "text": "",
+        "aria": "Move down",
+        "visible": true
+      },
+      {
+        "i": 12,
+        "text": "+ Add Field",
+        "aria": null,
+        "visible": true
+      },
+      {
+        "i": 13,
+        "text": "",
+        "aria": "Save Schema As",
+        "visible": true
+      },
+      {
+        "i": 14,
+        "text": "",
+        "aria": "Recover Draft",
+        "visible": true
+      },
+      {
+        "i": 15,
+        "text": "",
+        "aria": "Load last used schema",
+        "visible": true
+      },
+      {
+        "i": 16,
+        "text": "",
+        "aria": "Clear last used schema",
+        "visible": true
+      },
+      {
+        "i": 17,
+        "text": "",
+        "aria": null,
+        "visible": true
+      },
+      {
+        "i": 18,
+        "text": "",
+        "aria": "Show file generation help",
+        "visible": true
+      },
+      {
+        "i": 19,
+        "text": "Generate Data",
+        "aria": "Generate Data",
+        "visible": true
+      },
+      {
+        "i": 22,
+        "text": "Apply",
+        "aria": null,
+        "visible": true
+      },
+      {
+        "i": 24,
+        "text": "",
+        "aria": "Show preview help",
+        "visible": true
+      },
+      {
+        "i": 25,
+        "text": "Preview",
+        "aria": null,
+        "visible": true
+      }
+    ],
+    "inputs": [
+      {
+        "i": 1,
+        "tag": "INPUT",
+        "type": "text",
+        "aria": "Column Name",
+        "value": "",
+        "visible": true
+      },
+      {
+        "i": 2,
+        "tag": "SELECT",
+        "type": "select-one",
+        "aria": "Field type",
+        "value": "regex",
+        "visible": true
+      },
+      {
+        "i": 3,
+        "tag": "INPUT",
+        "type": "text",
+        "aria": "Value / Regex",
+        "value": "",
+        "visible": true
+      },
+      {
+        "i": 5,
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "aria": "Schema constraints",
+        "value": "",
+        "visible": true
+      },
+      {
+        "i": 6,
+        "tag": "SELECT",
+        "type": "select-one",
+        "aria": "Last Used",
+        "value": "",
+        "visible": true
+      },
+      {
+        "i": 7,
+        "tag": "INPUT",
+        "type": "number",
+        "aria": null,
+        "value": "1000",
+        "visible": true
+      },
+      {
+        "i": 8,
+        "tag": "SELECT",
+        "type": "select-one",
+        "aria": null,
+        "value": "csv",
+        "visible": true
+      },
+      {
+        "i": 9,
+        "tag": "SELECT",
+        "type": "select-one",
+        "aria": "Line endings",
+        "value": "crlf",
+        "visible": true
+      },
+      {
+        "i": 10,
+        "tag": "INPUT",
+        "type": "checkbox",
+        "aria": null,
+        "value": "on",
+        "visible": true
+      },
+      {
+        "i": 11,
+        "tag": "INPUT",
+        "type": "checkbox",
+        "aria": null,
+        "value": "on",
+        "visible": true
+      },
+      {
+        "i": 12,
+        "tag": "INPUT",
+        "type": "checkbox",
+        "aria": null,
+        "value": "on",
+        "visible": true
+      },
+      {
+        "i": 13,
+        "tag": "INPUT",
+        "type": "text",
+        "aria": null,
+        "value": "\"",
+        "visible": true
+      },
+      {
+        "i": 14,
+        "tag": "INPUT",
+        "type": "text",
+        "aria": null,
+        "value": "\"",
+        "visible": true
+      },
+      {
+        "i": 15,
+        "tag": "INPUT",
+        "type": "number",
+        "aria": null,
+        "value": "10",
+        "visible": true
+      },
+      {
+        "i": 16,
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "aria": "Output Preview",
+        "value": "",
+        "visible": true
+      },
+      {
+        "i": 17,
+        "tag": "INPUT",
+        "type": "search",
+        "aria": "Filter preview column",
+        "value": "",
+        "visible": true
+      }
+    ]
+  },
+  "clickText": {
+    "clicked": true
+  },
+  "after": {
+    "body": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~preview\n\n",
+    "textareas": [
+      {
+        "i": 0,
+        "aria": "Schema text",
+        "value": "",
+        "visible": true,
+        "display": "inline-block"
+      },
+      {
+        "i": 1,
+        "aria": "Schema constraints",
+        "value": "",
+        "visible": false,
+        "display": "inline-block"
+      },
+      {
+        "i": 2,
+        "aria": "Output Preview",
+        "value": "",
+        "visible": true,
+        "display": "block"
+      }
+    ],
+    "buttons": [
+      {
+        "i": 1,
+        "text": "",
+        "visible": true
+      },
+      {
+        "i": 3,
+        "text": "",
+        "visible": true
+      },
+      {
+        "i": 4,
+        "text": "Edit as Schema",
+        "visible": true
+      },
+      {
+        "i": 5,
+        "text": "Load Schema File",
+        "visible": true
+      },
+      {
+        "i": 6,
+        "text": "Save Schema File",
+        "visible": true
+      },
+      {
+        "i": 13,
+        "text": "",
+        "visible": true
+      },
+      {
+        "i": 14,
+        "text": "",
+        "visible": true
+      },
+      {
+        "i": 15,
+        "text": "",
+        "visible": true
+      },
+      {
+        "i": 16,
+        "text": "",
+        "visible": true
+      },
+      {
+        "i": 17,
+        "text": "",
+        "visible": true
+      },
+      {
+        "i": 18,
+        "text": "",
+        "visible": true
+      },
+      {
+        "i": 19,
+        "text": "Generate Data",
+        "visible": true
+      },
+      {
+        "i": 22,
+        "text": "Apply",
+        "visible": true
+      },
+      {
+        "i": 24,
+        "text": "",
+        "visible": true
+      },
+      {
+        "i": 25,
+        "text": "Preview",
+        "visible": true
+      }
+    ]
+  }
+}

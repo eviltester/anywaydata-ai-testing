@@ -1,0 +1,12 @@
+{
+  "site": {
+    "url": "https://eviltester.github.io/grid-table-editor/site/",
+    "title": "AnyWayData - Data Table Editor & Generator",
+    "text": "Skip to main content\nAnyWayData\nApp\nDocs\nBlog\nGitHub\nAnyWayData - Data Table Editor & Generator\n\nEdit and Generate Test Data in Your Browser\n\nUse The Application\nEasy to Use\n\nThe Data Table Editor is designed to be easy to use and uses the Tabulator Data Grid to create an intuitive editing experience. You can create and edit data in the grid and \"Set Test From Grid\" to view data in your chosen format. Or paste data into the text area and \"Set Grid From Text\". You can even import and export from "
+  },
+  "gen": {
+    "url": "https://eviltester.github.io/grid-table-editor/generator.html",
+    "title": "Data Generator - AnyWayData",
+    "text": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Text\nLoad Schema File\nSave Schema File\nenum\nliteral\nregex\ndomain\nfaker\nSchema Constraints (0)\n+ Add Field\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPes"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "active": {
+    "cls": "shared-schema-command-picker-button ",
+    "name": "Select domain command",
+    "tag": "BUTTON"
+  },
+  "dialogs": 0
+}

@@ -1,0 +1,490 @@
+{
+  "url": "https://eviltester.github.io/grid-table-editor/generator.html",
+  "title": "Data Generator - AnyWayData",
+  "buttons": [
+    {
+      "i": 0,
+      "text": "🌙",
+      "aria": "Switch to dark theme",
+      "id": "",
+      "cls": "theme-toggle-button"
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": "Show help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 2,
+      "text": "",
+      "aria": "Dismiss message",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 3,
+      "text": "",
+      "aria": "Show help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 4,
+      "text": "Edit as Text",
+      "aria": null,
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 5,
+      "text": "Load Schema File",
+      "aria": null,
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 6,
+      "text": "Save Schema File",
+      "aria": null,
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 7,
+      "text": "",
+      "aria": "Drag field to reorder",
+      "id": "",
+      "cls": "icon-button shared-schema-drag-handle"
+    },
+    {
+      "i": 8,
+      "text": "",
+      "aria": "Insert field after this row",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 9,
+      "text": "",
+      "aria": "Remove field",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 10,
+      "text": "",
+      "aria": "Move up",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 11,
+      "text": "",
+      "aria": "Move down",
+      "id": "",
+      "cls": "icon-button"
+    },
+    {
+      "i": 12,
+      "text": "+ Add Field",
+      "aria": null,
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 13,
+      "text": "",
+      "aria": "Save Schema As",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 14,
+      "text": "",
+      "aria": "Recover Draft",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 15,
+      "text": "",
+      "aria": "Load last used schema",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 16,
+      "text": "",
+      "aria": "Clear last used schema",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 17,
+      "text": "",
+      "aria": null,
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 18,
+      "text": "",
+      "aria": "Show file generation help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 19,
+      "text": "Generate Data",
+      "aria": "Generate Data",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 20,
+      "text": "",
+      "aria": "Show combination generation help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 21,
+      "text": "Generate Combinations",
+      "aria": "Generate Combinations",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 22,
+      "text": "Apply",
+      "aria": null,
+      "id": "",
+      "cls": "apply-options"
+    },
+    {
+      "i": 23,
+      "text": "",
+      "aria": "Dismiss message",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 24,
+      "text": "",
+      "aria": "Show preview help",
+      "id": "",
+      "cls": "helpicon"
+    },
+    {
+      "i": 25,
+      "text": "Preview",
+      "aria": null,
+      "id": "",
+      "cls": ""
+    },
+    {
+      "i": 26,
+      "text": "OK",
+      "aria": null,
+      "id": "confirm-modal-ok",
+      "cls": ""
+    },
+    {
+      "i": 27,
+      "text": "Cancel",
+      "aria": null,
+      "id": "confirm-modal-cancel",
+      "cls": ""
+    },
+    {
+      "i": 28,
+      "text": "OK",
+      "aria": null,
+      "id": "text-input-modal-ok",
+      "cls": ""
+    },
+    {
+      "i": 29,
+      "text": "Cancel",
+      "aria": null,
+      "id": "text-input-modal-cancel",
+      "cls": ""
+    }
+  ],
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "file",
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "",
+      "text": "",
+      "cls": ""
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": null,
+      "placeholder": "Column Name",
+      "value": "",
+      "text": "",
+      "cls": ""
+    },
+    {
+      "i": 2,
+      "tag": "SELECT",
+      "type": null,
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "regex",
+      "text": "enum literal regex domain faker",
+      "cls": ""
+    },
+    {
+      "i": 3,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": null,
+      "placeholder": "Value / Regex",
+      "value": "",
+      "text": "",
+      "cls": ""
+    },
+    {
+      "i": 4,
+      "tag": "TEXTAREA",
+      "type": null,
+      "id": "",
+      "name": null,
+      "placeholder": "Column Name\nrule\nColumn Name\nrule",
+      "value": "",
+      "text": "",
+      "cls": "testDataSchemaTextArea"
+    },
+    {
+      "i": 5,
+      "tag": "TEXTAREA",
+      "type": null,
+      "id": "",
+      "name": null,
+      "placeholder": "IF [Column] = ",
+      "value": "",
+      "text": "",
+      "cls": "testDataSchemaTextArea shared-schema-constraints-textarea"
+    },
+    {
+      "i": 6,
+      "tag": "SELECT",
+      "type": null,
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "",
+      "text": "",
+      "cls": ""
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "type": "number",
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "1000",
+      "text": "",
+      "cls": ""
+    },
+    {
+      "i": 8,
+      "tag": "SELECT",
+      "type": null,
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "csv",
+      "text": "CSV JSON JSONL XML SQL MARKDOWN DSV HTML GHERKIN ASCIITABLE C# Java JavaScript Kotlin Perl PHP Python Ruby TypeScript JUnit4 JUnit5 JUnit6 TestNG PyTest unittest nose2 Jest Vitest Mocha xUnit NUnit MSTest RSpec Minitest PHPUnit Pest Kotest JUnit5 Kotlin Spek Test::More Test2::Suite",
+      "cls": ""
+    },
+    {
+      "i": 9,
+      "tag": "SELECT",
+      "type": null,
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "crlf",
+      "text": "",
+      "cls": ""
+    },
+    {
+      "i": 10,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "on",
+      "text": "",
+      "cls": ""
+    },
+    {
+      "i": 11,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "",
+      "name": "quotes",
+      "placeholder": null,
+      "value": "on",
+      "text": "",
+      "cls": ""
+    },
+    {
+      "i": 12,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "",
+      "name": "header",
+      "placeholder": null,
+      "value": "on",
+      "text": "",
+      "cls": ""
+    },
+    {
+      "i": 13,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "quoteChar",
+      "placeholder": null,
+      "value": "\"",
+      "text": "",
+      "cls": "format-option-control"
+    },
+    {
+      "i": 14,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "escapeChar",
+      "placeholder": null,
+      "value": "\"",
+      "text": "",
+      "cls": "format-option-control"
+    },
+    {
+      "i": 15,
+      "tag": "INPUT",
+      "type": "number",
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "10",
+      "text": "",
+      "cls": ""
+    },
+    {
+      "i": 16,
+      "tag": "TEXTAREA",
+      "type": null,
+      "id": "",
+      "name": null,
+      "placeholder": null,
+      "value": "",
+      "text": "",
+      "cls": ""
+    },
+    {
+      "i": 17,
+      "tag": "INPUT",
+      "type": "search",
+      "id": "",
+      "name": null,
+      "placeholder": "",
+      "value": "",
+      "text": "",
+      "cls": ""
+    },
+    {
+      "i": 18,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "text-input-modal-field",
+      "name": null,
+      "placeholder": null,
+      "value": "",
+      "text": "",
+      "cls": "text-input-modal-field"
+    }
+  ],
+  "labels": [
+    {
+      "i": 0,
+      "text": "",
+      "forAttr": null
+    },
+    {
+      "i": 1,
+      "text": "Generate Rows",
+      "forAttr": null
+    },
+    {
+      "i": 2,
+      "text": "Output Format CSV JSON JSONL XML SQL MARKDOWN DSV HTML GHERKIN ASCIITABLE C# Java JavaScript Kotlin Perl PHP Python Ruby TypeScript JUnit4 JUnit5 JUnit6 TestNG PyTest unittest nose2 Jest Vitest Mocha xUnit NUnit MSTest RSpec Minitest PHPUnit Pest Kotest JUnit5 Kotlin Spek Test::More Test2::Suite",
+      "forAttr": null
+    },
+    {
+      "i": 3,
+      "text": "",
+      "forAttr": null
+    },
+    {
+      "i": 4,
+      "text": "",
+      "forAttr": null
+    },
+    {
+      "i": 5,
+      "text": "Use Quotes",
+      "forAttr": null
+    },
+    {
+      "i": 6,
+      "text": "Use Header",
+      "forAttr": null
+    },
+    {
+      "i": 7,
+      "text": "Quote Char",
+      "forAttr": null
+    },
+    {
+      "i": 8,
+      "text": "Escape Char",
+      "forAttr": null
+    },
+    {
+      "i": 9,
+      "text": "Preview Items Count",
+      "forAttr": null
+    },
+    {
+      "i": 10,
+      "text": "Output Preview",
+      "forAttr": null
+    },
+    {
+      "i": 11,
+      "text": "",
+      "forAttr": "text-input-modal-field"
+    }
+  ],
+  "body": "Skip to main content Data Generator Data Generator Instructions Schema Edit as Text Load Schema File Save Schema File enum literal regex domain faker Schema Constraints (0) + Add Field Managed Stored Schemas (0) Generate Data and Options Generate Rows Output Format CSV JSON JSONL XML SQL MARKDOWN DSV HTML GHERKIN ASCIITABLE C# Java JavaScript Kotlin Perl PHP Python Ruby TypeScript JUnit4 JUnit5 JUnit6 TestNG PyTest unittest nose2 Jest Vitest Mocha xUnit NUnit MSTest RSpec Minitest PHPUnit Pest Kotest JUnit5 Kotlin Spek Test::More Test2::Suite Generate Data Settings Options Use Quotes Use Header Quote Char Escape Char Apply Preview Preview Items Count Preview Output Preview Data Table Preview ~preview"
+}

@@ -1,0 +1,766 @@
+[
+  {
+    "id": "L3-01",
+    "title": "Recheck docs uniqueArray this.word.sample failure",
+    "class": "execute-now",
+    "data": {
+      "containsError": true,
+      "excerpt": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nWords failed faker validation - Invalid Faker API Call Unsafe faker rule syntax detected: requires complex argument parsing\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\n~rename-me\n\n"
+    },
+    "screenshot": "screenshots/main-loop3-l3-01.png"
+  },
+  {
+    "id": "L3-02",
+    "title": "Control check uniqueArray faker.word.sample succeeds",
+    "class": "execute-now",
+    "data": {
+      "containsError": false,
+      "excerpt": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as Schema\nLoad Schema File\nSave Schema File\nManaged Stored Schemas (0)\nGenerate Data and Options\nGenerate Rows \nOutput Format \nCSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nKotlin\nPerl\nPHP\nPython\nRuby\nTypeScript\nJUnit4\nJUnit5\nJUnit6\nTestNG\nPyTest\nunittest\nnose2\nJest\nVitest\nMocha\nxUnit\nNUnit\nMSTest\nRSpec\nMinitest\nPHPUnit\nPest\nKotest\nJUnit5 Kotlin\nSpek\nTest::More\nTest2::Suite\n Generate Data\nSettings\n\nOptions \n\n  Use Quotes\n\n  Use Header\n\nQuote Char\n\n\nEscape Char\n\n\nApply\nPreview\nPreview Items Count \nPreview\nOutput Preview\nData Table Preview\nWords\n\n\n[\"obsess\",\"that\",\"braid\",\"wiggly\",\"ick\"]\n[\"whereas\",\"jubilantly\",\"gifted\",\"restaurant\",\"begonia\"]\n[\"round\",\"beyond\",\"unless\",\"cop\",\"gentle\"]\n[\"as\",\"boo\",\"thoughtfully\",\"scarcely\",\"unethically\"]\n[\"than\",\"square\",\"cod\",\"depart\",\"oof\"]\n[\"energetic\",\"reference\",\"which\",\"next\",\"within\"]\n[\"inborn\",\"jealously\",\"jaywalk\",\"less\",\"till\"]\n[\"sup\",\""
+    },
+    "screenshot": "screenshots/main-loop3-l3-02.png"
+  },
+  {
+    "id": "L3-03",
+    "title": "App page landmark and H1 scan across desktop/mobile",
+    "class": "execute-now",
+    "data": [
+      {
+        "vp": {
+          "width": 1440,
+          "height": 900
+        },
+        "mainCount": 0,
+        "h1Count": 0,
+        "title": "Test Data Generator and Table Editor for Markdown, CSV, JSON, Gherkin and HTML - AnyWayData"
+      },
+      {
+        "vp": {
+          "width": 390,
+          "height": 844
+        },
+        "mainCount": 0,
+        "h1Count": 0,
+        "title": "Test Data Generator and Table Editor for Markdown, CSV, JSON, Gherkin and HTML - AnyWayData"
+      },
+      {
+        "vp": {
+          "width": 320,
+          "height": 568
+        },
+        "mainCount": 0,
+        "h1Count": 0,
+        "title": "Test Data Generator and Table Editor for Markdown, CSV, JSON, Gherkin and HTML - AnyWayData"
+      }
+    ],
+    "screenshot": null
+  },
+  {
+    "id": "L3-04",
+    "title": "Generator landmark and H1 scan across desktop/mobile",
+    "class": "execute-now",
+    "data": [
+      {
+        "vp": {
+          "width": 1440,
+          "height": 900
+        },
+        "mainCount": 1,
+        "h1Count": 1,
+        "title": "Data Generator - AnyWayData"
+      },
+      {
+        "vp": {
+          "width": 390,
+          "height": 844
+        },
+        "mainCount": 1,
+        "h1Count": 1,
+        "title": "Data Generator - AnyWayData"
+      },
+      {
+        "vp": {
+          "width": 320,
+          "height": 568
+        },
+        "mainCount": 1,
+        "h1Count": 1,
+        "title": "Data Generator - AnyWayData"
+      }
+    ],
+    "screenshot": null
+  },
+  {
+    "id": "L3-05",
+    "title": "App mobile touch target scan",
+    "class": "execute-now",
+    "data": [
+      {
+        "tag": "A",
+        "text": "AnyWayData",
+        "width": 93,
+        "height": 17
+      },
+      {
+        "tag": "A",
+        "text": "Generator",
+        "width": 72,
+        "height": 17
+      },
+      {
+        "tag": "A",
+        "text": "Docs",
+        "width": 36,
+        "height": 17
+      },
+      {
+        "tag": "A",
+        "text": "Blog",
+        "width": 32,
+        "height": 17
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Show help",
+        "width": 13,
+        "height": 13
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy Instructions To Grid",
+        "width": 165,
+        "height": 21
+      },
+      {
+        "tag": "A",
+        "text": "",
+        "width": 117,
+        "height": 17
+      },
+      {
+        "tag": "A",
+        "text": "",
+        "width": 66,
+        "height": 17
+      },
+      {
+        "tag": "A",
+        "text": "",
+        "width": 82,
+        "height": 17
+      },
+      {
+        "tag": "A",
+        "text": "",
+        "width": 69,
+        "height": 17
+      },
+      {
+        "tag": "A",
+        "text": "",
+        "width": 86,
+        "height": 17
+      },
+      {
+        "tag": "A",
+        "text": "",
+        "width": 147,
+        "height": 17
+      },
+      {
+        "tag": "A",
+        "text": "",
+        "width": 79,
+        "height": 17
+      },
+      {
+        "tag": "A",
+        "text": "",
+        "width": 96,
+        "height": 17
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Add Row",
+        "width": 70,
+        "height": 21
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Add Rows Above",
+        "width": 118,
+        "height": 21
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Add Rows Below",
+        "width": 117,
+        "height": 21
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Delete Selected Rows",
+        "width": 147,
+        "height": 21
+      },
+      {
+        "tag": "INPUT",
+        "text": "filter-text-input",
+        "width": 177,
+        "height": 21
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Clear Filters",
+        "width": 88,
+        "height": 21
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Clear Sort",
+        "width": 76,
+        "height": 21
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Reset Table",
+        "width": 86,
+        "height": 21
+      },
+      {
+        "tag": "INPUT",
+        "text": "unique-column-names-checkbox",
+        "width": 13,
+        "height": 13
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Filter column",
+        "width": 17,
+        "height": 22
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Sort descending",
+        "width": 22,
+        "height": 22
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Sort ascending",
+        "width": 22,
+        "height": 22
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Clear sort",
+        "width": 22,
+        "height": 22
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Add column left",
+        "width": 22,
+        "height": 22
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Rename column",
+        "width": 22,
+        "height": 22
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Delete column",
+        "width": 22,
+        "height": 22
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Duplicate column",
+        "width": 22,
+        "height": 22
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Add column right",
+        "width": 22,
+        "height": 22
+      },
+      {
+        "tag": "SPAN",
+        "text": "Show help",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Show generate help",
+        "width": 13,
+        "height": 13
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Generate",
+        "width": 98,
+        "height": 22
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Show grid to enum schema help",
+        "width": 13,
+        "height": 13
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Grid to Enum Schema",
+        "width": 173,
+        "height": 22
+      },
+      {
+        "tag": "INPUT",
+        "text": "input",
+        "width": 177,
+        "height": 21
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "width": 13,
+        "height": 13
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "width": 13,
+        "height": 13
+      }
+    ],
+    "screenshot": null
+  },
+  {
+    "id": "L3-06",
+    "title": "Generator mobile touch target scan",
+    "class": "execute-now",
+    "data": [
+      {
+        "tag": "BUTTON",
+        "text": "Show help",
+        "width": 13,
+        "height": 13
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Show help",
+        "width": 13,
+        "height": 13
+      },
+      {
+        "tag": "INPUT",
+        "text": "Column Name",
+        "width": 320,
+        "height": 21
+      },
+      {
+        "tag": "SELECT",
+        "text": "enum\nliteral\nregex\ndomain\nfaker",
+        "width": 312,
+        "height": 19
+      },
+      {
+        "tag": "A",
+        "text": "Regex data help",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "tag": "INPUT",
+        "text": "Value / Regex",
+        "width": 320,
+        "height": 21
+      },
+      {
+        "tag": "BUTTON",
+        "text": "+ Add Field",
+        "width": 83,
+        "height": 21
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Save Schema As",
+        "width": 118,
+        "height": 21
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Recover Draft",
+        "width": 98,
+        "height": 21
+      },
+      {
+        "tag": "SELECT",
+        "text": "Last Used",
+        "width": 250,
+        "height": 19
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Load last used schema",
+        "width": 46,
+        "height": 21
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Clear last used schema",
+        "width": 112,
+        "height": 21
+      },
+      {
+        "tag": "BUTTON",
+        "text": "stored-schemas-open-saved-dialog",
+        "width": 140,
+        "height": 21
+      },
+      {
+        "tag": "INPUT",
+        "text": "input",
+        "width": 177,
+        "height": 21
+      },
+      {
+        "tag": "SELECT",
+        "text": "CSV\nJSON\nJSONL\nXML\nSQL\nMARKDOWN\nDSV\nHTML\nGHERKIN\nASCIITABLE\nC#\nJava\nJavaScript\nK",
+        "width": 112,
+        "height": 19
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Show file generation help",
+        "width": 13,
+        "height": 13
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Generate Data",
+        "width": 130,
+        "height": 22
+      },
+      {
+        "tag": "SELECT",
+        "text": "Line endings",
+        "width": 307,
+        "height": 19
+      },
+      {
+        "tag": "INPUT",
+        "text": "include-bom-checkbox",
+        "width": 13,
+        "height": 13
+      },
+      {
+        "tag": "SPAN",
+        "text": "Show help",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "tag": "SPAN",
+        "text": "Show help for this option",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "width": 13,
+        "height": 13
+      },
+      {
+        "tag": "SPAN",
+        "text": "Show help for this option",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "width": 13,
+        "height": 13
+      },
+      {
+        "tag": "SPAN",
+        "text": "Show help for this option",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "width": 67,
+        "height": 21
+      },
+      {
+        "tag": "SPAN",
+        "text": "Show help for this option",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "width": 67,
+        "height": 21
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Apply",
+        "width": 49,
+        "height": 21
+      },
+      {
+        "tag": "INPUT",
+        "text": "input",
+        "width": 66,
+        "height": 21
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Show preview help",
+        "width": 13,
+        "height": 13
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Preview",
+        "width": 63,
+        "height": 21
+      }
+    ],
+    "screenshot": null
+  },
+  {
+    "id": "L3-07",
+    "title": "Method picker mobile Tab sequence repeat",
+    "class": "execute-now",
+    "data": [
+      {
+        "tag": "INPUT",
+        "label": "Filter methods",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "All"
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "Core"
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "airline"
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "airplane"
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "airport"
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "animal"
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "autoIncrement"
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "book"
+      }
+    ],
+    "screenshot": "screenshots/main-loop3-l3-07.png"
+  },
+  {
+    "id": "L3-08",
+    "title": "Method picker desktop Tab sequence repeat",
+    "class": "execute-now",
+    "data": [
+      {
+        "tag": "INPUT",
+        "label": "Filter methods",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "All"
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "Core"
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "airline"
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "airplane"
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "airport"
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "animal"
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "autoIncrement"
+      },
+      {
+        "tag": "BUTTON",
+        "label": null,
+        "text": "book"
+      }
+    ],
+    "screenshot": "screenshots/main-loop3-l3-08.png"
+  },
+  {
+    "id": "L3-09",
+    "title": "Generator schema row desktop Tab sequence",
+    "class": "execute-now",
+    "data": [
+      {
+        "tag": "INPUT",
+        "label": "Column Name",
+        "text": ""
+      },
+      {
+        "tag": "BODY",
+        "label": null,
+        "text": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as "
+      },
+      {
+        "tag": "BUTTON",
+        "label": "Drag field to reorder",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "label": "Insert field after this row",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "label": "Remove field",
+        "text": ""
+      },
+      {
+        "tag": "INPUT",
+        "label": "Column Name",
+        "text": ""
+      },
+      {
+        "tag": "BODY",
+        "label": null,
+        "text": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as "
+      },
+      {
+        "tag": "BUTTON",
+        "label": "Drag field to reorder",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "label": "Insert field after this row",
+        "text": ""
+      }
+    ],
+    "screenshot": "screenshots/main-loop3-l3-09.png"
+  },
+  {
+    "id": "L3-10",
+    "title": "Generator schema row mobile Tab sequence",
+    "class": "execute-now",
+    "data": [
+      {
+        "tag": "INPUT",
+        "label": "Column Name",
+        "text": ""
+      },
+      {
+        "tag": "BODY",
+        "label": null,
+        "text": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as "
+      },
+      {
+        "tag": "BUTTON",
+        "label": "Drag field to reorder",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "label": "Insert field after this row",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "label": "Remove field",
+        "text": ""
+      },
+      {
+        "tag": "INPUT",
+        "label": "Column Name",
+        "text": ""
+      },
+      {
+        "tag": "BODY",
+        "label": null,
+        "text": "Skip to main content\nData Generator\nData Generator Instructions \nSchema\nEdit as "
+      },
+      {
+        "tag": "BUTTON",
+        "label": "Drag field to reorder",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "label": "Insert field after this row",
+        "text": ""
+      }
+    ],
+    "screenshot": "screenshots/main-loop3-l3-10.png"
+  },
+  {
+    "id": "L3-11",
+    "title": "Manual screen-reader confirmation of focus model",
+    "class": "defer",
+    "reason": "Requires assistive tech outside current deployed-browser automation.",
+    "result": "deferred"
+  },
+  {
+    "id": "L3-12",
+    "title": "Full cross-browser keyboard comparison",
+    "class": "defer",
+    "reason": "Current requirement allows Playwright/DevTools; one-browser repeat is enough for defect packaging.",
+    "result": "deferred"
+  }
+]

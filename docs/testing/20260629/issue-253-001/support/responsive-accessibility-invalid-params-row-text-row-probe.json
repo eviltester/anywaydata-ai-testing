@@ -1,0 +1,434 @@
+{
+  "invalids": [],
+  "mode": "text",
+  "rowFields": [
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Switch to light theme",
+      "cls": "theme-toggle-button",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "☀",
+      "title": "Switch to light theme",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Show help",
+      "cls": "helpicon",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Show help",
+      "title": "",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Dismiss message",
+      "cls": "",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Dismiss message",
+      "title": "Dismiss message",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Show help",
+      "cls": "helpicon",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Show help",
+      "title": "",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": null,
+      "cls": "icon-button",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Edit as Text",
+      "title": "Toggle schema text mode",
+      "type": "submit"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": null,
+      "cls": "icon-button",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Load Schema File",
+      "title": "",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Load Schema File",
+      "cls": "",
+      "disabled": false,
+      "tag": "INPUT",
+      "text": "Load Schema File",
+      "title": "",
+      "type": "file"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": null,
+      "cls": "icon-button",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Save Schema File",
+      "title": "",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Drag field to reorder",
+      "cls": "icon-button shared-schema-drag-handle",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Drag field to reorder",
+      "title": "Drag field to reorder",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Insert field after this row",
+      "cls": "icon-button",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Insert field after this row",
+      "title": "Add field",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Remove field",
+      "cls": "icon-button",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Remove field",
+      "title": "Remove field",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Move up",
+      "cls": "icon-button",
+      "disabled": true,
+      "tag": "BUTTON",
+      "text": "Move up",
+      "title": "Move up",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Move down",
+      "cls": "icon-button",
+      "disabled": true,
+      "tag": "BUTTON",
+      "text": "Move down",
+      "title": "Move down",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Column Name",
+      "cls": "",
+      "disabled": false,
+      "tag": "INPUT",
+      "text": "Num",
+      "title": "",
+      "type": "text"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Field type",
+      "cls": "",
+      "disabled": false,
+      "tag": "SELECT",
+      "text": "enum\nliteral\nregex\ndomain\nfaker",
+      "title": "",
+      "type": "select-one"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": null,
+      "cls": "shared-schema-command-picker-button ",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "number.int",
+      "title": "",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Params",
+      "cls": "shared-schema-field-invalid",
+      "disabled": false,
+      "tag": "INPUT",
+      "text": "(min=1, min=2, max=3)",
+      "title": "",
+      "type": "text"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Edit params for number.int",
+      "cls": "icon-button shared-schema-params-button",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Edit params for number.int",
+      "title": "Edit params in dialog",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Schema text",
+      "cls": "testDataSchemaTextArea",
+      "disabled": false,
+      "tag": "TEXTAREA",
+      "text": "Num\nnumber.int(min=1, min=2, max=3)",
+      "title": "",
+      "type": "textarea"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Schema constraints",
+      "cls": "testDataSchemaTextArea shared-schema-constraints-textarea",
+      "disabled": false,
+      "tag": "TEXTAREA",
+      "text": "Schema constraints",
+      "title": "",
+      "type": "textarea"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": null,
+      "cls": "",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "+ Add Field",
+      "title": "",
+      "type": "submit"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Save Schema As",
+      "cls": "",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Save Schema As",
+      "title": "Save Schema As",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Recover Draft",
+      "cls": "",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Recover Draft",
+      "title": "Recover Draft",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Last Used",
+      "cls": "",
+      "disabled": false,
+      "tag": "SELECT",
+      "text": "stored-schema-1782767421876-7nn3pw83",
+      "title": "",
+      "type": "select-one"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Load last used schema",
+      "cls": "",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Load last used schema",
+      "title": "Load last used schema",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Clear last used schema",
+      "cls": "",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Clear last used schema",
+      "title": "Clear last used schema",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": null,
+      "cls": "",
+      "disabled": true,
+      "tag": "BUTTON",
+      "text": "",
+      "title": "",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Show file generation help",
+      "cls": "helpicon",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Show file generation help",
+      "title": "",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Generate Data",
+      "cls": "",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Generate Data",
+      "title": "Generate Data",
+      "type": "submit"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Show combination generation help",
+      "cls": "helpicon",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Show combination generation help",
+      "title": "",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Generate Combinations",
+      "cls": "",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Generate Combinations",
+      "title": "Generate Combinations",
+      "type": "submit"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Line endings",
+      "cls": "",
+      "disabled": false,
+      "tag": "SELECT",
+      "text": "crlf",
+      "title": "",
+      "type": "select-one"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": null,
+      "cls": "apply-options",
+      "disabled": true,
+      "tag": "BUTTON",
+      "text": "Apply",
+      "title": "",
+      "type": "submit"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Dismiss message",
+      "cls": "",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Dismiss message",
+      "title": "Dismiss message",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Show preview help",
+      "cls": "helpicon",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Show preview help",
+      "title": "",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": null,
+      "cls": "",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Preview",
+      "title": "",
+      "type": "submit"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Output Preview",
+      "cls": "",
+      "disabled": false,
+      "tag": "TEXTAREA",
+      "text": "Output Preview",
+      "title": "",
+      "type": "textarea"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": "Filter preview column",
+      "cls": "",
+      "disabled": false,
+      "tag": "INPUT",
+      "text": "Filter preview column",
+      "title": "",
+      "type": "search"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": null,
+      "cls": "",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "OK",
+      "title": "",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": null,
+      "cls": "",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Cancel",
+      "title": "",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": null,
+      "cls": "",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "OK",
+      "title": "",
+      "type": "button"
+    },
+    {
+      "ariaInvalid": null,
+      "ariaLabel": null,
+      "cls": "",
+      "disabled": false,
+      "tag": "BUTTON",
+      "text": "Cancel",
+      "title": "",
+      "type": "button"
+    }
+  ],
+  "scrollWidth": 1425,
+  "statusText": [
+    "Row 1: invalid domain params - Invalid keyword arguments: duplicate named argument \"min\""
+  ],
+  "viewport": {
+    "h": 900,
+    "w": 1440
+  }
+}
