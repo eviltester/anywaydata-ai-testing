@@ -252,7 +252,7 @@ When completely finished:
   - the pandoc pdf of the collated `test-logs-and-defects.md` file
   - the final PDF report
 - create a README.md which describes the md files and links to each in the best reading order to understand the testing and results
-- in the target project github repo create an issue for the testing activity with a summary of the testing found and major highlights and then create sub issues - one for each defect that you are reporting with the description of the issue and supporting evidence - add supporting evidence as attachments to each defect
+- in the target project github repo create an issue for the testing activity with a summary of the testing found and major highlights and then create sub issues - one for each defect that you are reporting with the description of the issue and supporting evidence - add supporting evidence as attachments to each defect (not support logs and not videos, text and screenshots only)
 - tidy the evidence folder and make sure that the screenshots folder only contains images that are referenced in the markdown files
 
 Non-optional constraints
