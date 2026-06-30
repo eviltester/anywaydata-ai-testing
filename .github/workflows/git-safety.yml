@@ -1,0 +1,70 @@
+name: Git Safety
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  local-only-artifacts:
+    name: Block local-only test artifacts
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reject new support/video test artifacts
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE_SHA: ${{ github.event.before }}
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+
+          if [ "$EVENT_NAME" = "pull_request" ]; then
+            base="$PR_BASE_SHA"
+            head="HEAD"
+          else
+            base="$BEFORE_SHA"
+            head="HEAD"
+
+            if [ -z "$base" ] || [ "$base" = "0000000000000000000000000000000000000000" ]; then
+              base="$(git rev-list --max-parents=0 HEAD)"
+            fi
+          fi
+
+          echo "Checking changed files from $base to $head"
+
+          blocked="$(
+            git diff --name-status "$base" "$head" -- |
+              while IFS=$'\t' read -r status path1 path2; do
+                [ -z "${status:-}" ] && continue
+                [ "$status" = "D" ] && continue
+
+                path="$path1"
+                case "$status" in
+                  R*|C*) path="$path2" ;;
+                esac
+
+                case "$path" in
+                  docs/testing/*/support|docs/testing/*/support/*|docs/testing/*/videos|docs/testing/*/videos/*|docs/testing/*/video|docs/testing/*/video/*)
+                    printf '%s\n' "$path"
+                    ;;
+                esac
+              done
+          )"
+
+          if [ -n "$blocked" ]; then
+            echo "Blocked local-only test artifacts:"
+            echo "$blocked"
+            echo
+            echo "Do not commit docs/testing/**/support/**, docs/testing/**/videos/**, or docs/testing/**/video/**."
+            echo "Move durable evidence into markdown, screenshots, logs, defect reports, or PDFs instead."
+            exit 1
+          fi
+
+          echo "No forbidden local-only test artifact changes found."

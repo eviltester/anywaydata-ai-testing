@@ -1,0 +1,37 @@
+#!/bin/sh
+
+# Guard against accidentally publishing local-only exploratory-test evidence.
+# .gitignore ignores these paths, but force-adds and explicit path adds can
+# bypass ignore rules. This hook rejects any non-deletion staged change under
+# docs/testing/**/support, docs/testing/**/videos, or docs/testing/**/video.
+
+blocked=""
+
+while IFS='	' read -r status path1 path2
+do
+  [ -z "$status" ] && continue
+  [ "$status" = "D" ] && continue
+
+  path="$path1"
+  case "$status" in
+    R*|C*) path="$path2" ;;
+  esac
+
+  case "$path" in
+    docs/testing/*/support|docs/testing/*/support/*|docs/testing/*/videos|docs/testing/*/videos/*|docs/testing/*/video|docs/testing/*/video/*)
+      blocked="${blocked}${path}
+"
+      ;;
+  esac
+done <<EOF
+$(git diff --cached --name-status --)
+EOF
+
+if [ -n "$blocked" ]; then
+  echo "Blocked commit: support/, videos/, and video/ artifacts under docs/testing are local-only." >&2
+  echo "Do not commit these files. Move durable evidence into markdown, screenshots, logs, defect reports, or PDFs instead." >&2
+  echo "$blocked" >&2
+  exit 1
+fi
+
+exit 0

@@ -12,6 +12,21 @@ https://eviltester.github.io/grid-table-editor
 
 All interactive sessions are documented in [/docs/testing](/docs/testing/) in the dated folders with each session having its own index.
 
+## Agent Git Safety
+
+The repository-level agent instructions are in [AGENTS.md](AGENTS.md). The Git Safety Rule instructions in `AGENTS.md` are reinforced by:
+
+- A tracked hook template at [.githooks/pre-commit](.githooks/pre-commit).
+- A GitHub Actions check at [.github/workflows/git-safety.yml](.github/workflows/git-safety.yml).
+
+To enable the local hook in a clone, run:
+
+```sh
+git config core.hooksPath .githooks
+```
+
+The hook and CI check block new non-deletion changes under `docs/testing/**/support/**`, `docs/testing/**/videos/**`, and `docs/testing/**/video/**`.
+
 ## Monitor Session
 
 I tried a monitor session.
@@ -47,5 +62,3 @@ This worked, but it polled the environment every minute. But when the env was up
   - move goal prompt into own file for easier maintenance and re-use
   - [ai-review-goal.md](ai-review-goal.md)
   - added text to add defect evidence as attachments
-
-
