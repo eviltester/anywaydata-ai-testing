@@ -1,0 +1,34 @@
+---
+## 2026-07-02T23:52:00+01:00
+- What you think you want to do and why: Start the enum-dropdown lane with proof of browser control against the deployed GitHub Pages environment only, then inventory the exposed app/docs surfaces before focused enum-control testing.
+- Actions: Created/opened this lane log under the requested output folder. Confirmed the repo hook is already configured to `.githooks`. Preparing to open `https://eviltester.github.io/grid-table-editor/site/` in the browser automation session.
+- Observations: Existing session folder already contains `issue-295-session-goal-prompt.md`, `issue-295-test-log.md`, `issue-295-test-report.md`, plus local-only `support/` and `videos/` folders. No app code edits or local verify/build/package-manager/repo test commands are in scope for this lane.
+---
+---
+## 2026-07-02T23:59:00+01:00
+- What you think you want to do and why: Prove live deployed browser control and identify where enum-specific testing should happen.
+- Actions: Opened `https://eviltester.github.io/grid-table-editor/site/`, then used the deployed `app.html` surface through a fresh headless Chrome DevTools Protocol session on localhost. Captured `screenshots/enum-dropdown-app-cdp-loaded.png` after the editor UI loaded.
+- Observations: Browser/CDP proof is valid: Chrome reported the deployed app title `Test Data Generator and Table Editor for Markdown, CSV, JSON, Gherkin and HTML - AnyWayData`, main editor buttons are visible (`Add Row`, `Add Rows Above`, `Delete Selected Rows`, filters/import/export), and the app exposes a deployed `Generator` link at `https://eviltester.github.io/grid-table-editor/generator.html`. The enum-metadata lane should proceed on the generator page rather than the generic editor grid.
+---
+---
+## 2026-07-03T00:20:00+01:00
+- What you think you want to do and why: Final handoff for the enum-dropdown lane after the user requested no further exploration. Summarize completed deployed-only coverage, repeatable findings, and follow-up ideas without creating defect files or touching app code.
+- Actions: Used the deployed pages only: `https://eviltester.github.io/grid-table-editor/site/`, deployed `site/app.html`, and deployed `https://eviltester.github.io/grid-table-editor/generator.html`. Used browser/CDP interaction and screenshots under `screenshots/` with the `enum-dropdown-` prefix where useful. Consulted PR 305 metadata/source through GitHub for expected enum behavior, but did not run local repo tests, package-manager commands, builds, or app-code edits.
+- Observations: Confirmed the generator uses `domain` command rows for the PR 305 story path. The command picker exposed the expected priority commands. Option-list coverage included `location.countryCode` variant `[alpha-2, alpha-3, numeric]`, person first/middle/last/prefix sex `[female, male]`, `date.birthdate` mode `[age, year]`, `internet.url` protocol `[http, https]`, `internet.ipv4` network `[any, loopback, private-a, private-b, private-c, test-net-1, test-net-2, test-net-3, link-local, multicast]`, `internet.mac` separator `[:, -, ""]`, `finance.bitcoinAddress` type/network, `string.uuid` version `[4, 7]`, `autoIncrement.timestamp` plural type units, `color.rgb`/`color.hsl` formats and casing, `word.sample` strategy, and `airline.seat` aircraft type.
+- Observations: Value application and runtime generation checks passed for representative cases: unset country code left params empty; alpha-3 serialized as `variant="alpha-3"` and generated 3-letter codes; MAC empty separator serialized as `separator=""` and generated no separators; UUID v7 serialized raw as `version=7` and generated v7-shaped UUIDs; URL `https` plus `appendSlash=false`, IPv4 `private-c`, Bitcoin `taproot`/`testnet`, timestamp `seconds` with default `step=1`, RGB `casing="upper",format="css",includeAlpha=true`, `word.sample(length=5,strategy="shortest")`, and `airline.seat(aircraftType="widebody")` all serialized and generated data.
+- Observations: No repeatable enum-dropdown defect was confirmed in this lane. All priority deployed enum params observed were optional and used `Unset`; I did not find a deployed priority command that demonstrates required enum `Select...` behavior. Broad pipe unions such as `string.uuid` `refDate` stayed as text controls, while explicit numeric enum values serialized raw. Help/description metadata was visible in dialogs; detailed tooltip scraping was in progress when exploration stopped.
+- Observations: Screenshots saved during the lane include `enum-dropdown-app-cdp-loaded.png`, `enum-dropdown-generator-loaded.png`, `enum-dropdown-domain-picker-open.png`, `enum-dropdown-countrycode-dialog.png`, `enum-dropdown-countrycode-alpha3-applied.png`, `enum-dropdown-mac-empty-selected.png`, and `enum-dropdown-uuid-v7-generated.png`. No defect markdown files were created.
+- Follow-up test ideas:
+  - execute-now: Import schema text containing `location.countryCode(variant="alpha-3")`, switch back to row mode, and confirm the dropdown preselects `alpha-3`.
+  - execute-now: Import schema text containing `internet.mac(separator="")` and confirm the empty-string option, not `Unset`, is selected.
+  - execute-now: Select `location.countryCode` `numeric` and assert generated values are numeric country codes while params still quote `"numeric"`.
+  - execute-now: Exercise the visible command-picker tile path, not just the shadow select path, for one priority command plus params application.
+  - execute-now: Check optional boolean unset with a later enum selected, e.g. `internet.url(protocol="https")`, to confirm unset boolean does not shift or serialize.
+  - execute-now: Test UUID `version=4` versus `version=7` plus `refDate`, including any deployed validation messages.
+  - execute-now: Check docs pages for the same enum option lists shown in deployed generator dialogs.
+  - execute-now: Recheck commands with no params, such as `color.human`, to decide whether an enabled edit-params button that opens no dialog is expected or a low-priority UI issue.
+  - defer: Find or create a deployed-visible required enum case to verify `Select...`, disabled Apply, and required-error behavior in the browser.
+  - defer: Broaden enum round-trip coverage across saved schemas/recover draft/session persistence.
+  - defer: Add accessibility-focused checks for enum dropdown names, focus order, Escape/Tab trapping, and tooltip screen-reader names.
+  - defer: Compare every PR 305 changed domain keyword file against deployed dropdown metadata to catch any missed enumValues drift.
+---

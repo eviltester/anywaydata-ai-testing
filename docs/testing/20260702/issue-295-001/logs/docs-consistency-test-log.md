@@ -1,0 +1,82 @@
+---
+## 2026-07-02 23:49:28 +01:00
+- What you think you want to do and why
+  - Start the docs/help/content consistency lane for issue #295 / PR #305 using only the deployed GitHub Pages environment. The PR changes schema param enum metadata and picker rendering, so this lane should compare published docs, app help/method metadata, params dialog labels/options/examples, and generated runtime behavior.
+- actions
+  - Read `AGENTS.md` guardrails for this repo.
+  - Enabled the tracked local hook with `git config core.hooksPath .githooks`.
+  - Reviewed live GitHub metadata for `eviltester/grid-table-editor` issue #295 and PR #305 to identify the affected command families without running local repo commands.
+  - Confirmed browser control against `https://eviltester.github.io/grid-table-editor/site/` using `playwright-cli -s=docs-consistency-295 open ... --browser chrome`.
+  - Captured a fresh page snapshot of the deployed homepage showing visible App and Docs links.
+- observations
+  - Issue #295 asks for pipe-style param types such as `lf|crlf`, `svg-uri|svg-base64`, `female|generic|male`, `alpha-2|alpha-3|numeric`, and similar values to be modeled as enum choices.
+  - PR #305 is open at review time and says it adds enum picker editing for schema params, preserves enum metadata through domain/faker help normalization, and updates domain command params to `type: "enum"` with `enumValues`.
+  - PR #305 touched command families including timestamp, color, ISBN, birthdate, IPv4/MAC/URL, country code, person names, phone, strings, UUID, word families, and a faker helper definition.
+  - Browser proof succeeded on the deployed homepage: title `AnyWayData - Data Table Editor & Generator`; visible links included App, Docs, Blog, GitHub, and `Use The Application`.
+  - The homepage console reported one error during the Playwright CLI open, not yet investigated because this lane is scoped to docs/help/content consistency.
+---
+## 2026-07-03 00:01:20 +01:00
+- What you think you want to do and why
+  - Compare deployed app help/params metadata, params-dialog controls, published docs, and runtime behavior for representative PR #305 enum command families. The goal is to find stale docs/help, old pipe-style enum values still visible, missing enum docs/help, and mismatches between app help and runtime.
+- actions
+  - Reviewed deployed pages:
+    - `https://eviltester.github.io/grid-table-editor/site/`
+    - `https://eviltester.github.io/grid-table-editor/site/app.html`
+    - `https://eviltester.github.io/grid-table-editor/site/generator.html`
+    - `https://eviltester.github.io/grid-table-editor/generator.html`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/intro`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/test-data/faker-test-data/`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/airline/`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/autoIncrement/`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/color/`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/commerce/`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/date/`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/finance/`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/internet/`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/location/`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/lorem/`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/person/`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/phone/`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/string/`
+    - `https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/word/`
+  - Inspected deployed generator method picker and params dialogs for: `autoIncrement.timestamp`, `airline.seat`, `color.rgb`, `color.colorByCSSColorSpace`, `commerce.isbn`, `date.birthdate`, `finance.bitcoinAddress`, `internet.ipv4`, `internet.mac`, `internet.url`, `location.countryCode`, `person.firstName`, `phone.number`, `string.uuid`, and `word.noun`.
+  - Ran deployed runtime preview cases from params-dialog selections for: `autoIncrement.timestamp(type="minutes")`, `color.rgb(casing="upper", format="hex")`, `internet.ipv4(network="private-a")`, `internet.mac(separator="")`, `location.countryCode(variant="alpha-3")`, `string.uuid(version=7)`, `phone.number(style="international")`, `word.noun(length=100, strategy="any-length")`, `commerce.isbn(variant=10)`, and `date.birthdate(min=2000, max=2005, mode="year")`.
+  - Saved clarifying screenshots:
+    - `screenshots/docs-consistency-timestamp-invalid-generated-params-full.png`
+    - `screenshots/docs-consistency-docs-old-pipe-types-color-rgb.png`
+- observations
+  - App picker/help metadata looks updated for sampled commands: enum-bearing params appeared as `Type enum` in the method details panel.
+  - Params dialogs look updated for sampled commands: enum params rendered as dropdowns with expected values, including `internet.mac` showing `Unset`, `:`, `-`, and `""` for the empty separator.
+  - Runtime behavior was healthy for sampled enum selections. Examples observed:
+    - `color.rgb(casing="upper", format="hex")` generated uppercase hex values such as `#A59FEF`.
+    - `internet.ipv4(network="private-a")` generated `10.x.x.x` addresses.
+    - `internet.mac(separator="")` generated 12 hex-character values with no separators and the params field showed `(separator="")`.
+    - `string.uuid(version=7)` generated UUIDs with version nibble `7`.
+    - `phone.number(style="international")` generated `+...` E.123-style numbers.
+  - Suspected defect: published domain docs still show old pipe-style enum type strings instead of `enum`, while the deployed app picker and params dialogs show `enum`.
+    - Exact repeatable example: open `https://eviltester.github.io/grid-table-editor/site/docs/test-data/domain/color/#colorrgb`; the `color.rgb` docs table shows `casing` type `lower|upper|mixed` and `format` type `hex|decimal|css|binary`. In the deployed generator, method picker and params dialog show both as `enum` dropdowns. Evidence: `screenshots/docs-consistency-docs-old-pipe-types-color-rgb.png`.
+    - Same stale-docs pattern observed on these sampled docs sections: `airline.seat.aircraftType` = `narrowbody|regional|widebody`; `commerce.isbn.variant` = `10|13`; `date.birthdate.mode` = `age|year`; `finance.bitcoinAddress.type` = `legacy|segwit|bech32|taproot`; `finance.bitcoinAddress.network` = `mainnet|testnet`; `internet.ipv4.network` = `any|loopback|private-a|private-b|private-c|test-net-1|test-net-2|test-net-3|link-local|multicast`; `internet.mac.separator` = `":"|"-"|""`; `internet.url.protocol` = `http|https`; `location.countryCode.variant` = `alpha-2|alpha-3|numeric`; `person.firstName.sex` = `female|male`; `phone.number.style` = `human|national|international`; `string.uuid.version` = `4|7`; `word.noun.strategy` and `lorem.word.strategy` = `fail|closest|shortest|longest|any-length`.
+    - `autoIncrement.timestamp.type` is a related stale-docs mismatch: app picker/dialog show `type` as `enum` with plural units, but the published docs type table still shows `type` as `string`.
+  - Suspected defect: params editor can generate invalid syntax for `autoIncrement.timestamp` string `start` values.
+    - Exact steps: open deployed generator; set field type `domain`; choose `autoIncrement.timestamp`; open params editor; enter `start` = `2026-06-12T12:39:23Z`, `step` = `15`, `type` = `minutes`, and `outputFormat` = `yyyy-MM-dd HH:mm:ss`; apply; set column name `ts`; click Preview.
+    - Observed params field: `(start=2026-06-12T12:39:23Z,step=15,type="minutes",outputFormat="yyyy-MM-dd HH:mm:ss")`.
+    - Observed validation error: `Row 1: invalid domain params - Invalid keyword arguments: bare values are not allowed; wrap strings in quotes`.
+    - Expected from app help and published docs examples: `start` should be quoted, e.g. `autoIncrement.timestamp(start="2026-06-12T12:39:23Z", step=15, type="minutes", outputFormat="yyyy-MM-dd HH:mm:ss")`.
+    - Evidence: `screenshots/docs-consistency-timestamp-invalid-generated-params-full.png`.
+  - Faker sanity check: `helpers.arrayElement` remained visible in the method picker with parameter details and params dialog rows. No enum-specific issue observed in that sampled faker helper.
+  - No sampled command was missing from deployed app help or published docs. The main content issue is docs type metadata lagging behind app enum metadata.
+  - Follow-up test ideas from this lane:
+    - execute-now: Verify every PR #305 enum param docs table has `Type enum`, not old pipe-style values, after the docs generation fix.
+    - execute-now: Exercise params editor quoting for string args without spaces but with punctuation, using `autoIncrement.timestamp.start`, `internet.ipv4.cidrBlock`, and `string.uuid.refDate`.
+    - execute-now: Verify `internet.mac(separator="")` from the empty-string dropdown survives Save Schema File / Load Schema File round trip.
+    - execute-now: Verify enum dropdown selections persist after switching between row mode and Edit as Text mode.
+    - execute-now: Verify invalid enum text typed manually into the Params field gives a useful error naming allowed enum values.
+    - execute-now: Check app help `Open documentation` links for all PR #305 touched commands and confirm each lands on the relevant docs section or page.
+    - execute-now: Verify enum params for numeric-looking values (`commerce.isbn.variant`, `string.uuid.version`) generate correct unquoted numeric params and still validate.
+    - defer: Add a docs-generation regression check that compares app help metadata types with published docs arg tables for domain commands.
+    - defer: Add visual regression coverage for long enum dropdowns such as `internet.ipv4.network` on narrow/mobile viewports.
+    - defer: Add coverage for enum params in schema constraints if constraints can reference generated fields using enum-backed commands.
+    - defer: Verify Storybook/shared schema editor examples match deployed docs wording once PR #305 lands.
+    - defer: Review all non-sampled color commands (`color.cmyk`, `color.hsl`, `color.hwb`, `color.lab`, `color.lch`) for identical docs/app enum consistency.
+---
+
