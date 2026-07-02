@@ -1,4 +1,32 @@
 ---
+## 2026-07-03T01:16:00+01:00
+
+- What you think you want to do and why
+
+Publish the report subset and create the requested target-repo testing issue plus one subissue per repeatable defect.
+
+the actions you take - include urls, steps and data that you use, describe any UI interactions that you make
+
+Staged only markdown/log/defect/screenshot files for `docs/testing/20260702/issue-295-001/`, explicitly excluding ignored/local-only `support/`, `videos/`, and PDFs. Ran the staged-file forbidden-path check before commit. Committed and pushed the artifact subset to `eviltester/anywaydata-ai-testing` commit `d0b2c31`.
+
+Created target repo parent issue:
+
+- `https://github.com/eviltester/grid-table-editor/issues/306`
+
+Created and attached six defect subissues:
+
+- `https://github.com/eviltester/grid-table-editor/issues/307`
+- `https://github.com/eviltester/grid-table-editor/issues/308`
+- `https://github.com/eviltester/grid-table-editor/issues/309`
+- `https://github.com/eviltester/grid-table-editor/issues/310`
+- `https://github.com/eviltester/grid-table-editor/issues/311`
+- `https://github.com/eviltester/grid-table-editor/issues/312`
+
+the observations and results that you make
+
+The first GraphQL `addSubIssue` attempt failed because the PowerShell property expansion passed an invalid node id string. Retried with explicit parent/child node id values and verified `subIssues.totalCount` is `6` for parent issue #306. The issue bodies include text plus committed screenshot evidence; local support logs and videos were not attached.
+
+---
 ## 2026-07-03T01:08:00+01:00
 
 - What you think you want to do and why
